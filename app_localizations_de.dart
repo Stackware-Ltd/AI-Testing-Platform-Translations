@@ -186,6 +186,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get dashboardTenant => 'Mieter Dashboard';
 
   @override
+  String get navDashboard => 'Dashboard';
+
+  @override
   String get navTestMgmt => 'Testverwaltung';
 
   @override
@@ -193,6 +196,9 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get navBilling => 'Abrechnung';
+
+  @override
+  String get navBillingCredits => 'Abrechnung & Guthaben';
 
   @override
   String get navResults => 'Ergebnisse';
@@ -222,6 +228,24 @@ class AppLocalizationsDe extends AppLocalizations {
   String get statTestsTaken => 'Durchgeführte Tests';
 
   @override
+  String get statPlatformPassRate => 'Plattform-Bestehensquote';
+
+  @override
+  String get statPurchasedTests => 'Gekaufte Tests';
+
+  @override
+  String get statPendingAssignments => 'Ausstehende Zuweisungen';
+
+  @override
+  String get statCompletedTests => 'Abgeschlossene Tests';
+
+  @override
+  String get statPassRate => 'Bestehensquote';
+
+  @override
+  String get statTopDepartment => 'Top-Abteilung';
+
+  @override
   String get testCreateNew => 'Neuen Test erstellen';
 
   @override
@@ -249,6 +273,51 @@ class AppLocalizationsDe extends AppLocalizations {
   String get testStatus => 'Status';
 
   @override
+  String get labelPublished => 'Veröffentlicht';
+
+  @override
+  String get labelDraft => 'Entwurf';
+
+  @override
+  String get labelFrom => 'Von';
+
+  @override
+  String get labelVersion => 'Version';
+
+  @override
+  String get labelCreatedAt => 'Erstellt am';
+
+  @override
+  String get labelCategoryColon => 'Kategorie:';
+
+  @override
+  String get labelCategory => 'Kategorie';
+
+  @override
+  String get justNow => 'Gerade eben';
+
+  @override
+  String get categoryGeneral => 'Allgemein';
+
+  @override
+  String get labelNumberOfSeats => 'Anzahl der Plätze';
+
+  @override
+  String get labelCreditsPerSeat => 'Credits pro Platz';
+
+  @override
+  String get labelTotal => 'Gesamt';
+
+  @override
+  String get buttonAddToCart => 'In den Wagen';
+
+  @override
+  String get snackAddedToCart => 'Erfolgreich zum Wagen hinzugefügt';
+
+  @override
+  String get buttonBuyNow => 'Jetzt kaufen';
+
+  @override
   String get billingCredits => 'Credits';
 
   @override
@@ -267,13 +336,447 @@ class AppLocalizationsDe extends AppLocalizations {
   String get billingTotal => 'Gesamt';
 
   @override
-  String get empInvite => 'Mitarbeiter einladen';
+  String get billingAmount => 'Betrag';
 
   @override
-  String get empAdd => 'Mitarbeiter hinzufügen';
+  String get billingStripeId => 'Stripe-ID';
 
   @override
-  String get empUploadCsv => 'CSV hochladen';
+  String get billingReceipt => 'Beleg';
+
+  @override
+  String get billingCreditsPerSeat => 'Credits pro Platz';
+
+  @override
+  String get billingSeats => 'Plätze';
+
+  @override
+  String get billingTestName => 'Testname';
+
+  @override
+  String get billingVersion => 'Version';
+
+  @override
+  String get billingSeatsPurchased => 'Gekaufte Plätze';
+
+  @override
+  String get billingTotalCredits => 'Gesamtguthaben';
+
+  @override
+  String get billingChoosePackage => 'Paket auswählen';
+
+  @override
+  String get billingSelectPackageSubtitle =>
+      'Wählen Sie das Paket, das Ihren Anforderungen am besten entspricht';
+
+  @override
+  String get tabBilling => 'Abrechnung';
+
+  @override
+  String get tabPurchaseHistory => 'Kaufverlauf';
+
+  @override
+  String get tabAvailableTests => 'Verfügbare Tests';
+
+  @override
+  String get tabPurchasedTestsLabel => 'Gekaufte Tests';
+
+  @override
+  String get hintSearch => 'Suchen...';
+
+  @override
+  String get hintEnterVat => 'Umsatzsteuernummer eingeben';
+
+  @override
+  String get hintSelectCountry => 'Land auswählen';
+
+  @override
+  String get hintSelectCategory => 'Kategorie auswählen';
+
+  @override
+  String get labelAvailableCredits => 'Verfügbares Guthaben';
+
+  @override
+  String get labelCreditsLowercase => 'Credits';
+
+  @override
+  String get buttonBuyCredits => 'Credits kaufen';
+
+  @override
+  String get filterAllTransactions => 'Alle Transaktionen';
+
+  @override
+  String get filterToday => 'Heute';
+
+  @override
+  String get filterLast7Days => 'Letzte 7 Tage';
+
+  @override
+  String get filterLast14Days => 'Letzte 14 Tage';
+
+  @override
+  String get filterLast30Days => 'Letzte 30 Tage';
+
+  @override
+  String get filterAllTests => 'Alle Tests';
+
+  @override
+  String get filterPublished => 'Veröffentlicht';
+
+  @override
+  String get filterDraft => 'Entwurf';
+
+  @override
+  String get buttonCreateNewTest => 'Neuen Test erstellen';
+
+  @override
+  String get emptyNoTests => 'Keine Tests verfügbar';
+
+  @override
+  String get emptyNoMatchingTests => 'Keine Übereinstimmungen gefunden';
+
+  @override
+  String get emptyNoPurchaseHistory => 'Kein Kaufverlauf';
+
+  @override
+  String get emptyNoPurchaseHistorySubtitle =>
+      'Sie haben noch keine Einkäufe getätigt';
+
+  @override
+  String get buttonAssignEmployees => 'Mitarbeiter zuweisen';
+
+  @override
+  String get buttonSelectSeats => 'Plätze auswählen';
+
+  @override
+  String get resultsStatus => 'Status';
+
+  @override
+  String get resultsColEmployeeName => 'Mitarbeitername';
+
+  @override
+  String get resultsColTestName => 'Testname';
+
+  @override
+  String get resultsColVersion => 'Version';
+
+  @override
+  String get resultsColAttempt => 'Versuch';
+
+  @override
+  String get resultsColScore => 'Punktzahl';
+
+  @override
+  String get resultsColDate => 'Datum';
+
+  @override
+  String get resultsColStatus => 'Status';
+
+  @override
+  String resultsCsvSaved(String path) {
+    return 'CSV gespeichert in $path';
+  }
+
+  @override
+  String get resultsCertDownloaded => 'Zertifikat erfolgreich heruntergeladen';
+
+  @override
+  String resultsCertError(String error) {
+    return 'Fehler beim Herunterladen des Zertifikats: $error';
+  }
+
+  @override
+  String get resultsNoPassedSelected => 'Keine bestandenen Tests ausgewählt';
+
+  @override
+  String resultsMultiCertDownloaded(int count) {
+    return '$count Zertifikate erfolgreich heruntergeladen';
+  }
+
+  @override
+  String get resultsSingleCertDownloaded =>
+      'Zertifikat erfolgreich heruntergeladen';
+
+  @override
+  String get resultsNoResults => 'Keine Ergebnisse gefunden';
+
+  @override
+  String get resultsSearchHint => 'Ergebnisse durchsuchen...';
+
+  @override
+  String get resultsGroupBy => 'Gruppieren nach';
+
+  @override
+  String get resultsAll => 'Alle';
+
+  @override
+  String get resultsPass => 'Bestanden';
+
+  @override
+  String get resultsFail => 'Nicht bestanden';
+
+  @override
+  String get resultsExportCsv => 'CSV exportieren';
+
+  @override
+  String get resultsGetCertificate => 'Zertifikat abrufen';
+
+  @override
+  String get empResultsPass => 'Bestanden';
+
+  @override
+  String get empResultsNotPassed => 'Nicht bestanden';
+
+  @override
+  String get empResultsWellDone => 'Sehr gut!';
+
+  @override
+  String get empResultsComplete => 'Bewertung abgeschlossen';
+
+  @override
+  String get empResultsScore => 'Punktzahl';
+
+  @override
+  String get empResultsCorrectAnswers => 'Richtige Antworten';
+
+  @override
+  String get empResultsTimeTaken => 'Benötigte Zeit';
+
+  @override
+  String get empResultsShareMessage => 'Ergebnisse teilen';
+
+  @override
+  String get empResultsExitPortal => 'Portal beenden';
+
+  @override
+  String get creditsLabel => 'Credits';
+
+  @override
+  String get profileButton => 'Profil';
+
+  @override
+  String get logoutButton => 'Abmelden';
+
+  @override
+  String get labelGroupBy => 'Gruppieren nach';
+
+  @override
+  String get labelSortBy => 'Sortieren nach';
+
+  @override
+  String get credits => 'Credits';
+
+  @override
+  String get labelId => 'ID';
+
+  @override
+  String get labelView => 'Ansicht';
+
+  @override
+  String get labelPopular => 'Beliebt';
+
+  @override
+  String get labelUsd => 'USD';
+
+  @override
+  String get testRunnerAssessmentComplete => 'Bewertung abgeschlossen';
+
+  @override
+  String get testRunnerThankYou => 'Vielen Dank';
+
+  @override
+  String get testRunnerViewResults => 'Ergebnisse anzeigen';
+
+  @override
+  String get testRunnerReadyToSubmit => 'Bereit zur Einreichung?';
+
+  @override
+  String get testRunnerAnsweredQuestions => 'Beantwortete Fragen';
+
+  @override
+  String get testRunnerFlaggedForReview => 'Zur Überprüfung gekennzeichnet';
+
+  @override
+  String testRunnerUnansweredWarning(int count) {
+    return 'Sie haben $count unbeantwortete Frage(n). Bitte überprüfen Sie vor dem Einreichen.';
+  }
+
+  @override
+  String get testRunnerSubmitAssessment => 'Bewertung einreichen';
+
+  @override
+  String get testRunnerReturnToAssessment => 'Zur Bewertung zurück';
+
+  @override
+  String get testRunnerTestPublished => 'Test veröffentlicht';
+
+  @override
+  String get testRunnerTestSubmitted => 'Test eingereicht';
+
+  @override
+  String testRunnerLiveMessage(String testName) {
+    return '$testName ist jetzt verfügbar';
+  }
+
+  @override
+  String testRunnerSubmissionReceived(String testName) {
+    return 'Ihre Einreichung für $testName wurde erhalten';
+  }
+
+  @override
+  String get testRunnerBackToTests => 'Zurück zu Tests';
+
+  @override
+  String get testRunnerReturnToHome => 'Zur Startseite zurück';
+
+  @override
+  String testRunnerSectionNum(int num) {
+    return 'Abschnitt $num';
+  }
+
+  @override
+  String testRunnerSectionTitle(int num, String title) {
+    return 'Abschnitt $num: $title';
+  }
+
+  @override
+  String testRunnerQuestionCount(int count) {
+    return 'Frage $count';
+  }
+
+  @override
+  String get labelFlagged => 'Gekennzeichnet';
+
+  @override
+  String get labelFlagForReview => 'Zur Überprüfung kennzeichnen';
+
+  @override
+  String get buttonBack => 'Zurück';
+
+  @override
+  String get buttonPublish => 'Veröffentlichen';
+
+  @override
+  String get buttonSubmit => 'Einreichen';
+
+  @override
+  String get buttonNext => 'Weiter';
+
+  @override
+  String get buttonSelect => 'Auswählen';
+
+  @override
+  String get tableSelectAll => 'Alle auswählen';
+
+  @override
+  String get tableNoItems => 'Keine Elemente zum Anzeigen';
+
+  @override
+  String get profileUpdateSuccess => 'Profil erfolgreich aktualisiert';
+
+  @override
+  String get profileUpdateFailed => 'Fehler beim Aktualisieren des Profils';
+
+  @override
+  String get profileTitle => 'Profil';
+
+  @override
+  String get editProfile => 'Profil bearbeiten';
+
+  @override
+  String get nameLabel => 'Name';
+
+  @override
+  String get companyNameLabel => 'Firmenname';
+
+  @override
+  String get countryLabel => 'Land';
+
+  @override
+  String get categoryLabel => 'Kategorie';
+
+  @override
+  String get vatLabel => 'Umsatzsteuer';
+
+  @override
+  String get addressLabel => 'Adresse';
+
+  @override
+  String get bookkeepingEmailLabel => 'Buchhaltungs-E-Mail';
+
+  @override
+  String get enterEmailPrompt => 'E-Mail eingeben';
+
+  @override
+  String get firstNameLabel => 'Vorname';
+
+  @override
+  String get lastNameLabel => 'Nachname';
+
+  @override
+  String get selectCategoryHint => 'Kategorie auswählen';
+
+  @override
+  String get vatNumberHint => 'Umsatzsteuernummer eingeben';
+
+  @override
+  String get languageLabel => 'Sprache';
+
+  @override
+  String get englishLanguage => 'Englisch';
+
+  @override
+  String get germanLanguage => 'Deutsch';
+
+  @override
+  String get bookkeepingEmailCheckboxLabel =>
+      'Rechnungen an Buchhaltungs-E-Mail senden';
+
+  @override
+  String get forBookkeepingEmailLabel => 'Buchhaltungs-E-Mail';
+
+  @override
+  String get enterBookkeepingEmailHint => 'Buchhaltungs-E-Mail eingeben';
+
+  @override
+  String get cancelButton => 'Abbrechen';
+
+  @override
+  String get saveChangesButton => 'Änderungen speichern';
+
+  @override
+  String get errorPasswordRequired => 'Passwort erforderlich';
+
+  @override
+  String get errorNewPasswordRequired => 'Neues Passwort erforderlich';
+
+  @override
+  String get errorConfirmPasswordRequired =>
+      'Bitte bestätigen Sie Ihr Passwort';
+
+  @override
+  String get errorFirstNameRequired => 'Vorname erforderlich';
+
+  @override
+  String get errorLastNameRequired => 'Nachname erforderlich';
+
+  @override
+  String get errorEmailRequired => 'E-Mail erforderlich';
+
+  @override
+  String get loadingLogin => 'Wird angemeldet...';
+
+  @override
+  String get loadingResetLink => 'Sende Reset-Link...';
+
+  @override
+  String get loadingVerifyOtp => 'OTP wird verifiziert...';
+
+  @override
+  String get loadingResendOtp => 'OTP wird erneut gesendet...';
+
+  @override
+  String get loadingResettingPassword => 'Passwort wird zurückgesetzt...';
 
   @override
   String get snackEnterValidEmail =>
@@ -299,6 +802,9 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get snackPasswordRequirements =>
       'Das Passwort entspricht nicht den Anforderungen';
+
+  @override
+  String get snackSignupSuccess => 'Registrierung erfolgreich';
 
   @override
   String get snackFillAllFields => 'Bitte alle Felder ausfüllen';
@@ -358,4 +864,16 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get snackPasswordResetFailed =>
       'Fehler beim Zurücksetzen des Passworts';
+
+  @override
+  String get empInvite => 'Mitarbeiter einladen';
+
+  @override
+  String get empAdd => 'Mitarbeiter hinzufügen';
+
+  @override
+  String get empUploadCsv => 'CSV hochladen';
+
+  @override
+  String get vatOptional => 'Umsatzsteuer (optional)';
 }
