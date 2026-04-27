@@ -278,6 +278,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelDraft => 'Draft';
 
   @override
+  String get labelFree => 'Free';
+
+  @override
   String get labelFrom => 'From';
 
   @override

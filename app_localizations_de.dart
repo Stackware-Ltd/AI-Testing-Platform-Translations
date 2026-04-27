@@ -279,6 +279,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelDraft => 'Entwurf';
 
   @override
+  String get labelFree => 'Kostenlos';
+
+  @override
   String get labelFrom => 'Von';
 
   @override

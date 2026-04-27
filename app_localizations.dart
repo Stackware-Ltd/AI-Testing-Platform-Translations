@@ -626,6 +626,12 @@ abstract class AppLocalizations {
   /// **'Draft'**
   String get labelDraft;
 
+  /// No description provided for @labelFree.
+  ///
+  /// In en, this message translates to:
+  /// **'Free'**
+  String get labelFree;
+
   /// No description provided for @labelFrom.
   ///
   /// In en, this message translates to:
