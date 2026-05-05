@@ -43,6 +43,69 @@ class AppLocalizationsDe extends AppLocalizations {
       'KI-gestützte Testplattform, die Ihnen hilft, Ihre Mitarbeiter zu verwalten, Tests zu erstellen und Ergebnisse effizient zu analysieren.';
 
   @override
+  String get landingHeroTitle => 'Sichere, mandantenfähige\ndigitale Bewertung';
+
+  @override
+  String get landingHeroDesc =>
+      'Stärken Sie Ihr Unternehmen mit ai-test.eu. Zentralisieren Sie die Testerstellung, weisen Sie Bewertungen sicher über Magic Links zu und generieren Sie sofort überprüfbare PDF-Zertifikate.';
+
+  @override
+  String get landingFeaturesSubtitle => 'Enterprise-Class-Bewertung';
+
+  @override
+  String get landingFeaturesTitle =>
+      'Gebaut für Sicherheit, Skalierbarkeit und strikte Datenisolierung.';
+
+  @override
+  String get landingFeature1Title => 'Magic Link Zugang';
+
+  @override
+  String get landingFeature1Desc =>
+      'Mitarbeiter nehmen sicher über einmalige, ablaufende Magic Links an Tests teil. Null Reibung – keine Kontoerstellung oder Passwörter erforderlich.';
+
+  @override
+  String get landingFeature2Title => 'Berichte & Zertifikate';
+
+  @override
+  String get landingFeature2Desc =>
+      'Greifen Sie auf umfassende Ergebnis-Dashboards, CSV-Exporte und automatisch erstellte, professionelle PDF-Zertifikate bei Bestehen zu.';
+
+  @override
+  String get landingFeature3Title => 'Strikte Mandantenarchitektur';
+
+  @override
+  String get landingFeature3Desc =>
+      'Vollständige Datenisolierung zwischen Organisationen. Eindeutige Rollen für Eigentümer, Mandanten-Admins und Mitarbeiter gewährleisten vollständigen Datenschutz.';
+
+  @override
+  String get landingHowItWorksSubtitle => 'Einfacher, sicherer Workflow';
+
+  @override
+  String get landingStep1Title => 'Credits kaufen';
+
+  @override
+  String get landingStep1Desc =>
+      'Erwerben Sie Bewertungs-Credits sicher über unser transparentes Stripe-integriertes Ledger.';
+
+  @override
+  String get landingStep2Title => 'Zuweisen & Einladen';
+
+  @override
+  String get landingStep2Desc =>
+      'Weisen Sie unveränderliche Testversionen zu und senden Sie automatisierte, einmalige Magic Links an Mitarbeiter.';
+
+  @override
+  String get landingStep3Title => 'Bewerten & Exportieren';
+
+  @override
+  String get landingStep3Desc =>
+      'Mitarbeiter absolvieren sichere Tests, während Sie sofort CSV-Berichte und PDF-Zertifikate exportieren.';
+
+  @override
+  String get landingDisclaimer =>
+      'Rechtlicher Hinweis: ai-test.eu ist eine reine Bewertungsplattform, die unbegleitete Auswertungen bietet. Die von dieser Plattform generierten Ergebnisse stellen keine offizielle EU-Zertifizierung, Rechtsberatung oder rechtsverbindliche Nachweise dar.';
+
+  @override
   String get firstNameHint => 'Vorname eingeben';
 
   @override
