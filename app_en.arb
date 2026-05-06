@@ -1,376 +1,347 @@
 {
-  "@@locale": "en",
-
-  "homeLink": "Home",
-  "pricingLink": "Pricing",
-  "testimonialsLink": "Testimonials",
-  "aboutUsLink": "About Us",
-  "contactLink": "Contact",
-  "registerButton": "Register Now",
-  "loginButton": "Log In",
-  "heroTitle": "Making your workforce ",
-  "smarterWord": "smarter",
-  "workforceWord": " and faster.",
-  "landingDescription": "AI-powered testing platform that helps you manage your employees, create tests, and analyze results efficiently.",
-
-  "firstNameHint": "Enter first name",
-  "lastNameHint": "Enter last name",
-  "companyHint": "Enter company name",
-  "addressHint": "Enter company's address",
- 
-  "loginTitle": "Login to Dashboard",
-  "loginSubtitle": "Fill the below form to login",
-  "emailLabel": "Email",
-  "emailHint": "Enter your email",
-  "passwordLabel": "Password",
-  "passwordHint": "Enter password",
-  "rememberMe": "Remember me",
-  "forgotPassword": "Forgot Password?",
-  "registerLink": "Don't have an account?",
-  "registerNow": "Register now",
-
-  "signupTitle": "Create Account",
-  "signupSubtitle": "Register for your account instantly!",
-  "firstName": "First Name",
-  "lastName": "Last Name",
-  "companyName": "Company Name",
-  "country": "Select Country",
-  "address": "Address",
-  "haveAccount": "Already have an account?",
-
-  "forgotPasswordTitle": "Forgot Password",
-  "forgotPasswordSubtitle": "Enter your email to receive an OTP",
-  "enterEmailHint": "Enter your email",
-  "sendOtpButton": "Send OTP",
-  "backToLogin": "Back to Login",
-
-  "verifyOtpTitle": "Verify OTP",
-  "verifyOtpSubtitle": "Enter the 8-digit code sent to your email",
-  "resendOtpQuestion": "Didn't receive code?",
-  "resendOtpButton": "Resend OTP",
-  "verifyOtpButton": "Verify OTP",
-
-  "resetPasswordTitle": "Reset Password",
-  "resetPasswordSubtitle": "Set your new password below",
-  "newPasswordLabel": "New Password",
-  "newPasswordHint": "Enter new password",
-  "confirmPasswordLabel": "Confirm Password",
-  "confirmPasswordHint": "Re-enter password",
-  "resetPasswordButton": "Reset Password",
-
-  "termsTitle": "Terms & Conditions",
-  "termsBody1": "By accessing and using this login page, you agree to be bound by these Terms and Conditions, along with any related policies referenced herein. This platform is intended solely for authorised users, and access is granted only for lawful purposes. You must ensure that all information provided during the login process is accurate, complete, and up to date. Any use of the system that is unlawful, fraudulent, or intended to harm the platform or its users is strictly prohibited.",
-  "termsBody2": "You are responsible for maintaining the confidentiality of your login credentials, including your username and password, and for all activities carried out under your account. You agree not to share your login details with any third party or allow unauthorised access. We shall not be liable for any loss or damage arising from your failure to protect your account information. If you suspect any unauthorised use of your account, you must notify us immediately.",
-  "termsBody3": "We reserve the right, at our sole discretion, to restrict, suspend, or terminate your access to the platform without prior notice if we believe you have breached these Terms and Conditions or engaged in conduct that may compromise system security, integrity, or functionality. We may also update or modify these terms at any time, and continued use of the login page constitutes acceptance of any such changes.",
-  "termsBody4": "Access to this platform is provided on an \"as is\" and \"as available\" basis. While we take reasonable steps to maintain system security and availability, we do not guarantee uninterrupted, error-free, or secure access at all times. By logging in, you acknowledge and accept our Privacy Policy and consent to the collection, storage, and processing of your personal data in accordance with applicable data protection laws and regulations in the United Kingdom.",
-  
-  "dashboardOwner": "Owner Dashboard",
-  "dashboardTenant": "Tenant Dashboard",
-  "navDashboard": "Dashboard",
-  "navTestMgmt": "Test Management",
-  "navEmployees": "Employee Invites",
-  "navBilling": "Billing",
-  "navBillingCredits": "Billing & Credits",
-  "navResults": "Results",
-
-  "statTotalTests": "Total Tests",
-  "statTotalTenants": "Total Tenants",
-  "statTotalEmployees": "Total Employees",
-  "statPublished": "Published Tests",
-  "statDraft": "Draft Tests",
-  "statCreditsLeft": "Credits Left",
-  "statMyEmployees": "My Employees",
-  "statTestsTaken": "Tests Taken",
-  "statPlatformPassRate": "Platform Pass Rate",
-  "statPurchasedTests": "Purchased Tests",
-  "statPendingAssignments": "Pending Assignments",
-  "statCompletedTests": "Completed Tests",
-  "statPassRate": "Pass Rate",
-  "statTopDepartment": "Top Department",
-
-  "testCreateNew": "Create New Test",
-  "testFilterAll": "All Tests",
-  "testFilterPublished": "Published",
-  "testFilterDraft": "Draft",
-  "testCredits": "Credits",
-  "testVersion": "Version",
-  "testCreatedBy": "Created By",
-  "testCreatedAt": "Created At",
-  "testStatus": "Status",
-
-  "labelPublished": "Published",
-  "labelDraft": "Draft",
-  "labelFrom": "From",
-  "labelVersion": "Version",
-  "labelCreatedAt": "Created At",
-  "labelCategoryColon": "Category:",
-  "labelCategory": "Category",
-  "justNow": "Just Now",
-  "categoryGeneral": "General",
-  "labelNumberOfSeats": "Number of Seats",
-  "labelCreditsPerSeat": "Credits Per Seat",
-  "labelTotal": "Total",
-  "buttonAddToCart": "Add to Cart",
-  "snackAddedToCart": "Added to cart successfully",
-  "buttonBuyNow": "Buy Now",
-
-  "billingCredits": "Credits",
-  "billingBuy": "Buy Credits",
-  "billingHistory": "Billing history",
-  "billingDate": "Date",
-  "billingDocument": "Document",
-  "billingTotal": "Total",
-  "billingAmount": "Amount",
-  "billingStripeId": "Stripe ID",
-  "billingReceipt": "Receipt",
-  "billingCreditsPerSeat": "Credits Per Seat",
-  "billingSeats": "Seats",
-  "billingTestName": "Test Name",
-  "billingVersion": "Version",
-  "billingSeatsPurchased": "Seats Purchased",
-  "billingTotalCredits": "Total Credits",
-  "billingChoosePackage": "Choose Package",
-  "billingSelectPackageSubtitle": "Select the package that best fits your needs",
-
-  "tabBilling": "Billing",
-  "tabPurchaseHistory": "Purchase History",
-  "tabAvailableTests": "Available Tests",
-  "tabPurchasedTestsLabel": "Purchased Tests",
-  "hintSearch": "Search...",
-  "hintEnterVat": "Enter VAT number",
-  "hintSelectCountry": "Select Country",
-  "hintSelectCategory": "Select Category",
-  "labelAvailableCredits": "Available Credits",
-  "labelCreditsLowercase": "Credits",
-  "buttonBuyCredits": "Buy Credits",
-  "filterAllTransactions": "All Transactions",
-  "filterToday": "Today",
-  "filterLast7Days": "Last 7 Days",
-  "filterLast14Days": "Last 14 Days",
-  "filterLast30Days": "Last 30 Days",
-  "filterAllTests": "All Tests",
-  "filterPublished": "Published",
-  "filterDraft": "Draft",
-
-  "buttonCreateNewTest": "Create New Test",
-  "emptyNoTests": "No tests available",
-  "emptyNoMatchingTests": "No matching tests found",
-  "emptyNoPurchaseHistory": "No purchase history",
-  "emptyNoPurchaseHistorySubtitle": "You haven't made any purchases yet",
-
-  "buttonAssignEmployees": "Assign Employees",
-  "buttonSelectSeats": "Select Seats",
-
-  "resultsStatus": "Status",
-  "resultsColEmployeeName": "Employee Name",
-  "resultsColTestName": "Test Name",
-  "resultsColVersion": "Version",
-  "resultsColAttempt": "Attempt",
-  "resultsColScore": "Score",
-  "resultsColDate": "Date",
-  "resultsColStatus": "Status",
-  "resultsCsvSaved": "CSV saved to {path}",
-  "@resultsCsvSaved": {
-    "placeholders": {
-      "path": {
-        "type": "String"
-      }
-    }
-  },
-  "resultsCertDownloaded": "Certificate downloaded successfully",
-  "resultsCertError": "Error downloading certificate: {error}",
-  "@resultsCertError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "resultsNoPassedSelected": "No passed tests selected",
-  "resultsMultiCertDownloaded": "{count} Certificates downloaded successfully",
-  "@resultsMultiCertDownloaded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "resultsSingleCertDownloaded": "Certificate downloaded successfully",
-  "resultsNoResults": "No results found",
-  "resultsSearchHint": "Search results...",
-  "resultsGroupBy": "Group By",
-  "resultsAll": "All",
-  "resultsPass": "Passed",
-  "resultsFail": "Failed",
-  "resultsExportCsv": "Export CSV",
-  "resultsGetCertificate": "Get Certificate",
-
-  "empResultsPass": "Pass",
-  "empResultsNotPassed": "Not Passed",
-  "empResultsWellDone": "Well Done!",
-  "empResultsComplete": "Assessment Complete",
-  "empResultsScore": "Score",
-  "empResultsCorrectAnswers": "Correct Answers",
-  "empResultsTimeTaken": "Time Taken",
-  "empResultsShareMessage": "Share Results",
-  "empResultsExitPortal": "Exit Portal",
-
-  "creditsLabel": "Credits",
-  "profileButton": "Profile",
-  "logoutButton": "Logout",
-  "labelGroupBy": "Group By",
-  "labelSortBy": "Sort By",
-  "credits": "Credits",
-  "labelId": "ID",
-  "labelView": "View",
-  "labelPopular": "Popular",
-  "labelUsd": "USD",
-
-  "testRunnerAssessmentComplete": "Assessment Complete",
-  "testRunnerThankYou": "Thank You",
-  "testRunnerViewResults": "View Results",
-  "testRunnerReadyToSubmit": "Ready to Submit?",
-  "testRunnerAnsweredQuestions": "Questions Answered",
-  "testRunnerFlaggedForReview": "Flagged for Review",
-  "testRunnerUnansweredWarning": "You have {count} unanswered question(s). Please review before submitting.",
-  "@testRunnerUnansweredWarning": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "testRunnerSubmitAssessment": "Submit Assessment",
-  "testRunnerReturnToAssessment": "Return to Assessment",
-  "testRunnerTestPublished": "Test Published",
-  "testRunnerTestSubmitted": "Test Submitted",
-  "testRunnerLiveMessage": "{testName} is live now",
-  "@testRunnerLiveMessage": {
-    "placeholders": {
-      "testName": {
-        "type": "String"
-      }
-    }
-  },
-  "testRunnerSubmissionReceived": "Your submission for {testName} has been received",
-  "@testRunnerSubmissionReceived": {
-    "placeholders": {
-      "testName": {
-        "type": "String"
-      }
-    }
-  },
-  "testRunnerBackToTests": "Back to Tests",
-  "testRunnerReturnToHome": "Return to Home",
-  "testRunnerSectionNum": "Section {num}",
-  "@testRunnerSectionNum": {
-    "placeholders": {
-      "num": {
-        "type": "int"
-      }
-    }
-  },
-  "testRunnerSectionTitle": "Section {num}: {title}",
-  "@testRunnerSectionTitle": {
-    "placeholders": {
-      "num": {
-        "type": "int"
-      },
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "testRunnerQuestionCount": "Question {count}",
-  "@testRunnerQuestionCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "labelFlagged": "Flagged",
-  "labelFlagForReview": "Flag for Review",
-
-  "buttonBack": "Back",
-  "buttonPublish": "Publish",
-  "buttonSubmit": "Submit",
-  "buttonNext": "Next",
-  "buttonSelect": "Select",
-
-  "tableSelectAll": "Select All",
-  "tableNoItems": "No items to display",
-
-  "profileUpdateSuccess": "Profile updated successfully",
-  "profileUpdateFailed": "Failed to update profile",
-  "profileTitle": "Profile",
-  "editProfile": "Edit Profile",
-  "nameLabel": "Name",
-  "companyNameLabel": "Company Name",
-  "countryLabel": "Country",
-  "categoryLabel": "Category",
-  "vatLabel": "VAT",
-  "addressLabel": "Address",
-  "bookkeepingEmailLabel": "Bookkeeping Email",
-  "enterEmailPrompt": "Enter email",
-  "firstNameLabel": "First Name",
-  "lastNameLabel": "Last Name",
-  "selectCategoryHint": "Select Category",
-  "vatNumberHint": "Enter VAT number",
-  "languageLabel": "Language",
-  "englishLanguage": "English",
-  "germanLanguage": "German",
-
-  "bookkeepingEmailCheckboxLabel": "Send invoices to bookkeeping email",
-  "forBookkeepingEmailLabel": "Bookkeeping Email",
-  "enterBookkeepingEmailHint": "Enter bookkeeping email",
-  "cancelButton": "Cancel",
-  "saveChangesButton": "Save Changes",
-
-  "errorPasswordRequired": "Password is required",
-  "errorNewPasswordRequired": "New password is required",
-  "errorConfirmPasswordRequired": "Please confirm your password",
-  "errorFirstNameRequired": "First name is required",
-  "errorLastNameRequired": "Last name is required",
-  "errorEmailRequired": "Email is required",
-  "loadingLogin": "Logging in...",
-  "loadingResetLink": "Sending reset link...",
-  "loadingVerifyOtp": "Verifying OTP...",
-  "loadingResendOtp": "Resending OTP...",
-  "loadingResettingPassword": "Resetting password...",
-
-  "snackEnterValidEmail": "Please enter a valid email address",
-  "snackWeakPassword": "Password must be at least 8 characters with uppercase, lowercase, number, and special character",
-  "snackAccountCreated": "Account created successfully! Please check your email to verify your account.",
-  "snackRegistrationFailed": "Registration failed",
-  "snackEmailTaken": "This email is already registered",
-  "snackInvalidEmailFormat": "Invalid email format",
-  "snackPasswordRequirements": "Password does not meet requirements",
-  "snackSignupSuccess": "Signup successful",
-
-  "snackFillAllFields": "Please fill all fields",
-  "snackLoginFailed": "Login failed",
-  "snackInvalidCreds": "Invalid email or password",
-  "snackVerifyEmail": "Please verify your email first",
-  "snackNetworkError": "Network error. Please check your connection",
-  "snackEnterEmail": "Please enter your email",
-  "snackOtpSent": "Verification code sent to your email",
-  "snackSendOtpFailed": "Failed to send reset email",
-  "snackEmailNotFound": "Email not found",
-  "snackEnterCompleteOtp": "Please enter complete OTP",
-  "snackOtpVerified": "OTP verified successfully",
-  "snackInvalidOtp": "Invalid or expired OTP",
-  "snackEmailMissing": "Email is missing. Please go back.",
-  "snackOtpResent": "Verification code resent to your email",
-  "snackResendOtpFailed": "Failed to resend OTP",
-  "snackPasswordMismatch": "Passwords do not match",
-  "snackPasswordTooShort": "Password must be at least 6 characters",
-  "snackPasswordResetSuccess": "Password reset successfully",
-  "snackPasswordResetFailed": "Failed to reset password",
-
-  "empInvite": "Invite Employee",
-  "empAdd": "Add Employees",
-  "empUploadCsv": "Upload CSV",
-
-  "vatOptional": "VAT (Optional)"
+    "@@locale": "en",
+    "homeLink": "Home.",
+    "pricingLink": "Pricing",
+    "testimonialsLink": "Testimonials",
+    "aboutUsLink": "About Us",
+    "contactLink": "Contact",
+    "registerButton": "Register Now",
+    "loginButton": "Log In",
+    "heroTitle": "Making your workforce ",
+    "smarterWord": "smarter",
+    "workforceWord": " and faster.",
+    "landingDescription": "AI-powered testing platform that helps you manage your employees, create tests, and analyze results efficiently.",
+    "firstNameHint": "Enter first name",
+    "lastNameHint": "Enter last name",
+    "companyHint": "Enter company name",
+    "addressHint": "Enter company's address",
+    "loginTitle": "Login to Dashboard",
+    "loginSubtitle": "Fill the below form to login",
+    "emailLabel": "Email",
+    "emailHint": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordHint": "Enter password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot Password?",
+    "registerLink": "Don't have an account?",
+    "registerNow": "Register now",
+    "signupTitle": "Create Account",
+    "signupSubtitle": "Register for your account instantly!",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "companyName": "Company Name",
+    "country": "Select Country",
+    "address": "Address",
+    "haveAccount": "Already have an account?",
+    "forgotPasswordTitle": "Forgot Password",
+    "forgotPasswordSubtitle": "Enter your email to receive an OTP",
+    "enterEmailHint": "Enter your email",
+    "sendOtpButton": "Send OTP",
+    "backToLogin": "Back to Login",
+    "verifyOtpTitle": "Verify OTP",
+    "verifyOtpSubtitle": "Enter the 8-digit code sent to your email",
+    "resendOtpQuestion": "Didn't receive code?",
+    "resendOtpButton": "Resend OTP",
+    "verifyOtpButton": "Verify OTP",
+    "resetPasswordTitle": "Reset Password",
+    "resetPasswordSubtitle": "Set your new password below",
+    "newPasswordLabel": "New Password",
+    "newPasswordHint": "Enter new password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordHint": "Re-enter password",
+    "resetPasswordButton": "Reset Password",
+    "termsTitle": "Terms & Conditions",
+    "termsBody1": "By accessing and using this login page, you agree to be bound by these Terms and Conditions, along with any related policies referenced herein. This platform is intended solely for authorised users, and access is granted only for lawful purposes. You must ensure that all information provided during the login process is accurate, complete, and up to date. Any use of the system that is unlawful, fraudulent, or intended to harm the platform or its users is strictly prohibited.",
+    "termsBody2": "You are responsible for maintaining the confidentiality of your login credentials, including your username and password, and for all activities carried out under your account. You agree not to share your login details with any third party or allow unauthorised access. We shall not be liable for any loss or damage arising from your failure to protect your account information. If you suspect any unauthorised use of your account, you must notify us immediately.",
+    "termsBody3": "We reserve the right, at our sole discretion, to restrict, suspend, or terminate your access to the platform without prior notice if we believe you have breached these Terms and Conditions or engaged in conduct that may compromise system security, integrity, or functionality. We may also update or modify these terms at any time, and continued use of the login page constitutes acceptance of any such changes.",
+    "termsBody4": "Access to this platform is provided on an \"as is\" and \"as available\" basis. While we take reasonable steps to maintain system security and availability, we do not guarantee uninterrupted, error-free, or secure access at all times. By logging in, you acknowledge and accept our Privacy Policy and consent to the collection, storage, and processing of your personal data in accordance with applicable data protection laws and regulations in the United Kingdom.",
+    "dashboardOwner": "Owner Dashboard",
+    "dashboardTenant": "Tenant Dashboard",
+    "navDashboard": "Dashboard",
+    "navTestMgmt": "Test Management",
+    "navEmployees": "Employee Invites",
+    "navBilling": "Billing",
+    "navBillingCredits": "Billing & Credits",
+    "navResults": "Results",
+    "statTotalTests": "Total Tests",
+    "statTotalTenants": "Total Tenants",
+    "statTotalEmployees": "Total Employees",
+    "statPublished": "Published Tests",
+    "statDraft": "Draft Tests",
+    "statCreditsLeft": "Credits Left",
+    "statMyEmployees": "My Employees",
+    "statTestsTaken": "Tests Taken",
+    "statPlatformPassRate": "Platform Pass Rate",
+    "statPurchasedTests": "Purchased Tests",
+    "statPendingAssignments": "Pending Assignments",
+    "statCompletedTests": "Completed Tests",
+    "statPassRate": "Pass Rate",
+    "statTopDepartment": "Top Department",
+    "testCreateNew": "Create New Test",
+    "testFilterAll": "All Tests",
+    "testFilterPublished": "Published",
+    "testFilterDraft": "Draft",
+    "testCredits": "Credits",
+    "testVersion": "Version",
+    "testCreatedBy": "Created By",
+    "testCreatedAt": "Created At",
+    "testStatus": "Status",
+    "labelPublished": "Published",
+    "labelDraft": "Draft",
+    "labelFrom": "From",
+    "labelVersion": "Version",
+    "labelCreatedAt": "Created At",
+    "labelCategoryColon": "Category:",
+    "labelCategory": "Category",
+    "justNow": "Just Now",
+    "categoryGeneral": "General",
+    "labelNumberOfSeats": "Number of Seats",
+    "labelCreditsPerSeat": "Credits Per Seat",
+    "labelTotal": "Total",
+    "buttonAddToCart": "Add to Cart",
+    "snackAddedToCart": "Added to cart successfully",
+    "buttonBuyNow": "Buy Now",
+    "billingCredits": "Credits",
+    "billingBuy": "Buy Credits",
+    "billingHistory": "Billing history",
+    "billingDate": "Date",
+    "billingDocument": "Document",
+    "billingTotal": "Total",
+    "billingAmount": "Amount",
+    "billingStripeId": "Stripe ID",
+    "billingReceipt": "Receipt",
+    "billingCreditsPerSeat": "Credits Per Seat",
+    "billingSeats": "Seats",
+    "billingTestName": "Test Name",
+    "billingVersion": "Version",
+    "billingSeatsPurchased": "Seats Purchased",
+    "billingTotalCredits": "Total Credits",
+    "billingChoosePackage": "Choose Package",
+    "billingSelectPackageSubtitle": "Select the package that best fits your needs",
+    "tabBilling": "Billing",
+    "tabPurchaseHistory": "Purchase History",
+    "tabAvailableTests": "Available Tests",
+    "tabPurchasedTestsLabel": "Purchased Tests",
+    "hintSearch": "Search...",
+    "hintEnterVat": "Enter VAT number",
+    "hintSelectCountry": "Select Country",
+    "hintSelectCategory": "Select Category",
+    "labelAvailableCredits": "Available Credits",
+    "labelCreditsLowercase": "Credits",
+    "buttonBuyCredits": "Buy Credits",
+    "filterAllTransactions": "All Transactions",
+    "filterToday": "Today",
+    "filterLast7Days": "Last 7 Days",
+    "filterLast14Days": "Last 14 Days",
+    "filterLast30Days": "Last 30 Days",
+    "filterAllTests": "All Tests",
+    "filterPublished": "Published",
+    "filterDraft": "Draft",
+    "buttonCreateNewTest": "Create New Test",
+    "emptyNoTests": "No tests available",
+    "emptyNoMatchingTests": "No matching tests found",
+    "emptyNoPurchaseHistory": "No purchase history",
+    "emptyNoPurchaseHistorySubtitle": "You haven't made any purchases yet",
+    "buttonAssignEmployees": "Assign Employees",
+    "buttonSelectSeats": "Select Seats",
+    "resultsStatus": "Status",
+    "resultsColEmployeeName": "Employee Name",
+    "resultsColTestName": "Test Name",
+    "resultsColVersion": "Version",
+    "resultsColAttempt": "Attempt",
+    "resultsColScore": "Score",
+    "resultsColDate": "Date",
+    "resultsColStatus": "Status",
+    "resultsCsvSaved": "CSV saved to {path}",
+    "@resultsCsvSaved": {
+        "placeholders": {
+            "path": {
+                "type": "String"
+            }
+        }
+    },
+    "resultsCertDownloaded": "Certificate downloaded successfully",
+    "resultsCertError": "Error downloading certificate: {error}",
+    "@resultsCertError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "resultsNoPassedSelected": "No passed tests selected",
+    "resultsMultiCertDownloaded": "{count} Certificates downloaded successfully",
+    "@resultsMultiCertDownloaded": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "resultsSingleCertDownloaded": "Certificate downloaded successfully",
+    "resultsNoResults": "No results found",
+    "resultsSearchHint": "Search results...",
+    "resultsGroupBy": "Group By",
+    "resultsAll": "All",
+    "resultsPass": "Passed",
+    "resultsFail": "Failed",
+    "resultsExportCsv": "Export CSV",
+    "resultsGetCertificate": "Get Certificate",
+    "empResultsPass": "Pass",
+    "empResultsNotPassed": "Not Passed",
+    "empResultsWellDone": "Well Done!",
+    "empResultsComplete": "Assessment Complete",
+    "empResultsScore": "Score",
+    "empResultsCorrectAnswers": "Correct Answers",
+    "empResultsTimeTaken": "Time Taken",
+    "empResultsShareMessage": "Share Results",
+    "empResultsExitPortal": "Exit Portal",
+    "creditsLabel": "Credits",
+    "profileButton": "Profile",
+    "logoutButton": "Logout",
+    "labelGroupBy": "Group By",
+    "labelSortBy": "Sort By",
+    "credits": "Credits",
+    "labelId": "ID",
+    "labelView": "View",
+    "labelPopular": "Popular",
+    "labelUsd": "USD",
+    "testRunnerAssessmentComplete": "Assessment Complete",
+    "testRunnerThankYou": "Thank You",
+    "testRunnerViewResults": "View Results",
+    "testRunnerReadyToSubmit": "Ready to Submit?",
+    "testRunnerAnsweredQuestions": "Questions Answered",
+    "testRunnerFlaggedForReview": "Flagged for Review",
+    "testRunnerUnansweredWarning": "You have {count} unanswered question(s). Please review before submitting.",
+    "@testRunnerUnansweredWarning": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "testRunnerSubmitAssessment": "Submit Assessment",
+    "testRunnerReturnToAssessment": "Return to Assessment",
+    "testRunnerTestPublished": "Test Published",
+    "testRunnerTestSubmitted": "Test Submitted",
+    "testRunnerLiveMessage": "{testName} is live now",
+    "@testRunnerLiveMessage": {
+        "placeholders": {
+            "testName": {
+                "type": "String"
+            }
+        }
+    },
+    "testRunnerSubmissionReceived": "Your submission for {testName} has been received",
+    "@testRunnerSubmissionReceived": {
+        "placeholders": {
+            "testName": {
+                "type": "String"
+            }
+        }
+    },
+    "testRunnerBackToTests": "Back to Tests",
+    "testRunnerReturnToHome": "Return to Home",
+    "testRunnerSectionNum": "Section {num}",
+    "@testRunnerSectionNum": {
+        "placeholders": {
+            "num": {
+                "type": "int"
+            }
+        }
+    },
+    "testRunnerSectionTitle": "Section {num}: {title}",
+    "@testRunnerSectionTitle": {
+        "placeholders": {
+            "num": {
+                "type": "int"
+            },
+            "title": {
+                "type": "String"
+            }
+        }
+    },
+    "testRunnerQuestionCount": "Question {count}",
+    "@testRunnerQuestionCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "labelFlagged": "Flagged",
+    "labelFlagForReview": "Flag for Review",
+    "buttonBack": "Back",
+    "buttonPublish": "Publish",
+    "buttonSubmit": "Submit",
+    "buttonNext": "Next",
+    "buttonSelect": "Select",
+    "tableSelectAll": "Select All",
+    "tableNoItems": "No items to display",
+    "profileUpdateSuccess": "Profile updated successfully",
+    "profileUpdateFailed": "Failed to update profile",
+    "profileTitle": "Profile",
+    "editProfile": "Edit Profile",
+    "nameLabel": "Name",
+    "companyNameLabel": "Company Name",
+    "countryLabel": "Country",
+    "categoryLabel": "Category",
+    "vatLabel": "VAT",
+    "addressLabel": "Address",
+    "bookkeepingEmailLabel": "Bookkeeping Email",
+    "enterEmailPrompt": "Enter email",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "selectCategoryHint": "Select Category",
+    "vatNumberHint": "Enter VAT number",
+    "languageLabel": "Language",
+    "englishLanguage": "English",
+    "germanLanguage": "German",
+    "bookkeepingEmailCheckboxLabel": "Send invoices to bookkeeping email",
+    "forBookkeepingEmailLabel": "Bookkeeping Email",
+    "enterBookkeepingEmailHint": "Enter bookkeeping email",
+    "cancelButton": "Cancel",
+    "saveChangesButton": "Save Changes",
+    "errorPasswordRequired": "Password is required",
+    "errorNewPasswordRequired": "New password is required",
+    "errorConfirmPasswordRequired": "Please confirm your password",
+    "errorFirstNameRequired": "First name is required",
+    "errorLastNameRequired": "Last name is required",
+    "errorEmailRequired": "Email is required",
+    "loadingLogin": "Logging in...",
+    "loadingResetLink": "Sending reset link...",
+    "loadingVerifyOtp": "Verifying OTP...",
+    "loadingResendOtp": "Resending OTP...",
+    "loadingResettingPassword": "Resetting password...",
+    "snackEnterValidEmail": "Please enter a valid email address",
+    "snackWeakPassword": "Password must be at least 8 characters with uppercase, lowercase, number, and special character",
+    "snackAccountCreated": "Account created successfully! Please check your email to verify your account.",
+    "snackRegistrationFailed": "Registration failed",
+    "snackEmailTaken": "This email is already registered",
+    "snackInvalidEmailFormat": "Invalid email format",
+    "snackPasswordRequirements": "Password does not meet requirements",
+    "snackSignupSuccess": "Signup successful",
+    "snackFillAllFields": "Please fill all fields",
+    "snackLoginFailed": "Login failed",
+    "snackInvalidCreds": "Invalid email or password",
+    "snackVerifyEmail": "Please verify your email first",
+    "snackNetworkError": "Network error. Please check your connection",
+    "snackEnterEmail": "Please enter your email",
+    "snackOtpSent": "Verification code sent to your email",
+    "snackSendOtpFailed": "Failed to send reset email",
+    "snackEmailNotFound": "Email not found",
+    "snackEnterCompleteOtp": "Please enter complete OTP",
+    "snackOtpVerified": "OTP verified successfully",
+    "snackInvalidOtp": "Invalid or expired OTP",
+    "snackEmailMissing": "Email is missing. Please go back.",
+    "snackOtpResent": "Verification code resent to your email",
+    "snackResendOtpFailed": "Failed to resend OTP",
+    "snackPasswordMismatch": "Passwords do not match",
+    "snackPasswordTooShort": "Password must be at least 6 characters",
+    "snackPasswordResetSuccess": "Password reset successfully",
+    "snackPasswordResetFailed": "Failed to reset password",
+    "empInvite": "Invite Employee",
+    "empAdd": "Add Employees",
+    "empUploadCsv": "Upload CSV",
+    "vatOptional": "VAT (Optional)"
 }
