@@ -43,11 +43,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'AI-powered testing platform that helps you manage your employees, create tests, and analyze results efficiently.';
 
   @override
-  String get landingHeroTitle => 'Secure, Multi-Tenant\nDigital Assessment';
+  String get landingHeroTitle => 'Test AI literacy. Document evidence.';
 
   @override
   String get landingHeroDesc =>
-      'Empower your organization with ai-test.eu. Centralize test creation, securely assign assessments via magic links, and generate auditable PDF certificates instantly.';
+      'A structured entry point for companies that want to document their use of AI internally in a traceable, verifiable and centrally organized manner.';
 
   @override
   String get landingFeaturesSubtitle => 'Enterprise-Grade Assessment';
@@ -254,7 +254,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navTestMgmt => 'Test Management';
 
   @override
-  String get navEmployees => 'Employee Invites';
+  String get navEmployees => 'Employees';
 
   @override
   String get navBilling => 'Billing';
@@ -936,4 +936,260 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get vatOptional => 'VAT (Optional)';
+
+  @override
+  String get landingNavProduct => 'product';
+
+  @override
+  String get landingNavWorkflow => 'Sequence';
+
+  @override
+  String get landingNavEvidence => 'Evidence';
+
+  @override
+  String get landingNavPricing => 'Prices';
+
+  @override
+  String get landingNavStart => 'Start Now';
+
+  @override
+  String get landingHeroEyebrow => 'AI Compliance Test from Rulefox';
+
+  @override
+  String get landingHeroCtaPrimary => 'Start AI Compliance Test';
+
+  @override
+  String get landingHeroCtaSecondary => 'View example proof';
+
+  @override
+  String get landingBenefit1Title => 'Invite employees';
+
+  @override
+  String get landingBenefit1Desc =>
+      'Import via CSV or manually and assign tests in a structured manner.';
+
+  @override
+  String get landingBenefit2Title => 'Documenting AI Literacy';
+
+  @override
+  String get landingBenefit2Desc =>
+      'Track progress, completion rates, and status centrally.';
+
+  @override
+  String get landingBenefit3Title => 'Export evidence';
+
+  @override
+  String get landingBenefit3Desc =>
+      'Prepare reports for internal documentation, management, or audits.';
+
+  @override
+  String get landingFooterTagline =>
+      'AI Compliance & Literacy Platform for Enterprise';
+
+  @override
+  String get footerImpressum => 'Impressum';
+
+  @override
+  String get footerDatenschutz => 'Privacy Policy';
+
+  @override
+  String get footerKontakt => 'Contact';
+
+  @override
+  String get navOverview => 'Overview';
+
+  @override
+  String get navTests => 'Tests';
+
+  @override
+  String get navEvidence => 'Evidence';
+
+  @override
+  String get navInvoice => 'Invoice';
+
+  @override
+  String get navSettings => 'Settings';
+
+  @override
+  String get dashboardTenantTitle => 'AI Compliance Dashboard';
+
+  @override
+  String get dashboardTenantSubtitle =>
+      'Document AI literacy, test status and evidence centrally in Rulefox.';
+
+  @override
+  String get dashboardBannerTitle => 'AI Compliance in Focus';
+
+  @override
+  String get dashboardBannerDesc =>
+      'Easily and clearly keep track of your employees\' test status, evidence, and AI literacy.';
+
+  @override
+  String get dashboardBannerCta => 'More about the EU AI Act';
+
+  @override
+  String get statEmployeesRecorded => 'Employees recorded';
+
+  @override
+  String get statEmployeesNoData => 'No employees added yet';
+
+  @override
+  String get statTestsAssigned => 'assigned tests';
+
+  @override
+  String get statTestsNoData => 'No tests assigned yet';
+
+  @override
+  String get statCompleted => 'Completed';
+
+  @override
+  String get statCompletionRate => 'Completion rate';
+
+  @override
+  String get statEvidenceAvailable => 'Evidence available';
+
+  @override
+  String get statEvidenceNoData => 'No evidence available yet';
+
+  @override
+  String get nextStepsTitle => 'Next Steps';
+
+  @override
+  String get step1Title => 'Complete company data';
+
+  @override
+  String get step1Desc => 'Add to your company information';
+
+  @override
+  String get step1Btn => 'Start';
+
+  @override
+  String get step2Title => 'Employees import';
+
+  @override
+  String get step2Desc => 'Upload your employees or add them manually.';
+
+  @override
+  String get step2Btn => 'Import';
+
+  @override
+  String get step3Title => 'Assign compliance test';
+
+  @override
+  String get step3Desc => 'Assign the AI compliance test to your employees';
+
+  @override
+  String get step3Btn => 'Assign test';
+
+  @override
+  String get step4Title => 'Export evidence';
+
+  @override
+  String get step4Desc => 'Export evidence for internal or external audits';
+
+  @override
+  String get step4Btn => 'Evidence';
+
+  @override
+  String get currentAllocationsTitle => 'Current allocations';
+
+  @override
+  String get showAll => 'Show all';
+
+  @override
+  String get noTestsAssigned => 'No tests assigned yet';
+
+  @override
+  String get noTestsAssignedDesc =>
+      'Once you assign tests, you will see the status and progress of your employees here.';
+
+  @override
+  String get inviteEmployees => 'Invite employees';
+
+  @override
+  String get titleLanding => 'RuleFox – AI Compliance for Enterprise';
+
+  @override
+  String get titleLogin => 'Login · RuleFox';
+
+  @override
+  String get titleSignup => 'Registration · RuleFox';
+
+  @override
+  String get titleDashboard => 'AI Compliance Dashboard · RuleFox';
+
+  @override
+  String get titleAssessmentComplete => 'Assessment completed · RuleFox';
+
+  @override
+  String get titleOwnerDashboard => 'Owner Dashboard · RuleFox';
+
+  @override
+  String get titleOwnerTestManagement => 'Test Management · RuleFox';
+
+  @override
+  String get titleOwnerNewTest => 'New test · RuleFox';
+
+  @override
+  String get titleTenantDashboard => 'AI Compliance Dashboard · RuleFox';
+
+  @override
+  String get titleTenantAvailableTests => 'Available tests · RuleFox';
+
+  @override
+  String get titleTenantTestQuota => 'Test quota · RuleFox';
+
+  @override
+  String get titleAssignEmployees => 'Assign employees · RuleFox';
+
+  @override
+  String get titleEmployees => 'Employees · RuleFox';
+
+  @override
+  String get titleBilling => 'Billing · RuleFox';
+
+  @override
+  String get titlePurchaseHistory => 'Purchase history · RuleFox';
+
+  @override
+  String get titleCheckout => 'Checkout · RuleFox';
+
+  @override
+  String get titleAssessmentReady => 'Assessment ready · RuleFox';
+
+  @override
+  String get titleTestDetail => 'AI Compliance Test · RuleFox';
+
+  @override
+  String get titleAssessmentQuestions => 'AI Compliance Test · RuleFox';
+
+  @override
+  String get titleResults => 'Results · RuleFox';
+
+  @override
+  String get landingHeroStatEmployees => 'Employees';
+
+  @override
+  String get landingHeroStatCompleted => 'Completed';
+
+  @override
+  String get landingHeroBannerTitle => 'AI Compliance at a glance';
+
+  @override
+  String get landingHeroBannerDesc =>
+      'Manage test status, employees and evidence centrally.';
+
+  @override
+  String get landingHeroDashboardTitle => 'AI Compliance Dashboard';
+
+  @override
+  String navQuota(Object count) {
+    return 'Quota: $count tests';
+  }
+
+  @override
+  String get navFooterTagline => 'Compliance that is verifiable.';
+
+  @override
+  String get navFooterLogoText => 'RULEFOX';
 }

@@ -43,11 +43,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'KI-gestützte Testplattform, die Ihnen hilft, Ihre Mitarbeiter zu verwalten, Tests zu erstellen und Ergebnisse effizient zu analysieren.';
 
   @override
-  String get landingHeroTitle => 'Sichere, mandantenfähige\ndigitale Bewertung';
+  String get landingHeroTitle => 'AI-Literacy testen. Nachweise dokumentieren.';
 
   @override
   String get landingHeroDesc =>
-      'Stärken Sie Ihr Unternehmen mit ai-test.eu. Zentralisieren Sie die Testerstellung, weisen Sie Bewertungen sicher über Magic Links zu und generieren Sie sofort überprüfbare PDF-Zertifikate.';
+      'Der strukturierte Einstieg für Unternehmen, die KI-Nutzung intern nachvollziehbar, prüfbar und zentral organisiert dokumentieren möchten.';
 
   @override
   String get landingFeaturesSubtitle => 'Enterprise-Class-Bewertung';
@@ -228,7 +228,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get termsBody1 =>
-      'Durch den Zugriff auf und die Nutzung dieser Anmeldeseite erklären Sie sich mit diesen Allgemeinen Geschäftsbedingungen sowie allen hierin erwähnten Richtlinien einverstanden. Diese Plattform ist ausschließlich für autorisierte Benutzer bestimmt, und der Zugriff wird nur für rechtmäßige Zwecke gewährt. Sie müssen sicherstellen, dass alle während des Anmeldevorgangs bereitgestellten Informationen korrekt, vollständig und aktuell sind. Jede Nutzung des Systems, die rechtswidrig oder betrügerisch ist oder darauf abzielt, der Plattform oder ihren Benutzern Schaden zuzufügen, ist strengstens untersagt.';
+      'Durch den Zugriff auf und die Nutzung dieser Anmeldeseite erklären Sie sich mit diesen Allgemeinen Geschäftsbedingungen sowie allen hierin erwähnten Richtlinien einverstanden. Diese Plattform ist ausschließlich für autorisierte Benutzer bestimmt, und der Zugriff wird nur für rechtmäßige Zwecke gewährt. Sie müssen sicherstellen, dass alle während des Anmeldevorgangs bereitgestellten Informationen korrekt, vollständige und aktuell sind. Jede Nutzung des Systems, die rechtswidrig oder betrügerisch ist oder darauf abzielt, der Plattform oder ihren Benutzern Schaden zuzufügen, ist strengstens untersagt.';
 
   @override
   String get termsBody2 =>
@@ -255,7 +255,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get navTestMgmt => 'Testverwaltung';
 
   @override
-  String get navEmployees => 'Mitarbeiter einladen';
+  String get navEmployees => 'Mitarbeitende';
 
   @override
   String get navBilling => 'Abrechnung';
@@ -942,4 +942,263 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get vatOptional => 'Umsatzsteuer (optional)';
+
+  @override
+  String get landingNavProduct => 'Produkt';
+
+  @override
+  String get landingNavWorkflow => 'Ablauf';
+
+  @override
+  String get landingNavEvidence => 'Nachweise';
+
+  @override
+  String get landingNavPricing => 'Preise';
+
+  @override
+  String get landingNavStart => 'Jetzt starten';
+
+  @override
+  String get landingHeroEyebrow => 'AI Compliance Test von Rulefox';
+
+  @override
+  String get landingHeroCtaPrimary => 'AI Compliance Test starten';
+
+  @override
+  String get landingHeroCtaSecondary => 'Beispiel-Nachweis ansehen';
+
+  @override
+  String get landingBenefit1Title => 'Mitarbeitende einladen';
+
+  @override
+  String get landingBenefit1Desc =>
+      'Per CSV oder manuell importieren und Tests strukturiert zuweisen.';
+
+  @override
+  String get landingBenefit2Title => 'AI-Literacy dokumentieren';
+
+  @override
+  String get landingBenefit2Desc =>
+      'Fortschritt, Abschlussquote und Status zentral nachvollziehen.';
+
+  @override
+  String get landingBenefit3Title => 'Nachweise exportieren';
+
+  @override
+  String get landingBenefit3Desc =>
+      'Reports für interne Dokumentation, Management oder Audit vorbereiten.';
+
+  @override
+  String get landingFooterTagline =>
+      'AI Compliance & Literacy Plattform für Unternehmen';
+
+  @override
+  String get footerImpressum => 'Impressum';
+
+  @override
+  String get footerDatenschutz => 'Datenschutz';
+
+  @override
+  String get footerKontakt => 'Kontakt';
+
+  @override
+  String get navOverview => 'Übersicht';
+
+  @override
+  String get navTests => 'Tests';
+
+  @override
+  String get navEvidence => 'Nachweise';
+
+  @override
+  String get navInvoice => 'Abrechnung';
+
+  @override
+  String get navSettings => 'Einstellungen';
+
+  @override
+  String get dashboardTenantTitle => 'AI Compliance Dashboard';
+
+  @override
+  String get dashboardTenantSubtitle =>
+      'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
+
+  @override
+  String get dashboardBannerTitle => 'AI Compliance im Blick';
+
+  @override
+  String get dashboardBannerDesc =>
+      'Behalten Sie Teststatus, Nachweise und AI-Literacy Ihrer Mitarbeitenden einfach und übersichtlich im Blick.';
+
+  @override
+  String get dashboardBannerCta => 'Mehr über den EU AI Act';
+
+  @override
+  String get statEmployeesRecorded => 'Mitarbeitende erfasst';
+
+  @override
+  String get statEmployeesNoData => 'Noch keine Mitarbeitenden hinzugefügt';
+
+  @override
+  String get statTestsAssigned => 'Tests zugewiesen';
+
+  @override
+  String get statTestsNoData => 'Noch keine Tests zugewiesen';
+
+  @override
+  String get statCompleted => 'Abgeschlossen';
+
+  @override
+  String get statCompletionRate => 'Abschlussquote';
+
+  @override
+  String get statEvidenceAvailable => 'Nachweise verfügbar';
+
+  @override
+  String get statEvidenceNoData => 'Noch keine Nachweise verfügbar';
+
+  @override
+  String get nextStepsTitle => 'Nächste Schritte';
+
+  @override
+  String get step1Title => 'Unternehmensdaten vervollständigen';
+
+  @override
+  String get step1Desc => 'Ergänzen Sie Ihre Unternehmensinformationen';
+
+  @override
+  String get step1Btn => 'Starten';
+
+  @override
+  String get step2Title => 'Mitarbeitende importieren';
+
+  @override
+  String get step2Desc =>
+      'Laden Sie Ihre Mitarbeitenden hoch oder fügen Sie diese manuell hinzu';
+
+  @override
+  String get step2Btn => 'Importieren';
+
+  @override
+  String get step3Title => 'Compliance-Test zuweisen';
+
+  @override
+  String get step3Desc =>
+      'Weisen Sie den AI-Compliance-Test Ihren Mitarbeitenden zu';
+
+  @override
+  String get step3Btn => 'Test zuweisen';
+
+  @override
+  String get step4Title => 'Nachweise exportieren';
+
+  @override
+  String get step4Desc =>
+      'Exportieren Sie Nachweise für interne oder externe Audits';
+
+  @override
+  String get step4Btn => 'Nachweise';
+
+  @override
+  String get currentAllocationsTitle => 'Aktuelle Zuweisungen';
+
+  @override
+  String get showAll => 'Alle anzeigen';
+
+  @override
+  String get noTestsAssigned => 'Noch keine Tests zugewiesen';
+
+  @override
+  String get noTestsAssignedDesc =>
+      'Sobald Sie Tests zuweisen, sehen Sie hier den Status und Fortschritt Ihrer Mitarbeitenden.';
+
+  @override
+  String get inviteEmployees => 'Mitarbeitende einladen';
+
+  @override
+  String get titleLanding => 'RuleFox – AI Compliance für Unternehmen';
+
+  @override
+  String get titleLogin => 'Login · RuleFox';
+
+  @override
+  String get titleSignup => 'Registrierung · RuleFox';
+
+  @override
+  String get titleDashboard => 'AI Compliance Dashboard · RuleFox';
+
+  @override
+  String get titleAssessmentComplete => 'Assessment abgeschlossen · RuleFox';
+
+  @override
+  String get titleOwnerDashboard => 'Owner Dashboard · RuleFox';
+
+  @override
+  String get titleOwnerTestManagement => 'Testverwaltung · RuleFox';
+
+  @override
+  String get titleOwnerNewTest => 'Neuer Test · RuleFox';
+
+  @override
+  String get titleTenantDashboard => 'AI Compliance Dashboard · RuleFox';
+
+  @override
+  String get titleTenantAvailableTests => 'Verfügbare Tests · RuleFox';
+
+  @override
+  String get titleTenantTestQuota => 'Testkontingent · RuleFox';
+
+  @override
+  String get titleAssignEmployees => 'Mitarbeitende zuweisen · RuleFox';
+
+  @override
+  String get titleEmployees => 'Mitarbeitende · RuleFox';
+
+  @override
+  String get titleBilling => 'Abrechnung · RuleFox';
+
+  @override
+  String get titlePurchaseHistory => 'Kaufhistorie · RuleFox';
+
+  @override
+  String get titleCheckout => 'Checkout · RuleFox';
+
+  @override
+  String get titleAssessmentReady => 'Assessment bereit · RuleFox';
+
+  @override
+  String get titleTestDetail => 'AI Compliance Test · RuleFox';
+
+  @override
+  String get titleAssessmentQuestions => 'AI Compliance Test · RuleFox';
+
+  @override
+  String get titleResults => 'Ergebnisse · RuleFox';
+
+  @override
+  String get landingHeroStatEmployees => 'Mitarbeitende';
+
+  @override
+  String get landingHeroStatCompleted => 'Abgeschlossen';
+
+  @override
+  String get landingHeroBannerTitle => 'AI Compliance im Blick';
+
+  @override
+  String get landingHeroBannerDesc =>
+      'Teststatus, Mitarbeitende und Nachweise zentral verwalten.';
+
+  @override
+  String get landingHeroDashboardTitle => 'AI Compliance Dashboard';
+
+  @override
+  String navQuota(Object count) {
+    return 'Kontingent: $count Tests';
+  }
+
+  @override
+  String get navFooterTagline => 'Compliance, die belegbar ist.';
+
+  @override
+  String get navFooterLogoText => 'RULEFOX';
 }

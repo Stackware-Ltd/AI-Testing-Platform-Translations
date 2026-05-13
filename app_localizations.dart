@@ -167,13 +167,13 @@ abstract class AppLocalizations {
   /// No description provided for @landingHeroTitle.
   ///
   /// In en, this message translates to:
-  /// **'Secure, Multi-Tenant\nDigital Assessment'**
+  /// **'Test AI literacy. Document evidence.'**
   String get landingHeroTitle;
 
   /// No description provided for @landingHeroDesc.
   ///
   /// In en, this message translates to:
-  /// **'Empower your organization with ai-test.eu. Centralize test creation, securely assign assessments via magic links, and generate auditable PDF certificates instantly.'**
+  /// **'A structured entry point for companies that want to document their use of AI internally in a traceable, verifiable and centrally organized manner.'**
   String get landingHeroDesc;
 
   /// No description provided for @landingFeaturesSubtitle.
@@ -563,7 +563,7 @@ abstract class AppLocalizations {
   /// No description provided for @navEmployees.
   ///
   /// In en, this message translates to:
-  /// **'Employee Invites'**
+  /// **'Employees'**
   String get navEmployees;
 
   /// No description provided for @navBilling.
@@ -1879,6 +1879,498 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'VAT (Optional)'**
   String get vatOptional;
+
+  /// No description provided for @landingNavProduct.
+  ///
+  /// In en, this message translates to:
+  /// **'product'**
+  String get landingNavProduct;
+
+  /// No description provided for @landingNavWorkflow.
+  ///
+  /// In en, this message translates to:
+  /// **'Sequence'**
+  String get landingNavWorkflow;
+
+  /// No description provided for @landingNavEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get landingNavEvidence;
+
+  /// No description provided for @landingNavPricing.
+  ///
+  /// In en, this message translates to:
+  /// **'Prices'**
+  String get landingNavPricing;
+
+  /// No description provided for @landingNavStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Now'**
+  String get landingNavStart;
+
+  /// No description provided for @landingHeroEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Test from Rulefox'**
+  String get landingHeroEyebrow;
+
+  /// No description provided for @landingHeroCtaPrimary.
+  ///
+  /// In en, this message translates to:
+  /// **'Start AI Compliance Test'**
+  String get landingHeroCtaPrimary;
+
+  /// No description provided for @landingHeroCtaSecondary.
+  ///
+  /// In en, this message translates to:
+  /// **'View example proof'**
+  String get landingHeroCtaSecondary;
+
+  /// No description provided for @landingBenefit1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite employees'**
+  String get landingBenefit1Title;
+
+  /// No description provided for @landingBenefit1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Import via CSV or manually and assign tests in a structured manner.'**
+  String get landingBenefit1Desc;
+
+  /// No description provided for @landingBenefit2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Documenting AI Literacy'**
+  String get landingBenefit2Title;
+
+  /// No description provided for @landingBenefit2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Track progress, completion rates, and status centrally.'**
+  String get landingBenefit2Desc;
+
+  /// No description provided for @landingBenefit3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get landingBenefit3Title;
+
+  /// No description provided for @landingBenefit3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Prepare reports for internal documentation, management, or audits.'**
+  String get landingBenefit3Desc;
+
+  /// No description provided for @landingFooterTagline.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance & Literacy Platform for Enterprise'**
+  String get landingFooterTagline;
+
+  /// No description provided for @footerImpressum.
+  ///
+  /// In en, this message translates to:
+  /// **'Impressum'**
+  String get footerImpressum;
+
+  /// No description provided for @footerDatenschutz.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get footerDatenschutz;
+
+  /// No description provided for @footerKontakt.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact'**
+  String get footerKontakt;
+
+  /// No description provided for @navOverview.
+  ///
+  /// In en, this message translates to:
+  /// **'Overview'**
+  String get navOverview;
+
+  /// No description provided for @navTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Tests'**
+  String get navTests;
+
+  /// No description provided for @navEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get navEvidence;
+
+  /// No description provided for @navInvoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice'**
+  String get navInvoice;
+
+  /// No description provided for @navSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get navSettings;
+
+  /// No description provided for @dashboardTenantTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Dashboard'**
+  String get dashboardTenantTitle;
+
+  /// No description provided for @dashboardTenantSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
+  String get dashboardTenantSubtitle;
+
+  /// No description provided for @dashboardBannerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance in Focus'**
+  String get dashboardBannerTitle;
+
+  /// No description provided for @dashboardBannerDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Easily and clearly keep track of your employees\' test status, evidence, and AI literacy.'**
+  String get dashboardBannerDesc;
+
+  /// No description provided for @dashboardBannerCta.
+  ///
+  /// In en, this message translates to:
+  /// **'More about the EU AI Act'**
+  String get dashboardBannerCta;
+
+  /// No description provided for @statEmployeesRecorded.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees recorded'**
+  String get statEmployeesRecorded;
+
+  /// No description provided for @statEmployeesNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No employees added yet'**
+  String get statEmployeesNoData;
+
+  /// No description provided for @statTestsAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'assigned tests'**
+  String get statTestsAssigned;
+
+  /// No description provided for @statTestsNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No tests assigned yet'**
+  String get statTestsNoData;
+
+  /// No description provided for @statCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get statCompleted;
+
+  /// No description provided for @statCompletionRate.
+  ///
+  /// In en, this message translates to:
+  /// **'Completion rate'**
+  String get statCompletionRate;
+
+  /// No description provided for @statEvidenceAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence available'**
+  String get statEvidenceAvailable;
+
+  /// No description provided for @statEvidenceNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No evidence available yet'**
+  String get statEvidenceNoData;
+
+  /// No description provided for @nextStepsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Next Steps'**
+  String get nextStepsTitle;
+
+  /// No description provided for @step1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete company data'**
+  String get step1Title;
+
+  /// No description provided for @step1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to your company information'**
+  String get step1Desc;
+
+  /// No description provided for @step1Btn.
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get step1Btn;
+
+  /// No description provided for @step2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees import'**
+  String get step2Title;
+
+  /// No description provided for @step2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload your employees or add them manually.'**
+  String get step2Desc;
+
+  /// No description provided for @step2Btn.
+  ///
+  /// In en, this message translates to:
+  /// **'Import'**
+  String get step2Btn;
+
+  /// No description provided for @step3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign compliance test'**
+  String get step3Title;
+
+  /// No description provided for @step3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign the AI compliance test to your employees'**
+  String get step3Desc;
+
+  /// No description provided for @step3Btn.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign test'**
+  String get step3Btn;
+
+  /// No description provided for @step4Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get step4Title;
+
+  /// No description provided for @step4Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence for internal or external audits'**
+  String get step4Desc;
+
+  /// No description provided for @step4Btn.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get step4Btn;
+
+  /// No description provided for @currentAllocationsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Current allocations'**
+  String get currentAllocationsTitle;
+
+  /// No description provided for @showAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Show all'**
+  String get showAll;
+
+  /// No description provided for @noTestsAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'No tests assigned yet'**
+  String get noTestsAssigned;
+
+  /// No description provided for @noTestsAssignedDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Once you assign tests, you will see the status and progress of your employees here.'**
+  String get noTestsAssignedDesc;
+
+  /// No description provided for @inviteEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite employees'**
+  String get inviteEmployees;
+
+  /// No description provided for @titleLanding.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox – AI Compliance for Enterprise'**
+  String get titleLanding;
+
+  /// No description provided for @titleLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Login · RuleFox'**
+  String get titleLogin;
+
+  /// No description provided for @titleSignup.
+  ///
+  /// In en, this message translates to:
+  /// **'Registration · RuleFox'**
+  String get titleSignup;
+
+  /// No description provided for @titleDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Dashboard · RuleFox'**
+  String get titleDashboard;
+
+  /// No description provided for @titleAssessmentComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment completed · RuleFox'**
+  String get titleAssessmentComplete;
+
+  /// No description provided for @titleOwnerDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Owner Dashboard · RuleFox'**
+  String get titleOwnerDashboard;
+
+  /// No description provided for @titleOwnerTestManagement.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Management · RuleFox'**
+  String get titleOwnerTestManagement;
+
+  /// No description provided for @titleOwnerNewTest.
+  ///
+  /// In en, this message translates to:
+  /// **'New test · RuleFox'**
+  String get titleOwnerNewTest;
+
+  /// No description provided for @titleTenantDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Dashboard · RuleFox'**
+  String get titleTenantDashboard;
+
+  /// No description provided for @titleTenantAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Available tests · RuleFox'**
+  String get titleTenantAvailableTests;
+
+  /// No description provided for @titleTenantTestQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Test quota · RuleFox'**
+  String get titleTenantTestQuota;
+
+  /// No description provided for @titleAssignEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign employees · RuleFox'**
+  String get titleAssignEmployees;
+
+  /// No description provided for @titleEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees · RuleFox'**
+  String get titleEmployees;
+
+  /// No description provided for @titleBilling.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing · RuleFox'**
+  String get titleBilling;
+
+  /// No description provided for @titlePurchaseHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase history · RuleFox'**
+  String get titlePurchaseHistory;
+
+  /// No description provided for @titleCheckout.
+  ///
+  /// In en, this message translates to:
+  /// **'Checkout · RuleFox'**
+  String get titleCheckout;
+
+  /// No description provided for @titleAssessmentReady.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment ready · RuleFox'**
+  String get titleAssessmentReady;
+
+  /// No description provided for @titleTestDetail.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Test · RuleFox'**
+  String get titleTestDetail;
+
+  /// No description provided for @titleAssessmentQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Test · RuleFox'**
+  String get titleAssessmentQuestions;
+
+  /// No description provided for @titleResults.
+  ///
+  /// In en, this message translates to:
+  /// **'Results · RuleFox'**
+  String get titleResults;
+
+  /// No description provided for @landingHeroStatEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get landingHeroStatEmployees;
+
+  /// No description provided for @landingHeroStatCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get landingHeroStatCompleted;
+
+  /// No description provided for @landingHeroBannerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance at a glance'**
+  String get landingHeroBannerTitle;
+
+  /// No description provided for @landingHeroBannerDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage test status, employees and evidence centrally.'**
+  String get landingHeroBannerDesc;
+
+  /// No description provided for @landingHeroDashboardTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Dashboard'**
+  String get landingHeroDashboardTitle;
+
+  /// No description provided for @navQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Quota: {count} tests'**
+  String navQuota(Object count);
+
+  /// No description provided for @navFooterTagline.
+  ///
+  /// In en, this message translates to:
+  /// **'Compliance that is verifiable.'**
+  String get navFooterTagline;
+
+  /// No description provided for @navFooterLogoText.
+  ///
+  /// In en, this message translates to:
+  /// **'RULEFOX'**
+  String get navFooterLogoText;
 }
 
 class _AppLocalizationsDelegate
