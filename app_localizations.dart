@@ -2371,6 +2371,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'RULEFOX'**
   String get navFooterLogoText;
+
+  /// No description provided for @screenTenantDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Dashboard'**
+  String get screenTenantDashboard;
+
+  /// No description provided for @screenEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get screenEmployees;
+
+  /// No description provided for @screenAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Available tests'**
+  String get screenAvailableTests;
+
+  /// No description provided for @screenResults.
+  ///
+  /// In en, this message translates to:
+  /// **'Results'**
+  String get screenResults;
+
+  /// No description provided for @screenBilling.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing'**
+  String get screenBilling;
+
+  /// No description provided for @screenSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get screenSettings;
+
+  /// No description provided for @screenOwnerDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Owner Dashboard'**
+  String get screenOwnerDashboard;
+
+  /// No description provided for @screenOwnerTestManagement.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Management'**
+  String get screenOwnerTestManagement;
+
+  /// No description provided for @subtitleTenantDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Document AI literacy, test status, and evidence centrally in Rulefox.'**
+  String get subtitleTenantDashboard;
+
+  /// No description provided for @subtitleEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage and invite your employees to compliance tests.'**
+  String get subtitleEmployees;
+
+  /// No description provided for @subtitleAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Find all available tests for your organization here.'**
+  String get subtitleAvailableTests;
+
+  /// No description provided for @subtitleResults.
+  ///
+  /// In en, this message translates to:
+  /// **'Review results and evidence of your employees.'**
+  String get subtitleResults;
+
+  /// No description provided for @subtitleBilling.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage your subscriptions, invoices, and payment methods.'**
+  String get subtitleBilling;
+
+  /// No description provided for @subtitleSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Configure your personal and company settings.'**
+  String get subtitleSettings;
 }
 
 class _AppLocalizationsDelegate

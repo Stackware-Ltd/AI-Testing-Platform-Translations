@@ -445,5 +445,19 @@
   "landingHeroDashboardTitle": "AI Compliance Dashboard",
   "navQuota": "Kontingent: {count} Tests",
   "navFooterTagline": "Compliance, die belegbar ist.",
-  "navFooterLogoText": "RULEFOX"
+  "navFooterLogoText": "RULEFOX",
+  "screenTenantDashboard": "AI Compliance Dashboard",
+  "screenEmployees": "Mitarbeitende",
+  "screenAvailableTests": "Verfügbare Tests",
+  "screenResults": "Ergebnisse",
+  "screenBilling": "Abrechnung",
+  "screenSettings": "Einstellungen",
+  "screenOwnerDashboard": "Owner Dashboard",
+  "screenOwnerTestManagement": "Testverwaltung",
+  "subtitleTenantDashboard": "Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.",
+  "subtitleEmployees": "Verwalten und laden Sie Ihre Mitarbeitenden zu Compliance-Tests ein.",
+  "subtitleAvailableTests": "Hier finden Sie alle für Ihr Unternehmen verfügbaren Tests.",
+  "subtitleResults": "Überprüfen Sie die Ergebnisse und Nachweise Ihrer Mitarbeitenden.",
+  "subtitleBilling": "Verwalten Sie Ihre Abonnements, Rechnungen und Zahlungsmethoden.",
+  "subtitleSettings": "Konfigurieren Sie Ihre persönlichen und Unternehmenseinstellungen."
 }

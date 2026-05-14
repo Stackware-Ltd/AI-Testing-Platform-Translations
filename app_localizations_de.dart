@@ -1201,4 +1201,52 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get navFooterLogoText => 'RULEFOX';
+
+  @override
+  String get screenTenantDashboard => 'AI Compliance Dashboard';
+
+  @override
+  String get screenEmployees => 'Mitarbeitende';
+
+  @override
+  String get screenAvailableTests => 'Verfügbare Tests';
+
+  @override
+  String get screenResults => 'Ergebnisse';
+
+  @override
+  String get screenBilling => 'Abrechnung';
+
+  @override
+  String get screenSettings => 'Einstellungen';
+
+  @override
+  String get screenOwnerDashboard => 'Owner Dashboard';
+
+  @override
+  String get screenOwnerTestManagement => 'Testverwaltung';
+
+  @override
+  String get subtitleTenantDashboard =>
+      'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
+
+  @override
+  String get subtitleEmployees =>
+      'Verwalten und laden Sie Ihre Mitarbeitenden zu Compliance-Tests ein.';
+
+  @override
+  String get subtitleAvailableTests =>
+      'Hier finden Sie alle für Ihr Unternehmen verfügbaren Tests.';
+
+  @override
+  String get subtitleResults =>
+      'Überprüfen Sie die Ergebnisse und Nachweise Ihrer Mitarbeitenden.';
+
+  @override
+  String get subtitleBilling =>
+      'Verwalten Sie Ihre Abonnements, Rechnungen und Zahlungsmethoden.';
+
+  @override
+  String get subtitleSettings =>
+      'Konfigurieren Sie Ihre persönlichen und Unternehmenseinstellungen.';
 }

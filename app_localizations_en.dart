@@ -1192,4 +1192,52 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get navFooterLogoText => 'RULEFOX';
+
+  @override
+  String get screenTenantDashboard => 'AI Compliance Dashboard';
+
+  @override
+  String get screenEmployees => 'Employees';
+
+  @override
+  String get screenAvailableTests => 'Available tests';
+
+  @override
+  String get screenResults => 'Results';
+
+  @override
+  String get screenBilling => 'Billing';
+
+  @override
+  String get screenSettings => 'Settings';
+
+  @override
+  String get screenOwnerDashboard => 'Owner Dashboard';
+
+  @override
+  String get screenOwnerTestManagement => 'Test Management';
+
+  @override
+  String get subtitleTenantDashboard =>
+      'Document AI literacy, test status, and evidence centrally in Rulefox.';
+
+  @override
+  String get subtitleEmployees =>
+      'Manage and invite your employees to compliance tests.';
+
+  @override
+  String get subtitleAvailableTests =>
+      'Find all available tests for your organization here.';
+
+  @override
+  String get subtitleResults =>
+      'Review results and evidence of your employees.';
+
+  @override
+  String get subtitleBilling =>
+      'Manage your subscriptions, invoices, and payment methods.';
+
+  @override
+  String get subtitleSettings =>
+      'Configure your personal and company settings.';
 }
