@@ -560,12 +560,6 @@ abstract class AppLocalizations {
   /// **'Test Management'**
   String get navTestMgmt;
 
-  /// No description provided for @navEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees'**
-  String get navEmployees;
-
   /// No description provided for @navBilling.
   ///
   /// In en, this message translates to:
@@ -920,6 +914,42 @@ abstract class AppLocalizations {
   /// **'Select the package that best fits your needs'**
   String get billingSelectPackageSubtitle;
 
+  /// No description provided for @billingColumnDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get billingColumnDate;
+
+  /// No description provided for @billingColumnProduct.
+  ///
+  /// In en, this message translates to:
+  /// **'Product'**
+  String get billingColumnProduct;
+
+  /// No description provided for @billingColumnNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Number'**
+  String get billingColumnNumber;
+
+  /// No description provided for @billingColumnAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get billingColumnAmount;
+
+  /// No description provided for @billingColumnStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get billingColumnStatus;
+
+  /// No description provided for @billingColumnInvoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice'**
+  String get billingColumnInvoice;
+
   /// No description provided for @tabBilling.
   ///
   /// In en, this message translates to:
@@ -935,13 +965,13 @@ abstract class AppLocalizations {
   /// No description provided for @tabAvailableTests.
   ///
   /// In en, this message translates to:
-  /// **'Available Tests'**
+  /// **'Available Credits'**
   String get tabAvailableTests;
 
   /// No description provided for @tabPurchasedTestsLabel.
   ///
   /// In en, this message translates to:
-  /// **'Purchased Tests'**
+  /// **'Purchased Credits'**
   String get tabPurchasedTestsLabel;
 
   /// No description provided for @hintSearch.
@@ -983,7 +1013,7 @@ abstract class AppLocalizations {
   /// No description provided for @buttonBuyCredits.
   ///
   /// In en, this message translates to:
-  /// **'Buy Credits'**
+  /// **'Quota'**
   String get buttonBuyCredits;
 
   /// No description provided for @filterAllTransactions.
@@ -1874,12 +1904,6 @@ abstract class AppLocalizations {
   /// **'Upload CSV'**
   String get empUploadCsv;
 
-  /// No description provided for @vatOptional.
-  ///
-  /// In en, this message translates to:
-  /// **'VAT (Optional)'**
-  String get vatOptional;
-
   /// No description provided for @landingNavProduct.
   ///
   /// In en, this message translates to:
@@ -1993,6 +2017,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Overview'**
   String get navOverview;
+
+  /// No description provided for @navEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get navEmployees;
 
   /// No description provided for @navTests.
   ///
@@ -2455,6 +2485,360 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Configure your personal and company settings.'**
   String get subtitleSettings;
+
+  /// No description provided for @vatOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'VAT (Optional)'**
+  String get vatOptional;
+
+  /// No description provided for @tabOverview.
+  ///
+  /// In en, this message translates to:
+  /// **'Overview'**
+  String get tabOverview;
+
+  /// No description provided for @tabInvoices.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoices'**
+  String get tabInvoices;
+
+  /// No description provided for @labelBannerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Quota & Billing'**
+  String get labelBannerTitle;
+
+  /// No description provided for @labelBannerSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage trial quotas, invoices, and payments for your business.'**
+  String get labelBannerSubtitle;
+
+  /// No description provided for @labelAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Available credits'**
+  String get labelAvailableTests;
+
+  /// No description provided for @labelAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'Assigned'**
+  String get labelAssigned;
+
+  /// No description provided for @labelPaid.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid'**
+  String get labelPaid;
+
+  /// No description provided for @labelViewReceipt.
+  ///
+  /// In en, this message translates to:
+  /// **'View Receipt'**
+  String get labelViewReceipt;
+
+  /// No description provided for @labelLastPurchase.
+  ///
+  /// In en, this message translates to:
+  /// **'Last purchase'**
+  String get labelLastPurchase;
+
+  /// No description provided for @labelInvoices.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoices'**
+  String get labelInvoices;
+
+  /// No description provided for @hintAiCompliance.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance'**
+  String get hintAiCompliance;
+
+  /// No description provided for @hintActiveInvites.
+  ///
+  /// In en, this message translates to:
+  /// **'Active invitations'**
+  String get hintActiveInvites;
+
+  /// No description provided for @labelAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'available'**
+  String get labelAvailable;
+
+  /// No description provided for @labelChoosePackage.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Package'**
+  String get labelChoosePackage;
+
+  /// No description provided for @labelCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get labelCredits;
+
+  /// No description provided for @labelEur.
+  ///
+  /// In en, this message translates to:
+  /// **'EUR'**
+  String get labelEur;
+
+  /// No description provided for @authManageCompliance.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage AI compliance centrally.'**
+  String get authManageCompliance;
+
+  /// No description provided for @authManageComplianceDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Rulefox guides companies from setup and employee invitation to exportable proof.'**
+  String get authManageComplianceDesc;
+
+  /// No description provided for @authCheckQuotas.
+  ///
+  /// In en, this message translates to:
+  /// **'Keeping an eye on test quotas and allocations'**
+  String get authCheckQuotas;
+
+  /// No description provided for @authCheckEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence-oriented results'**
+  String get authCheckEvidence;
+
+  /// No description provided for @authCheckInterface.
+  ///
+  /// In en, this message translates to:
+  /// **'Reduced, audit-compliant interface'**
+  String get authCheckInterface;
+
+  /// No description provided for @authLoginDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Login to the dashboard'**
+  String get authLoginDashboard;
+
+  /// No description provided for @authLoginDashboardDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to manage tests, staff, and evidence.'**
+  String get authLoginDashboardDesc;
+
+  /// No description provided for @authEmailAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'E-mail address'**
+  String get authEmailAddress;
+
+  /// No description provided for @authEmailHint.
+  ///
+  /// In en, this message translates to:
+  /// **'admin@unternehmen.at'**
+  String get authEmailHint;
+
+  /// No description provided for @authCreateAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Create account'**
+  String get authCreateAccount;
+
+  /// No description provided for @authReadyMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to go in minutes.'**
+  String get authReadyMinutes;
+
+  /// No description provided for @authReadyMinutesDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'After registration, you can import employees, assign tests, and export evidence.'**
+  String get authReadyMinutesDesc;
+
+  /// No description provided for @authStepCreateBusiness.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a business'**
+  String get authStepCreateBusiness;
+
+  /// No description provided for @authStepSelectQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Select quota'**
+  String get authStepSelectQuota;
+
+  /// No description provided for @authStepStartCompliance.
+  ///
+  /// In en, this message translates to:
+  /// **'Start AI Compliance Test'**
+  String get authStepStartCompliance;
+
+  /// No description provided for @authSettingUpBusiness.
+  ///
+  /// In en, this message translates to:
+  /// **'Setting up a business'**
+  String get authSettingUpBusiness;
+
+  /// No description provided for @authSettingUpBusinessDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Create your Rulefox account and start the AI Compliance Test.'**
+  String get authSettingUpBusinessDesc;
+
+  /// No description provided for @authFirstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First name'**
+  String get authFirstName;
+
+  /// No description provided for @authFirstNameHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Max'**
+  String get authFirstNameHint;
+
+  /// No description provided for @authLastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Last name'**
+  String get authLastName;
+
+  /// No description provided for @authLastNameHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Mustermann'**
+  String get authLastNameHint;
+
+  /// No description provided for @authEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'E-mail'**
+  String get authEmail;
+
+  /// No description provided for @authEmailHintAlt.
+  ///
+  /// In en, this message translates to:
+  /// **'max@beispiel.at'**
+  String get authEmailHintAlt;
+
+  /// No description provided for @authCompany.
+  ///
+  /// In en, this message translates to:
+  /// **'Company'**
+  String get authCompany;
+
+  /// No description provided for @authCompanyHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Beispiel GmbH'**
+  String get authCompanyHint;
+
+  /// No description provided for @authCountryLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Country'**
+  String get authCountryLabel;
+
+  /// No description provided for @authSelectCountry.
+  ///
+  /// In en, this message translates to:
+  /// **'Select country'**
+  String get authSelectCountry;
+
+  /// No description provided for @authCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Category'**
+  String get authCategory;
+
+  /// No description provided for @authSelectCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Select category'**
+  String get authSelectCategory;
+
+  /// No description provided for @authVatOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'VAT (optional)'**
+  String get authVatOptional;
+
+  /// No description provided for @authVatHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter VAT number'**
+  String get authVatHint;
+
+  /// No description provided for @authAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'Address'**
+  String get authAddress;
+
+  /// No description provided for @authAddressHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your address'**
+  String get authAddressHint;
+
+  /// No description provided for @authUpdatePassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Update password'**
+  String get authUpdatePassword;
+
+  /// No description provided for @authVerifyOtp.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify OTP'**
+  String get authVerifyOtp;
+
+  /// No description provided for @buttonChoose.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose'**
+  String get buttonChoose;
+
+  /// No description provided for @billingCreditsTaken.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits Taken'**
+  String get billingCreditsTaken;
+
+  /// No description provided for @billingTotalSpent.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Spent'**
+  String get billingTotalSpent;
+
+  /// No description provided for @billingPendingInvoices.
+  ///
+  /// In en, this message translates to:
+  /// **'Pending Invoices'**
+  String get billingPendingInvoices;
+
+  /// No description provided for @billingTotalThroughoutTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Total throughout time'**
+  String get billingTotalThroughoutTime;
+
+  /// No description provided for @billingSuccessfulPayments.
+  ///
+  /// In en, this message translates to:
+  /// **'Successful payments'**
+  String get billingSuccessfulPayments;
+
+  /// No description provided for @billingRequireAttention.
+  ///
+  /// In en, this message translates to:
+  /// **'Require attention'**
+  String get billingRequireAttention;
 }
 
 class _AppLocalizationsDelegate

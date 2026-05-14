@@ -254,9 +254,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navTestMgmt => 'Test Management';
 
   @override
-  String get navEmployees => 'Employees';
-
-  @override
   String get navBilling => 'Billing';
 
   @override
@@ -435,16 +432,34 @@ class AppLocalizationsEn extends AppLocalizations {
       'Select the package that best fits your needs';
 
   @override
+  String get billingColumnDate => 'Date';
+
+  @override
+  String get billingColumnProduct => 'Product';
+
+  @override
+  String get billingColumnNumber => 'Number';
+
+  @override
+  String get billingColumnAmount => 'Amount';
+
+  @override
+  String get billingColumnStatus => 'Status';
+
+  @override
+  String get billingColumnInvoice => 'Invoice';
+
+  @override
   String get tabBilling => 'Billing';
 
   @override
   String get tabPurchaseHistory => 'Purchase History';
 
   @override
-  String get tabAvailableTests => 'Available Tests';
+  String get tabAvailableTests => 'Available Credits';
 
   @override
-  String get tabPurchasedTestsLabel => 'Purchased Tests';
+  String get tabPurchasedTestsLabel => 'Purchased Credits';
 
   @override
   String get hintSearch => 'Search...';
@@ -465,7 +480,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelCreditsLowercase => 'Credits';
 
   @override
-  String get buttonBuyCredits => 'Buy Credits';
+  String get buttonBuyCredits => 'Quota';
 
   @override
   String get filterAllTransactions => 'All Transactions';
@@ -935,9 +950,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get empUploadCsv => 'Upload CSV';
 
   @override
-  String get vatOptional => 'VAT (Optional)';
-
-  @override
   String get landingNavProduct => 'product';
 
   @override
@@ -997,6 +1009,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get navOverview => 'Overview';
+
+  @override
+  String get navEmployees => 'Employees';
 
   @override
   String get navTests => 'Tests';
@@ -1240,4 +1255,186 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get subtitleSettings =>
       'Configure your personal and company settings.';
+
+  @override
+  String get vatOptional => 'VAT (Optional)';
+
+  @override
+  String get tabOverview => 'Overview';
+
+  @override
+  String get tabInvoices => 'Invoices';
+
+  @override
+  String get labelBannerTitle => 'Quota & Billing';
+
+  @override
+  String get labelBannerSubtitle =>
+      'Manage trial quotas, invoices, and payments for your business.';
+
+  @override
+  String get labelAvailableTests => 'Available credits';
+
+  @override
+  String get labelAssigned => 'Assigned';
+
+  @override
+  String get labelPaid => 'Paid';
+
+  @override
+  String get labelViewReceipt => 'View Receipt';
+
+  @override
+  String get labelLastPurchase => 'Last purchase';
+
+  @override
+  String get labelInvoices => 'Invoices';
+
+  @override
+  String get hintAiCompliance => 'AI Compliance';
+
+  @override
+  String get hintActiveInvites => 'Active invitations';
+
+  @override
+  String get labelAvailable => 'available';
+
+  @override
+  String get labelChoosePackage => 'Choose Package';
+
+  @override
+  String get labelCredits => 'Credits';
+
+  @override
+  String get labelEur => 'EUR';
+
+  @override
+  String get authManageCompliance => 'Manage AI compliance centrally.';
+
+  @override
+  String get authManageComplianceDesc =>
+      'Rulefox guides companies from setup and employee invitation to exportable proof.';
+
+  @override
+  String get authCheckQuotas => 'Keeping an eye on test quotas and allocations';
+
+  @override
+  String get authCheckEvidence => 'Evidence-oriented results';
+
+  @override
+  String get authCheckInterface => 'Reduced, audit-compliant interface';
+
+  @override
+  String get authLoginDashboard => 'Login to the dashboard';
+
+  @override
+  String get authLoginDashboardDesc =>
+      'Sign in to manage tests, staff, and evidence.';
+
+  @override
+  String get authEmailAddress => 'E-mail address';
+
+  @override
+  String get authEmailHint => 'admin@unternehmen.at';
+
+  @override
+  String get authCreateAccount => 'Create account';
+
+  @override
+  String get authReadyMinutes => 'Ready to go in minutes.';
+
+  @override
+  String get authReadyMinutesDesc =>
+      'After registration, you can import employees, assign tests, and export evidence.';
+
+  @override
+  String get authStepCreateBusiness => 'Create a business';
+
+  @override
+  String get authStepSelectQuota => 'Select quota';
+
+  @override
+  String get authStepStartCompliance => 'Start AI Compliance Test';
+
+  @override
+  String get authSettingUpBusiness => 'Setting up a business';
+
+  @override
+  String get authSettingUpBusinessDesc =>
+      'Create your Rulefox account and start the AI Compliance Test.';
+
+  @override
+  String get authFirstName => 'First name';
+
+  @override
+  String get authFirstNameHint => 'Max';
+
+  @override
+  String get authLastName => 'Last name';
+
+  @override
+  String get authLastNameHint => 'Mustermann';
+
+  @override
+  String get authEmail => 'E-mail';
+
+  @override
+  String get authEmailHintAlt => 'max@beispiel.at';
+
+  @override
+  String get authCompany => 'Company';
+
+  @override
+  String get authCompanyHint => 'Beispiel GmbH';
+
+  @override
+  String get authCountryLabel => 'Country';
+
+  @override
+  String get authSelectCountry => 'Select country';
+
+  @override
+  String get authCategory => 'Category';
+
+  @override
+  String get authSelectCategory => 'Select category';
+
+  @override
+  String get authVatOptional => 'VAT (optional)';
+
+  @override
+  String get authVatHint => 'Enter VAT number';
+
+  @override
+  String get authAddress => 'Address';
+
+  @override
+  String get authAddressHint => 'Enter your address';
+
+  @override
+  String get authUpdatePassword => 'Update password';
+
+  @override
+  String get authVerifyOtp => 'Verify OTP';
+
+  @override
+  String get buttonChoose => 'Choose';
+
+  @override
+  String get billingCreditsTaken => 'Credits Taken';
+
+  @override
+  String get billingTotalSpent => 'Total Spent';
+
+  @override
+  String get billingPendingInvoices => 'Pending Invoices';
+
+  @override
+  String get billingTotalThroughoutTime => 'Total throughout time';
+
+  @override
+  String get billingSuccessfulPayments => 'Successful payments';
+
+  @override
+  String get billingRequireAttention => 'Require attention';
 }

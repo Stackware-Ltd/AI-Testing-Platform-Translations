@@ -255,9 +255,6 @@ class AppLocalizationsDe extends AppLocalizations {
   String get navTestMgmt => 'Testverwaltung';
 
   @override
-  String get navEmployees => 'Mitarbeitende';
-
-  @override
   String get navBilling => 'Abrechnung';
 
   @override
@@ -436,16 +433,34 @@ class AppLocalizationsDe extends AppLocalizations {
       'Wählen Sie das Paket, das Ihren Anforderungen am besten entspricht';
 
   @override
+  String get billingColumnDate => 'Datum';
+
+  @override
+  String get billingColumnProduct => 'Produkt';
+
+  @override
+  String get billingColumnNumber => 'Anzahl';
+
+  @override
+  String get billingColumnAmount => 'Betrag';
+
+  @override
+  String get billingColumnStatus => 'Status';
+
+  @override
+  String get billingColumnInvoice => 'Rechnung';
+
+  @override
   String get tabBilling => 'Abrechnung';
 
   @override
   String get tabPurchaseHistory => 'Kaufverlauf';
 
   @override
-  String get tabAvailableTests => 'Verfügbare Tests';
+  String get tabAvailableTests => 'Verfügbares Guthaben';
 
   @override
-  String get tabPurchasedTestsLabel => 'Gekaufte Tests';
+  String get tabPurchasedTestsLabel => 'Gekauftes Guthaben';
 
   @override
   String get hintSearch => 'Suchen...';
@@ -466,7 +481,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelCreditsLowercase => 'Credits';
 
   @override
-  String get buttonBuyCredits => 'Credits kaufen';
+  String get buttonBuyCredits => 'Kontingent';
 
   @override
   String get filterAllTransactions => 'Alle Transaktionen';
@@ -941,9 +956,6 @@ class AppLocalizationsDe extends AppLocalizations {
   String get empUploadCsv => 'CSV hochladen';
 
   @override
-  String get vatOptional => 'Umsatzsteuer (optional)';
-
-  @override
   String get landingNavProduct => 'Produkt';
 
   @override
@@ -1003,6 +1015,9 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get navOverview => 'Übersicht';
+
+  @override
+  String get navEmployees => 'Mitarbeitende';
 
   @override
   String get navTests => 'Tests';
@@ -1249,4 +1264,187 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get subtitleSettings =>
       'Konfigurieren Sie Ihre persönlichen und Unternehmenseinstellungen.';
+
+  @override
+  String get vatOptional => 'Umsatzsteuer (optional)';
+
+  @override
+  String get tabOverview => 'Übersicht';
+
+  @override
+  String get tabInvoices => 'Rechnungen';
+
+  @override
+  String get labelBannerTitle => 'Kontingent & Abrechnung';
+
+  @override
+  String get labelBannerSubtitle =>
+      'Verwalten Sie Testkontingente, Rechnungen und Zahlungen für Ihr Unternehmen.';
+
+  @override
+  String get labelAvailableTests => 'Verfügbares Guthaben';
+
+  @override
+  String get labelAssigned => 'Zugeordnet';
+
+  @override
+  String get labelPaid => 'Bezahlt';
+
+  @override
+  String get labelViewReceipt => 'Beleg ansehen';
+
+  @override
+  String get labelLastPurchase => 'Letzter Kauf';
+
+  @override
+  String get labelInvoices => 'Rechnungen';
+
+  @override
+  String get hintAiCompliance => 'KI-Compliance';
+
+  @override
+  String get hintActiveInvites => 'Aktive Einladungen';
+
+  @override
+  String get labelAvailable => 'verfügbar';
+
+  @override
+  String get labelChoosePackage => 'Paket wählen';
+
+  @override
+  String get labelCredits => 'Guthaben';
+
+  @override
+  String get labelEur => 'EUR';
+
+  @override
+  String get authManageCompliance => 'KI-Compliance zentral verwalten.';
+
+  @override
+  String get authManageComplianceDesc =>
+      'Rulefox führt Unternehmen von der Einrichtung und Mitarbeitereinladung bis zum exportierbaren Nachweis.';
+
+  @override
+  String get authCheckQuotas =>
+      'Testkontingente und -zuweisungen im Blick behalten';
+
+  @override
+  String get authCheckEvidence => 'Ergebnisorientierte Nachweise';
+
+  @override
+  String get authCheckInterface => 'Reduzierte, auditkonforme Schnittstelle';
+
+  @override
+  String get authLoginDashboard => 'Login im Dashboard';
+
+  @override
+  String get authLoginDashboardDesc =>
+      'Melden Sie sich an, um Tests, Personal und Nachweise zu verwalten.';
+
+  @override
+  String get authEmailAddress => 'E-Mail-Adresse';
+
+  @override
+  String get authEmailHint => 'admin@unternehmen.at';
+
+  @override
+  String get authCreateAccount => 'Account erstellen';
+
+  @override
+  String get authReadyMinutes => 'In wenigen Minuten startklar.';
+
+  @override
+  String get authReadyMinutesDesc =>
+      'Nach der Registrierung können Sie Mitarbeiter importieren, Tests zuweisen und Nachweise exportieren.';
+
+  @override
+  String get authStepCreateBusiness => 'Unternehmen anlegen';
+
+  @override
+  String get authStepSelectQuota => 'Kontingent wählen';
+
+  @override
+  String get authStepStartCompliance => 'KI-Compliance Test starten';
+
+  @override
+  String get authSettingUpBusiness => 'Unternehmen anlegen';
+
+  @override
+  String get authSettingUpBusinessDesc =>
+      'Erstellen Sie Ihr Rulefox-Konto und starten Sie den KI-Compliance Test.';
+
+  @override
+  String get authFirstName => 'Vorname';
+
+  @override
+  String get authFirstNameHint => 'Max';
+
+  @override
+  String get authLastName => 'Nachname';
+
+  @override
+  String get authLastNameHint => 'Mustermann';
+
+  @override
+  String get authEmail => 'E-Mail';
+
+  @override
+  String get authEmailHintAlt => 'max@beispiel.at';
+
+  @override
+  String get authCompany => 'Unternehmen';
+
+  @override
+  String get authCompanyHint => 'Beispiel GmbH';
+
+  @override
+  String get authCountryLabel => 'Land';
+
+  @override
+  String get authSelectCountry => 'Land auswählen';
+
+  @override
+  String get authCategory => 'Kategorie';
+
+  @override
+  String get authSelectCategory => 'Kategorie auswählen';
+
+  @override
+  String get authVatOptional => 'USt-IdNr. (optional)';
+
+  @override
+  String get authVatHint => 'USt-IdNr. eingeben';
+
+  @override
+  String get authAddress => 'Adresse';
+
+  @override
+  String get authAddressHint => 'Adresse eingeben';
+
+  @override
+  String get authUpdatePassword => 'Passwort aktualisieren';
+
+  @override
+  String get authVerifyOtp => 'OTP verifizieren';
+
+  @override
+  String get buttonChoose => 'Auswählen';
+
+  @override
+  String get billingCreditsTaken => 'Verwendete Credits';
+
+  @override
+  String get billingTotalSpent => 'Gesamtausgaben';
+
+  @override
+  String get billingPendingInvoices => 'Ausstehende Rechnungen';
+
+  @override
+  String get billingTotalThroughoutTime => 'Gesamt bisher';
+
+  @override
+  String get billingSuccessfulPayments => 'Erfolgreiche Zahlungen';
+
+  @override
+  String get billingRequireAttention => 'Aufmerksamkeit erforderlich';
 }
