@@ -1199,7 +1199,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsSearchHint.
   ///
   /// In en, this message translates to:
-  /// **'Employees are looking for'**
+  /// **'Search employees'**
   String get resultsSearchHint;
 
   /// No description provided for @resultsGroupBy.
@@ -2873,8 +2873,8 @@ abstract class AppLocalizations {
   /// No description provided for @statAssignedOutOf.
   ///
   /// In en, this message translates to:
-  /// **'assigned {count} out of {total}'**
-  String statAssignedOutOf(int count, int total);
+  /// **'{count} of {total} assigned'**
+  String statAssignedOutOf(Object count, Object total);
 
   /// No description provided for @exportEvidenceAction.
   ///
@@ -2995,6 +2995,246 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Add Employees'**
   String get addEmployees;
+
+  /// No description provided for @labelDownload.
+  ///
+  /// In en, this message translates to:
+  /// **'Download'**
+  String get labelDownload;
+
+  /// No description provided for @labelRemind.
+  ///
+  /// In en, this message translates to:
+  /// **'Remind'**
+  String get labelRemind;
+
+  /// No description provided for @resultsColCompletion.
+  ///
+  /// In en, this message translates to:
+  /// **'Completion'**
+  String get resultsColCompletion;
+
+  /// No description provided for @resultsColProof.
+  ///
+  /// In en, this message translates to:
+  /// **'Proof'**
+  String get resultsColProof;
+
+  /// No description provided for @resultsStatTestResult.
+  ///
+  /// In en, this message translates to:
+  /// **'Test result'**
+  String get resultsStatTestResult;
+
+  /// No description provided for @resultsPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Results & Evidence'**
+  String get resultsPageTitle;
+
+  /// No description provided for @resultsPageSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
+  String get resultsPageSubtitle;
+
+  /// No description provided for @snackReminderSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder sent to {name}'**
+  String snackReminderSent(String name);
+
+  /// No description provided for @snackNoResultsToExport.
+  ///
+  /// In en, this message translates to:
+  /// **'No passed results to export.'**
+  String get snackNoResultsToExport;
+
+  /// No description provided for @csvHeaderEmployee.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee'**
+  String get csvHeaderEmployee;
+
+  /// No description provided for @csvHeaderTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Test'**
+  String get csvHeaderTest;
+
+  /// No description provided for @csvHeaderScore.
+  ///
+  /// In en, this message translates to:
+  /// **'Score'**
+  String get csvHeaderScore;
+
+  /// No description provided for @csvHeaderStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get csvHeaderStatus;
+
+  /// No description provided for @csvHeaderDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Completion'**
+  String get csvHeaderDate;
+
+  /// No description provided for @labelEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get labelEmployees;
+
+  /// No description provided for @statusInvited.
+  ///
+  /// In en, this message translates to:
+  /// **'Invited'**
+  String get statusInvited;
+
+  /// No description provided for @statusExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Expired'**
+  String get statusExpired;
+
+  /// No description provided for @errorPassedOnly.
+  ///
+  /// In en, this message translates to:
+  /// **'Only available for passed tests.'**
+  String get errorPassedOnly;
+
+  /// No description provided for @snackError.
+  ///
+  /// In en, this message translates to:
+  /// **'Error'**
+  String get snackError;
+
+  /// No description provided for @filterNone.
+  ///
+  /// In en, this message translates to:
+  /// **'None'**
+  String get filterNone;
+
+  /// No description provided for @labelDepartment.
+  ///
+  /// In en, this message translates to:
+  /// **'Department'**
+  String get labelDepartment;
+
+  /// No description provided for @labelEmployeeID.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee ID'**
+  String get labelEmployeeID;
+
+  /// No description provided for @filterDateNewest.
+  ///
+  /// In en, this message translates to:
+  /// **'Date Added (Newest)'**
+  String get filterDateNewest;
+
+  /// No description provided for @filterDateOldest.
+  ///
+  /// In en, this message translates to:
+  /// **'Date Added (Oldest)'**
+  String get filterDateOldest;
+
+  /// No description provided for @buttonAddEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'+ Add Employees'**
+  String get buttonAddEmployees;
+
+  /// No description provided for @labelFirstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get labelFirstName;
+
+  /// No description provided for @labelLastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Last Name'**
+  String get labelLastName;
+
+  /// No description provided for @labelEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get labelEmail;
+
+  /// No description provided for @labelAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Action'**
+  String get labelAction;
+
+  /// No description provided for @tooltipEdit.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Details'**
+  String get tooltipEdit;
+
+  /// No description provided for @tooltipDelete.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get tooltipDelete;
+
+  /// No description provided for @msgSaving.
+  ///
+  /// In en, this message translates to:
+  /// **'Saving...'**
+  String get msgSaving;
+
+  /// No description provided for @msgEmployeeSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee saved successfully!'**
+  String get msgEmployeeSaved;
+
+  /// No description provided for @msgImporting.
+  ///
+  /// In en, this message translates to:
+  /// **'Importing Employees...'**
+  String get msgImporting;
+
+  /// No description provided for @msgEmployeesImported.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees imported successfully!'**
+  String get msgEmployeesImported;
+
+  /// No description provided for @titleDeleteEmployee.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Employee'**
+  String get titleDeleteEmployee;
+
+  /// No description provided for @msgDeleteConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete {name}?\nThis action cannot be undone.'**
+  String msgDeleteConfirm(Object name);
+
+  /// No description provided for @labelCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get labelCancel;
+
+  /// No description provided for @labelDelete.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get labelDelete;
+
+  /// No description provided for @labelOthers.
+  ///
+  /// In en, this message translates to:
+  /// **'Others'**
+  String get labelOthers;
 }
 
 class _AppLocalizationsDelegate

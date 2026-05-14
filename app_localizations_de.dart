@@ -582,7 +582,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resultsNoResults => 'Keine Ergebnisse gefunden';
 
   @override
-  String get resultsSearchHint => 'Mitarbeitende suchen nach';
+  String get resultsSearchHint => 'Mitarbeitende suchen';
 
   @override
   String get resultsGroupBy => 'Gruppieren nach';
@@ -1464,7 +1464,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get statInvitations => 'Einladungen';
 
   @override
-  String statAssignedOutOf(int count, int total) {
+  String statAssignedOutOf(Object count, Object total) {
     return '$count von $total zugewiesen';
   }
 
@@ -1527,4 +1527,129 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get addEmployees => 'Mitarbeitende hinzufügen';
+
+  @override
+  String get labelDownload => 'Download';
+
+  @override
+  String get labelRemind => 'Erinnern';
+
+  @override
+  String get resultsColCompletion => 'Abschluss';
+
+  @override
+  String get resultsColProof => 'Nachweis';
+
+  @override
+  String get resultsStatTestResult => 'Testergebnis';
+
+  @override
+  String get resultsPageTitle => 'Ergebnisse & Nachweise';
+
+  @override
+  String get resultsPageSubtitle =>
+      'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
+
+  @override
+  String snackReminderSent(String name) {
+    return 'Erinnerung an $name gesendet';
+  }
+
+  @override
+  String get snackNoResultsToExport => 'No passed results to export.';
+
+  @override
+  String get csvHeaderEmployee => 'Mitarbeiter';
+
+  @override
+  String get csvHeaderTest => 'Test';
+
+  @override
+  String get csvHeaderScore => 'Score';
+
+  @override
+  String get csvHeaderStatus => 'Status';
+
+  @override
+  String get csvHeaderDate => 'Abschluss';
+
+  @override
+  String get labelEmployees => 'Mitarbeitende';
+
+  @override
+  String get statusInvited => 'Eingeladen';
+
+  @override
+  String get statusExpired => 'Abgelaufen';
+
+  @override
+  String get errorPassedOnly => 'Nur für bestandene Tests verfügbar.';
+
+  @override
+  String get snackError => 'Fehler';
+
+  @override
+  String get filterNone => 'Keine';
+
+  @override
+  String get labelDepartment => 'Abteilung';
+
+  @override
+  String get labelEmployeeID => 'Mitarbeiter ID';
+
+  @override
+  String get filterDateNewest => 'Datum (Neueste)';
+
+  @override
+  String get filterDateOldest => 'Datum (Älteste)';
+
+  @override
+  String get buttonAddEmployees => '+ Mitarbeitende hinzufügen';
+
+  @override
+  String get labelFirstName => 'Vorname';
+
+  @override
+  String get labelLastName => 'Nachname';
+
+  @override
+  String get labelEmail => 'Email';
+
+  @override
+  String get labelAction => 'Aktion';
+
+  @override
+  String get tooltipEdit => 'Bearbeiten';
+
+  @override
+  String get tooltipDelete => 'Löschen';
+
+  @override
+  String get msgSaving => 'Speichern...';
+
+  @override
+  String get msgEmployeeSaved => 'Mitarbeiter erfolgreich gespeichert!';
+
+  @override
+  String get msgImporting => 'Mitarbeitende werden importiert...';
+
+  @override
+  String get msgEmployeesImported => 'Mitarbeitende erfolgreich importiert!';
+
+  @override
+  String get titleDeleteEmployee => 'Mitarbeiter löschen';
+
+  @override
+  String msgDeleteConfirm(Object name) {
+    return 'Sind Sie sicher, dass Sie $name löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.';
+  }
+
+  @override
+  String get labelCancel => 'Abbrechen';
+
+  @override
+  String get labelDelete => 'Löschen';
+
+  @override
+  String get labelOthers => 'Andere';
 }

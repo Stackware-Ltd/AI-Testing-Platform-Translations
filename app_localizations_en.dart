@@ -581,7 +581,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get resultsNoResults => 'No results found';
 
   @override
-  String get resultsSearchHint => 'Employees are looking for';
+  String get resultsSearchHint => 'Search employees';
 
   @override
   String get resultsGroupBy => 'Group By';
@@ -1454,8 +1454,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get statInvitations => 'Invitations';
 
   @override
-  String statAssignedOutOf(int count, int total) {
-    return 'assigned $count out of $total';
+  String statAssignedOutOf(Object count, Object total) {
+    return '$count of $total assigned';
   }
 
   @override
@@ -1517,4 +1517,129 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get addEmployees => 'Add Employees';
+
+  @override
+  String get labelDownload => 'Download';
+
+  @override
+  String get labelRemind => 'Remind';
+
+  @override
+  String get resultsColCompletion => 'Completion';
+
+  @override
+  String get resultsColProof => 'Proof';
+
+  @override
+  String get resultsStatTestResult => 'Test result';
+
+  @override
+  String get resultsPageTitle => 'Results & Evidence';
+
+  @override
+  String get resultsPageSubtitle =>
+      'Document AI literacy, test status and evidence centrally in Rulefox.';
+
+  @override
+  String snackReminderSent(String name) {
+    return 'Reminder sent to $name';
+  }
+
+  @override
+  String get snackNoResultsToExport => 'No passed results to export.';
+
+  @override
+  String get csvHeaderEmployee => 'Employee';
+
+  @override
+  String get csvHeaderTest => 'Test';
+
+  @override
+  String get csvHeaderScore => 'Score';
+
+  @override
+  String get csvHeaderStatus => 'Status';
+
+  @override
+  String get csvHeaderDate => 'Completion';
+
+  @override
+  String get labelEmployees => 'Employees';
+
+  @override
+  String get statusInvited => 'Invited';
+
+  @override
+  String get statusExpired => 'Expired';
+
+  @override
+  String get errorPassedOnly => 'Only available for passed tests.';
+
+  @override
+  String get snackError => 'Error';
+
+  @override
+  String get filterNone => 'None';
+
+  @override
+  String get labelDepartment => 'Department';
+
+  @override
+  String get labelEmployeeID => 'Employee ID';
+
+  @override
+  String get filterDateNewest => 'Date Added (Newest)';
+
+  @override
+  String get filterDateOldest => 'Date Added (Oldest)';
+
+  @override
+  String get buttonAddEmployees => '+ Add Employees';
+
+  @override
+  String get labelFirstName => 'First Name';
+
+  @override
+  String get labelLastName => 'Last Name';
+
+  @override
+  String get labelEmail => 'Email';
+
+  @override
+  String get labelAction => 'Action';
+
+  @override
+  String get tooltipEdit => 'Edit Details';
+
+  @override
+  String get tooltipDelete => 'Delete';
+
+  @override
+  String get msgSaving => 'Saving...';
+
+  @override
+  String get msgEmployeeSaved => 'Employee saved successfully!';
+
+  @override
+  String get msgImporting => 'Importing Employees...';
+
+  @override
+  String get msgEmployeesImported => 'Employees imported successfully!';
+
+  @override
+  String get titleDeleteEmployee => 'Delete Employee';
+
+  @override
+  String msgDeleteConfirm(Object name) {
+    return 'Are you sure you want to delete $name?\nThis action cannot be undone.';
+  }
+
+  @override
+  String get labelCancel => 'Cancel';
+
+  @override
+  String get labelDelete => 'Delete';
+
+  @override
+  String get labelOthers => 'Others';
 }

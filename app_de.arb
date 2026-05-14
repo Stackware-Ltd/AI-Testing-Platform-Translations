@@ -162,7 +162,6 @@
   "billingColumnAmount": "Betrag",
   "billingColumnStatus": "Status",
   "billingColumnInvoice": "Rechnung",
-
   "tabBilling": "Abrechnung",
   "tabPurchaseHistory": "Kaufverlauf",
   "tabAvailableTests": "Verfügbares Guthaben",
@@ -225,7 +224,7 @@
   },
   "resultsSingleCertDownloaded": "Zertifikat erfolgreich heruntergeladen",
   "resultsNoResults": "Keine Ergebnisse gefunden",
-  "resultsSearchHint": "Ergebnisse durchsuchen...",
+  "resultsSearchHint": "Mitarbeitende suchen",
   "resultsGroupBy": "Gruppieren nach",
   "resultsAll": "Alle",
   "resultsPass": "Bestanden",
@@ -465,7 +464,6 @@
   "subtitleResults": "Überprüfen Sie die Ergebnisse und Nachweise Ihrer Mitarbeitenden.",
   "subtitleBilling": "Verwalten Sie Ihre Abonnements, Rechnungen und Zahlungsmethoden.",
   "subtitleSettings": "Konfigurieren Sie Ihre persönlichen und Unternehmenseinstellungen.",
-
   "vatOptional": "Umsatzsteuer (optional)",
   "tabOverview": "Übersicht",
   "tabInvoices": "Rechnungen",
@@ -518,51 +516,19 @@
   "authAddressHint": "Adresse eingeben",
   "authUpdatePassword": "Passwort aktualisieren",
   "authVerifyOtp": "OTP verifizieren",
-
   "buttonChoose": "Auswählen",
   "billingCreditsTaken": "Verwendete Credits",
   "billingTotalSpent": "Gesamtausgaben",
   "billingPendingInvoices": "Ausstehende Rechnungen",
   "billingTotalThroughoutTime": "Gesamt bisher",
   "billingSuccessfulPayments": "Erfolgreiche Zahlungen",
-  "billingRequireAttention": "Aufmerksamkeit erforderlich"
-  ,"statEvidence": "Nachweise",
+  "billingRequireAttention": "Aufmerksamkeit erforderlich",
+  "statEvidence": "Nachweise",
   "statExportable": "exportierbar",
   "statAverage": "Durchschnitt",
   "statOpen": "Offen",
   "statInvitations": "Einladungen",
   "statAssignedOutOf": "{count} von {total} zugewiesen",
-  "@statAssignedOutOf": {
-    "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "int" }
-    }
-  },
-  "resultsSearchHint": "Mitarbeitende suchen nach",
-  "exportEvidenceAction": "Nachweise exportieren",
-  "testResultsTitle": "Testergebnisse",
-  "exportCsvAction": "CSV exportieren"
-  ,"filterAllStatus": "Alle Status",
-  "filterAllDepartments": "Alle Abteilungen",
-  "statEmployees": "Mitarbeitende",
-  "statInvited": "Eingeladen",
-  "statCertificates": "Zertifikate",
-  "tabEmployees": "Mitarbeitende",
-  "tabInvites": "Einladungen",
-  "tabImport": "Importieren"
-  ,"statEvidence": "Nachweise",
-  "statExportable": "exportierbar",
-  "statAverage": "Durchschnitt",
-  "statOpen": "Offen",
-  "statInvitations": "Einladungen",
-  "statAssignedOutOf": "{count} von {total} zugewiesen",
-  "@statAssignedOutOf": {
-    "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "int" }
-    }
-  },
-  "resultsSearchHint": "Mitarbeitende suchen nach",
   "exportEvidenceAction": "Nachweise exportieren",
   "testResultsTitle": "Testergebnisse",
   "exportCsvAction": "CSV exportieren",
@@ -581,6 +547,52 @@
   "labelDragDropFile": "Datei hierher ziehen",
   "labelBrowseFile": "Datei auswählen",
   "labelDownloadTemplate": "CSV-Vorlage herunterladen",
-  "saveDetails": "Details speichern"
-  ,"addEmployees": "Mitarbeitende hinzufügen"
+  "saveDetails": "Details speichern",
+  "addEmployees": "Mitarbeitende hinzufügen",
+  "labelDownload": "Download",
+  "labelRemind": "Erinnern",
+  "resultsColCompletion": "Abschluss",
+  "resultsColProof": "Nachweis",
+  "resultsStatTestResult": "Testergebnis",
+  "resultsPageTitle": "Ergebnisse & Nachweise",
+  "resultsPageSubtitle": "Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.",
+  "csvHeaderEmployee": "Mitarbeiter",
+  "csvHeaderTest": "Test",
+  "csvHeaderScore": "Score",
+  "csvHeaderStatus": "Status",
+  "csvHeaderDate": "Abschluss",
+  "labelEmployees": "Mitarbeitende",
+  "statusInvited": "Eingeladen",
+  "statusExpired": "Abgelaufen",
+  "errorPassedOnly": "Nur für bestandene Tests verfügbar.",
+  "snackReminderSent": "Erinnerung an {name} gesendet",
+  "@snackReminderSent": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "snackError": "Fehler",
+  "filterNone": "Keine",
+  "labelDepartment": "Abteilung",
+  "labelEmployeeID": "Mitarbeiter ID",
+  "filterDateNewest": "Datum (Neueste)",
+  "filterDateOldest": "Datum (Älteste)",
+  "buttonAddEmployees": "+ Mitarbeitende hinzufügen",
+  "labelFirstName": "Vorname",
+  "labelLastName": "Nachname",
+  "labelEmail": "Email",
+  "labelAction": "Aktion",
+  "tooltipEdit": "Bearbeiten",
+  "tooltipDelete": "Löschen",
+  "msgSaving": "Speichern...",
+  "msgEmployeeSaved": "Mitarbeiter erfolgreich gespeichert!",
+  "msgImporting": "Mitarbeitende werden importiert...",
+  "msgEmployeesImported": "Mitarbeitende erfolgreich importiert!",
+  "titleDeleteEmployee": "Mitarbeiter löschen",
+  "msgDeleteConfirm": "Sind Sie sicher, dass Sie {name} löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.",
+  "labelCancel": "Abbrechen",
+  "labelDelete": "Löschen",
+  "labelOthers": "Andere"
 }

@@ -142,7 +142,6 @@
   "billingColumnAmount": "Amount",
   "billingColumnStatus": "Status",
   "billingColumnInvoice": "Invoice",
-
   "tabBilling": "Billing",
   "tabPurchaseHistory": "Purchase History",
   "tabAvailableTests": "Available Credits",
@@ -205,7 +204,7 @@
   },
   "resultsSingleCertDownloaded": "Certificate downloaded successfully",
   "resultsNoResults": "No results found",
-  "resultsSearchHint": "Search results...",
+  "resultsSearchHint": "Search employees",
   "resultsGroupBy": "Group By",
   "resultsAll": "All",
   "resultsPass": "Passed",
@@ -465,7 +464,6 @@
   "subtitleResults": "Review results and evidence of your employees.",
   "subtitleBilling": "Manage your subscriptions, invoices, and payment methods.",
   "subtitleSettings": "Configure your personal and company settings.",
-
   "vatOptional": "VAT (Optional)",
   "tabOverview": "Overview",
   "tabInvoices": "Invoices",
@@ -518,51 +516,19 @@
   "authAddressHint": "Enter your address",
   "authUpdatePassword": "Update password",
   "authVerifyOtp": "Verify OTP",
-
   "buttonChoose": "Choose",
   "billingCreditsTaken": "Credits Taken",
   "billingTotalSpent": "Total Spent",
   "billingPendingInvoices": "Pending Invoices",
   "billingTotalThroughoutTime": "Total throughout time",
   "billingSuccessfulPayments": "Successful payments",
-  "billingRequireAttention": "Require attention"
-  ,"statEvidence": "Evidence",
+  "billingRequireAttention": "Require attention",
+  "statEvidence": "Evidence",
   "statExportable": "exportable",
   "statAverage": "Average",
   "statOpen": "Open",
   "statInvitations": "Invitations",
-  "statAssignedOutOf": "assigned {count} out of {total}",
-  "@statAssignedOutOf": {
-    "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "int" }
-    }
-  },
-  "resultsSearchHint": "Employees are looking for",
-  "exportEvidenceAction": "Export evidence",
-  "testResultsTitle": "Test results",
-  "exportCsvAction": "Export CSV"
-  ,"filterAllStatus": "All Status",
-  "filterAllDepartments": "All Departments",
-  "statEmployees": "Employees",
-  "statInvited": "Invited",
-  "statCertificates": "Certificates",
-  "tabEmployees": "Employees",
-  "tabInvites": "Invites",
-  "tabImport": "Import"
-  ,"statEvidence": "Evidence",
-  "statExportable": "exportable",
-  "statAverage": "Average",
-  "statOpen": "Open",
-  "statInvitations": "Invitations",
-  "statAssignedOutOf": "assigned {count} out of {total}",
-  "@statAssignedOutOf": {
-    "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "int" }
-    }
-  },
-  "resultsSearchHint": "Employees are looking for",
+  "statAssignedOutOf": "{count} of {total} assigned",
   "exportEvidenceAction": "Export evidence",
   "testResultsTitle": "Test results",
   "exportCsvAction": "Export CSV",
@@ -581,6 +547,54 @@
   "labelDragDropFile": "Drag and drop file here",
   "labelBrowseFile": "Browse file",
   "labelDownloadTemplate": "Download CSV Template",
-  "saveDetails": "Save Details"
-  ,"addEmployees": "Add Employees"
+  "saveDetails": "Save Details",
+  "addEmployees": "Add Employees",
+  "labelDownload": "Download",
+  "labelRemind": "Remind",
+  "resultsColCompletion": "Completion",
+  "resultsColProof": "Proof",
+  "resultsStatTestResult": "Test result",
+  "resultsPageTitle": "Results & Evidence",
+  "resultsPageSubtitle": "Document AI literacy, test status and evidence centrally in Rulefox.",
+  "snackReminderSent": "Reminder sent to {name}",
+  "snackNoResultsToExport": "No passed results to export.",
+  "csvHeaderEmployee": "Employee",
+  "csvHeaderTest": "Test",
+  "csvHeaderScore": "Score",
+  "csvHeaderStatus": "Status",
+  "csvHeaderDate": "Completion",
+  "labelEmployees": "Employees",
+  "statusInvited": "Invited",
+  "statusExpired": "Expired",
+  "errorPassedOnly": "Only available for passed tests.",
+  "snackReminderSent": "Reminder sent to {name}",
+  "@snackReminderSent": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "snackError": "Error",
+  "filterNone": "None",
+  "labelDepartment": "Department",
+  "labelEmployeeID": "Employee ID",
+  "filterDateNewest": "Date Added (Newest)",
+  "filterDateOldest": "Date Added (Oldest)",
+  "buttonAddEmployees": "+ Add Employees",
+  "labelFirstName": "First Name",
+  "labelLastName": "Last Name",
+  "labelEmail": "Email",
+  "labelAction": "Action",
+  "tooltipEdit": "Edit Details",
+  "tooltipDelete": "Delete",
+  "msgSaving": "Saving...",
+  "msgEmployeeSaved": "Employee saved successfully!",
+  "msgImporting": "Importing Employees...",
+  "msgEmployeesImported": "Employees imported successfully!",
+  "titleDeleteEmployee": "Delete Employee",
+  "msgDeleteConfirm": "Are you sure you want to delete {name}?\nThis action cannot be undone.",
+  "labelCancel": "Cancel",
+  "labelDelete": "Delete",
+  "labelOthers": "Others"
 }
