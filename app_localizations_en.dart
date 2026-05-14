@@ -581,7 +581,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get resultsNoResults => 'No results found';
 
   @override
-  String get resultsSearchHint => 'Search results...';
+  String get resultsSearchHint => 'Employees are looking for';
 
   @override
   String get resultsGroupBy => 'Group By';
@@ -1437,4 +1437,84 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get billingRequireAttention => 'Require attention';
+
+  @override
+  String get statEvidence => 'Evidence';
+
+  @override
+  String get statExportable => 'exportable';
+
+  @override
+  String get statAverage => 'Average';
+
+  @override
+  String get statOpen => 'Open';
+
+  @override
+  String get statInvitations => 'Invitations';
+
+  @override
+  String statAssignedOutOf(int count, int total) {
+    return 'assigned $count out of $total';
+  }
+
+  @override
+  String get exportEvidenceAction => 'Export evidence';
+
+  @override
+  String get testResultsTitle => 'Test results';
+
+  @override
+  String get exportCsvAction => 'Export CSV';
+
+  @override
+  String get filterAllStatus => 'All Status';
+
+  @override
+  String get filterAllDepartments => 'All Departments';
+
+  @override
+  String get statEmployees => 'Employees';
+
+  @override
+  String get statInvited => 'Invited';
+
+  @override
+  String get statCertificates => 'Certificates';
+
+  @override
+  String get tabEmployees => 'Employees';
+
+  @override
+  String get tabInvites => 'Invites';
+
+  @override
+  String get tabImport => 'Import';
+
+  @override
+  String get editEmployee => 'Edit Employee';
+
+  @override
+  String get labelOr => 'OR';
+
+  @override
+  String get labelUploadCsv => 'Upload CSV';
+
+  @override
+  String get labelTapChangeFile => 'Tap to change file';
+
+  @override
+  String get labelDragDropFile => 'Drag and drop file here';
+
+  @override
+  String get labelBrowseFile => 'Browse file';
+
+  @override
+  String get labelDownloadTemplate => 'Download CSV Template';
+
+  @override
+  String get saveDetails => 'Save Details';
+
+  @override
+  String get addEmployees => 'Add Employees';
 }

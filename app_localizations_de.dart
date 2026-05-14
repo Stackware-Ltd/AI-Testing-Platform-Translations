@@ -582,7 +582,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resultsNoResults => 'Keine Ergebnisse gefunden';
 
   @override
-  String get resultsSearchHint => 'Ergebnisse durchsuchen...';
+  String get resultsSearchHint => 'Mitarbeitende suchen nach';
 
   @override
   String get resultsGroupBy => 'Gruppieren nach';
@@ -1447,4 +1447,84 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get billingRequireAttention => 'Aufmerksamkeit erforderlich';
+
+  @override
+  String get statEvidence => 'Nachweise';
+
+  @override
+  String get statExportable => 'exportierbar';
+
+  @override
+  String get statAverage => 'Durchschnitt';
+
+  @override
+  String get statOpen => 'Offen';
+
+  @override
+  String get statInvitations => 'Einladungen';
+
+  @override
+  String statAssignedOutOf(int count, int total) {
+    return '$count von $total zugewiesen';
+  }
+
+  @override
+  String get exportEvidenceAction => 'Nachweise exportieren';
+
+  @override
+  String get testResultsTitle => 'Testergebnisse';
+
+  @override
+  String get exportCsvAction => 'CSV exportieren';
+
+  @override
+  String get filterAllStatus => 'Alle Status';
+
+  @override
+  String get filterAllDepartments => 'Alle Abteilungen';
+
+  @override
+  String get statEmployees => 'Mitarbeitende';
+
+  @override
+  String get statInvited => 'Eingeladen';
+
+  @override
+  String get statCertificates => 'Zertifikate';
+
+  @override
+  String get tabEmployees => 'Mitarbeitende';
+
+  @override
+  String get tabInvites => 'Einladungen';
+
+  @override
+  String get tabImport => 'Importieren';
+
+  @override
+  String get editEmployee => 'Mitarbeitenden bearbeiten';
+
+  @override
+  String get labelOr => 'ODER';
+
+  @override
+  String get labelUploadCsv => 'CSV hochladen';
+
+  @override
+  String get labelTapChangeFile => 'Tippen zum Ändern';
+
+  @override
+  String get labelDragDropFile => 'Datei hierher ziehen';
+
+  @override
+  String get labelBrowseFile => 'Datei auswählen';
+
+  @override
+  String get labelDownloadTemplate => 'CSV-Vorlage herunterladen';
+
+  @override
+  String get saveDetails => 'Details speichern';
+
+  @override
+  String get addEmployees => 'Mitarbeitende hinzufügen';
 }

@@ -526,4 +526,61 @@
   "billingTotalThroughoutTime": "Gesamt bisher",
   "billingSuccessfulPayments": "Erfolgreiche Zahlungen",
   "billingRequireAttention": "Aufmerksamkeit erforderlich"
+  ,"statEvidence": "Nachweise",
+  "statExportable": "exportierbar",
+  "statAverage": "Durchschnitt",
+  "statOpen": "Offen",
+  "statInvitations": "Einladungen",
+  "statAssignedOutOf": "{count} von {total} zugewiesen",
+  "@statAssignedOutOf": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "resultsSearchHint": "Mitarbeitende suchen nach",
+  "exportEvidenceAction": "Nachweise exportieren",
+  "testResultsTitle": "Testergebnisse",
+  "exportCsvAction": "CSV exportieren"
+  ,"filterAllStatus": "Alle Status",
+  "filterAllDepartments": "Alle Abteilungen",
+  "statEmployees": "Mitarbeitende",
+  "statInvited": "Eingeladen",
+  "statCertificates": "Zertifikate",
+  "tabEmployees": "Mitarbeitende",
+  "tabInvites": "Einladungen",
+  "tabImport": "Importieren"
+  ,"statEvidence": "Nachweise",
+  "statExportable": "exportierbar",
+  "statAverage": "Durchschnitt",
+  "statOpen": "Offen",
+  "statInvitations": "Einladungen",
+  "statAssignedOutOf": "{count} von {total} zugewiesen",
+  "@statAssignedOutOf": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "resultsSearchHint": "Mitarbeitende suchen nach",
+  "exportEvidenceAction": "Nachweise exportieren",
+  "testResultsTitle": "Testergebnisse",
+  "exportCsvAction": "CSV exportieren",
+  "filterAllStatus": "Alle Status",
+  "filterAllDepartments": "Alle Abteilungen",
+  "statEmployees": "Mitarbeitende",
+  "statInvited": "Eingeladen",
+  "statCertificates": "Zertifikate",
+  "tabEmployees": "Mitarbeitende",
+  "tabInvites": "Einladungen",
+  "tabImport": "Importieren",
+  "editEmployee": "Mitarbeitenden bearbeiten",
+  "labelOr": "ODER",
+  "labelUploadCsv": "CSV hochladen",
+  "labelTapChangeFile": "Tippen zum Ändern",
+  "labelDragDropFile": "Datei hierher ziehen",
+  "labelBrowseFile": "Datei auswählen",
+  "labelDownloadTemplate": "CSV-Vorlage herunterladen",
+  "saveDetails": "Details speichern"
+  ,"addEmployees": "Mitarbeitende hinzufügen"
 }

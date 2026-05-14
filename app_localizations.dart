@@ -1199,7 +1199,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsSearchHint.
   ///
   /// In en, this message translates to:
-  /// **'Search results...'**
+  /// **'Employees are looking for'**
   String get resultsSearchHint;
 
   /// No description provided for @resultsGroupBy.
@@ -2839,6 +2839,162 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Require attention'**
   String get billingRequireAttention;
+
+  /// No description provided for @statEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get statEvidence;
+
+  /// No description provided for @statExportable.
+  ///
+  /// In en, this message translates to:
+  /// **'exportable'**
+  String get statExportable;
+
+  /// No description provided for @statAverage.
+  ///
+  /// In en, this message translates to:
+  /// **'Average'**
+  String get statAverage;
+
+  /// No description provided for @statOpen.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get statOpen;
+
+  /// No description provided for @statInvitations.
+  ///
+  /// In en, this message translates to:
+  /// **'Invitations'**
+  String get statInvitations;
+
+  /// No description provided for @statAssignedOutOf.
+  ///
+  /// In en, this message translates to:
+  /// **'assigned {count} out of {total}'**
+  String statAssignedOutOf(int count, int total);
+
+  /// No description provided for @exportEvidenceAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get exportEvidenceAction;
+
+  /// No description provided for @testResultsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Test results'**
+  String get testResultsTitle;
+
+  /// No description provided for @exportCsvAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Export CSV'**
+  String get exportCsvAction;
+
+  /// No description provided for @filterAllStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'All Status'**
+  String get filterAllStatus;
+
+  /// No description provided for @filterAllDepartments.
+  ///
+  /// In en, this message translates to:
+  /// **'All Departments'**
+  String get filterAllDepartments;
+
+  /// No description provided for @statEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get statEmployees;
+
+  /// No description provided for @statInvited.
+  ///
+  /// In en, this message translates to:
+  /// **'Invited'**
+  String get statInvited;
+
+  /// No description provided for @statCertificates.
+  ///
+  /// In en, this message translates to:
+  /// **'Certificates'**
+  String get statCertificates;
+
+  /// No description provided for @tabEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get tabEmployees;
+
+  /// No description provided for @tabInvites.
+  ///
+  /// In en, this message translates to:
+  /// **'Invites'**
+  String get tabInvites;
+
+  /// No description provided for @tabImport.
+  ///
+  /// In en, this message translates to:
+  /// **'Import'**
+  String get tabImport;
+
+  /// No description provided for @editEmployee.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Employee'**
+  String get editEmployee;
+
+  /// No description provided for @labelOr.
+  ///
+  /// In en, this message translates to:
+  /// **'OR'**
+  String get labelOr;
+
+  /// No description provided for @labelUploadCsv.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload CSV'**
+  String get labelUploadCsv;
+
+  /// No description provided for @labelTapChangeFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to change file'**
+  String get labelTapChangeFile;
+
+  /// No description provided for @labelDragDropFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Drag and drop file here'**
+  String get labelDragDropFile;
+
+  /// No description provided for @labelBrowseFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Browse file'**
+  String get labelBrowseFile;
+
+  /// No description provided for @labelDownloadTemplate.
+  ///
+  /// In en, this message translates to:
+  /// **'Download CSV Template'**
+  String get labelDownloadTemplate;
+
+  /// No description provided for @saveDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Details'**
+  String get saveDetails;
+
+  /// No description provided for @addEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Employees'**
+  String get addEmployees;
 }
 
 class _AppLocalizationsDelegate

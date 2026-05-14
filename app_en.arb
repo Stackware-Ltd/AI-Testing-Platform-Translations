@@ -526,4 +526,61 @@
   "billingTotalThroughoutTime": "Total throughout time",
   "billingSuccessfulPayments": "Successful payments",
   "billingRequireAttention": "Require attention"
+  ,"statEvidence": "Evidence",
+  "statExportable": "exportable",
+  "statAverage": "Average",
+  "statOpen": "Open",
+  "statInvitations": "Invitations",
+  "statAssignedOutOf": "assigned {count} out of {total}",
+  "@statAssignedOutOf": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "resultsSearchHint": "Employees are looking for",
+  "exportEvidenceAction": "Export evidence",
+  "testResultsTitle": "Test results",
+  "exportCsvAction": "Export CSV"
+  ,"filterAllStatus": "All Status",
+  "filterAllDepartments": "All Departments",
+  "statEmployees": "Employees",
+  "statInvited": "Invited",
+  "statCertificates": "Certificates",
+  "tabEmployees": "Employees",
+  "tabInvites": "Invites",
+  "tabImport": "Import"
+  ,"statEvidence": "Evidence",
+  "statExportable": "exportable",
+  "statAverage": "Average",
+  "statOpen": "Open",
+  "statInvitations": "Invitations",
+  "statAssignedOutOf": "assigned {count} out of {total}",
+  "@statAssignedOutOf": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "resultsSearchHint": "Employees are looking for",
+  "exportEvidenceAction": "Export evidence",
+  "testResultsTitle": "Test results",
+  "exportCsvAction": "Export CSV",
+  "filterAllStatus": "All Status",
+  "filterAllDepartments": "All Departments",
+  "statEmployees": "Employees",
+  "statInvited": "Invited",
+  "statCertificates": "Certificates",
+  "tabEmployees": "Employees",
+  "tabInvites": "Invites",
+  "tabImport": "Import",
+  "editEmployee": "Edit Employee",
+  "labelOr": "OR",
+  "labelUploadCsv": "Upload CSV",
+  "labelTapChangeFile": "Tap to change file",
+  "labelDragDropFile": "Drag and drop file here",
+  "labelBrowseFile": "Browse file",
+  "labelDownloadTemplate": "Download CSV Template",
+  "saveDetails": "Save Details"
+  ,"addEmployees": "Add Employees"
 }
