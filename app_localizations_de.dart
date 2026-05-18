@@ -1522,10 +1522,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelTapChangeFile => 'Tippen zum Ändern';
 
   @override
-  String get labelDragDropFile => 'Datei hierher ziehen';
+  String get labelDragDropFile => 'Ziehen Sie Ihre Datei hierher';
 
   @override
-  String get labelBrowseFile => 'Datei auswählen';
+  String get labelBrowseFile => 'Datei durchsuchen';
 
   @override
   String get labelDownloadTemplate => 'CSV-Vorlage herunterladen';
@@ -1661,6 +1661,111 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get labelOthers => 'Andere';
+
+  @override
+  String get ownerPlatformOverview => 'Rulefox Plattformübersicht';
+
+  @override
+  String get ownerPlatformDesc =>
+      'Verwalten Sie Tests, Mandanten und Plattformkennzahlen an einem Ort.';
+
+  @override
+  String get statRegisteredTests => 'Registrierte Tests';
+
+  @override
+  String get statRegisteredTestsHint => 'Aktive Testprodukte';
+
+  @override
+  String get statActiveClients => 'Aktive Mandanten';
+
+  @override
+  String get statActiveClientsHint => 'Unternehmen';
+
+  @override
+  String get statUsers => 'Nutzer';
+
+  @override
+  String get statUsersHint => 'Eingeladene Personen';
+
+  @override
+  String get statCompletionRateHint => 'Über alle Tests';
+
+  @override
+  String get titleCurrentTestProducts => 'Aktuelle Testprodukte';
+
+  @override
+  String get actionShowAll => 'Alle anzeigen';
+
+  @override
+  String get columnTest => 'Test';
+
+  @override
+  String get columnStatus => 'Status';
+
+  @override
+  String get columnPrice => 'Preis';
+
+  @override
+  String get columnAction => 'Aktion';
+
+  @override
+  String get titleNextAdminSteps => 'Nächste Admin-Schritte';
+
+  @override
+  String get stepComplianceCheckTitle => 'AI Compliance Test prüfen';
+
+  @override
+  String get stepComplianceCheckDesc =>
+      'Fragen, Preise und Nachweise freigeben';
+
+  @override
+  String get stepClientOnboardingTitle => 'Mandanten-Onboarding';
+
+  @override
+  String get stepClientOnboardingDesc => 'Demo-Mandant vorbereiten';
+
+  @override
+  String get buttonOpen => 'Öffnen';
+
+  @override
+  String get buttonStart => 'Starten';
+
+  @override
+  String get buttonPlan => 'Planen';
+
+  @override
+  String get titleTestManagement => 'Testverwaltung';
+
+  @override
+  String get descTestManagement =>
+      'Testprodukte, Preise und Veröffentlichungsstatus verwalten.';
+
+  @override
+  String get titleTestOverview => 'Testübersicht';
+
+  @override
+  String get columnName => 'Name';
+
+  @override
+  String get columnQuestions => 'Fragen';
+
+  @override
+  String get columnLastUpdated => 'Letzte Änderung';
+
+  @override
+  String get titleCreateNewTest => 'Neuen Test anlegen';
+
+  @override
+  String get subtitleCreateNewTest => 'Testprodukt als Entwurf vorbereiten.';
+
+  @override
+  String get labelTestName => 'Test Name';
+
+  @override
+  String get labelBriefDescription => 'Kurzbeschreibung';
+
+  @override
+  String get labelLanguage => 'Sprache';
 
   @override
   String get tooltipCannotDownloadFailed =>
@@ -1827,15 +1932,58 @@ class AppLocalizationsDe extends AppLocalizations {
   String get columnDepartment => 'Abteilung';
 
   @override
-  String get columnStatus => 'Status';
-
-  @override
-  String get columnAction => 'Aktion';
-
-  @override
   String get labelReassign => 'Neu zuweisen';
 
   @override
   String get subtitleAssignEmployees =>
       'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
+
+  @override
+  String get labelEdit => 'Bearbeiten';
+
+  @override
+  String get labelSaveAsDraft => 'Als Entwurf speichern';
+
+  @override
+  String get labelUploadAndPublish => 'Hochladen & Veröffentlichen';
+
+  @override
+  String get labelPreviewAndPublish => 'Vorschau & Veröffentlichen';
+
+  @override
+  String get labelUploadTestFile => 'Testdatei hochladen (.json)';
+
+  @override
+  String get labelTimeLimitMinutes => 'Zeitlimit (Minuten)';
+
+  @override
+  String get labelTimeLimitHint => 'z.B. 20 (0 für kein Limit)';
+
+  @override
+  String get labelCreditsRequired => 'Benötigte Credits';
+
+  @override
+  String get labelCreditsHint => 'z.B. 30';
+
+  @override
+  String get labelFreeTest => 'Kostenloser Test';
+
+  @override
+  String get labelNoCreditsRequired => 'Keine Credits erforderlich';
+
+  @override
+  String get labelRequiresCredits => 'Erfordert Credits zum Kauf';
+
+  @override
+  String get labelTapToChangeFile => 'Tippen, um die Datei zu ändern';
+
+  @override
+  String get subtitleOwnerDashboard =>
+      'Verwalten Sie die Plattform, Testprodukte und Mandanten zentral.';
+
+  @override
+  String get labelMore => 'weitere';
+
+  @override
+  String get searchTests => 'Tests suchen';
 }
