@@ -3235,6 +3235,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Others'**
   String get labelOthers;
+
+  /// No description provided for @tooltipCannotDownloadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Certificate is only available for passed tests.'**
+  String get tooltipCannotDownloadFailed;
 }
 
 class _AppLocalizationsDelegate

@@ -596,5 +596,6 @@
   "msgDeleteConfirm": "Are you sure you want to delete {name}?\nThis action cannot be undone.",
   "labelCancel": "Cancel",
   "labelDelete": "Delete",
-  "labelOthers": "Others"
+  "labelOthers": "Others",
+  "tooltipCannotDownloadFailed": "Certificate is only available for passed tests."
 }

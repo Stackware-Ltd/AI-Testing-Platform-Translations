@@ -1642,4 +1642,8 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get labelOthers => 'Others';
+
+  @override
+  String get tooltipCannotDownloadFailed =>
+      'Certificate is only available for passed tests.';
 }

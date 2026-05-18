@@ -594,5 +594,6 @@
   "msgDeleteConfirm": "Sind Sie sicher, dass Sie {name} löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.",
   "labelCancel": "Abbrechen",
   "labelDelete": "Löschen",
-  "labelOthers": "Andere"
+  "labelOthers": "Andere",
+  "tooltipCannotDownloadFailed": "Das Zertifikat ist nur für bestandene Tests verfügbar."
 }
