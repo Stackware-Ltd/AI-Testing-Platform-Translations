@@ -475,6 +475,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get hintSelectCategory => 'Kategorie auswählen';
 
   @override
+  String get labelNotAssigned => 'Nicht zugewiesen';
+
+  @override
   String get labelAvailableCredits => 'Verfügbares Guthaben';
 
   @override
@@ -1212,6 +1215,11 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
+  String navCredits(Object count) {
+    return '$count Credits';
+  }
+
+  @override
   String get navFooterTagline => 'Compliance, die belegbar ist.';
 
   @override
@@ -1551,12 +1559,8 @@ class AppLocalizationsDe extends AppLocalizations {
       'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
 
   @override
-  String snackReminderSent(String name) {
-    return 'Erinnerung an $name gesendet';
-  }
-
-  @override
-  String get snackNoResultsToExport => 'No passed results to export.';
+  String get snackNoResultsToExport =>
+      'Keine bestandenen Ergebnisse zum Exportieren vorhanden.';
 
   @override
   String get csvHeaderEmployee => 'Mitarbeiter';
@@ -1586,6 +1590,11 @@ class AppLocalizationsDe extends AppLocalizations {
   String get errorPassedOnly => 'Nur für bestandene Tests verfügbar.';
 
   @override
+  String snackReminderSent(String name) {
+    return 'Erinnerung an $name gesendet';
+  }
+
+  @override
   String get snackError => 'Fehler';
 
   @override
@@ -1604,7 +1613,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get filterDateOldest => 'Datum (Älteste)';
 
   @override
-  String get buttonAddEmployees => '+ Mitarbeitende hinzufügen';
+  String get buttonAddEmployees => 'Mitarbeitende hinzufügen';
 
   @override
   String get labelFirstName => 'Vorname';
@@ -1656,4 +1665,177 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get tooltipCannotDownloadFailed =>
       'Das Zertifikat ist nur für bestandene Tests verfügbar.';
+
+  @override
+  String get buttonBuyQuota => 'Kontingent kaufen';
+
+  @override
+  String get buttonBuyMoreTests => 'Weitere Tests kaufen';
+
+  @override
+  String get buttonBuyTest => 'Test kaufen';
+
+  @override
+  String get buttonNotifyMe => 'Benachrichtigen';
+
+  @override
+  String get labelBought => 'Gekauft';
+
+  @override
+  String get labelAssignedCount => 'Zugewiesen';
+
+  @override
+  String get labelAvailableCount => 'Verfügbar';
+
+  @override
+  String get labelSoon => 'Demnächst';
+
+  @override
+  String get labelActive => 'Aktiv';
+
+  @override
+  String get labelPurchaseHistory => 'Kaufhistorie';
+
+  @override
+  String get labelPerPerson => 'pro Person';
+
+  @override
+  String get labelTestQuota => 'Testkontingent';
+
+  @override
+  String get labelPurchasedTests => 'Gekaufte Tests';
+
+  @override
+  String get howItWorksTitle => 'So funktioniert die Zuweisung';
+
+  @override
+  String get howItWorksStep1Title => 'Kontingent kaufen';
+
+  @override
+  String get howItWorksStep1Desc =>
+      'Wählen Sie die Anzahl der benötigten Tests.';
+
+  @override
+  String get howItWorksStep2Title => 'Mitarbeitende auswählen';
+
+  @override
+  String get howItWorksStep2Desc =>
+      'Weisen Sie den Test einzelnen Personen oder Gruppen zu.';
+
+  @override
+  String get howItWorksStep3Title => 'Nachweise exportieren';
+
+  @override
+  String get howItWorksStep3Desc =>
+      'Nach Abschluss können Ergebnisse dokumentiert werden.';
+
+  @override
+  String get dropdownAvailableTests => 'Verfügbare Tests';
+
+  @override
+  String get dropdownPurchasedTests => 'Gekaufte Tests';
+
+  @override
+  String bannerQuotaDesc(int n) {
+    return 'Sie haben $n Tests gekauft. Weisen Sie offene Tests Ihren Mitarbeitenden zu.';
+  }
+
+  @override
+  String get labelSortByName => 'Nach Name sortieren';
+
+  @override
+  String get labelSortByCredits => 'Nach Credits sortieren';
+
+  @override
+  String get labelAllCategories => 'Alle Kategorien';
+
+  @override
+  String get categorySecurity => 'Sicherheit';
+
+  @override
+  String get categoryCompliance => 'Compliance';
+
+  @override
+  String get labelAssign => 'Zuweisen';
+
+  @override
+  String get categoryDevOps => 'DevOps';
+
+  @override
+  String get labelConfirmation => 'Bestätigung';
+
+  @override
+  String get labelTest => 'Test:';
+
+  @override
+  String get labelTotalSeats => 'Gesamtplätze:';
+
+  @override
+  String get labelRemainingSeats => 'Verbleibende Plätze:';
+
+  @override
+  String get labelSelectedEmployees => 'Ausgewählte Mitarbeitende:';
+
+  @override
+  String get labelStartingDate => 'Startdatum:';
+
+  @override
+  String get labelTestExpiry => 'Testablauf:';
+
+  @override
+  String get buttonConfirm => 'Bestätigen';
+
+  @override
+  String get labelAllDepartments => 'Alle Abteilungen';
+
+  @override
+  String get labelAllStatuses => 'Alle Status';
+
+  @override
+  String get bannerAssignTitle => 'KI-Compliance Test zuweisen';
+
+  @override
+  String bannerAssignDesc(int count) {
+    return 'Wählen Sie die Mitarbeitenden aus, die den Test durchführen sollen. Verfügbare Tests: $count.';
+  }
+
+  @override
+  String get buttonInviteSelected => 'Ausgewählte einladen';
+
+  @override
+  String get errorSelectAtLeastOne =>
+      'Bitte wählen Sie mindestens einen Mitarbeitenden aus.';
+
+  @override
+  String errorInsufficientSeats(int count) {
+    return 'Unzureichende Plätze. Sie haben nur $count Plätze verfügbar.';
+  }
+
+  @override
+  String get columnEmployeeId => 'Mitarbeiter-ID';
+
+  @override
+  String get columnFirstName => 'Vorname';
+
+  @override
+  String get columnLastName => 'Nachname';
+
+  @override
+  String get columnEmail => 'E-Mail';
+
+  @override
+  String get columnDepartment => 'Abteilung';
+
+  @override
+  String get columnStatus => 'Status';
+
+  @override
+  String get columnAction => 'Aktion';
+
+  @override
+  String get labelReassign => 'Neu zuweisen';
+
+  @override
+  String get subtitleAssignEmployees =>
+      'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
 }

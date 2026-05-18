@@ -998,6 +998,12 @@ abstract class AppLocalizations {
   /// **'Select Category'**
   String get hintSelectCategory;
 
+  /// No description provided for @labelNotAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'Not assigned'**
+  String get labelNotAssigned;
+
   /// No description provided for @labelAvailableCredits.
   ///
   /// In en, this message translates to:
@@ -2390,6 +2396,12 @@ abstract class AppLocalizations {
   /// **'Quota: {count} tests'**
   String navQuota(Object count);
 
+  /// No description provided for @navCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} Credits'**
+  String navCredits(Object count);
+
   /// No description provided for @navFooterTagline.
   ///
   /// In en, this message translates to:
@@ -3038,12 +3050,6 @@ abstract class AppLocalizations {
   /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
   String get resultsPageSubtitle;
 
-  /// No description provided for @snackReminderSent.
-  ///
-  /// In en, this message translates to:
-  /// **'Reminder sent to {name}'**
-  String snackReminderSent(String name);
-
   /// No description provided for @snackNoResultsToExport.
   ///
   /// In en, this message translates to:
@@ -3104,6 +3110,12 @@ abstract class AppLocalizations {
   /// **'Only available for passed tests.'**
   String get errorPassedOnly;
 
+  /// No description provided for @snackReminderSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder sent to {name}'**
+  String snackReminderSent(String name);
+
   /// No description provided for @snackError.
   ///
   /// In en, this message translates to:
@@ -3143,7 +3155,7 @@ abstract class AppLocalizations {
   /// No description provided for @buttonAddEmployees.
   ///
   /// In en, this message translates to:
-  /// **'+ Add Employees'**
+  /// **'Add employees'**
   String get buttonAddEmployees;
 
   /// No description provided for @labelFirstName.
@@ -3241,6 +3253,330 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Certificate is only available for passed tests.'**
   String get tooltipCannotDownloadFailed;
+
+  /// No description provided for @buttonBuyQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy quota'**
+  String get buttonBuyQuota;
+
+  /// No description provided for @buttonBuyMoreTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy more tests'**
+  String get buttonBuyMoreTests;
+
+  /// No description provided for @buttonBuyTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy test'**
+  String get buttonBuyTest;
+
+  /// No description provided for @buttonNotifyMe.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify me'**
+  String get buttonNotifyMe;
+
+  /// No description provided for @labelBought.
+  ///
+  /// In en, this message translates to:
+  /// **'Bought'**
+  String get labelBought;
+
+  /// No description provided for @labelAssignedCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Assigned'**
+  String get labelAssignedCount;
+
+  /// No description provided for @labelAvailableCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Available'**
+  String get labelAvailableCount;
+
+  /// No description provided for @labelSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Soon'**
+  String get labelSoon;
+
+  /// No description provided for @labelActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Active'**
+  String get labelActive;
+
+  /// No description provided for @labelPurchaseHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase history'**
+  String get labelPurchaseHistory;
+
+  /// No description provided for @labelPerPerson.
+  ///
+  /// In en, this message translates to:
+  /// **'per person'**
+  String get labelPerPerson;
+
+  /// No description provided for @labelTestQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Quota'**
+  String get labelTestQuota;
+
+  /// No description provided for @labelPurchasedTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased tests'**
+  String get labelPurchasedTests;
+
+  /// No description provided for @howItWorksTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'How the assignment works'**
+  String get howItWorksTitle;
+
+  /// No description provided for @howItWorksStep1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy quota'**
+  String get howItWorksStep1Title;
+
+  /// No description provided for @howItWorksStep1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Select the number of tests required.'**
+  String get howItWorksStep1Desc;
+
+  /// No description provided for @howItWorksStep2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Select employees'**
+  String get howItWorksStep2Title;
+
+  /// No description provided for @howItWorksStep2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign the test to individuals or groups.'**
+  String get howItWorksStep2Desc;
+
+  /// No description provided for @howItWorksStep3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get howItWorksStep3Title;
+
+  /// No description provided for @howItWorksStep3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Results can be documented upon completion.'**
+  String get howItWorksStep3Desc;
+
+  /// No description provided for @dropdownAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Available tests'**
+  String get dropdownAvailableTests;
+
+  /// No description provided for @dropdownPurchasedTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased tests'**
+  String get dropdownPurchasedTests;
+
+  /// No description provided for @bannerQuotaDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'You have purchased {n} tests. Assign any unused tests to your employees.'**
+  String bannerQuotaDesc(int n);
+
+  /// No description provided for @labelSortByName.
+  ///
+  /// In en, this message translates to:
+  /// **'Sort by Name'**
+  String get labelSortByName;
+
+  /// No description provided for @labelSortByCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Sort by Credits'**
+  String get labelSortByCredits;
+
+  /// No description provided for @labelAllCategories.
+  ///
+  /// In en, this message translates to:
+  /// **'All Categories'**
+  String get labelAllCategories;
+
+  /// No description provided for @categorySecurity.
+  ///
+  /// In en, this message translates to:
+  /// **'Security'**
+  String get categorySecurity;
+
+  /// No description provided for @categoryCompliance.
+  ///
+  /// In en, this message translates to:
+  /// **'Compliance'**
+  String get categoryCompliance;
+
+  /// No description provided for @labelAssign.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign'**
+  String get labelAssign;
+
+  /// No description provided for @categoryDevOps.
+  ///
+  /// In en, this message translates to:
+  /// **'DevOps'**
+  String get categoryDevOps;
+
+  /// No description provided for @labelConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirmation'**
+  String get labelConfirmation;
+
+  /// No description provided for @labelTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Test:'**
+  String get labelTest;
+
+  /// No description provided for @labelTotalSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Seats:'**
+  String get labelTotalSeats;
+
+  /// No description provided for @labelRemainingSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Remaining Seats:'**
+  String get labelRemainingSeats;
+
+  /// No description provided for @labelSelectedEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected Employees:'**
+  String get labelSelectedEmployees;
+
+  /// No description provided for @labelStartingDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Starting Date:'**
+  String get labelStartingDate;
+
+  /// No description provided for @labelTestExpiry.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Expiry:'**
+  String get labelTestExpiry;
+
+  /// No description provided for @buttonConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm'**
+  String get buttonConfirm;
+
+  /// No description provided for @labelAllDepartments.
+  ///
+  /// In en, this message translates to:
+  /// **'All departments'**
+  String get labelAllDepartments;
+
+  /// No description provided for @labelAllStatuses.
+  ///
+  /// In en, this message translates to:
+  /// **'All statuses'**
+  String get labelAllStatuses;
+
+  /// No description provided for @bannerAssignTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign AI Compliance Test'**
+  String get bannerAssignTitle;
+
+  /// No description provided for @bannerAssignDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Select the employees who should take the test. Available tests: {count}.'**
+  String bannerAssignDesc(int count);
+
+  /// No description provided for @buttonInviteSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite selected'**
+  String get buttonInviteSelected;
+
+  /// No description provided for @errorSelectAtLeastOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select at least one employee.'**
+  String get errorSelectAtLeastOne;
+
+  /// No description provided for @errorInsufficientSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient seats. You only have {count} seats available.'**
+  String errorInsufficientSeats(int count);
+
+  /// No description provided for @columnEmployeeId.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee ID'**
+  String get columnEmployeeId;
+
+  /// No description provided for @columnFirstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get columnFirstName;
+
+  /// No description provided for @columnLastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Last Name'**
+  String get columnLastName;
+
+  /// No description provided for @columnEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get columnEmail;
+
+  /// No description provided for @columnDepartment.
+  ///
+  /// In en, this message translates to:
+  /// **'Department'**
+  String get columnDepartment;
+
+  /// No description provided for @columnStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get columnStatus;
+
+  /// No description provided for @columnAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Action'**
+  String get columnAction;
+
+  /// No description provided for @labelReassign.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-assign'**
+  String get labelReassign;
+
+  /// No description provided for @subtitleAssignEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
+  String get subtitleAssignEmployees;
 }
 
 class _AppLocalizationsDelegate

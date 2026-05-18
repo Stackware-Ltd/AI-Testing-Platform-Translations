@@ -150,6 +150,7 @@
   "hintEnterVat": "Enter VAT number",
   "hintSelectCountry": "Select Country",
   "hintSelectCategory": "Select Category",
+  "labelNotAssigned": "Not assigned",
   "labelAvailableCredits": "Available Credits",
   "labelCreditsLowercase": "Credits",
   "buttonBuyCredits": "Quota",
@@ -448,6 +449,7 @@
   "landingHeroBannerDesc": "Manage test status, employees and evidence centrally.",
   "landingHeroDashboardTitle": "AI Compliance Dashboard",
   "navQuota": "Quota: {count} tests",
+  "navCredits": "{count} Credits",
   "navFooterTagline": "Compliance that is verifiable.",
   "navFooterLogoText": "RULEFOX",
   "screenTenantDashboard": "AI Compliance Dashboard",
@@ -556,7 +558,6 @@
   "resultsStatTestResult": "Test result",
   "resultsPageTitle": "Results & Evidence",
   "resultsPageSubtitle": "Document AI literacy, test status and evidence centrally in Rulefox.",
-  "snackReminderSent": "Reminder sent to {name}",
   "snackNoResultsToExport": "No passed results to export.",
   "csvHeaderEmployee": "Employee",
   "csvHeaderTest": "Test",
@@ -597,5 +598,80 @@
   "labelCancel": "Cancel",
   "labelDelete": "Delete",
   "labelOthers": "Others",
-  "tooltipCannotDownloadFailed": "Certificate is only available for passed tests."
+  "tooltipCannotDownloadFailed": "Certificate is only available for passed tests.",
+  "buttonBuyQuota": "Buy quota",
+  "buttonBuyMoreTests": "Buy more tests",
+  "buttonBuyTest": "Buy test",
+  "buttonNotifyMe": "Notify me",
+  "labelBought": "Bought",
+  "labelAssignedCount": "Assigned",
+  "labelAvailableCount": "Available",
+  "labelSoon": "Soon",
+  "labelActive": "Active",
+  "labelPurchaseHistory": "Purchase history",
+  "labelPerPerson": "per person",
+  "labelTestQuota": "Test Quota",
+  "labelPurchasedTests": "Purchased tests",
+  "howItWorksTitle": "How the assignment works",
+  "howItWorksStep1Title": "Buy quota",
+  "howItWorksStep1Desc": "Select the number of tests required.",
+  "howItWorksStep2Title": "Select employees",
+  "howItWorksStep2Desc": "Assign the test to individuals or groups.",
+  "howItWorksStep3Title": "Export evidence",
+  "howItWorksStep3Desc": "Results can be documented upon completion.",
+  "dropdownAvailableTests": "Available tests",
+  "dropdownPurchasedTests": "Purchased tests",
+  "bannerQuotaDesc": "You have purchased {n} tests. Assign any unused tests to your employees.",
+  "@bannerQuotaDesc": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "labelSortByName": "Sort by Name",
+  "labelSortByCredits": "Sort by Credits",
+  "labelAllCategories": "All Categories",
+  "categorySecurity": "Security",
+  "categoryCompliance": "Compliance",
+  "labelAssign": "Assign",
+  "categoryDevOps": "DevOps",
+  "labelConfirmation": "Confirmation",
+  "labelTest": "Test:",
+  "labelTotalSeats": "Total Seats:",
+  "labelRemainingSeats": "Remaining Seats:",
+  "labelSelectedEmployees": "Selected Employees:",
+  "labelStartingDate": "Starting Date:",
+  "labelTestExpiry": "Test Expiry:",
+  "buttonConfirm": "Confirm",
+  "labelAllDepartments": "All departments",
+  "labelAllStatuses": "All statuses",
+  "bannerAssignTitle": "Assign AI Compliance Test",
+  "bannerAssignDesc": "Select the employees who should take the test. Available tests: {count}.",
+  "@bannerAssignDesc": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "buttonInviteSelected": "Invite selected",
+  "buttonAddEmployees": "Add employees",
+  "errorSelectAtLeastOne": "Please select at least one employee.",
+  "errorInsufficientSeats": "Insufficient seats. You only have {count} seats available.",
+  "@errorInsufficientSeats": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "columnEmployeeId": "Employee ID",
+  "columnFirstName": "First Name",
+  "columnLastName": "Last Name",
+  "columnEmail": "Email",
+  "columnDepartment": "Department",
+  "columnStatus": "Status",
+  "columnAction": "Action",
+  "labelReassign": "Re-assign",
+  "subtitleAssignEmployees": "Document AI literacy, test status and evidence centrally in Rulefox."
 }
+
