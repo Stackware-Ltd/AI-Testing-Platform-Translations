@@ -474,6 +474,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get hintSelectCategory => 'Select Category';
 
   @override
+  String get labelNotAssigned => 'Not assigned';
+
+  @override
   String get labelAvailableCredits => 'Available Credits';
 
   @override
@@ -581,7 +584,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get resultsNoResults => 'No results found';
 
   @override
-  String get resultsSearchHint => 'Employees are looking for';
+  String get resultsSearchHint => 'Search employees';
 
   @override
   String get resultsGroupBy => 'Group By';
@@ -1203,6 +1206,11 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String navCredits(Object count) {
+    return '$count Credits';
+  }
+
+  @override
   String get navFooterTagline => 'Compliance that is verifiable.';
 
   @override
@@ -1454,8 +1462,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get statInvitations => 'Invitations';
 
   @override
-  String statAssignedOutOf(int count, int total) {
-    return 'assigned $count out of $total';
+  String statAssignedOutOf(Object count, Object total) {
+    return '$count of $total assigned';
   }
 
   @override
@@ -1517,4 +1525,299 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get addEmployees => 'Add Employees';
+
+  @override
+  String get labelDownload => 'Download';
+
+  @override
+  String get labelRemind => 'Remind';
+
+  @override
+  String get resultsColCompletion => 'Completion';
+
+  @override
+  String get resultsColProof => 'Proof';
+
+  @override
+  String get resultsStatTestResult => 'Test result';
+
+  @override
+  String get resultsPageTitle => 'Results & Evidence';
+
+  @override
+  String get resultsPageSubtitle =>
+      'Document AI literacy, test status and evidence centrally in Rulefox.';
+
+  @override
+  String get snackNoResultsToExport => 'No passed results to export.';
+
+  @override
+  String get csvHeaderEmployee => 'Employee';
+
+  @override
+  String get csvHeaderTest => 'Test';
+
+  @override
+  String get csvHeaderScore => 'Score';
+
+  @override
+  String get csvHeaderStatus => 'Status';
+
+  @override
+  String get csvHeaderDate => 'Completion';
+
+  @override
+  String get labelEmployees => 'Employees';
+
+  @override
+  String get statusInvited => 'Invited';
+
+  @override
+  String get statusExpired => 'Expired';
+
+  @override
+  String get errorPassedOnly => 'Only available for passed tests.';
+
+  @override
+  String snackReminderSent(String name) {
+    return 'Reminder sent to $name';
+  }
+
+  @override
+  String get snackError => 'Error';
+
+  @override
+  String get filterNone => 'None';
+
+  @override
+  String get labelDepartment => 'Department';
+
+  @override
+  String get labelEmployeeID => 'Employee ID';
+
+  @override
+  String get filterDateNewest => 'Date Added (Newest)';
+
+  @override
+  String get filterDateOldest => 'Date Added (Oldest)';
+
+  @override
+  String get buttonAddEmployees => 'Add employees';
+
+  @override
+  String get labelFirstName => 'First Name';
+
+  @override
+  String get labelLastName => 'Last Name';
+
+  @override
+  String get labelEmail => 'Email';
+
+  @override
+  String get labelAction => 'Action';
+
+  @override
+  String get tooltipEdit => 'Edit Details';
+
+  @override
+  String get tooltipDelete => 'Delete';
+
+  @override
+  String get msgSaving => 'Saving...';
+
+  @override
+  String get msgEmployeeSaved => 'Employee saved successfully!';
+
+  @override
+  String get msgImporting => 'Importing Employees...';
+
+  @override
+  String get msgEmployeesImported => 'Employees imported successfully!';
+
+  @override
+  String get titleDeleteEmployee => 'Delete Employee';
+
+  @override
+  String msgDeleteConfirm(Object name) {
+    return 'Are you sure you want to delete $name?\nThis action cannot be undone.';
+  }
+
+  @override
+  String get labelCancel => 'Cancel';
+
+  @override
+  String get labelDelete => 'Delete';
+
+  @override
+  String get labelOthers => 'Others';
+
+  @override
+  String get buttonBuyQuota => 'Buy quota';
+
+  @override
+  String get buttonBuyMoreTests => 'Buy more tests';
+
+  @override
+  String get buttonBuyTest => 'Buy test';
+
+  @override
+  String get buttonNotifyMe => 'Notify me';
+
+  @override
+  String get labelBought => 'Bought';
+
+  @override
+  String get labelAssignedCount => 'Assigned';
+
+  @override
+  String get labelAvailableCount => 'Available';
+
+  @override
+  String get labelSoon => 'Soon';
+
+  @override
+  String get labelActive => 'Active';
+
+  @override
+  String get labelPurchaseHistory => 'Purchase history';
+
+  @override
+  String get labelPerPerson => 'per person';
+
+  @override
+  String get labelTestQuota => 'Test Quota';
+
+  @override
+  String get labelPurchasedTests => 'Purchased tests';
+
+  @override
+  String get howItWorksTitle => 'How the assignment works';
+
+  @override
+  String get howItWorksStep1Title => 'Buy quota';
+
+  @override
+  String get howItWorksStep1Desc => 'Select the number of tests required.';
+
+  @override
+  String get howItWorksStep2Title => 'Select employees';
+
+  @override
+  String get howItWorksStep2Desc => 'Assign the test to individuals or groups.';
+
+  @override
+  String get howItWorksStep3Title => 'Export evidence';
+
+  @override
+  String get howItWorksStep3Desc =>
+      'Results can be documented upon completion.';
+
+  @override
+  String get dropdownAvailableTests => 'Available tests';
+
+  @override
+  String get dropdownPurchasedTests => 'Purchased tests';
+
+  @override
+  String bannerQuotaDesc(int n) {
+    return 'You have purchased $n tests. Assign any unused tests to your employees.';
+  }
+
+  @override
+  String get labelSortByName => 'Sort by Name';
+
+  @override
+  String get labelSortByCredits => 'Sort by Credits';
+
+  @override
+  String get labelAllCategories => 'All Categories';
+
+  @override
+  String get categorySecurity => 'Security';
+
+  @override
+  String get categoryCompliance => 'Compliance';
+
+  @override
+  String get labelAssign => 'Assign';
+
+  @override
+  String get categoryDevOps => 'DevOps';
+
+  @override
+  String get labelConfirmation => 'Confirmation';
+
+  @override
+  String get labelTest => 'Test:';
+
+  @override
+  String get labelTotalSeats => 'Total Seats:';
+
+  @override
+  String get labelRemainingSeats => 'Remaining Seats:';
+
+  @override
+  String get labelSelectedEmployees => 'Selected Employees:';
+
+  @override
+  String get labelStartingDate => 'Starting Date:';
+
+  @override
+  String get labelTestExpiry => 'Test Expiry:';
+
+  @override
+  String get buttonConfirm => 'Confirm';
+
+  @override
+  String get labelAllDepartments => 'All departments';
+
+  @override
+  String get labelAllStatuses => 'All statuses';
+
+  @override
+  String get bannerAssignTitle => 'Assign AI Compliance Test';
+
+  @override
+  String bannerAssignDesc(int count) {
+    return 'Select the employees who should take the test. Available tests: $count.';
+  }
+
+  @override
+  String get buttonInviteSelected => 'Invite selected';
+
+  @override
+  String get errorSelectAtLeastOne => 'Please select at least one employee.';
+
+  @override
+  String errorInsufficientSeats(int count) {
+    return 'Insufficient seats. You only have $count seats available.';
+  }
+
+  @override
+  String get columnEmployeeId => 'Employee ID';
+
+  @override
+  String get columnFirstName => 'First Name';
+
+  @override
+  String get columnLastName => 'Last Name';
+
+  @override
+  String get columnEmail => 'Email';
+
+  @override
+  String get columnDepartment => 'Department';
+
+  @override
+  String get columnStatus => 'Status';
+
+  @override
+  String get columnAction => 'Action';
+
+  @override
+  String get labelReassign => 'Re-assign';
+
+  @override
+  String get subtitleAssignEmployees =>
+      'Document AI literacy, test status and evidence centrally in Rulefox.';
 }

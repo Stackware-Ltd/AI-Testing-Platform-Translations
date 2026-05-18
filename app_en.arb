@@ -142,7 +142,6 @@
   "billingColumnAmount": "Amount",
   "billingColumnStatus": "Status",
   "billingColumnInvoice": "Invoice",
-
   "tabBilling": "Billing",
   "tabPurchaseHistory": "Purchase History",
   "tabAvailableTests": "Available Credits",
@@ -151,6 +150,7 @@
   "hintEnterVat": "Enter VAT number",
   "hintSelectCountry": "Select Country",
   "hintSelectCategory": "Select Category",
+  "labelNotAssigned": "Not assigned",
   "labelAvailableCredits": "Available Credits",
   "labelCreditsLowercase": "Credits",
   "buttonBuyCredits": "Quota",
@@ -205,7 +205,7 @@
   },
   "resultsSingleCertDownloaded": "Certificate downloaded successfully",
   "resultsNoResults": "No results found",
-  "resultsSearchHint": "Search results...",
+  "resultsSearchHint": "Search employees",
   "resultsGroupBy": "Group By",
   "resultsAll": "All",
   "resultsPass": "Passed",
@@ -449,6 +449,7 @@
   "landingHeroBannerDesc": "Manage test status, employees and evidence centrally.",
   "landingHeroDashboardTitle": "AI Compliance Dashboard",
   "navQuota": "Quota: {count} tests",
+  "navCredits": "{count} Credits",
   "navFooterTagline": "Compliance that is verifiable.",
   "navFooterLogoText": "RULEFOX",
   "screenTenantDashboard": "AI Compliance Dashboard",
@@ -465,7 +466,6 @@
   "subtitleResults": "Review results and evidence of your employees.",
   "subtitleBilling": "Manage your subscriptions, invoices, and payment methods.",
   "subtitleSettings": "Configure your personal and company settings.",
-
   "vatOptional": "VAT (Optional)",
   "tabOverview": "Overview",
   "tabInvoices": "Invoices",
@@ -518,51 +518,19 @@
   "authAddressHint": "Enter your address",
   "authUpdatePassword": "Update password",
   "authVerifyOtp": "Verify OTP",
-
   "buttonChoose": "Choose",
   "billingCreditsTaken": "Credits Taken",
   "billingTotalSpent": "Total Spent",
   "billingPendingInvoices": "Pending Invoices",
   "billingTotalThroughoutTime": "Total throughout time",
   "billingSuccessfulPayments": "Successful payments",
-  "billingRequireAttention": "Require attention"
-  ,"statEvidence": "Evidence",
+  "billingRequireAttention": "Require attention",
+  "statEvidence": "Evidence",
   "statExportable": "exportable",
   "statAverage": "Average",
   "statOpen": "Open",
   "statInvitations": "Invitations",
-  "statAssignedOutOf": "assigned {count} out of {total}",
-  "@statAssignedOutOf": {
-    "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "int" }
-    }
-  },
-  "resultsSearchHint": "Employees are looking for",
-  "exportEvidenceAction": "Export evidence",
-  "testResultsTitle": "Test results",
-  "exportCsvAction": "Export CSV"
-  ,"filterAllStatus": "All Status",
-  "filterAllDepartments": "All Departments",
-  "statEmployees": "Employees",
-  "statInvited": "Invited",
-  "statCertificates": "Certificates",
-  "tabEmployees": "Employees",
-  "tabInvites": "Invites",
-  "tabImport": "Import"
-  ,"statEvidence": "Evidence",
-  "statExportable": "exportable",
-  "statAverage": "Average",
-  "statOpen": "Open",
-  "statInvitations": "Invitations",
-  "statAssignedOutOf": "assigned {count} out of {total}",
-  "@statAssignedOutOf": {
-    "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "int" }
-    }
-  },
-  "resultsSearchHint": "Employees are looking for",
+  "statAssignedOutOf": "{count} of {total} assigned",
   "exportEvidenceAction": "Export evidence",
   "testResultsTitle": "Test results",
   "exportCsvAction": "Export CSV",
@@ -581,6 +549,129 @@
   "labelDragDropFile": "Drag and drop file here",
   "labelBrowseFile": "Browse file",
   "labelDownloadTemplate": "Download CSV Template",
-  "saveDetails": "Save Details"
-  ,"addEmployees": "Add Employees"
+  "saveDetails": "Save Details",
+  "addEmployees": "Add Employees",
+  "labelDownload": "Download",
+  "labelRemind": "Remind",
+  "resultsColCompletion": "Completion",
+  "resultsColProof": "Proof",
+  "resultsStatTestResult": "Test result",
+  "resultsPageTitle": "Results & Evidence",
+  "resultsPageSubtitle": "Document AI literacy, test status and evidence centrally in Rulefox.",
+  "snackNoResultsToExport": "No passed results to export.",
+  "csvHeaderEmployee": "Employee",
+  "csvHeaderTest": "Test",
+  "csvHeaderScore": "Score",
+  "csvHeaderStatus": "Status",
+  "csvHeaderDate": "Completion",
+  "labelEmployees": "Employees",
+  "statusInvited": "Invited",
+  "statusExpired": "Expired",
+  "errorPassedOnly": "Only available for passed tests.",
+  "snackReminderSent": "Reminder sent to {name}",
+  "@snackReminderSent": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "snackError": "Error",
+  "filterNone": "None",
+  "labelDepartment": "Department",
+  "labelEmployeeID": "Employee ID",
+  "filterDateNewest": "Date Added (Newest)",
+  "filterDateOldest": "Date Added (Oldest)",
+  "buttonAddEmployees": "+ Add Employees",
+  "labelFirstName": "First Name",
+  "labelLastName": "Last Name",
+  "labelEmail": "Email",
+  "labelAction": "Action",
+  "tooltipEdit": "Edit Details",
+  "tooltipDelete": "Delete",
+  "msgSaving": "Saving...",
+  "msgEmployeeSaved": "Employee saved successfully!",
+  "msgImporting": "Importing Employees...",
+  "msgEmployeesImported": "Employees imported successfully!",
+  "titleDeleteEmployee": "Delete Employee",
+  "msgDeleteConfirm": "Are you sure you want to delete {name}?\nThis action cannot be undone.",
+  "labelCancel": "Cancel",
+  "labelDelete": "Delete",
+  "labelOthers": "Others",
+  "buttonBuyQuota": "Buy quota",
+  "buttonBuyMoreTests": "Buy more tests",
+  "buttonBuyTest": "Buy test",
+  "buttonNotifyMe": "Notify me",
+  "labelBought": "Bought",
+  "labelAssignedCount": "Assigned",
+  "labelAvailableCount": "Available",
+  "labelSoon": "Soon",
+  "labelActive": "Active",
+  "labelPurchaseHistory": "Purchase history",
+  "labelPerPerson": "per person",
+  "labelTestQuota": "Test Quota",
+  "labelPurchasedTests": "Purchased tests",
+  "howItWorksTitle": "How the assignment works",
+  "howItWorksStep1Title": "Buy quota",
+  "howItWorksStep1Desc": "Select the number of tests required.",
+  "howItWorksStep2Title": "Select employees",
+  "howItWorksStep2Desc": "Assign the test to individuals or groups.",
+  "howItWorksStep3Title": "Export evidence",
+  "howItWorksStep3Desc": "Results can be documented upon completion.",
+  "dropdownAvailableTests": "Available tests",
+  "dropdownPurchasedTests": "Purchased tests",
+  "bannerQuotaDesc": "You have purchased {n} tests. Assign any unused tests to your employees.",
+  "@bannerQuotaDesc": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "labelSortByName": "Sort by Name",
+  "labelSortByCredits": "Sort by Credits",
+  "labelAllCategories": "All Categories",
+  "categorySecurity": "Security",
+  "categoryCompliance": "Compliance",
+  "labelAssign": "Assign",
+  "categoryDevOps": "DevOps",
+  "labelConfirmation": "Confirmation",
+  "labelTest": "Test:",
+  "labelTotalSeats": "Total Seats:",
+  "labelRemainingSeats": "Remaining Seats:",
+  "labelSelectedEmployees": "Selected Employees:",
+  "labelStartingDate": "Starting Date:",
+  "labelTestExpiry": "Test Expiry:",
+  "buttonConfirm": "Confirm",
+  "labelAllDepartments": "All departments",
+  "labelAllStatuses": "All statuses",
+  "bannerAssignTitle": "Assign AI Compliance Test",
+  "bannerAssignDesc": "Select the employees who should take the test. Available tests: {count}.",
+  "@bannerAssignDesc": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "buttonInviteSelected": "Invite selected",
+  "buttonAddEmployees": "Add employees",
+  "errorSelectAtLeastOne": "Please select at least one employee.",
+  "errorInsufficientSeats": "Insufficient seats. You only have {count} seats available.",
+  "@errorInsufficientSeats": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "columnEmployeeId": "Employee ID",
+  "columnFirstName": "First Name",
+  "columnLastName": "Last Name",
+  "columnEmail": "Email",
+  "columnDepartment": "Department",
+  "columnStatus": "Status",
+  "columnAction": "Action",
+  "labelReassign": "Re-assign",
+  "subtitleAssignEmployees": "Document AI literacy, test status and evidence centrally in Rulefox."
+
 }
+

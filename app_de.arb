@@ -162,7 +162,6 @@
   "billingColumnAmount": "Betrag",
   "billingColumnStatus": "Status",
   "billingColumnInvoice": "Rechnung",
-
   "tabBilling": "Abrechnung",
   "tabPurchaseHistory": "Kaufverlauf",
   "tabAvailableTests": "Verfügbares Guthaben",
@@ -171,6 +170,7 @@
   "hintEnterVat": "Umsatzsteuernummer eingeben",
   "hintSelectCountry": "Land auswählen",
   "hintSelectCategory": "Kategorie auswählen",
+  "labelNotAssigned": "Nicht zugewiesen",
   "labelAvailableCredits": "Verfügbares Guthaben",
   "labelCreditsLowercase": "Credits",
   "buttonBuyCredits": "Kontingent",
@@ -225,7 +225,7 @@
   },
   "resultsSingleCertDownloaded": "Zertifikat erfolgreich heruntergeladen",
   "resultsNoResults": "Keine Ergebnisse gefunden",
-  "resultsSearchHint": "Ergebnisse durchsuchen...",
+  "resultsSearchHint": "Mitarbeitende suchen",
   "resultsGroupBy": "Gruppieren nach",
   "resultsAll": "Alle",
   "resultsPass": "Bestanden",
@@ -449,6 +449,7 @@
   "landingHeroBannerDesc": "Teststatus, Mitarbeitende und Nachweise zentral verwalten.",
   "landingHeroDashboardTitle": "AI Compliance Dashboard",
   "navQuota": "Kontingent: {count} Tests",
+  "navCredits": "{count} Credits",
   "navFooterTagline": "Compliance, die belegbar ist.",
   "navFooterLogoText": "RULEFOX",
   "screenTenantDashboard": "AI Compliance Dashboard",
@@ -465,7 +466,6 @@
   "subtitleResults": "Überprüfen Sie die Ergebnisse und Nachweise Ihrer Mitarbeitenden.",
   "subtitleBilling": "Verwalten Sie Ihre Abonnements, Rechnungen und Zahlungsmethoden.",
   "subtitleSettings": "Konfigurieren Sie Ihre persönlichen und Unternehmenseinstellungen.",
-
   "vatOptional": "Umsatzsteuer (optional)",
   "tabOverview": "Übersicht",
   "tabInvoices": "Rechnungen",
@@ -518,51 +518,19 @@
   "authAddressHint": "Adresse eingeben",
   "authUpdatePassword": "Passwort aktualisieren",
   "authVerifyOtp": "OTP verifizieren",
-
   "buttonChoose": "Auswählen",
   "billingCreditsTaken": "Verwendete Credits",
   "billingTotalSpent": "Gesamtausgaben",
   "billingPendingInvoices": "Ausstehende Rechnungen",
   "billingTotalThroughoutTime": "Gesamt bisher",
   "billingSuccessfulPayments": "Erfolgreiche Zahlungen",
-  "billingRequireAttention": "Aufmerksamkeit erforderlich"
-  ,"statEvidence": "Nachweise",
+  "billingRequireAttention": "Aufmerksamkeit erforderlich",
+  "statEvidence": "Nachweise",
   "statExportable": "exportierbar",
   "statAverage": "Durchschnitt",
   "statOpen": "Offen",
   "statInvitations": "Einladungen",
   "statAssignedOutOf": "{count} von {total} zugewiesen",
-  "@statAssignedOutOf": {
-    "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "int" }
-    }
-  },
-  "resultsSearchHint": "Mitarbeitende suchen nach",
-  "exportEvidenceAction": "Nachweise exportieren",
-  "testResultsTitle": "Testergebnisse",
-  "exportCsvAction": "CSV exportieren"
-  ,"filterAllStatus": "Alle Status",
-  "filterAllDepartments": "Alle Abteilungen",
-  "statEmployees": "Mitarbeitende",
-  "statInvited": "Eingeladen",
-  "statCertificates": "Zertifikate",
-  "tabEmployees": "Mitarbeitende",
-  "tabInvites": "Einladungen",
-  "tabImport": "Importieren"
-  ,"statEvidence": "Nachweise",
-  "statExportable": "exportierbar",
-  "statAverage": "Durchschnitt",
-  "statOpen": "Offen",
-  "statInvitations": "Einladungen",
-  "statAssignedOutOf": "{count} von {total} zugewiesen",
-  "@statAssignedOutOf": {
-    "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "int" }
-    }
-  },
-  "resultsSearchHint": "Mitarbeitende suchen nach",
   "exportEvidenceAction": "Nachweise exportieren",
   "testResultsTitle": "Testergebnisse",
   "exportCsvAction": "CSV exportieren",
@@ -581,6 +549,128 @@
   "labelDragDropFile": "Datei hierher ziehen",
   "labelBrowseFile": "Datei auswählen",
   "labelDownloadTemplate": "CSV-Vorlage herunterladen",
-  "saveDetails": "Details speichern"
-  ,"addEmployees": "Mitarbeitende hinzufügen"
+  "saveDetails": "Details speichern",
+  "addEmployees": "Mitarbeitende hinzufügen",
+  "labelDownload": "Download",
+  "labelRemind": "Erinnern",
+  "resultsColCompletion": "Abschluss",
+  "resultsColProof": "Nachweis",
+  "resultsStatTestResult": "Testergebnis",
+  "resultsPageTitle": "Ergebnisse & Nachweise",
+  "resultsPageSubtitle": "Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.",
+  "snackNoResultsToExport": "Keine bestandenen Ergebnisse zum Exportieren vorhanden.",
+  "csvHeaderEmployee": "Mitarbeiter",
+  "csvHeaderTest": "Test",
+  "csvHeaderScore": "Score",
+  "csvHeaderStatus": "Status",
+  "csvHeaderDate": "Abschluss",
+  "labelEmployees": "Mitarbeitende",
+  "statusInvited": "Eingeladen",
+  "statusExpired": "Abgelaufen",
+  "errorPassedOnly": "Nur für bestandene Tests verfügbar.",
+  "snackReminderSent": "Erinnerung an {name} gesendet",
+  "@snackReminderSent": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "snackError": "Fehler",
+  "filterNone": "Keine",
+  "labelDepartment": "Abteilung",
+  "labelEmployeeID": "Mitarbeiter ID",
+  "filterDateNewest": "Datum (Neueste)",
+  "filterDateOldest": "Datum (Älteste)",
+  "buttonAddEmployees": "+ Mitarbeitende hinzufügen",
+  "labelFirstName": "Vorname",
+  "labelLastName": "Nachname",
+  "labelEmail": "Email",
+  "labelAction": "Aktion",
+  "tooltipEdit": "Bearbeiten",
+  "tooltipDelete": "Löschen",
+  "msgSaving": "Speichern...",
+  "msgEmployeeSaved": "Mitarbeiter erfolgreich gespeichert!",
+  "msgImporting": "Mitarbeitende werden importiert...",
+  "msgEmployeesImported": "Mitarbeitende erfolgreich importiert!",
+  "titleDeleteEmployee": "Mitarbeiter löschen",
+  "msgDeleteConfirm": "Sind Sie sicher, dass Sie {name} löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.",
+  "labelCancel": "Abbrechen",
+  "labelDelete": "Löschen",
+  "labelOthers": "Andere",
+  "buttonBuyQuota": "Kontingent kaufen",
+  "buttonBuyMoreTests": "Weitere Tests kaufen",
+  "buttonBuyTest": "Test kaufen",
+  "buttonNotifyMe": "Benachrichtigen",
+  "labelBought": "Gekauft",
+  "labelAssignedCount": "Zugewiesen",
+  "labelAvailableCount": "Verfügbar",
+  "labelSoon": "Demnächst",
+  "labelActive": "Aktiv",
+  "labelPurchaseHistory": "Kaufhistorie",
+  "labelPerPerson": "pro Person",
+  "labelTestQuota": "Testkontingent",
+  "labelPurchasedTests": "Gekaufte Tests",
+  "howItWorksTitle": "So funktioniert die Zuweisung",
+  "howItWorksStep1Title": "Kontingent kaufen",
+  "howItWorksStep1Desc": "Wählen Sie die Anzahl der benötigten Tests.",
+  "howItWorksStep2Title": "Mitarbeitende auswählen",
+  "howItWorksStep2Desc": "Weisen Sie den Test einzelnen Personen oder Gruppen zu.",
+  "howItWorksStep3Title": "Nachweise exportieren",
+  "howItWorksStep3Desc": "Nach Abschluss können Ergebnisse dokumentiert werden.",
+  "dropdownAvailableTests": "Verfügbare Tests",
+  "dropdownPurchasedTests": "Gekaufte Tests",
+  "bannerQuotaDesc": "Sie haben {n} Tests gekauft. Weisen Sie offene Tests Ihren Mitarbeitenden zu.",
+  "@bannerQuotaDesc": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "labelSortByName": "Nach Name sortieren",
+  "labelSortByCredits": "Nach Credits sortieren",
+  "labelAllCategories": "Alle Kategorien",
+  "categorySecurity": "Sicherheit",
+  "categoryCompliance": "Compliance",
+  "labelAssign": "Zuweisen",
+  "categoryDevOps": "DevOps",
+  "labelConfirmation": "Bestätigung",
+  "labelTest": "Test:",
+  "labelTotalSeats": "Gesamtplätze:",
+  "labelRemainingSeats": "Verbleibende Plätze:",
+  "labelSelectedEmployees": "Ausgewählte Mitarbeitende:",
+  "labelStartingDate": "Startdatum:",
+  "labelTestExpiry": "Testablauf:",
+  "buttonConfirm": "Bestätigen",
+  "labelAllDepartments": "Alle Abteilungen",
+  "labelAllStatuses": "Alle Status",
+  "bannerAssignTitle": "KI-Compliance Test zuweisen",
+  "bannerAssignDesc": "Wählen Sie die Mitarbeitenden aus, die den Test durchführen sollen. Verfügbare Tests: {count}.",
+  "@bannerAssignDesc": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "buttonInviteSelected": "Ausgewählte einladen",
+  "buttonAddEmployees": "Mitarbeitende hinzufügen",
+  "errorSelectAtLeastOne": "Bitte wählen Sie mindestens einen Mitarbeitenden aus.",
+  "errorInsufficientSeats": "Unzureichende Plätze. Sie haben nur {count} Plätze verfügbar.",
+  "@errorInsufficientSeats": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "columnEmployeeId": "Mitarbeiter-ID",
+  "columnFirstName": "Vorname",
+  "columnLastName": "Nachname",
+  "columnEmail": "E-Mail",
+  "columnDepartment": "Abteilung",
+  "columnStatus": "Status",
+  "columnAction": "Aktion",
+  "labelReassign": "Neu zuweisen",
+  "subtitleAssignEmployees": "Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox."
+
 }
