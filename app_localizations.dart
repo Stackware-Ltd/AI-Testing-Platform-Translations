@@ -1004,6 +1004,18 @@ abstract class AppLocalizations {
   /// **'Not assigned'**
   String get labelNotAssigned;
 
+  /// No description provided for @labelLinkSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Link sent'**
+  String get labelLinkSent;
+
+  /// No description provided for @labelTestExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Test expired'**
+  String get labelTestExpired;
+
   /// No description provided for @labelAvailableCredits.
   ///
   /// In en, this message translates to:
@@ -1411,6 +1423,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Return to Assessment'**
   String get testRunnerReturnToAssessment;
+
+  /// No description provided for @assessmentMetricQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Questions'**
+  String get assessmentMetricQuestions;
+
+  /// No description provided for @assessmentMetricDuration.
+  ///
+  /// In en, this message translates to:
+  /// **'Duration'**
+  String get assessmentMetricDuration;
+
+  /// No description provided for @assessmentMetricLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get assessmentMetricLanguage;
+
+  /// No description provided for @assessmentMetricNoLimit.
+  ///
+  /// In en, this message translates to:
+  /// **'No Limit'**
+  String get assessmentMetricNoLimit;
+
+  /// No description provided for @assessmentStartTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Test'**
+  String get assessmentStartTest;
+
+  /// No description provided for @assessmentResumeTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume Test'**
+  String get assessmentResumeTest;
+
+  /// No description provided for @assessmentSectionQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} questions'**
+  String assessmentSectionQuestions(Object count);
+
+  /// No description provided for @assessmentTimedNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'This is a timed assessment.'**
+  String get assessmentTimedNotice;
 
   /// No description provided for @testRunnerTestPublished.
   ///
@@ -3865,6 +3925,270 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Search tests'**
   String get searchTests;
+
+  /// No description provided for @assessmentVerifying.
+  ///
+  /// In en, this message translates to:
+  /// **'Verifying your invitation...'**
+  String get assessmentVerifying;
+
+  /// No description provided for @assessmentInvalidToken.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid or missing token.'**
+  String get assessmentInvalidToken;
+
+  /// No description provided for @assessmentVerificationFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification failed.'**
+  String get assessmentVerificationFailed;
+
+  /// No description provided for @assessmentVerificationError.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred during verification. Please try again later.'**
+  String get assessmentVerificationError;
+
+  /// No description provided for @assessmentAlreadyCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment Already Completed'**
+  String get assessmentAlreadyCompleted;
+
+  /// No description provided for @assessmentInvalidLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid or Expired Link'**
+  String get assessmentInvalidLink;
+
+  /// No description provided for @assessmentAlreadySubmittedDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'You have already submitted this assessment. If you believe this is an error, please contact your administrator.'**
+  String get assessmentAlreadySubmittedDesc;
+
+  /// No description provided for @assessmentExpiredLinkDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'This invitation link has expired or is invalid. Please request a new link from your administrator to take the assessment.'**
+  String get assessmentExpiredLinkDesc;
+
+  /// No description provided for @assessmentCloseButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get assessmentCloseButton;
+
+  /// No description provided for @assessmentStartTestBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Start test'**
+  String get assessmentStartTestBtn;
+
+  /// No description provided for @assessmentResumeTestBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume test'**
+  String get assessmentResumeTestBtn;
+
+  /// No description provided for @assessmentLoadingDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading Test Details...'**
+  String get assessmentLoadingDetails;
+
+  /// No description provided for @testRunnerPublishing.
+  ///
+  /// In en, this message translates to:
+  /// **'Publishing...'**
+  String get testRunnerPublishing;
+
+  /// No description provided for @testRunnerSubmitting.
+  ///
+  /// In en, this message translates to:
+  /// **'Submitting Test...'**
+  String get testRunnerSubmitting;
+
+  /// No description provided for @testRunnerPublishFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Publish failed. Please try again.'**
+  String get testRunnerPublishFailed;
+
+  /// No description provided for @testRunnerSubmitFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Submit failed. Please try again.'**
+  String get testRunnerSubmitFailed;
+
+  /// No description provided for @testRunnerFlaggedToReview.
+  ///
+  /// In en, this message translates to:
+  /// **'You have {count} flagged question(s). Please review before submitting.'**
+  String testRunnerFlaggedToReview(int count);
+
+  /// No description provided for @testRunnerReviewFlaggedQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Review Flagged Questions'**
+  String get testRunnerReviewFlaggedQuestions;
+
+  /// No description provided for @testRunnerReviewingFlagged.
+  ///
+  /// In en, this message translates to:
+  /// **'Reviewing Flagged: {current} of {total}'**
+  String testRunnerReviewingFlagged(int current, int total);
+
+  /// No description provided for @testRunnerPreviousFlag.
+  ///
+  /// In en, this message translates to:
+  /// **'Previous Flag'**
+  String get testRunnerPreviousFlag;
+
+  /// No description provided for @testRunnerNextFlag.
+  ///
+  /// In en, this message translates to:
+  /// **'Next Flag'**
+  String get testRunnerNextFlag;
+
+  /// No description provided for @testRunnerExitReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit Review'**
+  String get testRunnerExitReview;
+
+  /// No description provided for @testRunnerFinishReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish Review'**
+  String get testRunnerFinishReview;
+
+  /// No description provided for @testRunnerNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Not started'**
+  String get testRunnerNotStarted;
+
+  /// No description provided for @testRunnerInProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'In Progress'**
+  String get testRunnerInProgress;
+
+  /// No description provided for @testRunnerApproxMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'approximately {minutes} minutes'**
+  String testRunnerApproxMinutes(int minutes);
+
+  /// No description provided for @testRunnerClosePreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Close Preview'**
+  String get testRunnerClosePreview;
+
+  /// No description provided for @testRunnerPreviewTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview Test'**
+  String get testRunnerPreviewTest;
+
+  /// No description provided for @testRunnerStartWithTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Start with test'**
+  String get testRunnerStartWithTest;
+
+  /// No description provided for @testRunnerSectionPassed.
+  ///
+  /// In en, this message translates to:
+  /// **'Passed'**
+  String get testRunnerSectionPassed;
+
+  /// No description provided for @testRunnerSectionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed'**
+  String get testRunnerSectionFailed;
+
+  /// No description provided for @testRunnerExitPortal.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit Portal'**
+  String get testRunnerExitPortal;
+
+  /// No description provided for @testRunnerIntegrityCheck.
+  ///
+  /// In en, this message translates to:
+  /// **'Integrity check - please stay in full-screen mode.'**
+  String get testRunnerIntegrityCheck;
+
+  /// No description provided for @testRunnerReenterFullscreen.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enter fullscreen'**
+  String get testRunnerReenterFullscreen;
+
+  /// No description provided for @testRunnerExitAssessmentTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit Assessment?'**
+  String get testRunnerExitAssessmentTitle;
+
+  /// No description provided for @testRunnerExitAssessmentDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to exit? Your progress is saved but the timer will continue.'**
+  String get testRunnerExitAssessmentDesc;
+
+  /// No description provided for @testRunnerStay.
+  ///
+  /// In en, this message translates to:
+  /// **'Stay'**
+  String get testRunnerStay;
+
+  /// No description provided for @testRunnerExit.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit'**
+  String get testRunnerExit;
+
+  /// No description provided for @testRunnerReviewCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Review ({count})'**
+  String testRunnerReviewCount(int count);
+
+  /// No description provided for @testRunnerTimesUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Time\'s Up!'**
+  String get testRunnerTimesUp;
+
+  /// No description provided for @testRunnerSubmitCountdown.
+  ///
+  /// In en, this message translates to:
+  /// **'Your assessment is being submitted in {countdown}...'**
+  String testRunnerSubmitCountdown(int countdown);
+
+  /// No description provided for @testRunnerPreviewModeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview Mode'**
+  String get testRunnerPreviewModeLabel;
+
+  /// No description provided for @testRunnerQuestionAnsweredOfTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'{answered} of {total} questions answered'**
+  String testRunnerQuestionAnsweredOfTotal(int answered, int total);
+
+  /// No description provided for @assessmentDescriptionDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'You have been invited to take the {testName}. This assessment evaluates your knowledge and skills in this specific area.'**
+  String assessmentDescriptionDefault(String testName);
 }
 
 class _AppLocalizationsDelegate

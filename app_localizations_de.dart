@@ -478,6 +478,12 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelNotAssigned => 'Nicht zugewiesen';
 
   @override
+  String get labelLinkSent => 'Link gesendet';
+
+  @override
+  String get labelTestExpired => 'Test abgelaufen';
+
+  @override
   String get labelAvailableCredits => 'Verfügbares Guthaben';
 
   @override
@@ -690,6 +696,33 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get testRunnerReturnToAssessment => 'Zur Bewertung zurück';
+
+  @override
+  String get assessmentMetricQuestions => 'Fragen';
+
+  @override
+  String get assessmentMetricDuration => 'Dauer';
+
+  @override
+  String get assessmentMetricLanguage => 'Sprache';
+
+  @override
+  String get assessmentMetricNoLimit => 'Keine Begrenzung';
+
+  @override
+  String get assessmentStartTest => 'Test starten';
+
+  @override
+  String get assessmentResumeTest => 'Test fortsetzen';
+
+  @override
+  String assessmentSectionQuestions(Object count) {
+    return '$count Fragen';
+  }
+
+  @override
+  String get assessmentTimedNotice =>
+      'Dies ist eine zeitlich begrenzte Bewertung.';
 
   @override
   String get testRunnerTestPublished => 'Test veröffentlicht';
@@ -1986,4 +2019,157 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get searchTests => 'Tests suchen';
+
+  @override
+  String get assessmentVerifying => 'Ihre Einladung wird überprüft...';
+
+  @override
+  String get assessmentInvalidToken => 'Ungültiger oder fehlender Token.';
+
+  @override
+  String get assessmentVerificationFailed => 'Überprüfung fehlgeschlagen.';
+
+  @override
+  String get assessmentVerificationError =>
+      'Bei der Überprüfung ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.';
+
+  @override
+  String get assessmentAlreadyCompleted => 'Assessment bereits abgeschlossen';
+
+  @override
+  String get assessmentInvalidLink => 'Ungültiger oder abgelaufener Link';
+
+  @override
+  String get assessmentAlreadySubmittedDesc =>
+      'Sie haben dieses Assessment bereits eingereicht. Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an Ihren Administrator.';
+
+  @override
+  String get assessmentExpiredLinkDesc =>
+      'Dieser Einladungslink ist abgelaufen oder ungültig. Bitte fordern Sie bei Ihrem Administrator einen neuen Link an, um am Assessment teilzunehmen.';
+
+  @override
+  String get assessmentCloseButton => 'Schließen';
+
+  @override
+  String get assessmentStartTestBtn => 'Test starten';
+
+  @override
+  String get assessmentResumeTestBtn => 'Test fortsetzen';
+
+  @override
+  String get assessmentLoadingDetails => 'Testdetails werden geladen...';
+
+  @override
+  String get testRunnerPublishing => 'Wird veröffentlicht...';
+
+  @override
+  String get testRunnerSubmitting => 'Test wird eingereicht...';
+
+  @override
+  String get testRunnerPublishFailed =>
+      'Veröffentlichung fehlgeschlagen. Bitte versuchen Sie es erneut.';
+
+  @override
+  String get testRunnerSubmitFailed =>
+      'Einreichung fehlgeschlagen. Bitte versuchen Sie es erneut.';
+
+  @override
+  String testRunnerFlaggedToReview(int count) {
+    return 'Sie haben $count markierte Frage(n). Bitte überprüfen Sie diese vor dem Einreichen.';
+  }
+
+  @override
+  String get testRunnerReviewFlaggedQuestions => 'Markierte Fragen überprüfen';
+
+  @override
+  String testRunnerReviewingFlagged(int current, int total) {
+    return 'Überprüfung Markiert: $current von $total';
+  }
+
+  @override
+  String get testRunnerPreviousFlag => 'Vorheriges Lesezeichen';
+
+  @override
+  String get testRunnerNextFlag => 'Nächstes Lesezeichen';
+
+  @override
+  String get testRunnerExitReview => 'Überprüfung beenden';
+
+  @override
+  String get testRunnerFinishReview => 'Überprüfung abschließen';
+
+  @override
+  String get testRunnerNotStarted => 'Nicht begonnen';
+
+  @override
+  String get testRunnerInProgress => 'In Bearbeitung';
+
+  @override
+  String testRunnerApproxMinutes(int minutes) {
+    return 'ungefähr $minutes Minuten';
+  }
+
+  @override
+  String get testRunnerClosePreview => 'Vorschau schließen';
+
+  @override
+  String get testRunnerPreviewTest => 'Test in der Vorschau anzeigen';
+
+  @override
+  String get testRunnerStartWithTest => 'Mit Test beginnen';
+
+  @override
+  String get testRunnerSectionPassed => 'Bestanden';
+
+  @override
+  String get testRunnerSectionFailed => 'Nicht bestanden';
+
+  @override
+  String get testRunnerExitPortal => 'Portal verlassen';
+
+  @override
+  String get testRunnerIntegrityCheck =>
+      'Integritätsprüfung - bitte bleiben Sie im Vollbildmodus.';
+
+  @override
+  String get testRunnerReenterFullscreen => 'Vollbild erneut aktivieren';
+
+  @override
+  String get testRunnerExitAssessmentTitle => 'Assessment beenden?';
+
+  @override
+  String get testRunnerExitAssessmentDesc =>
+      'Sind Sie sicher, dass Sie beenden wollen? Ihr Fortschritt wird gespeichert, aber der Timer läuft weiter.';
+
+  @override
+  String get testRunnerStay => 'Bleiben';
+
+  @override
+  String get testRunnerExit => 'Beenden';
+
+  @override
+  String testRunnerReviewCount(int count) {
+    return 'Überprüfen ($count)';
+  }
+
+  @override
+  String get testRunnerTimesUp => 'Die Zeit ist um!';
+
+  @override
+  String testRunnerSubmitCountdown(int countdown) {
+    return 'Ihr Assessment wird in $countdown eingereicht...';
+  }
+
+  @override
+  String get testRunnerPreviewModeLabel => 'Vorschaumodus';
+
+  @override
+  String testRunnerQuestionAnsweredOfTotal(int answered, int total) {
+    return '$answered von $total Fragen beantwortet';
+  }
+
+  @override
+  String assessmentDescriptionDefault(String testName) {
+    return 'Sie wurden eingeladen, an $testName teilzunehmen. In diesem Assessment werden Ihre Kenntnisse und Fähigkeiten in diesem speziellen Bereich bewertet.';
+  }
 }
