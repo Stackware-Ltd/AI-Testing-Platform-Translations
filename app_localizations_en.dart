@@ -477,6 +477,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelNotAssigned => 'Not assigned';
 
   @override
+  String get labelLinkSent => 'Link sent';
+
+  @override
+  String get labelTestExpired => 'Test expired';
+
+  @override
   String get labelAvailableCredits => 'Available Credits';
 
   @override
@@ -689,6 +695,32 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get testRunnerReturnToAssessment => 'Return to Assessment';
+
+  @override
+  String get assessmentMetricQuestions => 'Questions';
+
+  @override
+  String get assessmentMetricDuration => 'Duration';
+
+  @override
+  String get assessmentMetricLanguage => 'Language';
+
+  @override
+  String get assessmentMetricNoLimit => 'No Limit';
+
+  @override
+  String get assessmentStartTest => 'Start Test';
+
+  @override
+  String get assessmentResumeTest => 'Resume Test';
+
+  @override
+  String assessmentSectionQuestions(Object count) {
+    return '$count questions';
+  }
+
+  @override
+  String get assessmentTimedNotice => 'This is a timed assessment.';
 
   @override
   String get testRunnerTestPublished => 'Test Published';
@@ -1972,4 +2004,155 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get searchTests => 'Search tests';
+
+  @override
+  String get assessmentVerifying => 'Verifying your invitation...';
+
+  @override
+  String get assessmentInvalidToken => 'Invalid or missing token.';
+
+  @override
+  String get assessmentVerificationFailed => 'Verification failed.';
+
+  @override
+  String get assessmentVerificationError =>
+      'An error occurred during verification. Please try again later.';
+
+  @override
+  String get assessmentAlreadyCompleted => 'Assessment Already Completed';
+
+  @override
+  String get assessmentInvalidLink => 'Invalid or Expired Link';
+
+  @override
+  String get assessmentAlreadySubmittedDesc =>
+      'You have already submitted this assessment. If you believe this is an error, please contact your administrator.';
+
+  @override
+  String get assessmentExpiredLinkDesc =>
+      'This invitation link has expired or is invalid. Please request a new link from your administrator to take the assessment.';
+
+  @override
+  String get assessmentCloseButton => 'Close';
+
+  @override
+  String get assessmentStartTestBtn => 'Start test';
+
+  @override
+  String get assessmentResumeTestBtn => 'Resume test';
+
+  @override
+  String get assessmentLoadingDetails => 'Loading Test Details...';
+
+  @override
+  String get testRunnerPublishing => 'Publishing...';
+
+  @override
+  String get testRunnerSubmitting => 'Submitting Test...';
+
+  @override
+  String get testRunnerPublishFailed => 'Publish failed. Please try again.';
+
+  @override
+  String get testRunnerSubmitFailed => 'Submit failed. Please try again.';
+
+  @override
+  String testRunnerFlaggedToReview(int count) {
+    return 'You have $count flagged question(s). Please review before submitting.';
+  }
+
+  @override
+  String get testRunnerReviewFlaggedQuestions => 'Review Flagged Questions';
+
+  @override
+  String testRunnerReviewingFlagged(int current, int total) {
+    return 'Reviewing Flagged: $current of $total';
+  }
+
+  @override
+  String get testRunnerPreviousFlag => 'Previous Flag';
+
+  @override
+  String get testRunnerNextFlag => 'Next Flag';
+
+  @override
+  String get testRunnerExitReview => 'Exit Review';
+
+  @override
+  String get testRunnerFinishReview => 'Finish Review';
+
+  @override
+  String get testRunnerNotStarted => 'Not started';
+
+  @override
+  String get testRunnerInProgress => 'In Progress';
+
+  @override
+  String testRunnerApproxMinutes(int minutes) {
+    return 'approximately $minutes minutes';
+  }
+
+  @override
+  String get testRunnerClosePreview => 'Close Preview';
+
+  @override
+  String get testRunnerPreviewTest => 'Preview Test';
+
+  @override
+  String get testRunnerStartWithTest => 'Start with test';
+
+  @override
+  String get testRunnerSectionPassed => 'Passed';
+
+  @override
+  String get testRunnerSectionFailed => 'Failed';
+
+  @override
+  String get testRunnerExitPortal => 'Exit Portal';
+
+  @override
+  String get testRunnerIntegrityCheck =>
+      'Integrity check - please stay in full-screen mode.';
+
+  @override
+  String get testRunnerReenterFullscreen => 'Re-enter fullscreen';
+
+  @override
+  String get testRunnerExitAssessmentTitle => 'Exit Assessment?';
+
+  @override
+  String get testRunnerExitAssessmentDesc =>
+      'Are you sure you want to exit? Your progress is saved but the timer will continue.';
+
+  @override
+  String get testRunnerStay => 'Stay';
+
+  @override
+  String get testRunnerExit => 'Exit';
+
+  @override
+  String testRunnerReviewCount(int count) {
+    return 'Review ($count)';
+  }
+
+  @override
+  String get testRunnerTimesUp => 'Time\'s Up!';
+
+  @override
+  String testRunnerSubmitCountdown(int countdown) {
+    return 'Your assessment is being submitted in $countdown...';
+  }
+
+  @override
+  String get testRunnerPreviewModeLabel => 'Preview Mode';
+
+  @override
+  String testRunnerQuestionAnsweredOfTotal(int answered, int total) {
+    return '$answered of $total questions answered';
+  }
+
+  @override
+  String assessmentDescriptionDefault(String testName) {
+    return 'You have been invited to take the $testName. This assessment evaluates your knowledge and skills in this specific area.';
+  }
 }
