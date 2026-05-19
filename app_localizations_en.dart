@@ -353,7 +353,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelCategoryColon => 'Category:';
 
   @override
-  String get labelCategory => 'Category';
+  String get labelCategory => 'category';
 
   @override
   String get justNow => 'Just Now';
@@ -1512,10 +1512,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelTapChangeFile => 'Tap to change file';
 
   @override
-  String get labelDragDropFile => 'Drag and drop file here';
+  String get labelDragDropFile => 'Drag & drop your file here';
 
   @override
-  String get labelBrowseFile => 'Browse file';
+  String get labelBrowseFile => 'Browse File';
 
   @override
   String get labelDownloadTemplate => 'Download CSV Template';
@@ -1650,6 +1650,115 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get labelOthers => 'Others';
+
+  @override
+  String get ownerPlatformOverview => 'Rulefox platform overview';
+
+  @override
+  String get ownerPlatformDesc =>
+      'Manage tests, tenants, and platform metrics in one place.';
+
+  @override
+  String get statRegisteredTests => 'Registered tests';
+
+  @override
+  String get statRegisteredTestsHint => 'Active test products';
+
+  @override
+  String get statActiveClients => 'Active clients';
+
+  @override
+  String get statActiveClientsHint => 'Pursue';
+
+  @override
+  String get statUsers => 'users';
+
+  @override
+  String get statUsersHint => 'Invited persons';
+
+  @override
+  String get statCompletionRateHint => 'Across all tests';
+
+  @override
+  String get titleCurrentTestProducts => 'Current test products';
+
+  @override
+  String get actionShowAll => 'Show all';
+
+  @override
+  String get columnTest => 'test';
+
+  @override
+  String get columnStatus => 'Status';
+
+  @override
+  String get columnPrice => 'Price';
+
+  @override
+  String get columnAction => 'Action';
+
+  @override
+  String get titleNextAdminSteps => 'Next admin steps';
+
+  @override
+  String get stepComplianceCheckTitle => 'AI Compliance Test Check';
+
+  @override
+  String get stepComplianceCheckDesc =>
+      'Questions, prices and supporting documents';
+
+  @override
+  String get stepClientOnboardingTitle => 'Client onboarding';
+
+  @override
+  String get stepClientOnboardingDesc => 'Prepare demo client';
+
+  @override
+  String get buttonOpen => 'Open';
+
+  @override
+  String get buttonStart => 'Start';
+
+  @override
+  String get buttonPlan => 'Plan';
+
+  @override
+  String get titleTestManagement => 'Test Management';
+
+  @override
+  String get descTestManagement =>
+      'Manage test products, prices, and release status.';
+
+  @override
+  String get titleTestOverview => 'Test overview';
+
+  @override
+  String get columnName => 'name';
+
+  @override
+  String get columnQuestions => 'Questions';
+
+  @override
+  String get columnLastUpdated => 'Last updated';
+
+  @override
+  String get titleCreateNewTest => 'Create new test';
+
+  @override
+  String get subtitleCreateNewTest => 'Prepare a test product as a draft.';
+
+  @override
+  String get labelTestName => 'Test name';
+
+  @override
+  String get labelBriefDescription => 'Brief description';
+
+  @override
+  String get labelLanguage => 'Language';
+
+  @override
+  String get tooltipCannotDownloadFailed =>
+      'Certificate is only available for passed tests.';
 
   @override
   String get buttonBuyQuota => 'Buy quota';
@@ -1809,15 +1918,58 @@ class AppLocalizationsEn extends AppLocalizations {
   String get columnDepartment => 'Department';
 
   @override
-  String get columnStatus => 'Status';
-
-  @override
-  String get columnAction => 'Action';
-
-  @override
   String get labelReassign => 'Re-assign';
 
   @override
   String get subtitleAssignEmployees =>
       'Document AI literacy, test status and evidence centrally in Rulefox.';
+
+  @override
+  String get labelEdit => 'Edit';
+
+  @override
+  String get labelSaveAsDraft => 'Save as Draft';
+
+  @override
+  String get labelUploadAndPublish => 'Upload & Publish';
+
+  @override
+  String get labelPreviewAndPublish => 'Preview & Publish';
+
+  @override
+  String get labelUploadTestFile => 'Upload Test File (.json)';
+
+  @override
+  String get labelTimeLimitMinutes => 'Time Limit (Minutes)';
+
+  @override
+  String get labelTimeLimitHint => 'e.g. 20 (0 for no limit)';
+
+  @override
+  String get labelCreditsRequired => 'Credits Required';
+
+  @override
+  String get labelCreditsHint => 'e.g. 30';
+
+  @override
+  String get labelFreeTest => 'Free Test';
+
+  @override
+  String get labelNoCreditsRequired => 'No credits required';
+
+  @override
+  String get labelRequiresCredits => 'Requires credits to purchase';
+
+  @override
+  String get labelTapToChangeFile => 'Tap to change file';
+
+  @override
+  String get subtitleOwnerDashboard =>
+      'Manage the platform, test products, and clients centrally.';
+
+  @override
+  String get labelMore => 'more';
+
+  @override
+  String get searchTests => 'Search tests';
 }
