@@ -788,5 +788,16 @@
   "testRunnerQuestionAnsweredOfTotal": "{answered} von {total} Fragen beantwortet",
   "@testRunnerQuestionAnsweredOfTotal": { "placeholders": { "answered": { "type": "int" }, "total": { "type": "int" } } },
   "assessmentDescriptionDefault": "Sie wurden eingeladen, an {testName} teilzunehmen. In diesem Assessment werden Ihre Kenntnisse und Fähigkeiten in diesem speziellen Bereich bewertet.",
-  "@assessmentDescriptionDefault": { "placeholders": { "testName": { "type": "String" } } }
+  "@assessmentDescriptionDefault": { "placeholders": { "testName": { "type": "String" } } },
+  "certVerificationCertificate": "Verifizierungszertifikat",
+  "certPassedVerified": "BESTANDEN & VERIFIZIERT",
+  "certThisIsToCertify": "HIERMIT WIRD BESTÄTIGT, DASS",
+  "certAcmeEmployee": "Spezialist für Marketing Operations • Acme Enterprise GmbH",
+  "certAssessmentTest": "Bewertungstest",
+  "certDateOfCompletion": "Abschlussdatum",
+  "certScoreAchieved": "Erreichte Punktzahl",
+  "certComplianceBoard": "Rulefox Compliance-Ausschuss",
+  "certVerifiedDigitally": "Digital verifiziert",
+  "certSecureDigitalProof": "SICHERER DIGITALER NACHWEIS",
+  "certCloseButton": "Schließen"
 }

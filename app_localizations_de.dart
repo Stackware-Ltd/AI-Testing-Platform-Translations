@@ -2172,4 +2172,38 @@ class AppLocalizationsDe extends AppLocalizations {
   String assessmentDescriptionDefault(String testName) {
     return 'Sie wurden eingeladen, an $testName teilzunehmen. In diesem Assessment werden Ihre Kenntnisse und Fähigkeiten in diesem speziellen Bereich bewertet.';
   }
+
+  @override
+  String get certVerificationCertificate => 'Verifizierungszertifikat';
+
+  @override
+  String get certPassedVerified => 'BESTANDEN & VERIFIZIERT';
+
+  @override
+  String get certThisIsToCertify => 'HIERMIT WIRD BESTÄTIGT, DASS';
+
+  @override
+  String get certAcmeEmployee =>
+      'Spezialist für Marketing Operations • Acme Enterprise GmbH';
+
+  @override
+  String get certAssessmentTest => 'Bewertungstest';
+
+  @override
+  String get certDateOfCompletion => 'Abschlussdatum';
+
+  @override
+  String get certScoreAchieved => 'Erreichte Punktzahl';
+
+  @override
+  String get certComplianceBoard => 'Rulefox Compliance-Ausschuss';
+
+  @override
+  String get certVerifiedDigitally => 'Digital verifiziert';
+
+  @override
+  String get certSecureDigitalProof => 'SICHERER DIGITALER NACHWEIS';
+
+  @override
+  String get certCloseButton => 'Schließen';
 }

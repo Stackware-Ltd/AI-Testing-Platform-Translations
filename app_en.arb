@@ -788,5 +788,16 @@
   "testRunnerQuestionAnsweredOfTotal": "{answered} of {total} questions answered",
   "@testRunnerQuestionAnsweredOfTotal": { "placeholders": { "answered": { "type": "int" }, "total": { "type": "int" } } },
   "assessmentDescriptionDefault": "You have been invited to take the {testName}. This assessment evaluates your knowledge and skills in this specific area.",
-  "@assessmentDescriptionDefault": { "placeholders": { "testName": { "type": "String" } } }
+  "@assessmentDescriptionDefault": { "placeholders": { "testName": { "type": "String" } } },
+  "certVerificationCertificate": "Verification Certificate",
+  "certPassedVerified": "PASSED & VERIFIED",
+  "certThisIsToCertify": "THIS IS TO CERTIFY THAT",
+  "certAcmeEmployee": "Marketing Operations Specialist • Acme Enterprise GmbH",
+  "certAssessmentTest": "Assessment Test",
+  "certDateOfCompletion": "Date of Completion",
+  "certScoreAchieved": "Score Achieved",
+  "certComplianceBoard": "Rulefox Compliance Board",
+  "certVerifiedDigitally": "Verified Digitally",
+  "certSecureDigitalProof": "SECURE DIGITAL PROOF",
+  "certCloseButton": "Close"
 }

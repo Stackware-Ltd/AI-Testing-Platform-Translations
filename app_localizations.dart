@@ -4189,6 +4189,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You have been invited to take the {testName}. This assessment evaluates your knowledge and skills in this specific area.'**
   String assessmentDescriptionDefault(String testName);
+
+  /// No description provided for @certVerificationCertificate.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification Certificate'**
+  String get certVerificationCertificate;
+
+  /// No description provided for @certPassedVerified.
+  ///
+  /// In en, this message translates to:
+  /// **'PASSED & VERIFIED'**
+  String get certPassedVerified;
+
+  /// No description provided for @certThisIsToCertify.
+  ///
+  /// In en, this message translates to:
+  /// **'THIS IS TO CERTIFY THAT'**
+  String get certThisIsToCertify;
+
+  /// No description provided for @certAcmeEmployee.
+  ///
+  /// In en, this message translates to:
+  /// **'Marketing Operations Specialist • Acme Enterprise GmbH'**
+  String get certAcmeEmployee;
+
+  /// No description provided for @certAssessmentTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment Test'**
+  String get certAssessmentTest;
+
+  /// No description provided for @certDateOfCompletion.
+  ///
+  /// In en, this message translates to:
+  /// **'Date of Completion'**
+  String get certDateOfCompletion;
+
+  /// No description provided for @certScoreAchieved.
+  ///
+  /// In en, this message translates to:
+  /// **'Score Achieved'**
+  String get certScoreAchieved;
+
+  /// No description provided for @certComplianceBoard.
+  ///
+  /// In en, this message translates to:
+  /// **'Rulefox Compliance Board'**
+  String get certComplianceBoard;
+
+  /// No description provided for @certVerifiedDigitally.
+  ///
+  /// In en, this message translates to:
+  /// **'Verified Digitally'**
+  String get certVerifiedDigitally;
+
+  /// No description provided for @certSecureDigitalProof.
+  ///
+  /// In en, this message translates to:
+  /// **'SECURE DIGITAL PROOF'**
+  String get certSecureDigitalProof;
+
+  /// No description provided for @certCloseButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get certCloseButton;
 }
 
 class _AppLocalizationsDelegate
