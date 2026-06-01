@@ -985,7 +985,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get empUploadCsv => 'Upload CSV';
 
   @override
-  String get landingNavProduct => 'product';
+  String get landingNavProduct => 'Product';
 
   @override
   String get landingNavWorkflow => 'Sequence';

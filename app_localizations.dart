@@ -1973,7 +1973,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingNavProduct.
   ///
   /// In en, this message translates to:
-  /// **'product'**
+  /// **'Product'**
   String get landingNavProduct;
 
   /// No description provided for @landingNavWorkflow.
