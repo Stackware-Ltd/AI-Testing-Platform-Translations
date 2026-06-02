@@ -1202,6 +1202,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get titlePurchaseHistory => 'Purchase history · RuleFox';
 
   @override
+  String get titleInvoice => 'Invoice · RuleFox';
+
+  @override
   String get titleCheckout => 'Checkout · RuleFox';
 
   @override
@@ -2183,6 +2186,124 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get certVerifiedDigitally => 'Verified Digitally';
+
+  @override
+  String get labelSummary => 'Summary';
+
+  @override
+  String get labelVAT => 'VAT';
+
+  @override
+  String get labelInTotal => 'In total';
+
+  @override
+  String get labelProcessingPayment => 'Processing Payment...';
+
+  @override
+  String get labelCalculating => 'Calculating...';
+
+  @override
+  String get labelSecurePayment => 'Secure payment';
+
+  @override
+  String get labelPaymentDetails => 'Payment details';
+
+  @override
+  String get labelCardholder => 'Cardholder';
+
+  @override
+  String get labelCardNumber => 'Card number';
+
+  @override
+  String get labelBillingAddress => 'Billing address';
+
+  @override
+  String get labelBuyNow => 'Buy now';
+
+  @override
+  String get labelEmailForInvoice => 'Email for invoice';
+
+  @override
+  String get hintBillingEmail => 'billing@beispiel.at';
+
+  @override
+  String get hintFullName => 'Full name';
+
+  @override
+  String get hintBillingAddress => 'Musterstraße 1, 1010 Wien';
+
+  @override
+  String get msgPaymentCanceled => 'Payment was canceled';
+
+  @override
+  String get msgPaymentFailed => 'Payment failed. Please try again.';
+
+  @override
+  String get msgPaymentFailedMethod =>
+      'Payment failed. Please try a different payment method.';
+
+  @override
+  String get msgPaymentProcessingError =>
+      'Payment processing error. Please try again.';
+
+  @override
+  String get msgEnterCompleteCard => 'Please enter complete card information';
+
+  @override
+  String get msgEnterEmailReceipt => 'Please enter your email for the receipt';
+
+  @override
+  String msgCreditsAdded(int count, double total) {
+    return '$count credits added to your account. Total paid: €$total';
+  }
+
+  @override
+  String get labelAiComplianceCredits => 'AI Compliance Credits';
+
+  @override
+  String labelCreditsXPrice(int count, String price) {
+    return '$count credits x €$price';
+  }
+
+  @override
+  String get labelByCountryInvoicing => 'by country of invoicing';
+
+  @override
+  String labelUseBookkeepingEmail(String email) {
+    return 'Use bookkeeping email: $email';
+  }
+
+  @override
+  String labelUseAccountEmail(String email) {
+    return 'Use account email: $email';
+  }
+
+  @override
+  String get labelPopularBadge => 'POPULAR';
+
+  @override
+  String get labelActionColumn => 'ACTION';
+
+  @override
+  String get labelCreditsUnit => 'Credits';
+
+  @override
+  String get pkgDescSmall => 'For small teams and pilot phase.';
+
+  @override
+  String get pkgDescMedium => 'Recommended for departments.';
+
+  @override
+  String get pkgDescLarge => 'For larger rollouts.';
+
+  @override
+  String get labelNoTestsAvailable => 'No tests available';
+
+  @override
+  String get labelBillingPageTitle => 'Billing & Credits';
+
+  @override
+  String get screenCheckout => 'Checkout';
 
   @override
   String get certSecureDigitalProof => 'SECURE DIGITAL PROOF';

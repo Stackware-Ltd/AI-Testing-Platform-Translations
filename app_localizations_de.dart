@@ -1212,6 +1212,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get titlePurchaseHistory => 'Kaufhistorie · RuleFox';
 
   @override
+  String get titleInvoice => 'Rechnung · RuleFox';
+
+  @override
   String get titleCheckout => 'Checkout · RuleFox';
 
   @override
@@ -2200,6 +2203,127 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get certVerifiedDigitally => 'Digital verifiziert';
+
+  @override
+  String get labelSummary => 'Zusammenfassung';
+
+  @override
+  String get labelVAT => 'USt.';
+
+  @override
+  String get labelInTotal => 'Gesamt';
+
+  @override
+  String get labelProcessingPayment => 'Zahlung wird verarbeitet...';
+
+  @override
+  String get labelCalculating => 'Wird berechnet...';
+
+  @override
+  String get labelSecurePayment => 'Sichere Zahlung';
+
+  @override
+  String get labelPaymentDetails => 'Zahlungsdetails';
+
+  @override
+  String get labelCardholder => 'Karteninhaber';
+
+  @override
+  String get labelCardNumber => 'Kartennummer';
+
+  @override
+  String get labelBillingAddress => 'Rechnungsadresse';
+
+  @override
+  String get labelBuyNow => 'Jetzt kaufen';
+
+  @override
+  String get labelEmailForInvoice => 'E-Mail für Rechnung';
+
+  @override
+  String get hintBillingEmail => 'buchhaltung@beispiel.at';
+
+  @override
+  String get hintFullName => 'Vollständiger Name';
+
+  @override
+  String get hintBillingAddress => 'Musterstraße 1, 1010 Wien';
+
+  @override
+  String get msgPaymentCanceled => 'Zahlung wurde abgebrochen';
+
+  @override
+  String get msgPaymentFailed =>
+      'Zahlung fehlgeschlagen. Bitte versuchen Sie es erneut.';
+
+  @override
+  String get msgPaymentFailedMethod =>
+      'Zahlung fehlgeschlagen. Bitte versuchen Sie eine andere Zahlungsmethode.';
+
+  @override
+  String get msgPaymentProcessingError =>
+      'Fehler bei der Zahlungsverarbeitung. Bitte versuchen Sie es erneut.';
+
+  @override
+  String get msgEnterCompleteCard =>
+      'Bitte geben Sie die vollständigen Karteninformationen ein';
+
+  @override
+  String get msgEnterEmailReceipt =>
+      'Bitte geben Sie Ihre E-Mail-Adresse für den Beleg ein';
+
+  @override
+  String msgCreditsAdded(int count, double total) {
+    return '$count Guthaben wurden Ihrem Konto hinzugefügt. Gesamt bezahlt: €$total';
+  }
+
+  @override
+  String get labelAiComplianceCredits => 'KI-Compliance Guthaben';
+
+  @override
+  String labelCreditsXPrice(int count, String price) {
+    return '$count Guthaben x €$price';
+  }
+
+  @override
+  String get labelByCountryInvoicing => 'nach Rechnungsland';
+
+  @override
+  String labelUseBookkeepingEmail(String email) {
+    return 'Buchhaltungs-E-Mail verwenden: $email';
+  }
+
+  @override
+  String labelUseAccountEmail(String email) {
+    return 'Konto-E-Mail verwenden: $email';
+  }
+
+  @override
+  String get labelPopularBadge => 'BELIEBT';
+
+  @override
+  String get labelActionColumn => 'AKTION';
+
+  @override
+  String get labelCreditsUnit => 'Credits';
+
+  @override
+  String get pkgDescSmall => 'Für kleine Teams und Pilotphasen.';
+
+  @override
+  String get pkgDescMedium => 'Empfohlen für Abteilungen.';
+
+  @override
+  String get pkgDescLarge => 'Für größere Roll-outs.';
+
+  @override
+  String get labelNoTestsAvailable => 'Keine Tests verfügbar';
+
+  @override
+  String get labelBillingPageTitle => 'Abrechnung & Guthaben';
+
+  @override
+  String get screenCheckout => 'Kasse';
 
   @override
   String get certSecureDigitalProof => 'SICHERER DIGITALER NACHWEIS';
