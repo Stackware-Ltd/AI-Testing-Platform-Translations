@@ -1973,7 +1973,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingNavProduct.
   ///
   /// In en, this message translates to:
-  /// **'product'**
+  /// **'Product'**
   String get landingNavProduct;
 
   /// No description provided for @landingNavWorkflow.
@@ -2389,6 +2389,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Purchase history · RuleFox'**
   String get titlePurchaseHistory;
+
+  /// No description provided for @titleInvoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice · RuleFox'**
+  String get titleInvoice;
 
   /// No description provided for @titleCheckout.
   ///
@@ -4189,6 +4195,288 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You have been invited to take the {testName}. This assessment evaluates your knowledge and skills in this specific area.'**
   String assessmentDescriptionDefault(String testName);
+
+  /// No description provided for @certVerificationCertificate.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification Certificate'**
+  String get certVerificationCertificate;
+
+  /// No description provided for @certPassedVerified.
+  ///
+  /// In en, this message translates to:
+  /// **'PASSED & VERIFIED'**
+  String get certPassedVerified;
+
+  /// No description provided for @certThisIsToCertify.
+  ///
+  /// In en, this message translates to:
+  /// **'THIS IS TO CERTIFY THAT'**
+  String get certThisIsToCertify;
+
+  /// No description provided for @certAcmeEmployee.
+  ///
+  /// In en, this message translates to:
+  /// **'Marketing Operations Specialist • Acme Enterprise GmbH'**
+  String get certAcmeEmployee;
+
+  /// No description provided for @certAssessmentTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment Test'**
+  String get certAssessmentTest;
+
+  /// No description provided for @certDateOfCompletion.
+  ///
+  /// In en, this message translates to:
+  /// **'Date of Completion'**
+  String get certDateOfCompletion;
+
+  /// No description provided for @certScoreAchieved.
+  ///
+  /// In en, this message translates to:
+  /// **'Score Achieved'**
+  String get certScoreAchieved;
+
+  /// No description provided for @certComplianceBoard.
+  ///
+  /// In en, this message translates to:
+  /// **'Rulefox Compliance Board'**
+  String get certComplianceBoard;
+
+  /// No description provided for @certVerifiedDigitally.
+  ///
+  /// In en, this message translates to:
+  /// **'Verified Digitally'**
+  String get certVerifiedDigitally;
+
+  /// No description provided for @labelSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Summary'**
+  String get labelSummary;
+
+  /// No description provided for @labelVAT.
+  ///
+  /// In en, this message translates to:
+  /// **'VAT'**
+  String get labelVAT;
+
+  /// No description provided for @labelInTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'In total'**
+  String get labelInTotal;
+
+  /// No description provided for @labelProcessingPayment.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing Payment...'**
+  String get labelProcessingPayment;
+
+  /// No description provided for @labelCalculating.
+  ///
+  /// In en, this message translates to:
+  /// **'Calculating...'**
+  String get labelCalculating;
+
+  /// No description provided for @labelSecurePayment.
+  ///
+  /// In en, this message translates to:
+  /// **'Secure payment'**
+  String get labelSecurePayment;
+
+  /// No description provided for @labelPaymentDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment details'**
+  String get labelPaymentDetails;
+
+  /// No description provided for @labelCardholder.
+  ///
+  /// In en, this message translates to:
+  /// **'Cardholder'**
+  String get labelCardholder;
+
+  /// No description provided for @labelCardNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Card number'**
+  String get labelCardNumber;
+
+  /// No description provided for @labelBillingAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing address'**
+  String get labelBillingAddress;
+
+  /// No description provided for @labelBuyNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy now'**
+  String get labelBuyNow;
+
+  /// No description provided for @labelEmailForInvoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Email for invoice'**
+  String get labelEmailForInvoice;
+
+  /// No description provided for @hintBillingEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'billing@beispiel.at'**
+  String get hintBillingEmail;
+
+  /// No description provided for @hintFullName.
+  ///
+  /// In en, this message translates to:
+  /// **'Full name'**
+  String get hintFullName;
+
+  /// No description provided for @hintBillingAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'Musterstraße 1, 1010 Wien'**
+  String get hintBillingAddress;
+
+  /// No description provided for @msgPaymentCanceled.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment was canceled'**
+  String get msgPaymentCanceled;
+
+  /// No description provided for @msgPaymentFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment failed. Please try again.'**
+  String get msgPaymentFailed;
+
+  /// No description provided for @msgPaymentFailedMethod.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment failed. Please try a different payment method.'**
+  String get msgPaymentFailedMethod;
+
+  /// No description provided for @msgPaymentProcessingError.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment processing error. Please try again.'**
+  String get msgPaymentProcessingError;
+
+  /// No description provided for @msgEnterCompleteCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter complete card information'**
+  String get msgEnterCompleteCard;
+
+  /// No description provided for @msgEnterEmailReceipt.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your email for the receipt'**
+  String get msgEnterEmailReceipt;
+
+  /// No description provided for @msgCreditsAdded.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} credits added to your account. Total paid: €{total}'**
+  String msgCreditsAdded(int count, double total);
+
+  /// No description provided for @labelAiComplianceCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Credits'**
+  String get labelAiComplianceCredits;
+
+  /// No description provided for @labelCreditsXPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} credits x €{price}'**
+  String labelCreditsXPrice(int count, String price);
+
+  /// No description provided for @labelByCountryInvoicing.
+  ///
+  /// In en, this message translates to:
+  /// **'by country of invoicing'**
+  String get labelByCountryInvoicing;
+
+  /// No description provided for @labelUseBookkeepingEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Use bookkeeping email: {email}'**
+  String labelUseBookkeepingEmail(String email);
+
+  /// No description provided for @labelUseAccountEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Use account email: {email}'**
+  String labelUseAccountEmail(String email);
+
+  /// No description provided for @labelPopularBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'POPULAR'**
+  String get labelPopularBadge;
+
+  /// No description provided for @labelActionColumn.
+  ///
+  /// In en, this message translates to:
+  /// **'ACTION'**
+  String get labelActionColumn;
+
+  /// No description provided for @labelCreditsUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get labelCreditsUnit;
+
+  /// No description provided for @pkgDescSmall.
+  ///
+  /// In en, this message translates to:
+  /// **'For small teams and pilot phase.'**
+  String get pkgDescSmall;
+
+  /// No description provided for @pkgDescMedium.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended for departments.'**
+  String get pkgDescMedium;
+
+  /// No description provided for @pkgDescLarge.
+  ///
+  /// In en, this message translates to:
+  /// **'For larger rollouts.'**
+  String get pkgDescLarge;
+
+  /// No description provided for @labelNoTestsAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'No tests available'**
+  String get labelNoTestsAvailable;
+
+  /// No description provided for @labelBillingPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing & Credits'**
+  String get labelBillingPageTitle;
+
+  /// No description provided for @screenCheckout.
+  ///
+  /// In en, this message translates to:
+  /// **'Checkout'**
+  String get screenCheckout;
+
+  /// No description provided for @certSecureDigitalProof.
+  ///
+  /// In en, this message translates to:
+  /// **'SECURE DIGITAL PROOF'**
+  String get certSecureDigitalProof;
+
+  /// No description provided for @certCloseButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get certCloseButton;
 }
 
 class _AppLocalizationsDelegate

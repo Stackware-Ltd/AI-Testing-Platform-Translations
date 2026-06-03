@@ -378,7 +378,7 @@
   "empInvite": "Invite Employee",
   "empAdd": "Add Employees",
   "empUploadCsv": "Upload CSV",
-  "landingNavProduct": "product",
+  "landingNavProduct": "Product",
   "landingNavWorkflow": "Sequence",
   "landingNavEvidence": "Evidence",
   "landingNavPricing": "Prices",
@@ -448,6 +448,7 @@
   "titleEmployees": "Employees · RuleFox",
   "titleBilling": "Billing · RuleFox",
   "titlePurchaseHistory": "Purchase history · RuleFox",
+  "titleInvoice": "Invoice · RuleFox",
   "titleCheckout": "Checkout · RuleFox",
   "titleAssessmentReady": "Assessment ready · RuleFox",
   "titleTestDetail": "AI Compliance Test · RuleFox",
@@ -788,5 +789,74 @@
   "testRunnerQuestionAnsweredOfTotal": "{answered} of {total} questions answered",
   "@testRunnerQuestionAnsweredOfTotal": { "placeholders": { "answered": { "type": "int" }, "total": { "type": "int" } } },
   "assessmentDescriptionDefault": "You have been invited to take the {testName}. This assessment evaluates your knowledge and skills in this specific area.",
-  "@assessmentDescriptionDefault": { "placeholders": { "testName": { "type": "String" } } }
+  "@assessmentDescriptionDefault": { "placeholders": { "testName": { "type": "String" } } },
+  "certVerificationCertificate": "Verification Certificate",
+  "certPassedVerified": "PASSED & VERIFIED",
+  "certThisIsToCertify": "THIS IS TO CERTIFY THAT",
+  "certAcmeEmployee": "Marketing Operations Specialist • Acme Enterprise GmbH",
+  "certAssessmentTest": "Assessment Test",
+  "certDateOfCompletion": "Date of Completion",
+  "certScoreAchieved": "Score Achieved",
+  "certComplianceBoard": "Rulefox Compliance Board",
+  "certVerifiedDigitally": "Verified Digitally",
+  "labelSummary": "Summary",
+  "labelVAT": "VAT",
+  "labelInTotal": "In total",
+  "labelProcessingPayment": "Processing Payment...",
+  "labelCalculating": "Calculating...",
+  "labelSecurePayment": "Secure payment",
+  "labelPaymentDetails": "Payment details",
+  "labelCardholder": "Cardholder",
+  "labelCardNumber": "Card number",
+  "labelBillingAddress": "Billing address",
+  "labelBuyNow": "Buy now",
+  "labelEmailForInvoice": "Email for invoice",
+  "hintBillingEmail": "billing@beispiel.at",
+  "hintFullName": "Full name",
+  "hintBillingAddress": "Musterstraße 1, 1010 Wien",
+  "msgPaymentCanceled": "Payment was canceled",
+  "msgPaymentFailed": "Payment failed. Please try again.",
+  "msgPaymentFailedMethod": "Payment failed. Please try a different payment method.",
+  "msgPaymentProcessingError": "Payment processing error. Please try again.",
+  "msgEnterCompleteCard": "Please enter complete card information",
+  "msgEnterEmailReceipt": "Please enter your email for the receipt",
+  "msgCreditsAdded": "{count} credits added to your account. Total paid: €{total}",
+  "@msgCreditsAdded": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "double" }
+    }
+  },
+  "labelAiComplianceCredits": "AI Compliance Credits",
+  "labelCreditsXPrice": "{count} credits x €{price}",
+  "@labelCreditsXPrice": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "price": { "type": "String" }
+    }
+  },
+  "labelByCountryInvoicing": "by country of invoicing",
+  "labelUseBookkeepingEmail": "Use bookkeeping email: {email}",
+  "@labelUseBookkeepingEmail": {
+    "placeholders": {
+      "email": { "type": "String" }
+    }
+  },
+  "labelUseAccountEmail": "Use account email: {email}",
+  "@labelUseAccountEmail": {
+    "placeholders": {
+      "email": { "type": "String" }
+    }
+  },
+  "labelPopularBadge": "POPULAR",
+  "labelActionColumn": "ACTION",
+  "labelCreditsUnit": "Credits",
+  "pkgDescSmall": "For small teams and pilot phase.",
+  "pkgDescMedium": "Recommended for departments.",
+  "pkgDescLarge": "For larger rollouts.",
+  "labelNoTestsAvailable": "No tests available",
+  "labelBillingPageTitle": "Billing & Credits",
+  "screenCheckout": "Checkout",
+  "certSecureDigitalProof": "SECURE DIGITAL PROOF",
+  "certCloseButton": "Close"
 }
