@@ -2330,4 +2330,103 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get certCloseButton => 'Schließen';
+
+  @override
+  String get titleTestHistory => 'Testverlauf';
+
+  @override
+  String get buttonAddNewVersion => 'Neue Version hinzufügen';
+
+  @override
+  String get columnVersions => 'Versionen';
+
+  @override
+  String get emptyNoVersions => 'Keine Versionen gefunden';
+
+  @override
+  String get labelPrimary => 'Primär';
+
+  @override
+  String get buttonMakePrimary => 'Als primär festlegen';
+
+  @override
+  String get buttonPreview => 'Vorschau';
+
+  @override
+  String get msgUpdatingPrimaryVersion =>
+      'Primäre Version wird aktualisiert...';
+
+  @override
+  String get msgPrimaryVersionUpdated => 'Primäre Version aktualisiert!';
+
+  @override
+  String get msgPreparingPreview => 'Vorschau wird vorbereitet...';
+
+  @override
+  String get msgNoTestData => 'Keine Testdaten für diese Version gefunden.';
+
+  @override
+  String get msgPublishingTest => 'Test wird veröffentlicht...';
+
+  @override
+  String get msgSavingDraft => 'Entwurf wird gespeichert...';
+
+  @override
+  String get msgNewVersionDraft => 'Neue Version als Entwurf hochgeladen!';
+
+  @override
+  String get msgTestSavedDraft => 'Test als Entwurf gespeichert!';
+
+  @override
+  String get titleUpdateTest => 'Test aktualisieren';
+
+  @override
+  String get msgActionFailed => 'Aktion fehlgeschlagen';
+
+  @override
+  String get msgSessionExpired =>
+      'Sitzung abgelaufen. Bitte melden Sie sich erneut an.';
+
+  @override
+  String get msgInvalidTestFile => 'Ungültige Testdateistruktur';
+
+  @override
+  String get msgCouldNotReadFile =>
+      'Datei konnte nicht gelesen werden. Versuchen Sie es erneut.';
+
+  @override
+  String get errorUploadJson => 'Bitte laden Sie eine JSON-Testdatei hoch';
+
+  @override
+  String get errorTestNameRequired => 'Testname ist erforderlich';
+
+  @override
+  String get errorCreditsRequired => 'Credits erforderlich';
+
+  @override
+  String get errorValidNumber => 'Geben Sie eine gültige Zahl ein';
+
+  @override
+  String get errorSelectCategory => 'Bitte wählen Sie eine Kategorie';
+
+  @override
+  String get errorTimeLimitNegative =>
+      'Das Zeitlimit darf nicht negativ sein (0 für kein Limit)';
+
+  @override
+  String get errorTimeLimitInvalid =>
+      'Geben Sie eine gültige Zahl ein oder lassen Sie das Feld leer (kein Limit)';
+
+  @override
+  String get labelVersionNumberAuto => 'Versionsnummer (automatisch generiert)';
+
+  @override
+  String get hintTestName => 'z.B. KI-Compliance-Test';
+
+  @override
+  String get errorInvalidJsonFile =>
+      'Ungültige JSON-Datei. Bitte überprüfen Sie den Inhalt.';
+
+  @override
+  String get errorInvalidJsonStructure => 'Ungültige JSON-Dateistruktur';
 }

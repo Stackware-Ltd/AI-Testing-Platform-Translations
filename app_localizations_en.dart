@@ -2310,4 +2310,100 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get certCloseButton => 'Close';
+
+  @override
+  String get titleTestHistory => 'Test History';
+
+  @override
+  String get buttonAddNewVersion => 'Add New Version';
+
+  @override
+  String get columnVersions => 'Versions';
+
+  @override
+  String get emptyNoVersions => 'No versions found';
+
+  @override
+  String get labelPrimary => 'Primary';
+
+  @override
+  String get buttonMakePrimary => 'Make Primary';
+
+  @override
+  String get buttonPreview => 'Preview';
+
+  @override
+  String get msgUpdatingPrimaryVersion => 'Updating Primary Version...';
+
+  @override
+  String get msgPrimaryVersionUpdated => 'Primary Version Updated!';
+
+  @override
+  String get msgPreparingPreview => 'Preparing Preview...';
+
+  @override
+  String get msgNoTestData => 'No test data found for this version.';
+
+  @override
+  String get msgPublishingTest => 'Publishing Test...';
+
+  @override
+  String get msgSavingDraft => 'Saving Draft...';
+
+  @override
+  String get msgNewVersionDraft => 'New Version Uploaded as Draft!';
+
+  @override
+  String get msgTestSavedDraft => 'Test Saved as Draft!';
+
+  @override
+  String get titleUpdateTest => 'Update Test';
+
+  @override
+  String get msgActionFailed => 'Action Failed';
+
+  @override
+  String get msgSessionExpired => 'Session expired. Please log in again.';
+
+  @override
+  String get msgInvalidTestFile => 'Invalid test file structure';
+
+  @override
+  String get msgCouldNotReadFile => 'Could not read file. Try again.';
+
+  @override
+  String get errorUploadJson => 'Please upload a JSON test file';
+
+  @override
+  String get errorTestNameRequired => 'Test name is required';
+
+  @override
+  String get errorCreditsRequired => 'Credits required';
+
+  @override
+  String get errorValidNumber => 'Enter a valid number';
+
+  @override
+  String get errorSelectCategory => 'Please select a category';
+
+  @override
+  String get errorTimeLimitNegative =>
+      'Time limit cannot be negative (0 for no limit)';
+
+  @override
+  String get errorTimeLimitInvalid =>
+      'Enter a valid number or leave empty for no limit';
+
+  @override
+  String get labelVersionNumberAuto => 'Version Number (Auto-generated)';
+
+  @override
+  String get hintTestName => 'e.g. AI Compliance Test';
+
+  @override
+  String get errorInvalidJsonFile =>
+      'Invalid JSON file. Please check the content.';
+
+  @override
+  String get errorInvalidJsonStructure => 'Invalid JSON file structure';
 }

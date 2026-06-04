@@ -4477,6 +4477,192 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Close'**
   String get certCloseButton;
+
+  /// No description provided for @titleTestHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'Test History'**
+  String get titleTestHistory;
+
+  /// No description provided for @buttonAddNewVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Add New Version'**
+  String get buttonAddNewVersion;
+
+  /// No description provided for @columnVersions.
+  ///
+  /// In en, this message translates to:
+  /// **'Versions'**
+  String get columnVersions;
+
+  /// No description provided for @emptyNoVersions.
+  ///
+  /// In en, this message translates to:
+  /// **'No versions found'**
+  String get emptyNoVersions;
+
+  /// No description provided for @labelPrimary.
+  ///
+  /// In en, this message translates to:
+  /// **'Primary'**
+  String get labelPrimary;
+
+  /// No description provided for @buttonMakePrimary.
+  ///
+  /// In en, this message translates to:
+  /// **'Make Primary'**
+  String get buttonMakePrimary;
+
+  /// No description provided for @buttonPreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview'**
+  String get buttonPreview;
+
+  /// No description provided for @msgUpdatingPrimaryVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Updating Primary Version...'**
+  String get msgUpdatingPrimaryVersion;
+
+  /// No description provided for @msgPrimaryVersionUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Primary Version Updated!'**
+  String get msgPrimaryVersionUpdated;
+
+  /// No description provided for @msgPreparingPreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparing Preview...'**
+  String get msgPreparingPreview;
+
+  /// No description provided for @msgNoTestData.
+  ///
+  /// In en, this message translates to:
+  /// **'No test data found for this version.'**
+  String get msgNoTestData;
+
+  /// No description provided for @msgPublishingTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Publishing Test...'**
+  String get msgPublishingTest;
+
+  /// No description provided for @msgSavingDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Saving Draft...'**
+  String get msgSavingDraft;
+
+  /// No description provided for @msgNewVersionDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'New Version Uploaded as Draft!'**
+  String get msgNewVersionDraft;
+
+  /// No description provided for @msgTestSavedDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Saved as Draft!'**
+  String get msgTestSavedDraft;
+
+  /// No description provided for @titleUpdateTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Update Test'**
+  String get titleUpdateTest;
+
+  /// No description provided for @msgActionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Action Failed'**
+  String get msgActionFailed;
+
+  /// No description provided for @msgSessionExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Session expired. Please log in again.'**
+  String get msgSessionExpired;
+
+  /// No description provided for @msgInvalidTestFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid test file structure'**
+  String get msgInvalidTestFile;
+
+  /// No description provided for @msgCouldNotReadFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not read file. Try again.'**
+  String get msgCouldNotReadFile;
+
+  /// No description provided for @errorUploadJson.
+  ///
+  /// In en, this message translates to:
+  /// **'Please upload a JSON test file'**
+  String get errorUploadJson;
+
+  /// No description provided for @errorTestNameRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Test name is required'**
+  String get errorTestNameRequired;
+
+  /// No description provided for @errorCreditsRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits required'**
+  String get errorCreditsRequired;
+
+  /// No description provided for @errorValidNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid number'**
+  String get errorValidNumber;
+
+  /// No description provided for @errorSelectCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select a category'**
+  String get errorSelectCategory;
+
+  /// No description provided for @errorTimeLimitNegative.
+  ///
+  /// In en, this message translates to:
+  /// **'Time limit cannot be negative (0 for no limit)'**
+  String get errorTimeLimitNegative;
+
+  /// No description provided for @errorTimeLimitInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid number or leave empty for no limit'**
+  String get errorTimeLimitInvalid;
+
+  /// No description provided for @labelVersionNumberAuto.
+  ///
+  /// In en, this message translates to:
+  /// **'Version Number (Auto-generated)'**
+  String get labelVersionNumberAuto;
+
+  /// No description provided for @hintTestName.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. AI Compliance Test'**
+  String get hintTestName;
+
+  /// No description provided for @errorInvalidJsonFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid JSON file. Please check the content.'**
+  String get errorInvalidJsonFile;
+
+  /// No description provided for @errorInvalidJsonStructure.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid JSON file structure'**
+  String get errorInvalidJsonStructure;
 }
 
 class _AppLocalizationsDelegate
