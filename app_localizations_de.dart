@@ -2332,6 +2332,12 @@ class AppLocalizationsDe extends AppLocalizations {
   String get certCloseButton => 'Schließen';
 
   @override
+  String get certViewPdf => 'PDF-Zertifikat ansehen';
+
+  @override
+  String get certReturnHome => 'Zur Startseite zurück';
+
+  @override
   String get titleTestHistory => 'Testverlauf';
 
   @override

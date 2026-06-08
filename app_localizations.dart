@@ -4478,6 +4478,18 @@ abstract class AppLocalizations {
   /// **'Close'**
   String get certCloseButton;
 
+  /// No description provided for @certViewPdf.
+  ///
+  /// In en, this message translates to:
+  /// **'View PDF Certificate'**
+  String get certViewPdf;
+
+  /// No description provided for @certReturnHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Return Home'**
+  String get certReturnHome;
+
   /// No description provided for @titleTestHistory.
   ///
   /// In en, this message translates to:

@@ -859,6 +859,8 @@
   "screenCheckout": "Checkout",
   "certSecureDigitalProof": "SECURE DIGITAL PROOF",
   "certCloseButton": "Close",
+  "certViewPdf": "View PDF Certificate",
+  "certReturnHome": "Return Home",
   "titleTestHistory": "Test History",
   "buttonAddNewVersion": "Add New Version",
   "columnVersions": "Versions",

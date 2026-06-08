@@ -859,6 +859,8 @@
   "screenCheckout": "Kasse",
   "certSecureDigitalProof": "SICHERER DIGITALER NACHWEIS",
   "certCloseButton": "Schließen",
+  "certViewPdf": "PDF-Zertifikat ansehen",
+  "certReturnHome": "Zur Startseite zurück",
   "titleTestHistory": "Testverlauf",
   "buttonAddNewVersion": "Neue Version hinzufügen",
   "columnVersions": "Versionen",
