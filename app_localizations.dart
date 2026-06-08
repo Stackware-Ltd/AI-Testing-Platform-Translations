@@ -4663,6 +4663,191 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Invalid JSON file structure'**
   String get errorInvalidJsonStructure;
+
+  /// No description provided for @labelSwitchToVisualBuilder.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch to Visual Builder'**
+  String get labelSwitchToVisualBuilder;
+
+  /// No description provided for @labelSwitchToJsonUpload.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch to JSON Upload'**
+  String get labelSwitchToJsonUpload;
+
+  /// No description provided for @labelTestBuiltSuccessfully.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Built Successfully'**
+  String get labelTestBuiltSuccessfully;
+
+  /// No description provided for @labelEditInVisualBuilder.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit in Visual Builder'**
+  String get labelEditInVisualBuilder;
+
+  /// No description provided for @labelEditTestQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Test Questions'**
+  String get labelEditTestQuestions;
+
+  /// No description provided for @labelBuildTestVisually.
+  ///
+  /// In en, this message translates to:
+  /// **'Build Test Visually'**
+  String get labelBuildTestVisually;
+
+  /// No description provided for @labelBuildTestDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Add sections and questions to structure your test'**
+  String get labelBuildTestDescription;
+
+  /// No description provided for @labelPassingScore.
+  ///
+  /// In en, this message translates to:
+  /// **'Passing Score (%)'**
+  String get labelPassingScore;
+
+  /// No description provided for @labelAddSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Section'**
+  String get labelAddSection;
+
+  /// No description provided for @labelAddQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Question'**
+  String get labelAddQuestion;
+
+  /// No description provided for @labelQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Question'**
+  String get labelQuestion;
+
+  /// No description provided for @labelOptionsInstruction.
+  ///
+  /// In en, this message translates to:
+  /// **'OPTIONS • TAP CIRCLE TO MARK CORRECT ANSWER'**
+  String get labelOptionsInstruction;
+
+  /// No description provided for @labelSaveTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Test'**
+  String get labelSaveTest;
+
+  /// No description provided for @errorAddOneSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Add at least one section.'**
+  String get errorAddOneSection;
+
+  /// No description provided for @errorInvalidScore.
+  ///
+  /// In en, this message translates to:
+  /// **'Passing score must be a number between 0 and 100.'**
+  String get errorInvalidScore;
+
+  /// No description provided for @labelSectionCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Section {num}'**
+  String labelSectionCount(int num);
+
+  /// No description provided for @labelQuestionCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Question {num}'**
+  String labelQuestionCount(int num);
+
+  /// No description provided for @labelOptionPrefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Option {key}...'**
+  String labelOptionPrefix(String key);
+
+  /// No description provided for @labelSectionTitleHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Section title...'**
+  String get labelSectionTitleHint;
+
+  /// No description provided for @labelQuestionHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter question text...'**
+  String get labelQuestionHint;
+
+  /// No description provided for @errorSectionTitleEmptyDetailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Section {num} title cannot be empty.'**
+  String errorSectionTitleEmptyDetailed(int num);
+
+  /// No description provided for @errorQuestionEmptyDetailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Question {qNum} in \"{sTitle}\" cannot be empty.'**
+  String errorQuestionEmptyDetailed(int qNum, String sTitle);
+
+  /// No description provided for @errorOptionEmptyDetailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Option {key} of question {qNum} in \"{sTitle}\" cannot be empty.'**
+  String errorOptionEmptyDetailed(String key, int qNum, String sTitle);
+
+  /// No description provided for @errorCorrectAnswerDetailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select a correct answer for question {qNum} in \"{sTitle}\".'**
+  String errorCorrectAnswerDetailed(int qNum, String sTitle);
+
+  /// No description provided for @labelSectionsAndQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'{sCount} section{sPlural} • {qCount} question{qPlural}'**
+  String labelSectionsAndQuestions(
+    int sCount,
+    String sPlural,
+    int qCount,
+    String qPlural,
+  );
+
+  /// No description provided for @labelChooseAddQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose How to Add Questions'**
+  String get labelChooseAddQuestions;
+
+  /// No description provided for @labelUploadJson.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload JSON'**
+  String get labelUploadJson;
+
+  /// No description provided for @labelImportTestFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Import a pre-made test file'**
+  String get labelImportTestFile;
+
+  /// No description provided for @labelBuildVisually.
+  ///
+  /// In en, this message translates to:
+  /// **'Build Visually'**
+  String get labelBuildVisually;
+
+  /// No description provided for @labelCreateQuestionsInside.
+  ///
+  /// In en, this message translates to:
+  /// **'Create questions inside the app'**
+  String get labelCreateQuestionsInside;
 }
 
 class _AppLocalizationsDelegate

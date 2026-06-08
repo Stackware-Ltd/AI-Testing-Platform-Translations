@@ -2429,4 +2429,122 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get errorInvalidJsonStructure => 'Ungültige JSON-Dateistruktur';
+
+  @override
+  String get labelSwitchToVisualBuilder => 'Zum Visual Builder wechseln';
+
+  @override
+  String get labelSwitchToJsonUpload => 'Zum JSON-Upload wechseln';
+
+  @override
+  String get labelTestBuiltSuccessfully => 'Test erfolgreich erstellt';
+
+  @override
+  String get labelEditInVisualBuilder => 'Im Visual Builder bearbeiten';
+
+  @override
+  String get labelEditTestQuestions => 'Testfragen bearbeiten';
+
+  @override
+  String get labelBuildTestVisually => 'Test visuell erstellen';
+
+  @override
+  String get labelBuildTestDescription =>
+      'Fügen Sie Abschnitte und Fragen hinzu, um Ihren Test zu strukturieren';
+
+  @override
+  String get labelPassingScore => 'Bestehensquote (%)';
+
+  @override
+  String get labelAddSection => 'Abschnitt hinzufügen';
+
+  @override
+  String get labelAddQuestion => 'Frage hinzufügen';
+
+  @override
+  String get labelQuestion => 'Frage';
+
+  @override
+  String get labelOptionsInstruction =>
+      'OPTIONEN • KREIS TIPPEN, UM RICHTIGE ANTWORT ZU MARKIEREN';
+
+  @override
+  String get labelSaveTest => 'Test speichern';
+
+  @override
+  String get errorAddOneSection =>
+      'Fügen Sie mindestens einen Abschnitt hinzu.';
+
+  @override
+  String get errorInvalidScore =>
+      'Die Bestehensquote muss eine Zahl zwischen 0 und 100 sein.';
+
+  @override
+  String labelSectionCount(int num) {
+    return 'Abschnitt $num';
+  }
+
+  @override
+  String labelQuestionCount(int num) {
+    return 'Frage $num';
+  }
+
+  @override
+  String labelOptionPrefix(String key) {
+    return 'Option $key...';
+  }
+
+  @override
+  String get labelSectionTitleHint => 'Abschnittstitel...';
+
+  @override
+  String get labelQuestionHint => 'Fragentext eingeben...';
+
+  @override
+  String errorSectionTitleEmptyDetailed(int num) {
+    return 'Titel von Abschnitt $num darf nicht leer sein.';
+  }
+
+  @override
+  String errorQuestionEmptyDetailed(int qNum, String sTitle) {
+    return 'Frage $qNum in \"$sTitle\" darf nicht leer sein.';
+  }
+
+  @override
+  String errorOptionEmptyDetailed(String key, int qNum, String sTitle) {
+    return 'Option $key von Frage $qNum in \"$sTitle\" darf nicht leer sein.';
+  }
+
+  @override
+  String errorCorrectAnswerDetailed(int qNum, String sTitle) {
+    return 'Bitte wählen Sie eine richtige Antwort für Frage $qNum in \"$sTitle\" aus.';
+  }
+
+  @override
+  String labelSectionsAndQuestions(
+    int sCount,
+    String sPlural,
+    int qCount,
+    String qPlural,
+  ) {
+    return '$sCount Abschnitt(e) • $qCount Frage(n)';
+  }
+
+  @override
+  String get labelChooseAddQuestions =>
+      'Wählen Sie, wie Fragen hinzugefügt werden sollen';
+
+  @override
+  String get labelUploadJson => 'JSON hochladen';
+
+  @override
+  String get labelImportTestFile =>
+      'Importieren Sie eine vorgefertigte Testdatei';
+
+  @override
+  String get labelBuildVisually => 'Visuell erstellen';
+
+  @override
+  String get labelCreateQuestionsInside =>
+      'Erstellen Sie Fragen innerhalb der App';
 }

@@ -2406,4 +2406,118 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get errorInvalidJsonStructure => 'Invalid JSON file structure';
+
+  @override
+  String get labelSwitchToVisualBuilder => 'Switch to Visual Builder';
+
+  @override
+  String get labelSwitchToJsonUpload => 'Switch to JSON Upload';
+
+  @override
+  String get labelTestBuiltSuccessfully => 'Test Built Successfully';
+
+  @override
+  String get labelEditInVisualBuilder => 'Edit in Visual Builder';
+
+  @override
+  String get labelEditTestQuestions => 'Edit Test Questions';
+
+  @override
+  String get labelBuildTestVisually => 'Build Test Visually';
+
+  @override
+  String get labelBuildTestDescription =>
+      'Add sections and questions to structure your test';
+
+  @override
+  String get labelPassingScore => 'Passing Score (%)';
+
+  @override
+  String get labelAddSection => 'Add Section';
+
+  @override
+  String get labelAddQuestion => 'Add Question';
+
+  @override
+  String get labelQuestion => 'Question';
+
+  @override
+  String get labelOptionsInstruction =>
+      'OPTIONS • TAP CIRCLE TO MARK CORRECT ANSWER';
+
+  @override
+  String get labelSaveTest => 'Save Test';
+
+  @override
+  String get errorAddOneSection => 'Add at least one section.';
+
+  @override
+  String get errorInvalidScore =>
+      'Passing score must be a number between 0 and 100.';
+
+  @override
+  String labelSectionCount(int num) {
+    return 'Section $num';
+  }
+
+  @override
+  String labelQuestionCount(int num) {
+    return 'Question $num';
+  }
+
+  @override
+  String labelOptionPrefix(String key) {
+    return 'Option $key...';
+  }
+
+  @override
+  String get labelSectionTitleHint => 'Section title...';
+
+  @override
+  String get labelQuestionHint => 'Enter question text...';
+
+  @override
+  String errorSectionTitleEmptyDetailed(int num) {
+    return 'Section $num title cannot be empty.';
+  }
+
+  @override
+  String errorQuestionEmptyDetailed(int qNum, String sTitle) {
+    return 'Question $qNum in \"$sTitle\" cannot be empty.';
+  }
+
+  @override
+  String errorOptionEmptyDetailed(String key, int qNum, String sTitle) {
+    return 'Option $key of question $qNum in \"$sTitle\" cannot be empty.';
+  }
+
+  @override
+  String errorCorrectAnswerDetailed(int qNum, String sTitle) {
+    return 'Please select a correct answer for question $qNum in \"$sTitle\".';
+  }
+
+  @override
+  String labelSectionsAndQuestions(
+    int sCount,
+    String sPlural,
+    int qCount,
+    String qPlural,
+  ) {
+    return '$sCount section$sPlural • $qCount question$qPlural';
+  }
+
+  @override
+  String get labelChooseAddQuestions => 'Choose How to Add Questions';
+
+  @override
+  String get labelUploadJson => 'Upload JSON';
+
+  @override
+  String get labelImportTestFile => 'Import a pre-made test file';
+
+  @override
+  String get labelBuildVisually => 'Build Visually';
+
+  @override
+  String get labelCreateQuestionsInside => 'Create questions inside the app';
 }
