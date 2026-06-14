@@ -4736,6 +4736,48 @@ abstract class AppLocalizations {
   /// **'Add Question'**
   String get labelAddQuestion;
 
+  /// No description provided for @labelAddOption.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Option'**
+  String get labelAddOption;
+
+  /// No description provided for @questionTypePickerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Question Type'**
+  String get questionTypePickerTitle;
+
+  /// No description provided for @questionTypePickerSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Select how you want the question to be answered'**
+  String get questionTypePickerSubtitle;
+
+  /// No description provided for @questionTypeMultipleChoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Multiple Choice'**
+  String get questionTypeMultipleChoice;
+
+  /// No description provided for @questionTypeMultipleChoiceDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Provide options and let users pick the correct one(s)'**
+  String get questionTypeMultipleChoiceDesc;
+
+  /// No description provided for @questionTypeTextInput.
+  ///
+  /// In en, this message translates to:
+  /// **'Text Input'**
+  String get questionTypeTextInput;
+
+  /// No description provided for @questionTypeTextInputDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Users type their answer in a free text field'**
+  String get questionTypeTextInputDesc;
+
   /// No description provided for @labelQuestion.
   ///
   /// In en, this message translates to:
@@ -4860,6 +4902,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Create questions inside the app'**
   String get labelCreateQuestionsInside;
+
+  /// No description provided for @testEditorTypeImageUpload.
+  ///
+  /// In en, this message translates to:
+  /// **'Image Upload'**
+  String get testEditorTypeImageUpload;
+
+  /// No description provided for @testEditorTypeImageUploadDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Attach an image for visual question context'**
+  String get testEditorTypeImageUploadDesc;
+
+  /// No description provided for @testEditorReplaceImage.
+  ///
+  /// In en, this message translates to:
+  /// **'Replace Image'**
+  String get testEditorReplaceImage;
+
+  /// No description provided for @testEditorUploading.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploading...'**
+  String get testEditorUploading;
+
+  /// No description provided for @testEditorTapToAttachImage.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to attach an image'**
+  String get testEditorTapToAttachImage;
+
+  /// No description provided for @testEditorImageSupportedFormats.
+  ///
+  /// In en, this message translates to:
+  /// **'PNG, JPG, WEBP supported'**
+  String get testEditorImageSupportedFormats;
+
+  /// No description provided for @testEditorCorrectAnswerForGrading.
+  ///
+  /// In en, this message translates to:
+  /// **'CORRECT ANSWER FOR AUTOMATIC GRADING'**
+  String get testEditorCorrectAnswerForGrading;
+
+  /// No description provided for @testEditorEnterCorrectAnswer.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter correct answer'**
+  String get testEditorEnterCorrectAnswer;
+
+  /// No description provided for @testRunnerTypeAnswerHere.
+  ///
+  /// In en, this message translates to:
+  /// **'Type your answer here...'**
+  String get testRunnerTypeAnswerHere;
 }
 
 class _AppLocalizationsDelegate

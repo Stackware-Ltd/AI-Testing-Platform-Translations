@@ -2445,6 +2445,30 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelAddQuestion => 'Add Question';
 
   @override
+  String get labelAddOption => 'Add Option';
+
+  @override
+  String get questionTypePickerTitle => 'Choose Question Type';
+
+  @override
+  String get questionTypePickerSubtitle =>
+      'Select how you want the question to be answered';
+
+  @override
+  String get questionTypeMultipleChoice => 'Multiple Choice';
+
+  @override
+  String get questionTypeMultipleChoiceDesc =>
+      'Provide options and let users pick the correct one(s)';
+
+  @override
+  String get questionTypeTextInput => 'Text Input';
+
+  @override
+  String get questionTypeTextInputDesc =>
+      'Users type their answer in a free text field';
+
+  @override
   String get labelQuestion => 'Question';
 
   @override
@@ -2526,4 +2550,33 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get labelCreateQuestionsInside => 'Create questions inside the app';
+
+  @override
+  String get testEditorTypeImageUpload => 'Image Upload';
+
+  @override
+  String get testEditorTypeImageUploadDesc =>
+      'Attach an image for visual question context';
+
+  @override
+  String get testEditorReplaceImage => 'Replace Image';
+
+  @override
+  String get testEditorUploading => 'Uploading...';
+
+  @override
+  String get testEditorTapToAttachImage => 'Tap to attach an image';
+
+  @override
+  String get testEditorImageSupportedFormats => 'PNG, JPG, WEBP supported';
+
+  @override
+  String get testEditorCorrectAnswerForGrading =>
+      'CORRECT ANSWER FOR AUTOMATIC GRADING';
+
+  @override
+  String get testEditorEnterCorrectAnswer => 'Enter correct answer';
+
+  @override
+  String get testRunnerTypeAnswerHere => 'Type your answer here...';
 }

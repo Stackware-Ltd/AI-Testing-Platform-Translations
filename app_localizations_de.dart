@@ -2468,6 +2468,30 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelAddQuestion => 'Frage hinzufügen';
 
   @override
+  String get labelAddOption => 'Option hinzufügen';
+
+  @override
+  String get questionTypePickerTitle => 'Fragetyp auswählen';
+
+  @override
+  String get questionTypePickerSubtitle =>
+      'Wählen Sie, wie die Frage beantwortet werden soll';
+
+  @override
+  String get questionTypeMultipleChoice => 'Multiple Choice';
+
+  @override
+  String get questionTypeMultipleChoiceDesc =>
+      'Optionen bereitstellen und Benutzer die richtige(n) auswählen lassen';
+
+  @override
+  String get questionTypeTextInput => 'Texteingabe';
+
+  @override
+  String get questionTypeTextInputDesc =>
+      'Benutzer geben ihre Antwort in einem Freitextfeld ein';
+
+  @override
   String get labelQuestion => 'Frage';
 
   @override
@@ -2553,4 +2577,34 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get labelCreateQuestionsInside =>
       'Erstellen Sie Fragen innerhalb der App';
+
+  @override
+  String get testEditorTypeImageUpload => 'Bild hochladen';
+
+  @override
+  String get testEditorTypeImageUploadDesc =>
+      'Fügen Sie ein Bild für visuellen Fragenkontext hinzu';
+
+  @override
+  String get testEditorReplaceImage => 'Bild ersetzen';
+
+  @override
+  String get testEditorUploading => 'Wird hochgeladen...';
+
+  @override
+  String get testEditorTapToAttachImage => 'Tippen Sie, um ein Bild anzuhängen';
+
+  @override
+  String get testEditorImageSupportedFormats =>
+      'PNG, JPG, WEBP werden unterstützt';
+
+  @override
+  String get testEditorCorrectAnswerForGrading =>
+      'RICHTIGE ANTWORT FÜR AUTOMATISCHE BEWERTUNG';
+
+  @override
+  String get testEditorEnterCorrectAnswer => 'Richtige Antwort eingeben';
+
+  @override
+  String get testRunnerTypeAnswerHere => 'Geben Sie hier Ihre Antwort ein...';
 }
