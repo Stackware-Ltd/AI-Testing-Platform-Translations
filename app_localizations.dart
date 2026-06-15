@@ -4956,6 +4956,570 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Type your answer here...'**
   String get testRunnerTypeAnswerHere;
+
+  /// No description provided for @landingV2HeroTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Make compliance knowledge measurable. Document evidence centrally.'**
+  String get landingV2HeroTitle;
+
+  /// No description provided for @landingV2HeroDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox allows companies to test whether employees understand key compliance requirements – and provides exportable evidence for internal documentation, management and audits.'**
+  String get landingV2HeroDesc;
+
+  /// No description provided for @landingV2HeroBtnStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start EU AI Compliance Test'**
+  String get landingV2HeroBtnStart;
+
+  /// No description provided for @landingV2HeroBtnEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'View example proof'**
+  String get landingV2HeroBtnEvidence;
+
+  /// No description provided for @landingV2HeroNote1.
+  ///
+  /// In en, this message translates to:
+  /// **'Currently\navailable:'**
+  String get landingV2HeroNote1;
+
+  /// No description provided for @landingV2HeroNote2.
+  ///
+  /// In en, this message translates to:
+  /// **'EU AI\nCompliance\nTest.'**
+  String get landingV2HeroNote2;
+
+  /// No description provided for @landingV2HeroNote3.
+  ///
+  /// In en, this message translates to:
+  /// **'Further compliance tests\nwill follow.'**
+  String get landingV2HeroNote3;
+
+  /// No description provided for @landingV2FloatTestTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Test'**
+  String get landingV2FloatTestTitle;
+
+  /// No description provided for @landingV2FloatTestDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify knowledge'**
+  String get landingV2FloatTestDesc;
+
+  /// No description provided for @landingV2FloatEvalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Evaluate'**
+  String get landingV2FloatEvalTitle;
+
+  /// No description provided for @landingV2FloatEvalDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Make progress visible'**
+  String get landingV2FloatEvalDesc;
+
+  /// No description provided for @landingV2FloatProveTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Prove'**
+  String get landingV2FloatProveTitle;
+
+  /// No description provided for @landingV2FloatProveDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get landingV2FloatProveDesc;
+
+  /// No description provided for @landingV2FloatSecureTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Be secure'**
+  String get landingV2FloatSecureTitle;
+
+  /// No description provided for @landingV2FloatSecureDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Audit-ready and traceable'**
+  String get landingV2FloatSecureDesc;
+
+  /// No description provided for @landingV2TestsEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Available tests'**
+  String get landingV2TestsEyebrow;
+
+  /// No description provided for @landingV2TestsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Start with the first available test.'**
+  String get landingV2TestsTitle;
+
+  /// No description provided for @landingV2TestsDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox has a modular structure. The EU AI Compliance Test is the first available test. Further compliance topics can be tested, evaluated, and documented via the same platform in the future.'**
+  String get landingV2TestsDesc;
+
+  /// No description provided for @landingV2Test1Eyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'FIRST AVAILABLE TEST'**
+  String get landingV2Test1Eyebrow;
+
+  /// No description provided for @landingV2Test1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Check whether employees understand the most important basics for the safe and responsible use of AI systems – including relevant duties, risk awareness and practical application in everyday work.'**
+  String get landingV2Test1Desc;
+
+  /// No description provided for @landingV2Test1Meta1.
+  ///
+  /// In en, this message translates to:
+  /// **'21 questions'**
+  String get landingV2Test1Meta1;
+
+  /// No description provided for @landingV2Test1Meta2.
+  ///
+  /// In en, this message translates to:
+  /// **'approx. 15 min.'**
+  String get landingV2Test1Meta2;
+
+  /// No description provided for @landingV2Test1Meta3.
+  ///
+  /// In en, this message translates to:
+  /// **'DE & EN'**
+  String get landingV2Test1Meta3;
+
+  /// No description provided for @landingV2PriceAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'€99'**
+  String get landingV2PriceAmount;
+
+  /// No description provided for @landingV2PriceUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'per test'**
+  String get landingV2PriceUnit;
+
+  /// No description provided for @landingV2TestSoonTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Further compliance tests'**
+  String get landingV2TestSoonTitle;
+
+  /// No description provided for @landingV2TestSoonBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'Soon'**
+  String get landingV2TestSoonBadge;
+
+  /// No description provided for @landingV2TestSoonDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox is continuously being expanded with new test modules – for further compliance, training and verification obligations via a central platform.'**
+  String get landingV2TestSoonDesc;
+
+  /// No description provided for @landingV2TestSoonBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Available soon'**
+  String get landingV2TestSoonBtn;
+
+  /// No description provided for @landingV2TestsFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you need a specific compliance test for your company? Contact us — we are happy to review your individual topic requests.'**
+  String get landingV2TestsFooter;
+
+  /// No description provided for @landingV2PlatformEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Platform'**
+  String get landingV2PlatformEyebrow;
+
+  /// No description provided for @landingV2PlatformTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'One platform. Many compliance tests.'**
+  String get landingV2PlatformTitle;
+
+  /// No description provided for @landingV2PlatformDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Whether it\'s AI compliance, data protection, security awareness or internal guidelines: RuleFox makes knowledge testable, results visible and evidence exportable.'**
+  String get landingV2PlatformDesc;
+
+  /// No description provided for @landingV2PlatformCol1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite employees'**
+  String get landingV2PlatformCol1Title;
+
+  /// No description provided for @landingV2PlatformCol1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Add teams via CSV or invitation link and assign tests to specific tasks.'**
+  String get landingV2PlatformCol1Desc;
+
+  /// No description provided for @landingV2PlatformCol2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Evaluate progress'**
+  String get landingV2PlatformCol2Title;
+
+  /// No description provided for @landingV2PlatformCol2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep a central eye on participation rate, completion rate, pass rate and open invitations.'**
+  String get landingV2PlatformCol2Desc;
+
+  /// No description provided for @landingV2PlatformCol3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get landingV2PlatformCol3Title;
+
+  /// No description provided for @landingV2PlatformCol3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Create individual reports and overall reports for documentation, management and audits.'**
+  String get landingV2PlatformCol3Desc;
+
+  /// No description provided for @landingV2ReportingEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Reporting & Insights'**
+  String get landingV2ReportingEyebrow;
+
+  /// No description provided for @landingV2ReportingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Make compliance progress visible.'**
+  String get landingV2ReportingTitle;
+
+  /// No description provided for @landingV2ReportingDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox shows not only individual test results, but the entire progress of your company at a glance.'**
+  String get landingV2ReportingDesc;
+
+  /// No description provided for @landingV2ReportingKpi1.
+  ///
+  /// In en, this message translates to:
+  /// **'Participation rate'**
+  String get landingV2ReportingKpi1;
+
+  /// No description provided for @landingV2ReportingKpi1Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'156 of 200 employees invited'**
+  String get landingV2ReportingKpi1Sub;
+
+  /// No description provided for @landingV2ReportingKpi2.
+  ///
+  /// In en, this message translates to:
+  /// **'Completion rate'**
+  String get landingV2ReportingKpi2;
+
+  /// No description provided for @landingV2ReportingKpi2Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'97 of 156 tests completed'**
+  String get landingV2ReportingKpi2Sub;
+
+  /// No description provided for @landingV2ReportingKpi3.
+  ///
+  /// In en, this message translates to:
+  /// **'Pass rate'**
+  String get landingV2ReportingKpi3;
+
+  /// No description provided for @landingV2ReportingKpi3Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'82 of 97 tests passed'**
+  String get landingV2ReportingKpi3Sub;
+
+  /// No description provided for @landingV2ReportingKpi4.
+  ///
+  /// In en, this message translates to:
+  /// **'Average result'**
+  String get landingV2ReportingKpi4;
+
+  /// No description provided for @landingV2ReportingKpi4Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'Average score of all participants'**
+  String get landingV2ReportingKpi4Sub;
+
+  /// No description provided for @landingV2ReportingKpi5.
+  ///
+  /// In en, this message translates to:
+  /// **'Open invitations'**
+  String get landingV2ReportingKpi5;
+
+  /// No description provided for @landingV2ReportingKpi5Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees have not yet started.'**
+  String get landingV2ReportingKpi5Sub;
+
+  /// No description provided for @landingV2ReportingFeat1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Filter by departments'**
+  String get landingV2ReportingFeat1Title;
+
+  /// No description provided for @landingV2ReportingFeat1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Compare progress by teams & departments.'**
+  String get landingV2ReportingFeat1Desc;
+
+  /// No description provided for @landingV2ReportingFeat2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep track of progress'**
+  String get landingV2ReportingFeat2Title;
+
+  /// No description provided for @landingV2ReportingFeat2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Analyze rollout development over time periods.'**
+  String get landingV2ReportingFeat2Desc;
+
+  /// No description provided for @landingV2ReportingFeat3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Identify need for action'**
+  String get landingV2ReportingFeat3Title;
+
+  /// No description provided for @landingV2ReportingFeat3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Quickly identify open tests and low results.'**
+  String get landingV2ReportingFeat3Desc;
+
+  /// No description provided for @landingV2ReportingFeat4Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export & Reporting'**
+  String get landingV2ReportingFeat4Title;
+
+  /// No description provided for @landingV2ReportingFeat4Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Export reports as PDF or CSV.'**
+  String get landingV2ReportingFeat4Desc;
+
+  /// No description provided for @landingV2SequenceEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Here\'s how it works'**
+  String get landingV2SequenceEyebrow;
+
+  /// No description provided for @landingV2SequenceTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Three steps to documented compliance proof.'**
+  String get landingV2SequenceTitle;
+
+  /// No description provided for @landingV2SequenceStep1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite employees'**
+  String get landingV2SequenceStep1Title;
+
+  /// No description provided for @landingV2SequenceStep1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite teams via CSV import or invitation link and assign the appropriate test.'**
+  String get landingV2SequenceStep1Desc;
+
+  /// No description provided for @landingV2SequenceStep2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Take the test'**
+  String get landingV2SequenceStep2Title;
+
+  /// No description provided for @landingV2SequenceStep2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees answer practical questions on the selected compliance topic in just a few minutes. The evaluation is automatic and transparent.'**
+  String get landingV2SequenceStep2Desc;
+
+  /// No description provided for @landingV2SequenceStep3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get landingV2SequenceStep3Title;
+
+  /// No description provided for @landingV2SequenceStep3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Export individual certificates and an overall report as a PDF - ready for documentation, management, or audits.'**
+  String get landingV2SequenceStep3Desc;
+
+  /// No description provided for @landingV2EvidenceEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get landingV2EvidenceEyebrow;
+
+  /// No description provided for @landingV2EvidenceTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t just test. Prove it.'**
+  String get landingV2EvidenceTitle;
+
+  /// No description provided for @landingV2EvidenceDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Compliance is only valuable if it can be documented. RuleFox creates clear evidence of participation, results, and status—clearly organized, exportable, and internally traceable.'**
+  String get landingV2EvidenceDesc;
+
+  /// No description provided for @landingV2EvidenceFeat1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Individual proof per employee'**
+  String get landingV2EvidenceFeat1Title;
+
+  /// No description provided for @landingV2EvidenceFeat1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Name, test, date and result on one compact PDF.'**
+  String get landingV2EvidenceFeat1Desc;
+
+  /// No description provided for @landingV2EvidenceFeat2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Unique verification ID'**
+  String get landingV2EvidenceFeat2Title;
+
+  /// No description provided for @landingV2EvidenceFeat2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Each piece of evidence receives a unique reference for internal documentation and later allocation.'**
+  String get landingV2EvidenceFeat2Desc;
+
+  /// No description provided for @landingV2EvidenceFeat3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Overall report for management'**
+  String get landingV2EvidenceFeat3Title;
+
+  /// No description provided for @landingV2EvidenceFeat3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Overview of participation rate, status and progress of all tested employees in one report.'**
+  String get landingV2EvidenceFeat3Desc;
+
+  /// No description provided for @landingV2PricesEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Prices'**
+  String get landingV2PricesEyebrow;
+
+  /// No description provided for @landingV2PricesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Transparent.\n€99 per test.'**
+  String get landingV2PricesTitle;
+
+  /// No description provided for @landingV2PricesDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Book individual tests or flexible quotas and use them for your employees as needed.'**
+  String get landingV2PricesDesc;
+
+  /// No description provided for @landingV2PricesFeat1.
+  ///
+  /// In en, this message translates to:
+  /// **'21 practical questions'**
+  String get landingV2PricesFeat1;
+
+  /// No description provided for @landingV2PricesFeat2.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing time approximately 15 minutes'**
+  String get landingV2PricesFeat2;
+
+  /// No description provided for @landingV2PricesFeat3.
+  ///
+  /// In en, this message translates to:
+  /// **'German English'**
+  String get landingV2PricesFeat3;
+
+  /// No description provided for @landingV2PricesFeat4.
+  ///
+  /// In en, this message translates to:
+  /// **'automatic evaluation'**
+  String get landingV2PricesFeat4;
+
+  /// No description provided for @landingV2PricesFeat5.
+  ///
+  /// In en, this message translates to:
+  /// **'Individual proof as a PDF'**
+  String get landingV2PricesFeat5;
+
+  /// No description provided for @landingV2PricesFeat6.
+  ///
+  /// In en, this message translates to:
+  /// **'Reporting overview for the tenant'**
+  String get landingV2PricesFeat6;
+
+  /// No description provided for @landingV2PricesBtnStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start test'**
+  String get landingV2PricesBtnStart;
+
+  /// No description provided for @landingV2PricesNote.
+  ///
+  /// In en, this message translates to:
+  /// **'All prices exclude VAT. Larger quantities and individual requirements available upon request.'**
+  String get landingV2PricesNote;
+
+  /// No description provided for @landingV2ModalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Example proof'**
+  String get landingV2ModalTitle;
+
+  /// No description provided for @landingV2ModalDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'This is what the individual certificate looks like, which every employee receives after a successful test.'**
+  String get landingV2ModalDesc;
+
+  /// No description provided for @landingV2ModalBtnClose.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get landingV2ModalBtnClose;
+
+  /// No description provided for @landingV2ModalBtnStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Test it yourself now'**
+  String get landingV2ModalBtnStart;
+
+  /// No description provided for @landingV2MockDate.
+  ///
+  /// In en, this message translates to:
+  /// **'May 14, 2024'**
+  String get landingV2MockDate;
+
+  /// No description provided for @landingV2MockScore.
+  ///
+  /// In en, this message translates to:
+  /// **'86% – passed'**
+  String get landingV2MockScore;
 }
 
 class _AppLocalizationsDelegate

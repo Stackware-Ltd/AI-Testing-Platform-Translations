@@ -2579,4 +2579,311 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get testRunnerTypeAnswerHere => 'Type your answer here...';
+
+  @override
+  String get landingV2HeroTitle =>
+      'Make compliance knowledge measurable. Document evidence centrally.';
+
+  @override
+  String get landingV2HeroDesc =>
+      'RuleFox allows companies to test whether employees understand key compliance requirements – and provides exportable evidence for internal documentation, management and audits.';
+
+  @override
+  String get landingV2HeroBtnStart => 'Start EU AI Compliance Test';
+
+  @override
+  String get landingV2HeroBtnEvidence => 'View example proof';
+
+  @override
+  String get landingV2HeroNote1 => 'Currently\navailable:';
+
+  @override
+  String get landingV2HeroNote2 => 'EU AI\nCompliance\nTest.';
+
+  @override
+  String get landingV2HeroNote3 => 'Further compliance tests\nwill follow.';
+
+  @override
+  String get landingV2FloatTestTitle => 'Test';
+
+  @override
+  String get landingV2FloatTestDesc => 'Verify knowledge';
+
+  @override
+  String get landingV2FloatEvalTitle => 'Evaluate';
+
+  @override
+  String get landingV2FloatEvalDesc => 'Make progress visible';
+
+  @override
+  String get landingV2FloatProveTitle => 'Prove';
+
+  @override
+  String get landingV2FloatProveDesc => 'Export evidence';
+
+  @override
+  String get landingV2FloatSecureTitle => 'Be secure';
+
+  @override
+  String get landingV2FloatSecureDesc => 'Audit-ready and traceable';
+
+  @override
+  String get landingV2TestsEyebrow => 'Available tests';
+
+  @override
+  String get landingV2TestsTitle => 'Start with the first available test.';
+
+  @override
+  String get landingV2TestsDesc =>
+      'RuleFox has a modular structure. The EU AI Compliance Test is the first available test. Further compliance topics can be tested, evaluated, and documented via the same platform in the future.';
+
+  @override
+  String get landingV2Test1Eyebrow => 'FIRST AVAILABLE TEST';
+
+  @override
+  String get landingV2Test1Desc =>
+      'Check whether employees understand the most important basics for the safe and responsible use of AI systems – including relevant duties, risk awareness and practical application in everyday work.';
+
+  @override
+  String get landingV2Test1Meta1 => '21 questions';
+
+  @override
+  String get landingV2Test1Meta2 => 'approx. 15 min.';
+
+  @override
+  String get landingV2Test1Meta3 => 'DE & EN';
+
+  @override
+  String get landingV2PriceAmount => '€99';
+
+  @override
+  String get landingV2PriceUnit => 'per test';
+
+  @override
+  String get landingV2TestSoonTitle => 'Further compliance tests';
+
+  @override
+  String get landingV2TestSoonBadge => 'Soon';
+
+  @override
+  String get landingV2TestSoonDesc =>
+      'RuleFox is continuously being expanded with new test modules – for further compliance, training and verification obligations via a central platform.';
+
+  @override
+  String get landingV2TestSoonBtn => 'Available soon';
+
+  @override
+  String get landingV2TestsFooter =>
+      'Do you need a specific compliance test for your company? Contact us — we are happy to review your individual topic requests.';
+
+  @override
+  String get landingV2PlatformEyebrow => 'Platform';
+
+  @override
+  String get landingV2PlatformTitle => 'One platform. Many compliance tests.';
+
+  @override
+  String get landingV2PlatformDesc =>
+      'Whether it\'s AI compliance, data protection, security awareness or internal guidelines: RuleFox makes knowledge testable, results visible and evidence exportable.';
+
+  @override
+  String get landingV2PlatformCol1Title => 'Invite employees';
+
+  @override
+  String get landingV2PlatformCol1Desc =>
+      'Add teams via CSV or invitation link and assign tests to specific tasks.';
+
+  @override
+  String get landingV2PlatformCol2Title => 'Evaluate progress';
+
+  @override
+  String get landingV2PlatformCol2Desc =>
+      'Keep a central eye on participation rate, completion rate, pass rate and open invitations.';
+
+  @override
+  String get landingV2PlatformCol3Title => 'Export evidence';
+
+  @override
+  String get landingV2PlatformCol3Desc =>
+      'Create individual reports and overall reports for documentation, management and audits.';
+
+  @override
+  String get landingV2ReportingEyebrow => 'Reporting & Insights';
+
+  @override
+  String get landingV2ReportingTitle => 'Make compliance progress visible.';
+
+  @override
+  String get landingV2ReportingDesc =>
+      'RuleFox shows not only individual test results, but the entire progress of your company at a glance.';
+
+  @override
+  String get landingV2ReportingKpi1 => 'Participation rate';
+
+  @override
+  String get landingV2ReportingKpi1Sub => '156 of 200 employees invited';
+
+  @override
+  String get landingV2ReportingKpi2 => 'Completion rate';
+
+  @override
+  String get landingV2ReportingKpi2Sub => '97 of 156 tests completed';
+
+  @override
+  String get landingV2ReportingKpi3 => 'Pass rate';
+
+  @override
+  String get landingV2ReportingKpi3Sub => '82 of 97 tests passed';
+
+  @override
+  String get landingV2ReportingKpi4 => 'Average result';
+
+  @override
+  String get landingV2ReportingKpi4Sub => 'Average score of all participants';
+
+  @override
+  String get landingV2ReportingKpi5 => 'Open invitations';
+
+  @override
+  String get landingV2ReportingKpi5Sub => 'Employees have not yet started.';
+
+  @override
+  String get landingV2ReportingFeat1Title => 'Filter by departments';
+
+  @override
+  String get landingV2ReportingFeat1Desc =>
+      'Compare progress by teams & departments.';
+
+  @override
+  String get landingV2ReportingFeat2Title => 'Keep track of progress';
+
+  @override
+  String get landingV2ReportingFeat2Desc =>
+      'Analyze rollout development over time periods.';
+
+  @override
+  String get landingV2ReportingFeat3Title => 'Identify need for action';
+
+  @override
+  String get landingV2ReportingFeat3Desc =>
+      'Quickly identify open tests and low results.';
+
+  @override
+  String get landingV2ReportingFeat4Title => 'Export & Reporting';
+
+  @override
+  String get landingV2ReportingFeat4Desc => 'Export reports as PDF or CSV.';
+
+  @override
+  String get landingV2SequenceEyebrow => 'Here\'s how it works';
+
+  @override
+  String get landingV2SequenceTitle =>
+      'Three steps to documented compliance proof.';
+
+  @override
+  String get landingV2SequenceStep1Title => 'Invite employees';
+
+  @override
+  String get landingV2SequenceStep1Desc =>
+      'Invite teams via CSV import or invitation link and assign the appropriate test.';
+
+  @override
+  String get landingV2SequenceStep2Title => 'Take the test';
+
+  @override
+  String get landingV2SequenceStep2Desc =>
+      'Employees answer practical questions on the selected compliance topic in just a few minutes. The evaluation is automatic and transparent.';
+
+  @override
+  String get landingV2SequenceStep3Title => 'Export evidence';
+
+  @override
+  String get landingV2SequenceStep3Desc =>
+      'Export individual certificates and an overall report as a PDF - ready for documentation, management, or audits.';
+
+  @override
+  String get landingV2EvidenceEyebrow => 'Evidence';
+
+  @override
+  String get landingV2EvidenceTitle => 'Don\'t just test. Prove it.';
+
+  @override
+  String get landingV2EvidenceDesc =>
+      'Compliance is only valuable if it can be documented. RuleFox creates clear evidence of participation, results, and status—clearly organized, exportable, and internally traceable.';
+
+  @override
+  String get landingV2EvidenceFeat1Title => 'Individual proof per employee';
+
+  @override
+  String get landingV2EvidenceFeat1Desc =>
+      'Name, test, date and result on one compact PDF.';
+
+  @override
+  String get landingV2EvidenceFeat2Title => 'Unique verification ID';
+
+  @override
+  String get landingV2EvidenceFeat2Desc =>
+      'Each piece of evidence receives a unique reference for internal documentation and later allocation.';
+
+  @override
+  String get landingV2EvidenceFeat3Title => 'Overall report for management';
+
+  @override
+  String get landingV2EvidenceFeat3Desc =>
+      'Overview of participation rate, status and progress of all tested employees in one report.';
+
+  @override
+  String get landingV2PricesEyebrow => 'Prices';
+
+  @override
+  String get landingV2PricesTitle => 'Transparent.\n€99 per test.';
+
+  @override
+  String get landingV2PricesDesc =>
+      'Book individual tests or flexible quotas and use them for your employees as needed.';
+
+  @override
+  String get landingV2PricesFeat1 => '21 practical questions';
+
+  @override
+  String get landingV2PricesFeat2 => 'Processing time approximately 15 minutes';
+
+  @override
+  String get landingV2PricesFeat3 => 'German English';
+
+  @override
+  String get landingV2PricesFeat4 => 'automatic evaluation';
+
+  @override
+  String get landingV2PricesFeat5 => 'Individual proof as a PDF';
+
+  @override
+  String get landingV2PricesFeat6 => 'Reporting overview for the tenant';
+
+  @override
+  String get landingV2PricesBtnStart => 'Start test';
+
+  @override
+  String get landingV2PricesNote =>
+      'All prices exclude VAT. Larger quantities and individual requirements available upon request.';
+
+  @override
+  String get landingV2ModalTitle => 'Example proof';
+
+  @override
+  String get landingV2ModalDesc =>
+      'This is what the individual certificate looks like, which every employee receives after a successful test.';
+
+  @override
+  String get landingV2ModalBtnClose => 'Close';
+
+  @override
+  String get landingV2ModalBtnStart => 'Test it yourself now';
+
+  @override
+  String get landingV2MockDate => 'May 14, 2024';
+
+  @override
+  String get landingV2MockScore => '86% – passed';
 }

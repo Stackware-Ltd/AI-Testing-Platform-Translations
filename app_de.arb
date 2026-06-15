@@ -557,8 +557,8 @@
   "labelOr": "ODER",
   "labelUploadCsv": "CSV hochladen",
   "labelTapChangeFile": "Tippen zum Ändern",
-  "labelDragDropFile": "Datei hierher ziehen",
-  "labelBrowseFile": "Datei auswählen",
+  "labelDragDropFile": "Ziehen Sie Ihre Datei hierher",
+  "labelBrowseFile": "Datei durchsuchen",
   "labelDownloadTemplate": "CSV-Vorlage herunterladen",
   "saveDetails": "Details speichern",
   "addEmployees": "Mitarbeitende hinzufügen",
@@ -593,7 +593,7 @@
   "labelEmployeeID": "Mitarbeiter ID",
   "filterDateNewest": "Datum (Neueste)",
   "filterDateOldest": "Datum (Älteste)",
-  "buttonAddEmployees": "+ Mitarbeitende hinzufügen",
+  "buttonAddEmployees": "Mitarbeitende hinzufügen",
   "labelFirstName": "Vorname",
   "labelLastName": "Nachname",
   "labelEmail": "Email",
@@ -617,7 +617,6 @@
   "statActiveClientsHint": "Unternehmen",
   "statUsers": "Nutzer",
   "statUsersHint": "Eingeladene Personen",
-  "statCompletionRate": "Abschlussquote",
   "statCompletionRateHint": "Über alle Tests",
   "titleCurrentTestProducts": "Aktuelle Testprodukte",
   "actionShowAll": "Alle anzeigen",
@@ -642,7 +641,6 @@
   "titleCreateNewTest": "Neuen Test anlegen",
   "subtitleCreateNewTest": "Testprodukt als Entwurf vorbereiten.",
   "labelTestName": "Test Name",
-  "labelCategory": "Kategorie",
   "labelBriefDescription": "Kurzbeschreibung",
   "labelLanguage": "Sprache",
   "tooltipCannotDownloadFailed": "Das Zertifikat ist nur für bestandene Tests verfügbar.",
@@ -703,12 +701,13 @@
     }
   },
   "buttonInviteSelected": "Ausgewählte einladen",
-  "buttonAddEmployees": "Mitarbeitende hinzufügen",
   "errorSelectAtLeastOne": "Bitte wählen Sie mindestens einen Mitarbeitenden aus.",
   "errorInsufficientSeats": "Unzureichende Plätze. Sie haben nur {count} Plätze verfügbar.",
   "@errorInsufficientSeats": {
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "columnEmployeeId": "Mitarbeiter-ID",
@@ -716,8 +715,6 @@
   "columnLastName": "Nachname",
   "columnEmail": "E-Mail",
   "columnDepartment": "Abteilung",
-  "columnStatus": "Status",
-  "columnAction": "Aktion",
   "labelReassign": "Neu zuweisen",
   "subtitleAssignEmployees": "Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.",
   "labelEdit": "Bearbeiten",
@@ -733,9 +730,6 @@
   "labelNoCreditsRequired": "Keine Credits erforderlich",
   "labelRequiresCredits": "Erfordert Credits zum Kauf",
   "labelTapToChangeFile": "Tippen, um die Datei zu ändern",
-  "labelDragDropFile": "Ziehen Sie Ihre Datei hierher",
-  "labelOr": "ODER",
-  "labelBrowseFile": "Datei durchsuchen",
   "subtitleOwnerDashboard": "Verwalten Sie die Plattform, Testprodukte und Mandanten zentral.",
   "labelMore": "weitere",
   "searchTests": "Tests suchen",
@@ -756,10 +750,25 @@
   "testRunnerPublishFailed": "Veröffentlichung fehlgeschlagen. Bitte versuchen Sie es erneut.",
   "testRunnerSubmitFailed": "Einreichung fehlgeschlagen. Bitte versuchen Sie es erneut.",
   "testRunnerFlaggedToReview": "Sie haben {count} markierte Frage(n). Bitte überprüfen Sie diese vor dem Einreichen.",
-  "@testRunnerFlaggedToReview": { "placeholders": { "count": { "type": "int" } } },
+  "@testRunnerFlaggedToReview": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "testRunnerReviewFlaggedQuestions": "Markierte Fragen überprüfen",
   "testRunnerReviewingFlagged": "Überprüfung Markiert: {current} von {total}",
-  "@testRunnerReviewingFlagged": { "placeholders": { "current": { "type": "int" }, "total": { "type": "int" } } },
+  "@testRunnerReviewingFlagged": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "testRunnerPreviousFlag": "Vorheriges Lesezeichen",
   "testRunnerNextFlag": "Nächstes Lesezeichen",
   "testRunnerExitReview": "Überprüfung beenden",
@@ -767,7 +776,13 @@
   "testRunnerNotStarted": "Nicht begonnen",
   "testRunnerInProgress": "In Bearbeitung",
   "testRunnerApproxMinutes": "ungefähr {minutes} Minuten",
-  "@testRunnerApproxMinutes": { "placeholders": { "minutes": { "type": "int" } } },
+  "@testRunnerApproxMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "testRunnerClosePreview": "Vorschau schließen",
   "testRunnerPreviewTest": "Test in der Vorschau anzeigen",
   "testRunnerStartWithTest": "Mit Test beginnen",
@@ -781,15 +796,42 @@
   "testRunnerStay": "Bleiben",
   "testRunnerExit": "Beenden",
   "testRunnerReviewCount": "Überprüfen ({count})",
-  "@testRunnerReviewCount": { "placeholders": { "count": { "type": "int" } } },
+  "@testRunnerReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "testRunnerTimesUp": "Die Zeit ist um!",
   "testRunnerSubmitCountdown": "Ihr Assessment wird in {countdown} eingereicht...",
-  "@testRunnerSubmitCountdown": { "placeholders": { "countdown": { "type": "int" } } },
+  "@testRunnerSubmitCountdown": {
+    "placeholders": {
+      "countdown": {
+        "type": "int"
+      }
+    }
+  },
   "testRunnerPreviewModeLabel": "Vorschaumodus",
   "testRunnerQuestionAnsweredOfTotal": "{answered} von {total} Fragen beantwortet",
-  "@testRunnerQuestionAnsweredOfTotal": { "placeholders": { "answered": { "type": "int" }, "total": { "type": "int" } } },
+  "@testRunnerQuestionAnsweredOfTotal": {
+    "placeholders": {
+      "answered": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "assessmentDescriptionDefault": "Sie wurden eingeladen, an {testName} teilzunehmen. In diesem Assessment werden Ihre Kenntnisse und Fähigkeiten in diesem speziellen Bereich bewertet.",
-  "@assessmentDescriptionDefault": { "placeholders": { "testName": { "type": "String" } } },
+  "@assessmentDescriptionDefault": {
+    "placeholders": {
+      "testName": {
+        "type": "String"
+      }
+    }
+  },
   "certVerificationCertificate": "Verifizierungszertifikat",
   "certPassedVerified": "BESTANDEN & VERIFIZIERT",
   "certThisIsToCertify": "HIERMIT WIRD BESTÄTIGT, DASS",
@@ -823,29 +865,41 @@
   "msgCreditsAdded": "{count} Guthaben wurden Ihrem Konto hinzugefügt. Gesamt bezahlt: €{total}",
   "@msgCreditsAdded": {
     "placeholders": {
-      "count": { "type": "int" },
-      "total": { "type": "double" }
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "double"
+      }
     }
   },
   "labelAiComplianceCredits": "KI-Compliance Guthaben",
   "labelCreditsXPrice": "{count} Guthaben x €{price}",
   "@labelCreditsXPrice": {
     "placeholders": {
-      "count": { "type": "int" },
-      "price": { "type": "String" }
+      "count": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
     }
   },
   "labelByCountryInvoicing": "nach Rechnungsland",
   "labelUseBookkeepingEmail": "Buchhaltungs-E-Mail verwenden: {email}",
   "@labelUseBookkeepingEmail": {
     "placeholders": {
-      "email": { "type": "String" }
+      "email": {
+        "type": "String"
+      }
     }
   },
   "labelUseAccountEmail": "Konto-E-Mail verwenden: {email}",
   "@labelUseAccountEmail": {
     "placeholders": {
-      "email": { "type": "String" }
+      "email": {
+        "type": "String"
+      }
     }
   },
   "labelPopularBadge": "BELIEBT",
@@ -915,23 +969,92 @@
   "errorAddOneSection": "Fügen Sie mindestens einen Abschnitt hinzu.",
   "errorInvalidScore": "Die Bestehensquote muss eine Zahl zwischen 0 und 100 sein.",
   "labelSectionCount": "Abschnitt {num}",
-  "@labelSectionCount": { "placeholders": { "num": { "type": "int" } } },
+  "@labelSectionCount": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
   "labelQuestionCount": "Frage {num}",
-  "@labelQuestionCount": { "placeholders": { "num": { "type": "int" } } },
+  "@labelQuestionCount": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
   "labelOptionPrefix": "Option {key}...",
-  "@labelOptionPrefix": { "placeholders": { "key": { "type": "String" } } },
+  "@labelOptionPrefix": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
   "labelSectionTitleHint": "Abschnittstitel...",
   "labelQuestionHint": "Fragentext eingeben...",
   "errorSectionTitleEmptyDetailed": "Titel von Abschnitt {num} darf nicht leer sein.",
-  "@errorSectionTitleEmptyDetailed": { "placeholders": { "num": { "type": "int" } } },
+  "@errorSectionTitleEmptyDetailed": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
   "errorQuestionEmptyDetailed": "Frage {qNum} in \"{sTitle}\" darf nicht leer sein.",
-  "@errorQuestionEmptyDetailed": { "placeholders": { "qNum": { "type": "int" }, "sTitle": { "type": "String" } } },
+  "@errorQuestionEmptyDetailed": {
+    "placeholders": {
+      "qNum": {
+        "type": "int"
+      },
+      "sTitle": {
+        "type": "String"
+      }
+    }
+  },
   "errorOptionEmptyDetailed": "Option {key} von Frage {qNum} in \"{sTitle}\" darf nicht leer sein.",
-  "@errorOptionEmptyDetailed": { "placeholders": { "key": { "type": "String" }, "qNum": { "type": "int" }, "sTitle": { "type": "String" } } },
+  "@errorOptionEmptyDetailed": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      },
+      "qNum": {
+        "type": "int"
+      },
+      "sTitle": {
+        "type": "String"
+      }
+    }
+  },
   "errorCorrectAnswerDetailed": "Bitte wählen Sie eine richtige Antwort für Frage {qNum} in \"{sTitle}\" aus.",
-  "@errorCorrectAnswerDetailed": { "placeholders": { "qNum": { "type": "int" }, "sTitle": { "type": "String" } } },
+  "@errorCorrectAnswerDetailed": {
+    "placeholders": {
+      "qNum": {
+        "type": "int"
+      },
+      "sTitle": {
+        "type": "String"
+      }
+    }
+  },
   "labelSectionsAndQuestions": "{sCount} Abschnitt(e) • {qCount} Frage(n)",
-  "@labelSectionsAndQuestions": { "placeholders": { "sCount": { "type": "int" }, "sPlural": { "type": "String" }, "qCount": { "type": "int" }, "qPlural": { "type": "String" } } },
+  "@labelSectionsAndQuestions": {
+    "placeholders": {
+      "sCount": {
+        "type": "int"
+      },
+      "sPlural": {
+        "type": "String"
+      },
+      "qCount": {
+        "type": "int"
+      },
+      "qPlural": {
+        "type": "String"
+      }
+    }
+  },
   "labelChooseAddQuestions": "Wählen Sie, wie Fragen hinzugefügt werden sollen",
   "labelUploadJson": "JSON hochladen",
   "labelImportTestFile": "Importieren Sie eine vorgefertigte Testdatei",
@@ -945,5 +1068,97 @@
   "testEditorImageSupportedFormats": "PNG, JPG, WEBP werden unterstützt",
   "testEditorCorrectAnswerForGrading": "RICHTIGE ANTWORT FÜR AUTOMATISCHE BEWERTUNG",
   "testEditorEnterCorrectAnswer": "Richtige Antwort eingeben",
-  "testRunnerTypeAnswerHere": "Geben Sie hier Ihre Antwort ein..."
+  "testRunnerTypeAnswerHere": "Geben Sie hier Ihre Antwort ein...",
+  "landingV2HeroTitle": "Compliance-Wissen messbar machen. Nachweise zentral dokumentieren.",
+  "landingV2HeroDesc": "Mit RuleFox testen Unternehmen, ob Mitarbeitende zentrale Compliance-Anforderungen verstehen – und erhalten exportierbare Nachweise für interne Dokumentation, Management und Audits.",
+  "landingV2HeroBtnStart": "EU AI Compliance Test starten",
+  "landingV2HeroBtnEvidence": "Beispiel-Nachweis ansehen",
+  "landingV2HeroNote": "Aktuell verfügbar: EU AI Compliance Test. Weitere Compliance-Tests folgen.",
+  "landingV2FloatTestTitle": "Testen",
+  "landingV2FloatTestDesc": "Wissen prüfen",
+  "landingV2FloatEvalTitle": "Auswerten",
+  "landingV2FloatEvalDesc": "Fortschritt sichtbar machen",
+  "landingV2FloatProveTitle": "Nachweisen",
+  "landingV2FloatProveDesc": "Nachweise exportieren",
+  "landingV2FloatSecureTitle": "Sicher sein",
+  "landingV2FloatSecureDesc": "Audit-tauglich und nachvollziehbar",
+  "landingV2TestsEyebrow": "Verfügbare Tests",
+  "landingV2TestsTitle": "Starten Sie mit dem ersten verfügbaren Test.",
+  "landingV2TestsDesc": "RuleFox ist modular aufgebaut. Der EU AI Compliance Test ist der erste verfügbare Test. Weitere Compliance-Themen können künftig über dieselbe Plattform geprüft, ausgewertet und dokumentiert werden.",
+  "landingV2Test1Eyebrow": "Erster verfügbarer Test",
+  "landingV2Test1Desc": "Prüfen Sie, ob Mitarbeitende die wichtigsten Grundlagen für den sicheren und verantwortungsvollen Einsatz von KI-Systemen verstehen – inklusive relevanter Pflichten, Risikobewusstsein und praktischer Anwendung im Arbeitsalltag.",
+  "landingV2Test1Meta1": "21 Fragen",
+  "landingV2Test1Meta2": "ca. 15 Min.",
+  "landingV2Test1Meta3": "DE & EN",
+  "landingV2PriceAmount": "€99",
+  "landingV2PriceUnit": "pro Test",
+  "landingV2TestSoonTitle": "Weitere Compliance-Tests",
+  "landingV2TestSoonBadge": "Demnächst",
+  "landingV2TestSoonDesc": "RuleFox wird laufend um neue Testmodule erweitert – für weitere Compliance-, Schulungs- und Nachweispflichten über eine zentrale Plattform.",
+  "landingV2TestSoonBtn": "Bald verfügbar",
+  "landingV2TestsFooter": "Benötigen Sie einen spezifischen Compliance-Test für Ihr Unternehmen? Sprechen Sie uns an — wir prüfen gerne individuelle Themenwünsche.",
+  "landingV2PlatformEyebrow": "Plattform",
+  "landingV2PlatformTitle": "Eine Plattform. Viele Compliance-Tests.",
+  "landingV2PlatformDesc": "Ob AI Compliance, Datenschutz, Security Awareness oder interne Richtlinien: RuleFox macht Wissen testbar, Ergebnisse sichtbar und Nachweise exportierbar.",
+  "landingV2PlatformCol1Title": "Mitarbeitende einladen",
+  "landingV2PlatformCol1Desc": "Teams per CSV oder Einladungslink hinzufügen und Tests gezielt zuweisen.",
+  "landingV2PlatformCol2Title": "Fortschritt auswerten",
+  "landingV2PlatformCol2Desc": "Teilnahmequote, Abschlussrate, Bestehensquote und offene Einladungen zentral im Blick behalten.",
+  "landingV2PlatformCol3Title": "Nachweise exportieren",
+  "landingV2PlatformCol3Desc": "Individuelle Nachweise und Gesamtberichte für Dokumentation, Management und Audits erstellen.",
+  "landingV2ReportingEyebrow": "Reporting & Insights",
+  "landingV2ReportingTitle": "Compliance-Fortschritt sichtbar machen.",
+  "landingV2ReportingDesc": "RuleFox zeigt nicht nur einzelne Testergebnisse, sondern den gesamten Fortschritt Ihres Unternehmens auf einen Blick.",
+  "landingV2ReportingKpi1": "Teilnahmequote",
+  "landingV2ReportingKpi1Sub": "156 von 200 Mitarbeitenden eingeladen",
+  "landingV2ReportingKpi2": "Abschlussrate",
+  "landingV2ReportingKpi2Sub": "97 von 156 Tests abgeschlossen",
+  "landingV2ReportingKpi3": "Bestehensquote",
+  "landingV2ReportingKpi3Sub": "82 von 97 Tests bestanden",
+  "landingV2ReportingKpi4": "Durchschnittliches Ergebnis",
+  "landingV2ReportingKpi4Sub": "Durchschnittsscore aller Teilnehmenden",
+  "landingV2ReportingKpi5": "Offene Einladungen",
+  "landingV2ReportingKpi5Sub": "Mitarbeitende noch nicht gestartet",
+  "landingV2ReportingFeat1Title": "Nach Abteilungen filtern",
+  "landingV2ReportingFeat1Desc": "Fortschritt nach Teams & Abteilungen vergleichen.",
+  "landingV2ReportingFeat2Title": "Verlauf im Blick behalten",
+  "landingV2ReportingFeat2Desc": "Rollout-Entwicklung über Zeiträume analysieren.",
+  "landingV2ReportingFeat3Title": "Handlungsbedarf erkennen",
+  "landingV2ReportingFeat3Desc": "Offene Tests und niedrige Ergebnisse schnell identifizieren.",
+  "landingV2ReportingFeat4Title": "Export & Reporting",
+  "landingV2ReportingFeat4Desc": "Berichte als PDF oder CSV exportieren.",
+  "landingV2SequenceEyebrow": "So funktioniert es",
+  "landingV2SequenceTitle": "In drei Schritten zum dokumentierten Compliance-Nachweis.",
+  "landingV2SequenceStep1Title": "Mitarbeitende einladen",
+  "landingV2SequenceStep1Desc": "Laden Sie Teams per CSV-Import oder Einladungslink ein und weisen Sie den passenden Test zu.",
+  "landingV2SequenceStep2Title": "Test absolvieren",
+  "landingV2SequenceStep2Desc": "Mitarbeitende beantworten praxisnahe Fragen zum ausgewählten Compliance-Thema in wenigen Minuten. Die Auswertung erfolgt automatisch und nachvollziehbar.",
+  "landingV2SequenceStep3Title": "Nachweise exportieren",
+  "landingV2SequenceStep3Desc": "Exportieren Sie individuelle Zertifikate und einen Gesamtbericht als PDF – bereit für Dokumentation, Management oder Audits.",
+  "landingV2EvidenceEyebrow": "Nachweise",
+  "landingV2EvidenceTitle": "Nicht nur testen. Belegen.",
+  "landingV2EvidenceDesc": "Compliance ist nur dann wertvoll, wenn sie dokumentiert werden kann. RuleFox erstellt klare Nachweise über Teilnahme, Ergebnis und Status — übersichtlich, exportierbar und intern nachvollziehbar.",
+  "landingV2EvidenceFeat1Title": "Individueller Nachweis pro Mitarbeitendem",
+  "landingV2EvidenceFeat1Desc": "Name, Test, Datum und Ergebnis auf einem kompakten PDF.",
+  "landingV2EvidenceFeat2Title": "Eindeutige Nachweis-ID",
+  "landingV2EvidenceFeat2Desc": "Jeder Nachweis erhält eine eindeutige Referenz für interne Dokumentation und spätere Zuordnung.",
+  "landingV2EvidenceFeat3Title": "Gesamt-Report für Management",
+  "landingV2EvidenceFeat3Desc": "Überblick über Teilnahmequote, Status und Fortschritt aller getesteten Mitarbeitenden in einem Bericht.",
+  "landingV2PricesEyebrow": "Preise",
+  "landingV2PricesTitle": "Transparent. €99 pro Test.",
+  "landingV2PricesDesc": "Buchen Sie einzelne Tests oder flexible Kontingente und setzen Sie diese nach Bedarf für Ihre Mitarbeitenden ein.",
+  "landingV2PricesFeat1": "21 praxisnahe Fragen",
+  "landingV2PricesFeat2": "ca. 15 Minuten Bearbeitungszeit",
+  "landingV2PricesFeat3": "Deutsch & Englisch",
+  "landingV2PricesFeat4": "automatische Auswertung",
+  "landingV2PricesFeat5": "individueller Nachweis als PDF",
+  "landingV2PricesFeat6": "Reporting-Übersicht für den Tenant",
+  "landingV2PricesBtnStart": "Test starten",
+  "landingV2PricesNote": "Alle Preise zzgl. USt. Größere Kontingente und individuelle Anforderungen auf Anfrage.",
+  "landingV2ModalTitle": "Beispiel-Nachweis",
+  "landingV2ModalDesc": "So sieht der individuelle Nachweis aus, den jeder Mitarbeitende nach erfolgreichem Test erhält.",
+  "landingV2ModalBtnClose": "Schließen",
+  "landingV2ModalBtnStart": "Jetzt selbst testen",
+  "landingV2MockDate": "14.05.2024",
+  "landingV2MockScore": "86% – bestanden"
 }

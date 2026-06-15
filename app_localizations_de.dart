@@ -2607,4 +2607,318 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get testRunnerTypeAnswerHere => 'Geben Sie hier Ihre Antwort ein...';
+
+  @override
+  String get landingV2HeroTitle =>
+      'Compliance-Wissen messbar machen. Nachweise zentral dokumentieren.';
+
+  @override
+  String get landingV2HeroDesc =>
+      'Mit RuleFox testen Unternehmen, ob Mitarbeitende zentrale Compliance-Anforderungen verstehen – und erhalten exportierbare Nachweise für interne Dokumentation, Management und Audits.';
+
+  @override
+  String get landingV2HeroBtnStart => 'EU AI Compliance Test starten';
+
+  @override
+  String get landingV2HeroBtnEvidence => 'Beispiel-Nachweis ansehen';
+
+  @override
+  String get landingV2HeroNote1 => 'Currently\navailable:';
+
+  @override
+  String get landingV2HeroNote2 => 'EU AI\nCompliance\nTest.';
+
+  @override
+  String get landingV2HeroNote3 => 'Further compliance tests\nwill follow.';
+
+  @override
+  String get landingV2FloatTestTitle => 'Testen';
+
+  @override
+  String get landingV2FloatTestDesc => 'Wissen prüfen';
+
+  @override
+  String get landingV2FloatEvalTitle => 'Auswerten';
+
+  @override
+  String get landingV2FloatEvalDesc => 'Fortschritt sichtbar machen';
+
+  @override
+  String get landingV2FloatProveTitle => 'Nachweisen';
+
+  @override
+  String get landingV2FloatProveDesc => 'Nachweise exportieren';
+
+  @override
+  String get landingV2FloatSecureTitle => 'Sicher sein';
+
+  @override
+  String get landingV2FloatSecureDesc => 'Audit-tauglich und nachvollziehbar';
+
+  @override
+  String get landingV2TestsEyebrow => 'Verfügbare Tests';
+
+  @override
+  String get landingV2TestsTitle =>
+      'Starten Sie mit dem ersten verfügbaren Test.';
+
+  @override
+  String get landingV2TestsDesc =>
+      'RuleFox ist modular aufgebaut. Der EU AI Compliance Test ist der erste verfügbare Test. Weitere Compliance-Themen können künftig über dieselbe Plattform geprüft, ausgewertet und dokumentiert werden.';
+
+  @override
+  String get landingV2Test1Eyebrow => 'Erster verfügbarer Test';
+
+  @override
+  String get landingV2Test1Desc =>
+      'Prüfen Sie, ob Mitarbeitende die wichtigsten Grundlagen für den sicheren und verantwortungsvollen Einsatz von KI-Systemen verstehen – inklusive relevanter Pflichten, Risikobewusstsein und praktischer Anwendung im Arbeitsalltag.';
+
+  @override
+  String get landingV2Test1Meta1 => '21 Fragen';
+
+  @override
+  String get landingV2Test1Meta2 => 'ca. 15 Min.';
+
+  @override
+  String get landingV2Test1Meta3 => 'DE & EN';
+
+  @override
+  String get landingV2PriceAmount => '€99';
+
+  @override
+  String get landingV2PriceUnit => 'pro Test';
+
+  @override
+  String get landingV2TestSoonTitle => 'Weitere Compliance-Tests';
+
+  @override
+  String get landingV2TestSoonBadge => 'Demnächst';
+
+  @override
+  String get landingV2TestSoonDesc =>
+      'RuleFox wird laufend um neue Testmodule erweitert – für weitere Compliance-, Schulungs- und Nachweispflichten über eine zentrale Plattform.';
+
+  @override
+  String get landingV2TestSoonBtn => 'Bald verfügbar';
+
+  @override
+  String get landingV2TestsFooter =>
+      'Benötigen Sie einen spezifischen Compliance-Test für Ihr Unternehmen? Sprechen Sie uns an — wir prüfen gerne individuelle Themenwünsche.';
+
+  @override
+  String get landingV2PlatformEyebrow => 'Plattform';
+
+  @override
+  String get landingV2PlatformTitle =>
+      'Eine Plattform. Viele Compliance-Tests.';
+
+  @override
+  String get landingV2PlatformDesc =>
+      'Ob AI Compliance, Datenschutz, Security Awareness oder interne Richtlinien: RuleFox macht Wissen testbar, Ergebnisse sichtbar und Nachweise exportierbar.';
+
+  @override
+  String get landingV2PlatformCol1Title => 'Mitarbeitende einladen';
+
+  @override
+  String get landingV2PlatformCol1Desc =>
+      'Teams per CSV oder Einladungslink hinzufügen und Tests gezielt zuweisen.';
+
+  @override
+  String get landingV2PlatformCol2Title => 'Fortschritt auswerten';
+
+  @override
+  String get landingV2PlatformCol2Desc =>
+      'Teilnahmequote, Abschlussrate, Bestehensquote und offene Einladungen zentral im Blick behalten.';
+
+  @override
+  String get landingV2PlatformCol3Title => 'Nachweise exportieren';
+
+  @override
+  String get landingV2PlatformCol3Desc =>
+      'Individuelle Nachweise und Gesamtberichte für Dokumentation, Management und Audits erstellen.';
+
+  @override
+  String get landingV2ReportingEyebrow => 'Reporting & Insights';
+
+  @override
+  String get landingV2ReportingTitle =>
+      'Compliance-Fortschritt sichtbar machen.';
+
+  @override
+  String get landingV2ReportingDesc =>
+      'RuleFox zeigt nicht nur einzelne Testergebnisse, sondern den gesamten Fortschritt Ihres Unternehmens auf einen Blick.';
+
+  @override
+  String get landingV2ReportingKpi1 => 'Teilnahmequote';
+
+  @override
+  String get landingV2ReportingKpi1Sub =>
+      '156 von 200 Mitarbeitenden eingeladen';
+
+  @override
+  String get landingV2ReportingKpi2 => 'Abschlussrate';
+
+  @override
+  String get landingV2ReportingKpi2Sub => '97 von 156 Tests abgeschlossen';
+
+  @override
+  String get landingV2ReportingKpi3 => 'Bestehensquote';
+
+  @override
+  String get landingV2ReportingKpi3Sub => '82 von 97 Tests bestanden';
+
+  @override
+  String get landingV2ReportingKpi4 => 'Durchschnittliches Ergebnis';
+
+  @override
+  String get landingV2ReportingKpi4Sub =>
+      'Durchschnittsscore aller Teilnehmenden';
+
+  @override
+  String get landingV2ReportingKpi5 => 'Offene Einladungen';
+
+  @override
+  String get landingV2ReportingKpi5Sub => 'Mitarbeitende noch nicht gestartet';
+
+  @override
+  String get landingV2ReportingFeat1Title => 'Nach Abteilungen filtern';
+
+  @override
+  String get landingV2ReportingFeat1Desc =>
+      'Fortschritt nach Teams & Abteilungen vergleichen.';
+
+  @override
+  String get landingV2ReportingFeat2Title => 'Verlauf im Blick behalten';
+
+  @override
+  String get landingV2ReportingFeat2Desc =>
+      'Rollout-Entwicklung über Zeiträume analysieren.';
+
+  @override
+  String get landingV2ReportingFeat3Title => 'Handlungsbedarf erkennen';
+
+  @override
+  String get landingV2ReportingFeat3Desc =>
+      'Offene Tests und niedrige Ergebnisse schnell identifizieren.';
+
+  @override
+  String get landingV2ReportingFeat4Title => 'Export & Reporting';
+
+  @override
+  String get landingV2ReportingFeat4Desc =>
+      'Berichte als PDF oder CSV exportieren.';
+
+  @override
+  String get landingV2SequenceEyebrow => 'So funktioniert es';
+
+  @override
+  String get landingV2SequenceTitle =>
+      'In drei Schritten zum dokumentierten Compliance-Nachweis.';
+
+  @override
+  String get landingV2SequenceStep1Title => 'Mitarbeitende einladen';
+
+  @override
+  String get landingV2SequenceStep1Desc =>
+      'Laden Sie Teams per CSV-Import oder Einladungslink ein und weisen Sie den passenden Test zu.';
+
+  @override
+  String get landingV2SequenceStep2Title => 'Test absolvieren';
+
+  @override
+  String get landingV2SequenceStep2Desc =>
+      'Mitarbeitende beantworten praxisnahe Fragen zum ausgewählten Compliance-Thema in wenigen Minuten. Die Auswertung erfolgt automatisch und nachvollziehbar.';
+
+  @override
+  String get landingV2SequenceStep3Title => 'Nachweise exportieren';
+
+  @override
+  String get landingV2SequenceStep3Desc =>
+      'Exportieren Sie individuelle Zertifikate und einen Gesamtbericht als PDF – bereit für Dokumentation, Management oder Audits.';
+
+  @override
+  String get landingV2EvidenceEyebrow => 'Nachweise';
+
+  @override
+  String get landingV2EvidenceTitle => 'Nicht nur testen. Belegen.';
+
+  @override
+  String get landingV2EvidenceDesc =>
+      'Compliance ist nur dann wertvoll, wenn sie dokumentiert werden kann. RuleFox erstellt klare Nachweise über Teilnahme, Ergebnis und Status — übersichtlich, exportierbar und intern nachvollziehbar.';
+
+  @override
+  String get landingV2EvidenceFeat1Title =>
+      'Individueller Nachweis pro Mitarbeitendem';
+
+  @override
+  String get landingV2EvidenceFeat1Desc =>
+      'Name, Test, Datum und Ergebnis auf einem kompakten PDF.';
+
+  @override
+  String get landingV2EvidenceFeat2Title => 'Eindeutige Nachweis-ID';
+
+  @override
+  String get landingV2EvidenceFeat2Desc =>
+      'Jeder Nachweis erhält eine eindeutige Referenz für interne Dokumentation und spätere Zuordnung.';
+
+  @override
+  String get landingV2EvidenceFeat3Title => 'Gesamt-Report für Management';
+
+  @override
+  String get landingV2EvidenceFeat3Desc =>
+      'Überblick über Teilnahmequote, Status und Fortschritt aller getesteten Mitarbeitenden in einem Bericht.';
+
+  @override
+  String get landingV2PricesEyebrow => 'Preise';
+
+  @override
+  String get landingV2PricesTitle => 'Transparent. €99 pro Test.';
+
+  @override
+  String get landingV2PricesDesc =>
+      'Buchen Sie einzelne Tests oder flexible Kontingente und setzen Sie diese nach Bedarf für Ihre Mitarbeitenden ein.';
+
+  @override
+  String get landingV2PricesFeat1 => '21 praxisnahe Fragen';
+
+  @override
+  String get landingV2PricesFeat2 => 'ca. 15 Minuten Bearbeitungszeit';
+
+  @override
+  String get landingV2PricesFeat3 => 'Deutsch & Englisch';
+
+  @override
+  String get landingV2PricesFeat4 => 'automatische Auswertung';
+
+  @override
+  String get landingV2PricesFeat5 => 'individueller Nachweis als PDF';
+
+  @override
+  String get landingV2PricesFeat6 => 'Reporting-Übersicht für den Tenant';
+
+  @override
+  String get landingV2PricesBtnStart => 'Test starten';
+
+  @override
+  String get landingV2PricesNote =>
+      'Alle Preise zzgl. USt. Größere Kontingente und individuelle Anforderungen auf Anfrage.';
+
+  @override
+  String get landingV2ModalTitle => 'Beispiel-Nachweis';
+
+  @override
+  String get landingV2ModalDesc =>
+      'So sieht der individuelle Nachweis aus, den jeder Mitarbeitende nach erfolgreichem Test erhält.';
+
+  @override
+  String get landingV2ModalBtnClose => 'Schließen';
+
+  @override
+  String get landingV2ModalBtnStart => 'Jetzt selbst testen';
+
+  @override
+  String get landingV2MockDate => '14.05.2024';
+
+  @override
+  String get landingV2MockScore => '86% – bestanden';
 }
