@@ -5104,7 +5104,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleAssessmentReady.
   ///
   /// In en, this message translates to:
-  /// **'Assessment ready · RuleFox'**
+  /// **'Assessment Ready · RuleFox'**
   String get titleAssessmentReady;
 
   /// No description provided for @titleAssignEmployees.
@@ -5164,7 +5164,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleLanding.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox – AI Compliance for Enterprise'**
+  /// **'RuleFox – AI Compliance for Companies'**
   String get titleLanding;
 
   /// No description provided for @titleLogin.
@@ -5188,7 +5188,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleOwnerNewTest.
   ///
   /// In en, this message translates to:
-  /// **'New test · RuleFox'**
+  /// **'New Test · RuleFox'**
   String get titleOwnerNewTest;
 
   /// No description provided for @titleOwnerTestManagement.
@@ -5200,7 +5200,7 @@ abstract class AppLocalizations {
   /// No description provided for @titlePurchaseHistory.
   ///
   /// In en, this message translates to:
-  /// **'Purchase history · RuleFox'**
+  /// **'Purchase History · RuleFox'**
   String get titlePurchaseHistory;
 
   /// No description provided for @titleResults.
@@ -5218,7 +5218,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleTenantAvailableTests.
   ///
   /// In en, this message translates to:
-  /// **'Available tests · RuleFox'**
+  /// **'Available Tests · RuleFox'**
   String get titleTenantAvailableTests;
 
   /// No description provided for @titleTenantDashboard.
@@ -5230,7 +5230,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleTenantTestQuota.
   ///
   /// In en, this message translates to:
-  /// **'Test quota · RuleFox'**
+  /// **'Test Quota · RuleFox'**
   String get titleTenantTestQuota;
 
   /// No description provided for @titleTestDetail.

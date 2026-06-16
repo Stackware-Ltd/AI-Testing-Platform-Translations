@@ -2663,7 +2663,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get titleAssessmentQuestions => 'AI Compliance Test · RuleFox';
 
   @override
-  String get titleAssessmentReady => 'Assessment ready · RuleFox';
+  String get titleAssessmentReady => 'Assessment Ready · RuleFox';
 
   @override
   String get titleAssignEmployees => 'Assign employees · RuleFox';
@@ -2693,7 +2693,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get titleInvoice => 'Invoice · RuleFox';
 
   @override
-  String get titleLanding => 'RuleFox – AI Compliance for Enterprise';
+  String get titleLanding => 'RuleFox – AI Compliance for Companies';
 
   @override
   String get titleLogin => 'Login · RuleFox';
@@ -2705,13 +2705,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get titleOwnerDashboard => 'Owner Dashboard · RuleFox';
 
   @override
-  String get titleOwnerNewTest => 'New test · RuleFox';
+  String get titleOwnerNewTest => 'New Test · RuleFox';
 
   @override
   String get titleOwnerTestManagement => 'Test Management · RuleFox';
 
   @override
-  String get titlePurchaseHistory => 'Purchase history · RuleFox';
+  String get titlePurchaseHistory => 'Purchase History · RuleFox';
 
   @override
   String get titleResults => 'Results · RuleFox';
@@ -2720,13 +2720,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get titleSignup => 'Registration · RuleFox';
 
   @override
-  String get titleTenantAvailableTests => 'Available tests · RuleFox';
+  String get titleTenantAvailableTests => 'Available Tests · RuleFox';
 
   @override
   String get titleTenantDashboard => 'AI Compliance Dashboard · RuleFox';
 
   @override
-  String get titleTenantTestQuota => 'Test quota · RuleFox';
+  String get titleTenantTestQuota => 'Test Quota · RuleFox';
 
   @override
   String get titleTestDetail => 'AI Compliance Test · RuleFox';
