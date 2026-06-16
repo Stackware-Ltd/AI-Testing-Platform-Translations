@@ -98,299 +98,23 @@ abstract class AppLocalizations {
     Locale('en'),
   ];
 
-  /// No description provided for @homeLink.
-  ///
-  /// In en, this message translates to:
-  /// **'Home'**
-  String get homeLink;
-
-  /// No description provided for @pricingLink.
-  ///
-  /// In en, this message translates to:
-  /// **'Pricing'**
-  String get pricingLink;
-
-  /// No description provided for @testimonialsLink.
-  ///
-  /// In en, this message translates to:
-  /// **'Testimonials'**
-  String get testimonialsLink;
-
   /// No description provided for @aboutUsLink.
   ///
   /// In en, this message translates to:
   /// **'About Us'**
   String get aboutUsLink;
 
-  /// No description provided for @contactLink.
+  /// No description provided for @actionShowAll.
   ///
   /// In en, this message translates to:
-  /// **'Contact'**
-  String get contactLink;
+  /// **'Show all'**
+  String get actionShowAll;
 
-  /// No description provided for @registerButton.
+  /// No description provided for @addEmployees.
   ///
   /// In en, this message translates to:
-  /// **'Register Now'**
-  String get registerButton;
-
-  /// No description provided for @loginButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Log In'**
-  String get loginButton;
-
-  /// No description provided for @heroTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Making your workforce '**
-  String get heroTitle;
-
-  /// No description provided for @smarterWord.
-  ///
-  /// In en, this message translates to:
-  /// **'smarter'**
-  String get smarterWord;
-
-  /// No description provided for @workforceWord.
-  ///
-  /// In en, this message translates to:
-  /// **' and faster.'**
-  String get workforceWord;
-
-  /// No description provided for @landingDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'AI-powered testing platform that helps you manage your employees, create tests, and analyze results efficiently.'**
-  String get landingDescription;
-
-  /// No description provided for @landingHeroTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Test AI literacy. Document evidence.'**
-  String get landingHeroTitle;
-
-  /// No description provided for @landingHeroDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'A structured entry point for companies that want to document their use of AI internally in a traceable, verifiable and centrally organized manner.'**
-  String get landingHeroDesc;
-
-  /// No description provided for @landingFeaturesSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Enterprise-Grade Assessment'**
-  String get landingFeaturesSubtitle;
-
-  /// No description provided for @landingFeaturesTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Built for security, scalability, and strict data isolation.'**
-  String get landingFeaturesTitle;
-
-  /// No description provided for @landingFeature1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Magic Link Access'**
-  String get landingFeature1Title;
-
-  /// No description provided for @landingFeature1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees take tests securely via single-use, expiring magic links. Zero friction—no account creation or passwords required.'**
-  String get landingFeature1Desc;
-
-  /// No description provided for @landingFeature2Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Reporting & Certificates'**
-  String get landingFeature2Title;
-
-  /// No description provided for @landingFeature2Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Access comprehensive result dashboards, CSV exports, and automatically generated, professional PDF certificates upon passing.'**
-  String get landingFeature2Desc;
-
-  /// No description provided for @landingFeature3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Strict Multi-Tenant Architecture'**
-  String get landingFeature3Title;
-
-  /// No description provided for @landingFeature3Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Total data isolation between organizations. Distinct roles for Owner Admins, Tenant Admins, and Employees ensure complete privacy.'**
-  String get landingFeature3Desc;
-
-  /// No description provided for @landingHowItWorksSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Simple, Secure Workflow'**
-  String get landingHowItWorksSubtitle;
-
-  /// No description provided for @landingStep1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchase Credits'**
-  String get landingStep1Title;
-
-  /// No description provided for @landingStep1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Acquire assessment credits securely through our transparent Stripe-integrated ledger.'**
-  String get landingStep1Desc;
-
-  /// No description provided for @landingStep2Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign & Invite'**
-  String get landingStep2Title;
-
-  /// No description provided for @landingStep2Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign immutable test versions and send automated, single-use magic links to employees.'**
-  String get landingStep2Desc;
-
-  /// No description provided for @landingStep3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Assess & Export'**
-  String get landingStep3Title;
-
-  /// No description provided for @landingStep3Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees complete secure tests, while you instantly export CSV reports and PDF certificates.'**
-  String get landingStep3Desc;
-
-  /// No description provided for @landingDisclaimer.
-  ///
-  /// In en, this message translates to:
-  /// **'Legal Disclaimer: ai-test.eu is an assessment-only platform providing non-proctored evaluations. Results generated by this platform do not constitute official EU certification, legal advice, or legally binding credentials.'**
-  String get landingDisclaimer;
-
-  /// No description provided for @firstNameHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter first name'**
-  String get firstNameHint;
-
-  /// No description provided for @lastNameHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter last name'**
-  String get lastNameHint;
-
-  /// No description provided for @companyHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter company name'**
-  String get companyHint;
-
-  /// No description provided for @addressHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter company\'s address'**
-  String get addressHint;
-
-  /// No description provided for @loginTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Login to Dashboard'**
-  String get loginTitle;
-
-  /// No description provided for @loginSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Fill the below form to login'**
-  String get loginSubtitle;
-
-  /// No description provided for @emailLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Email'**
-  String get emailLabel;
-
-  /// No description provided for @emailHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter your email'**
-  String get emailHint;
-
-  /// No description provided for @passwordLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Password'**
-  String get passwordLabel;
-
-  /// No description provided for @passwordHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter password'**
-  String get passwordHint;
-
-  /// No description provided for @rememberMe.
-  ///
-  /// In en, this message translates to:
-  /// **'Remember me'**
-  String get rememberMe;
-
-  /// No description provided for @forgotPassword.
-  ///
-  /// In en, this message translates to:
-  /// **'Forgot Password?'**
-  String get forgotPassword;
-
-  /// No description provided for @registerLink.
-  ///
-  /// In en, this message translates to:
-  /// **'Don\'t have an account?'**
-  String get registerLink;
-
-  /// No description provided for @registerNow.
-  ///
-  /// In en, this message translates to:
-  /// **'Register now'**
-  String get registerNow;
-
-  /// No description provided for @signupTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Create Account'**
-  String get signupTitle;
-
-  /// No description provided for @signupSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Register for your account instantly!'**
-  String get signupSubtitle;
-
-  /// No description provided for @firstName.
-  ///
-  /// In en, this message translates to:
-  /// **'First Name'**
-  String get firstName;
-
-  /// No description provided for @lastName.
-  ///
-  /// In en, this message translates to:
-  /// **'Last Name'**
-  String get lastName;
-
-  /// No description provided for @companyName.
-  ///
-  /// In en, this message translates to:
-  /// **'Company Name'**
-  String get companyName;
-
-  /// No description provided for @country.
-  ///
-  /// In en, this message translates to:
-  /// **'Select Country'**
-  String get country;
+  /// **'Add Employees'**
+  String get addEmployees;
 
   /// No description provided for @address.
   ///
@@ -398,1037 +122,65 @@ abstract class AppLocalizations {
   /// **'Address'**
   String get address;
 
-  /// No description provided for @haveAccount.
+  /// No description provided for @addressHint.
   ///
   /// In en, this message translates to:
-  /// **'Already have an account?'**
-  String get haveAccount;
+  /// **'Enter company\'s address'**
+  String get addressHint;
 
-  /// No description provided for @forgotPasswordTitle.
+  /// No description provided for @addressLabel.
   ///
   /// In en, this message translates to:
-  /// **'Forgot Password'**
-  String get forgotPasswordTitle;
+  /// **'Address'**
+  String get addressLabel;
 
-  /// No description provided for @forgotPasswordSubtitle.
+  /// No description provided for @assessmentAlreadyCompleted.
   ///
   /// In en, this message translates to:
-  /// **'Enter your email to receive an OTP'**
-  String get forgotPasswordSubtitle;
+  /// **'Assessment Already Completed'**
+  String get assessmentAlreadyCompleted;
 
-  /// No description provided for @enterEmailHint.
+  /// No description provided for @assessmentAlreadySubmittedDesc.
   ///
   /// In en, this message translates to:
-  /// **'Enter your email'**
-  String get enterEmailHint;
+  /// **'You have already submitted this assessment. If you believe this is an error, please contact your administrator.'**
+  String get assessmentAlreadySubmittedDesc;
 
-  /// No description provided for @sendOtpButton.
+  /// No description provided for @assessmentCloseButton.
   ///
   /// In en, this message translates to:
-  /// **'Send OTP'**
-  String get sendOtpButton;
+  /// **'Close'**
+  String get assessmentCloseButton;
 
-  /// No description provided for @backToLogin.
+  /// No description provided for @assessmentDescriptionDefault.
   ///
   /// In en, this message translates to:
-  /// **'Back to Login'**
-  String get backToLogin;
+  /// **'You have been invited to take the {testName}. This assessment evaluates your knowledge and skills in this specific area.'**
+  String assessmentDescriptionDefault(String testName);
 
-  /// No description provided for @verifyOtpTitle.
+  /// No description provided for @assessmentExpiredLinkDesc.
   ///
   /// In en, this message translates to:
-  /// **'Verify OTP'**
-  String get verifyOtpTitle;
+  /// **'This invitation link has expired or is invalid. Please request a new link from your administrator to take the assessment.'**
+  String get assessmentExpiredLinkDesc;
 
-  /// No description provided for @verifyOtpSubtitle.
+  /// No description provided for @assessmentInvalidLink.
   ///
   /// In en, this message translates to:
-  /// **'Enter the 8-digit code sent to your email'**
-  String get verifyOtpSubtitle;
+  /// **'Invalid or Expired Link'**
+  String get assessmentInvalidLink;
 
-  /// No description provided for @resendOtpQuestion.
+  /// No description provided for @assessmentInvalidToken.
   ///
   /// In en, this message translates to:
-  /// **'Didn\'t receive code?'**
-  String get resendOtpQuestion;
+  /// **'Invalid or missing token.'**
+  String get assessmentInvalidToken;
 
-  /// No description provided for @resendOtpButton.
+  /// No description provided for @assessmentLoadingDetails.
   ///
   /// In en, this message translates to:
-  /// **'Resend OTP'**
-  String get resendOtpButton;
-
-  /// No description provided for @verifyOtpButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Verify OTP'**
-  String get verifyOtpButton;
-
-  /// No description provided for @resetPasswordTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Reset Password'**
-  String get resetPasswordTitle;
-
-  /// No description provided for @resetPasswordSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Set your new password below'**
-  String get resetPasswordSubtitle;
-
-  /// No description provided for @newPasswordLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'New Password'**
-  String get newPasswordLabel;
-
-  /// No description provided for @newPasswordHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter new password'**
-  String get newPasswordHint;
-
-  /// No description provided for @confirmPasswordLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Confirm Password'**
-  String get confirmPasswordLabel;
-
-  /// No description provided for @confirmPasswordHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Re-enter password'**
-  String get confirmPasswordHint;
-
-  /// No description provided for @resetPasswordButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Reset Password'**
-  String get resetPasswordButton;
-
-  /// No description provided for @termsTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Terms & Conditions'**
-  String get termsTitle;
-
-  /// No description provided for @termsBody1.
-  ///
-  /// In en, this message translates to:
-  /// **'By accessing and using this login page, you agree to be bound by these Terms and Conditions, along with any related policies referenced herein. This platform is intended solely for authorised users, and access is granted only for lawful purposes. You must ensure that all information provided during the login process is accurate, complete, and up to date. Any use of the system that is unlawful, fraudulent, or intended to harm the platform or its users is strictly prohibited.'**
-  String get termsBody1;
-
-  /// No description provided for @termsBody2.
-  ///
-  /// In en, this message translates to:
-  /// **'You are responsible for maintaining the confidentiality of your login credentials, including your username and password, and for all activities carried out under your account. You agree not to share your login details with any third party or allow unauthorised access. We shall not be liable for any loss or damage arising from your failure to protect your account information. If you suspect any unauthorised use of your account, you must notify us immediately.'**
-  String get termsBody2;
-
-  /// No description provided for @termsBody3.
-  ///
-  /// In en, this message translates to:
-  /// **'We reserve the right, at our sole discretion, to restrict, suspend, or terminate your access to the platform without prior notice if we believe you have breached these Terms and Conditions or engaged in conduct that may compromise system security, integrity, or functionality. We may also update or modify these terms at any time, and continued use of the login page constitutes acceptance of any such changes.'**
-  String get termsBody3;
-
-  /// No description provided for @termsBody4.
-  ///
-  /// In en, this message translates to:
-  /// **'Access to this platform is provided on an \"as is\" and \"as available\" basis. While we take reasonable steps to maintain system security and availability, we do not guarantee uninterrupted, error-free, or secure access at all times. By logging in, you acknowledge and accept our Privacy Policy and consent to the collection, storage, and processing of your personal data in accordance with applicable data protection laws and regulations in the United Kingdom.'**
-  String get termsBody4;
-
-  /// No description provided for @dashboardOwner.
-  ///
-  /// In en, this message translates to:
-  /// **'Owner Dashboard'**
-  String get dashboardOwner;
-
-  /// No description provided for @dashboardTenant.
-  ///
-  /// In en, this message translates to:
-  /// **'Tenant Dashboard'**
-  String get dashboardTenant;
-
-  /// No description provided for @navDashboard.
-  ///
-  /// In en, this message translates to:
-  /// **'Dashboard'**
-  String get navDashboard;
-
-  /// No description provided for @navTestMgmt.
-  ///
-  /// In en, this message translates to:
-  /// **'Test Management'**
-  String get navTestMgmt;
-
-  /// No description provided for @navBilling.
-  ///
-  /// In en, this message translates to:
-  /// **'Billing'**
-  String get navBilling;
-
-  /// No description provided for @navBillingCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'Billing & Credits'**
-  String get navBillingCredits;
-
-  /// No description provided for @navResults.
-  ///
-  /// In en, this message translates to:
-  /// **'Results'**
-  String get navResults;
-
-  /// No description provided for @statTotalTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Total Tests'**
-  String get statTotalTests;
-
-  /// No description provided for @statTotalTenants.
-  ///
-  /// In en, this message translates to:
-  /// **'Total Tenants'**
-  String get statTotalTenants;
-
-  /// No description provided for @statTotalEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Total Employees'**
-  String get statTotalEmployees;
-
-  /// No description provided for @statPublished.
-  ///
-  /// In en, this message translates to:
-  /// **'Published Tests'**
-  String get statPublished;
-
-  /// No description provided for @statDraft.
-  ///
-  /// In en, this message translates to:
-  /// **'Draft Tests'**
-  String get statDraft;
-
-  /// No description provided for @statCreditsLeft.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits Left'**
-  String get statCreditsLeft;
-
-  /// No description provided for @statMyEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'My Employees'**
-  String get statMyEmployees;
-
-  /// No description provided for @statTestsTaken.
-  ///
-  /// In en, this message translates to:
-  /// **'Tests Taken'**
-  String get statTestsTaken;
-
-  /// No description provided for @statPlatformPassRate.
-  ///
-  /// In en, this message translates to:
-  /// **'Platform Pass Rate'**
-  String get statPlatformPassRate;
-
-  /// No description provided for @statPurchasedTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchased Tests'**
-  String get statPurchasedTests;
-
-  /// No description provided for @statPendingAssignments.
-  ///
-  /// In en, this message translates to:
-  /// **'Pending Assignments'**
-  String get statPendingAssignments;
-
-  /// No description provided for @statCompletedTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Completed Tests'**
-  String get statCompletedTests;
-
-  /// No description provided for @statPassRate.
-  ///
-  /// In en, this message translates to:
-  /// **'Pass Rate'**
-  String get statPassRate;
-
-  /// No description provided for @statTopDepartment.
-  ///
-  /// In en, this message translates to:
-  /// **'Top Department'**
-  String get statTopDepartment;
-
-  /// No description provided for @testCreateNew.
-  ///
-  /// In en, this message translates to:
-  /// **'Create New Test'**
-  String get testCreateNew;
-
-  /// No description provided for @testFilterAll.
-  ///
-  /// In en, this message translates to:
-  /// **'All Tests'**
-  String get testFilterAll;
-
-  /// No description provided for @testFilterPublished.
-  ///
-  /// In en, this message translates to:
-  /// **'Published'**
-  String get testFilterPublished;
-
-  /// No description provided for @testFilterDraft.
-  ///
-  /// In en, this message translates to:
-  /// **'Draft'**
-  String get testFilterDraft;
-
-  /// No description provided for @testCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits'**
-  String get testCredits;
-
-  /// No description provided for @testVersion.
-  ///
-  /// In en, this message translates to:
-  /// **'Version'**
-  String get testVersion;
-
-  /// No description provided for @testCreatedBy.
-  ///
-  /// In en, this message translates to:
-  /// **'Created By'**
-  String get testCreatedBy;
-
-  /// No description provided for @testCreatedAt.
-  ///
-  /// In en, this message translates to:
-  /// **'Created At'**
-  String get testCreatedAt;
-
-  /// No description provided for @testStatus.
-  ///
-  /// In en, this message translates to:
-  /// **'Status'**
-  String get testStatus;
-
-  /// No description provided for @labelPublished.
-  ///
-  /// In en, this message translates to:
-  /// **'Published'**
-  String get labelPublished;
-
-  /// No description provided for @labelDraft.
-  ///
-  /// In en, this message translates to:
-  /// **'Draft'**
-  String get labelDraft;
-
-  /// No description provided for @labelFree.
-  ///
-  /// In en, this message translates to:
-  /// **'Free'**
-  String get labelFree;
-
-  /// No description provided for @labelFrom.
-  ///
-  /// In en, this message translates to:
-  /// **'From'**
-  String get labelFrom;
-
-  /// No description provided for @labelVersion.
-  ///
-  /// In en, this message translates to:
-  /// **'Version'**
-  String get labelVersion;
-
-  /// No description provided for @labelCreatedAt.
-  ///
-  /// In en, this message translates to:
-  /// **'Created At'**
-  String get labelCreatedAt;
-
-  /// No description provided for @labelCategoryColon.
-  ///
-  /// In en, this message translates to:
-  /// **'Category:'**
-  String get labelCategoryColon;
-
-  /// No description provided for @labelCategory.
-  ///
-  /// In en, this message translates to:
-  /// **'category'**
-  String get labelCategory;
-
-  /// No description provided for @justNow.
-  ///
-  /// In en, this message translates to:
-  /// **'Just Now'**
-  String get justNow;
-
-  /// No description provided for @categoryGeneral.
-  ///
-  /// In en, this message translates to:
-  /// **'General'**
-  String get categoryGeneral;
-
-  /// No description provided for @labelNumberOfSeats.
-  ///
-  /// In en, this message translates to:
-  /// **'Number of Seats'**
-  String get labelNumberOfSeats;
-
-  /// No description provided for @labelCreditsPerSeat.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits Per Seat'**
-  String get labelCreditsPerSeat;
-
-  /// No description provided for @labelTotal.
-  ///
-  /// In en, this message translates to:
-  /// **'Total'**
-  String get labelTotal;
-
-  /// No description provided for @buttonAddToCart.
-  ///
-  /// In en, this message translates to:
-  /// **'Add to Cart'**
-  String get buttonAddToCart;
-
-  /// No description provided for @snackAddedToCart.
-  ///
-  /// In en, this message translates to:
-  /// **'Added to cart successfully'**
-  String get snackAddedToCart;
-
-  /// No description provided for @buttonBuyNow.
-  ///
-  /// In en, this message translates to:
-  /// **'Buy Now'**
-  String get buttonBuyNow;
-
-  /// No description provided for @billingCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits'**
-  String get billingCredits;
-
-  /// No description provided for @billingBuy.
-  ///
-  /// In en, this message translates to:
-  /// **'Buy Credits'**
-  String get billingBuy;
-
-  /// No description provided for @billingHistory.
-  ///
-  /// In en, this message translates to:
-  /// **'Billing history'**
-  String get billingHistory;
-
-  /// No description provided for @billingDate.
-  ///
-  /// In en, this message translates to:
-  /// **'Date'**
-  String get billingDate;
-
-  /// No description provided for @billingDocument.
-  ///
-  /// In en, this message translates to:
-  /// **'Document'**
-  String get billingDocument;
-
-  /// No description provided for @billingTotal.
-  ///
-  /// In en, this message translates to:
-  /// **'Total'**
-  String get billingTotal;
-
-  /// No description provided for @billingAmount.
-  ///
-  /// In en, this message translates to:
-  /// **'Amount'**
-  String get billingAmount;
-
-  /// No description provided for @billingStripeId.
-  ///
-  /// In en, this message translates to:
-  /// **'Stripe ID'**
-  String get billingStripeId;
-
-  /// No description provided for @billingReceipt.
-  ///
-  /// In en, this message translates to:
-  /// **'Receipt'**
-  String get billingReceipt;
-
-  /// No description provided for @billingCreditsPerSeat.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits Per Seat'**
-  String get billingCreditsPerSeat;
-
-  /// No description provided for @billingSeats.
-  ///
-  /// In en, this message translates to:
-  /// **'Seats'**
-  String get billingSeats;
-
-  /// No description provided for @billingTestName.
-  ///
-  /// In en, this message translates to:
-  /// **'Test Name'**
-  String get billingTestName;
-
-  /// No description provided for @billingVersion.
-  ///
-  /// In en, this message translates to:
-  /// **'Version'**
-  String get billingVersion;
-
-  /// No description provided for @billingSeatsPurchased.
-  ///
-  /// In en, this message translates to:
-  /// **'Seats Purchased'**
-  String get billingSeatsPurchased;
-
-  /// No description provided for @billingTotalCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'Total Credits'**
-  String get billingTotalCredits;
-
-  /// No description provided for @billingChoosePackage.
-  ///
-  /// In en, this message translates to:
-  /// **'Choose Package'**
-  String get billingChoosePackage;
-
-  /// No description provided for @billingSelectPackageSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Select the package that best fits your needs'**
-  String get billingSelectPackageSubtitle;
-
-  /// No description provided for @billingColumnDate.
-  ///
-  /// In en, this message translates to:
-  /// **'Date'**
-  String get billingColumnDate;
-
-  /// No description provided for @billingColumnProduct.
-  ///
-  /// In en, this message translates to:
-  /// **'Product'**
-  String get billingColumnProduct;
-
-  /// No description provided for @billingColumnNumber.
-  ///
-  /// In en, this message translates to:
-  /// **'Number'**
-  String get billingColumnNumber;
-
-  /// No description provided for @billingColumnAmount.
-  ///
-  /// In en, this message translates to:
-  /// **'Amount'**
-  String get billingColumnAmount;
-
-  /// No description provided for @billingColumnStatus.
-  ///
-  /// In en, this message translates to:
-  /// **'Status'**
-  String get billingColumnStatus;
-
-  /// No description provided for @billingColumnInvoice.
-  ///
-  /// In en, this message translates to:
-  /// **'Invoice'**
-  String get billingColumnInvoice;
-
-  /// No description provided for @tabBilling.
-  ///
-  /// In en, this message translates to:
-  /// **'Billing'**
-  String get tabBilling;
-
-  /// No description provided for @tabPurchaseHistory.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchase History'**
-  String get tabPurchaseHistory;
-
-  /// No description provided for @tabAvailableTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Available Credits'**
-  String get tabAvailableTests;
-
-  /// No description provided for @tabPurchasedTestsLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchased Credits'**
-  String get tabPurchasedTestsLabel;
-
-  /// No description provided for @hintSearch.
-  ///
-  /// In en, this message translates to:
-  /// **'Search...'**
-  String get hintSearch;
-
-  /// No description provided for @hintEnterVat.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter VAT number'**
-  String get hintEnterVat;
-
-  /// No description provided for @hintSelectCountry.
-  ///
-  /// In en, this message translates to:
-  /// **'Select Country'**
-  String get hintSelectCountry;
-
-  /// No description provided for @hintSelectCategory.
-  ///
-  /// In en, this message translates to:
-  /// **'Select Category'**
-  String get hintSelectCategory;
-
-  /// No description provided for @labelNotAssigned.
-  ///
-  /// In en, this message translates to:
-  /// **'Not assigned'**
-  String get labelNotAssigned;
-
-  /// No description provided for @labelLinkSent.
-  ///
-  /// In en, this message translates to:
-  /// **'Link sent'**
-  String get labelLinkSent;
-
-  /// No description provided for @labelTestExpired.
-  ///
-  /// In en, this message translates to:
-  /// **'Test expired'**
-  String get labelTestExpired;
-
-  /// No description provided for @labelAvailableCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'Available Credits'**
-  String get labelAvailableCredits;
-
-  /// No description provided for @labelCreditsLowercase.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits'**
-  String get labelCreditsLowercase;
-
-  /// No description provided for @buttonBuyCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'Quota'**
-  String get buttonBuyCredits;
-
-  /// No description provided for @filterAllTransactions.
-  ///
-  /// In en, this message translates to:
-  /// **'All Transactions'**
-  String get filterAllTransactions;
-
-  /// No description provided for @filterToday.
-  ///
-  /// In en, this message translates to:
-  /// **'Today'**
-  String get filterToday;
-
-  /// No description provided for @filterLast7Days.
-  ///
-  /// In en, this message translates to:
-  /// **'Last 7 Days'**
-  String get filterLast7Days;
-
-  /// No description provided for @filterLast14Days.
-  ///
-  /// In en, this message translates to:
-  /// **'Last 14 Days'**
-  String get filterLast14Days;
-
-  /// No description provided for @filterLast30Days.
-  ///
-  /// In en, this message translates to:
-  /// **'Last 30 Days'**
-  String get filterLast30Days;
-
-  /// No description provided for @filterAllTests.
-  ///
-  /// In en, this message translates to:
-  /// **'All Tests'**
-  String get filterAllTests;
-
-  /// No description provided for @filterPublished.
-  ///
-  /// In en, this message translates to:
-  /// **'Published'**
-  String get filterPublished;
-
-  /// No description provided for @filterDraft.
-  ///
-  /// In en, this message translates to:
-  /// **'Draft'**
-  String get filterDraft;
-
-  /// No description provided for @buttonCreateNewTest.
-  ///
-  /// In en, this message translates to:
-  /// **'Create New Test'**
-  String get buttonCreateNewTest;
-
-  /// No description provided for @emptyNoTests.
-  ///
-  /// In en, this message translates to:
-  /// **'No tests available'**
-  String get emptyNoTests;
-
-  /// No description provided for @emptyNoMatchingTests.
-  ///
-  /// In en, this message translates to:
-  /// **'No matching tests found'**
-  String get emptyNoMatchingTests;
-
-  /// No description provided for @emptyNoPurchaseHistory.
-  ///
-  /// In en, this message translates to:
-  /// **'No purchase history'**
-  String get emptyNoPurchaseHistory;
-
-  /// No description provided for @emptyNoPurchaseHistorySubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'You haven\'t made any purchases yet'**
-  String get emptyNoPurchaseHistorySubtitle;
-
-  /// No description provided for @buttonAssignEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign Employees'**
-  String get buttonAssignEmployees;
-
-  /// No description provided for @buttonSelectSeats.
-  ///
-  /// In en, this message translates to:
-  /// **'Select Seats'**
-  String get buttonSelectSeats;
-
-  /// No description provided for @resultsStatus.
-  ///
-  /// In en, this message translates to:
-  /// **'Status'**
-  String get resultsStatus;
-
-  /// No description provided for @resultsColEmployeeName.
-  ///
-  /// In en, this message translates to:
-  /// **'Employee Name'**
-  String get resultsColEmployeeName;
-
-  /// No description provided for @resultsColTestName.
-  ///
-  /// In en, this message translates to:
-  /// **'Test Name'**
-  String get resultsColTestName;
-
-  /// No description provided for @resultsColVersion.
-  ///
-  /// In en, this message translates to:
-  /// **'Version'**
-  String get resultsColVersion;
-
-  /// No description provided for @resultsColAttempt.
-  ///
-  /// In en, this message translates to:
-  /// **'Attempt'**
-  String get resultsColAttempt;
-
-  /// No description provided for @resultsColScore.
-  ///
-  /// In en, this message translates to:
-  /// **'Score'**
-  String get resultsColScore;
-
-  /// No description provided for @resultsColDate.
-  ///
-  /// In en, this message translates to:
-  /// **'Date'**
-  String get resultsColDate;
-
-  /// No description provided for @resultsColStatus.
-  ///
-  /// In en, this message translates to:
-  /// **'Status'**
-  String get resultsColStatus;
-
-  /// No description provided for @resultsCsvSaved.
-  ///
-  /// In en, this message translates to:
-  /// **'CSV saved to {path}'**
-  String resultsCsvSaved(String path);
-
-  /// No description provided for @resultsCertDownloaded.
-  ///
-  /// In en, this message translates to:
-  /// **'Certificate downloaded successfully'**
-  String get resultsCertDownloaded;
-
-  /// No description provided for @resultsCertError.
-  ///
-  /// In en, this message translates to:
-  /// **'Error downloading certificate: {error}'**
-  String resultsCertError(String error);
-
-  /// No description provided for @resultsNoPassedSelected.
-  ///
-  /// In en, this message translates to:
-  /// **'No passed tests selected'**
-  String get resultsNoPassedSelected;
-
-  /// No description provided for @resultsMultiCertDownloaded.
-  ///
-  /// In en, this message translates to:
-  /// **'{count} Certificates downloaded successfully'**
-  String resultsMultiCertDownloaded(int count);
-
-  /// No description provided for @resultsSingleCertDownloaded.
-  ///
-  /// In en, this message translates to:
-  /// **'Certificate downloaded successfully'**
-  String get resultsSingleCertDownloaded;
-
-  /// No description provided for @resultsNoResults.
-  ///
-  /// In en, this message translates to:
-  /// **'No results found'**
-  String get resultsNoResults;
-
-  /// No description provided for @resultsSearchHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Search employees'**
-  String get resultsSearchHint;
-
-  /// No description provided for @resultsGroupBy.
-  ///
-  /// In en, this message translates to:
-  /// **'Group By'**
-  String get resultsGroupBy;
-
-  /// No description provided for @resultsAll.
-  ///
-  /// In en, this message translates to:
-  /// **'All'**
-  String get resultsAll;
-
-  /// No description provided for @resultsPass.
-  ///
-  /// In en, this message translates to:
-  /// **'Passed'**
-  String get resultsPass;
-
-  /// No description provided for @resultsFail.
-  ///
-  /// In en, this message translates to:
-  /// **'Failed'**
-  String get resultsFail;
-
-  /// No description provided for @resultsExportCsv.
-  ///
-  /// In en, this message translates to:
-  /// **'Export CSV'**
-  String get resultsExportCsv;
-
-  /// No description provided for @resultsGetCertificate.
-  ///
-  /// In en, this message translates to:
-  /// **'Get Certificate'**
-  String get resultsGetCertificate;
-
-  /// No description provided for @empResultsPass.
-  ///
-  /// In en, this message translates to:
-  /// **'Pass'**
-  String get empResultsPass;
-
-  /// No description provided for @empResultsNotPassed.
-  ///
-  /// In en, this message translates to:
-  /// **'Not Passed'**
-  String get empResultsNotPassed;
-
-  /// No description provided for @empResultsWellDone.
-  ///
-  /// In en, this message translates to:
-  /// **'Well Done!'**
-  String get empResultsWellDone;
-
-  /// No description provided for @empResultsComplete.
-  ///
-  /// In en, this message translates to:
-  /// **'Assessment Complete'**
-  String get empResultsComplete;
-
-  /// No description provided for @empResultsScore.
-  ///
-  /// In en, this message translates to:
-  /// **'Score'**
-  String get empResultsScore;
-
-  /// No description provided for @empResultsCorrectAnswers.
-  ///
-  /// In en, this message translates to:
-  /// **'Correct Answers'**
-  String get empResultsCorrectAnswers;
-
-  /// No description provided for @empResultsTimeTaken.
-  ///
-  /// In en, this message translates to:
-  /// **'Time Taken'**
-  String get empResultsTimeTaken;
-
-  /// No description provided for @empResultsShareMessage.
-  ///
-  /// In en, this message translates to:
-  /// **'Share Results'**
-  String get empResultsShareMessage;
-
-  /// No description provided for @empResultsExitPortal.
-  ///
-  /// In en, this message translates to:
-  /// **'Exit Portal'**
-  String get empResultsExitPortal;
-
-  /// No description provided for @creditsLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits'**
-  String get creditsLabel;
-
-  /// No description provided for @profileButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Profile'**
-  String get profileButton;
-
-  /// No description provided for @logoutButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Logout'**
-  String get logoutButton;
-
-  /// No description provided for @labelGroupBy.
-  ///
-  /// In en, this message translates to:
-  /// **'Group By'**
-  String get labelGroupBy;
-
-  /// No description provided for @labelSortBy.
-  ///
-  /// In en, this message translates to:
-  /// **'Sort By'**
-  String get labelSortBy;
-
-  /// No description provided for @credits.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits'**
-  String get credits;
-
-  /// No description provided for @labelId.
-  ///
-  /// In en, this message translates to:
-  /// **'ID'**
-  String get labelId;
-
-  /// No description provided for @labelView.
-  ///
-  /// In en, this message translates to:
-  /// **'View'**
-  String get labelView;
-
-  /// No description provided for @labelPopular.
-  ///
-  /// In en, this message translates to:
-  /// **'Popular'**
-  String get labelPopular;
-
-  /// No description provided for @labelUsd.
-  ///
-  /// In en, this message translates to:
-  /// **'USD'**
-  String get labelUsd;
-
-  /// No description provided for @testRunnerAssessmentComplete.
-  ///
-  /// In en, this message translates to:
-  /// **'Assessment Complete'**
-  String get testRunnerAssessmentComplete;
-
-  /// No description provided for @testRunnerThankYou.
-  ///
-  /// In en, this message translates to:
-  /// **'Thank You'**
-  String get testRunnerThankYou;
-
-  /// No description provided for @testRunnerViewResults.
-  ///
-  /// In en, this message translates to:
-  /// **'View Results'**
-  String get testRunnerViewResults;
-
-  /// No description provided for @testRunnerReadyToSubmit.
-  ///
-  /// In en, this message translates to:
-  /// **'Ready to Submit?'**
-  String get testRunnerReadyToSubmit;
-
-  /// No description provided for @testRunnerAnsweredQuestions.
-  ///
-  /// In en, this message translates to:
-  /// **'Questions Answered'**
-  String get testRunnerAnsweredQuestions;
-
-  /// No description provided for @testRunnerFlaggedForReview.
-  ///
-  /// In en, this message translates to:
-  /// **'Flagged for Review'**
-  String get testRunnerFlaggedForReview;
-
-  /// No description provided for @testRunnerUnansweredWarning.
-  ///
-  /// In en, this message translates to:
-  /// **'You have {count} unanswered question(s). Please review before submitting.'**
-  String testRunnerUnansweredWarning(int count);
-
-  /// No description provided for @testRunnerSubmitAssessment.
-  ///
-  /// In en, this message translates to:
-  /// **'Submit Assessment'**
-  String get testRunnerSubmitAssessment;
-
-  /// No description provided for @testRunnerReturnToAssessment.
-  ///
-  /// In en, this message translates to:
-  /// **'Return to Assessment'**
-  String get testRunnerReturnToAssessment;
-
-  /// No description provided for @assessmentMetricQuestions.
-  ///
-  /// In en, this message translates to:
-  /// **'Questions'**
-  String get assessmentMetricQuestions;
+  /// **'Loading Test Details...'**
+  String get assessmentLoadingDetails;
 
   /// No description provided for @assessmentMetricDuration.
   ///
@@ -1448,11 +200,11 @@ abstract class AppLocalizations {
   /// **'No Limit'**
   String get assessmentMetricNoLimit;
 
-  /// No description provided for @assessmentStartTest.
+  /// No description provided for @assessmentMetricQuestions.
   ///
   /// In en, this message translates to:
-  /// **'Start Test'**
-  String get assessmentStartTest;
+  /// **'Questions'**
+  String get assessmentMetricQuestions;
 
   /// No description provided for @assessmentResumeTest.
   ///
@@ -1460,11 +212,29 @@ abstract class AppLocalizations {
   /// **'Resume Test'**
   String get assessmentResumeTest;
 
+  /// No description provided for @assessmentResumeTestBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume test'**
+  String get assessmentResumeTestBtn;
+
   /// No description provided for @assessmentSectionQuestions.
   ///
   /// In en, this message translates to:
   /// **'{count} questions'**
   String assessmentSectionQuestions(Object count);
+
+  /// No description provided for @assessmentStartTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Test'**
+  String get assessmentStartTest;
+
+  /// No description provided for @assessmentStartTestBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Start test'**
+  String get assessmentStartTestBtn;
 
   /// No description provided for @assessmentTimedNotice.
   ///
@@ -1472,1217 +242,41 @@ abstract class AppLocalizations {
   /// **'This is a timed assessment.'**
   String get assessmentTimedNotice;
 
-  /// No description provided for @testRunnerTestPublished.
+  /// No description provided for @assessmentVerificationError.
   ///
   /// In en, this message translates to:
-  /// **'Test Published'**
-  String get testRunnerTestPublished;
+  /// **'An error occurred during verification. Please try again later.'**
+  String get assessmentVerificationError;
 
-  /// No description provided for @testRunnerTestSubmitted.
+  /// No description provided for @assessmentVerificationFailed.
   ///
   /// In en, this message translates to:
-  /// **'Test Submitted'**
-  String get testRunnerTestSubmitted;
+  /// **'Verification failed.'**
+  String get assessmentVerificationFailed;
 
-  /// No description provided for @testRunnerLiveMessage.
+  /// No description provided for @assessmentVerifying.
   ///
   /// In en, this message translates to:
-  /// **'{testName} is live now'**
-  String testRunnerLiveMessage(String testName);
+  /// **'Verifying your invitation...'**
+  String get assessmentVerifying;
 
-  /// No description provided for @testRunnerSubmissionReceived.
-  ///
-  /// In en, this message translates to:
-  /// **'Your submission for {testName} has been received'**
-  String testRunnerSubmissionReceived(String testName);
-
-  /// No description provided for @testRunnerBackToTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Back to Tests'**
-  String get testRunnerBackToTests;
-
-  /// No description provided for @testRunnerReturnToHome.
-  ///
-  /// In en, this message translates to:
-  /// **'Return to Home'**
-  String get testRunnerReturnToHome;
-
-  /// No description provided for @testRunnerSectionNum.
-  ///
-  /// In en, this message translates to:
-  /// **'Section {num}'**
-  String testRunnerSectionNum(int num);
-
-  /// No description provided for @testRunnerSectionTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Section {num}: {title}'**
-  String testRunnerSectionTitle(int num, String title);
-
-  /// No description provided for @testRunnerQuestionCount.
-  ///
-  /// In en, this message translates to:
-  /// **'Question {count}'**
-  String testRunnerQuestionCount(int count);
-
-  /// No description provided for @labelFlagged.
-  ///
-  /// In en, this message translates to:
-  /// **'Flagged'**
-  String get labelFlagged;
-
-  /// No description provided for @labelFlagForReview.
-  ///
-  /// In en, this message translates to:
-  /// **'Flag for Review'**
-  String get labelFlagForReview;
-
-  /// No description provided for @buttonBack.
-  ///
-  /// In en, this message translates to:
-  /// **'Back'**
-  String get buttonBack;
-
-  /// No description provided for @buttonPublish.
-  ///
-  /// In en, this message translates to:
-  /// **'Publish'**
-  String get buttonPublish;
-
-  /// No description provided for @buttonSubmit.
-  ///
-  /// In en, this message translates to:
-  /// **'Submit'**
-  String get buttonSubmit;
-
-  /// No description provided for @buttonNext.
-  ///
-  /// In en, this message translates to:
-  /// **'Next'**
-  String get buttonNext;
-
-  /// No description provided for @buttonSelect.
-  ///
-  /// In en, this message translates to:
-  /// **'Select'**
-  String get buttonSelect;
-
-  /// No description provided for @tableSelectAll.
-  ///
-  /// In en, this message translates to:
-  /// **'Select All'**
-  String get tableSelectAll;
-
-  /// No description provided for @tableNoItems.
-  ///
-  /// In en, this message translates to:
-  /// **'No items to display'**
-  String get tableNoItems;
-
-  /// No description provided for @profileUpdateSuccess.
-  ///
-  /// In en, this message translates to:
-  /// **'Profile updated successfully'**
-  String get profileUpdateSuccess;
-
-  /// No description provided for @profileUpdateFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Failed to update profile'**
-  String get profileUpdateFailed;
-
-  /// No description provided for @profileTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Profile'**
-  String get profileTitle;
-
-  /// No description provided for @editProfile.
-  ///
-  /// In en, this message translates to:
-  /// **'Edit Profile'**
-  String get editProfile;
-
-  /// No description provided for @nameLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Name'**
-  String get nameLabel;
-
-  /// No description provided for @companyNameLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Company Name'**
-  String get companyNameLabel;
-
-  /// No description provided for @countryLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Country'**
-  String get countryLabel;
-
-  /// No description provided for @categoryLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Category'**
-  String get categoryLabel;
-
-  /// No description provided for @vatLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'VAT'**
-  String get vatLabel;
-
-  /// No description provided for @addressLabel.
+  /// No description provided for @authAddress.
   ///
   /// In en, this message translates to:
   /// **'Address'**
-  String get addressLabel;
+  String get authAddress;
 
-  /// No description provided for @bookkeepingEmailLabel.
+  /// No description provided for @authAddressHint.
   ///
   /// In en, this message translates to:
-  /// **'Bookkeeping Email'**
-  String get bookkeepingEmailLabel;
+  /// **'Enter your address'**
+  String get authAddressHint;
 
-  /// No description provided for @enterEmailPrompt.
+  /// No description provided for @authCategory.
   ///
   /// In en, this message translates to:
-  /// **'Enter email'**
-  String get enterEmailPrompt;
-
-  /// No description provided for @firstNameLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'First Name'**
-  String get firstNameLabel;
-
-  /// No description provided for @lastNameLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Last Name'**
-  String get lastNameLabel;
-
-  /// No description provided for @selectCategoryHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Select Category'**
-  String get selectCategoryHint;
-
-  /// No description provided for @vatNumberHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter VAT number'**
-  String get vatNumberHint;
-
-  /// No description provided for @languageLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Language'**
-  String get languageLabel;
-
-  /// No description provided for @englishLanguage.
-  ///
-  /// In en, this message translates to:
-  /// **'English'**
-  String get englishLanguage;
-
-  /// No description provided for @germanLanguage.
-  ///
-  /// In en, this message translates to:
-  /// **'German'**
-  String get germanLanguage;
-
-  /// No description provided for @bookkeepingEmailCheckboxLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Send invoices to bookkeeping email'**
-  String get bookkeepingEmailCheckboxLabel;
-
-  /// No description provided for @forBookkeepingEmailLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Bookkeeping Email'**
-  String get forBookkeepingEmailLabel;
-
-  /// No description provided for @enterBookkeepingEmailHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter bookkeeping email'**
-  String get enterBookkeepingEmailHint;
-
-  /// No description provided for @cancelButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Cancel'**
-  String get cancelButton;
-
-  /// No description provided for @saveChangesButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Save Changes'**
-  String get saveChangesButton;
-
-  /// No description provided for @errorPasswordRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'Password is required'**
-  String get errorPasswordRequired;
-
-  /// No description provided for @errorNewPasswordRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'New password is required'**
-  String get errorNewPasswordRequired;
-
-  /// No description provided for @errorConfirmPasswordRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'Please confirm your password'**
-  String get errorConfirmPasswordRequired;
-
-  /// No description provided for @errorFirstNameRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'First name is required'**
-  String get errorFirstNameRequired;
-
-  /// No description provided for @errorLastNameRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'Last name is required'**
-  String get errorLastNameRequired;
-
-  /// No description provided for @errorEmailRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'Email is required'**
-  String get errorEmailRequired;
-
-  /// No description provided for @loadingLogin.
-  ///
-  /// In en, this message translates to:
-  /// **'Logging in...'**
-  String get loadingLogin;
-
-  /// No description provided for @loadingResetLink.
-  ///
-  /// In en, this message translates to:
-  /// **'Sending reset link...'**
-  String get loadingResetLink;
-
-  /// No description provided for @loadingVerifyOtp.
-  ///
-  /// In en, this message translates to:
-  /// **'Verifying OTP...'**
-  String get loadingVerifyOtp;
-
-  /// No description provided for @loadingResendOtp.
-  ///
-  /// In en, this message translates to:
-  /// **'Resending OTP...'**
-  String get loadingResendOtp;
-
-  /// No description provided for @loadingResettingPassword.
-  ///
-  /// In en, this message translates to:
-  /// **'Resetting password...'**
-  String get loadingResettingPassword;
-
-  /// No description provided for @snackEnterValidEmail.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a valid email address'**
-  String get snackEnterValidEmail;
-
-  /// No description provided for @snackWeakPassword.
-  ///
-  /// In en, this message translates to:
-  /// **'Password must be at least 8 characters with uppercase, lowercase, number, and special character'**
-  String get snackWeakPassword;
-
-  /// No description provided for @snackAccountCreated.
-  ///
-  /// In en, this message translates to:
-  /// **'Account created successfully! Please check your email to verify your account.'**
-  String get snackAccountCreated;
-
-  /// No description provided for @snackRegistrationFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Registration failed'**
-  String get snackRegistrationFailed;
-
-  /// No description provided for @snackEmailTaken.
-  ///
-  /// In en, this message translates to:
-  /// **'This email is already registered'**
-  String get snackEmailTaken;
-
-  /// No description provided for @snackInvalidEmailFormat.
-  ///
-  /// In en, this message translates to:
-  /// **'Invalid email format'**
-  String get snackInvalidEmailFormat;
-
-  /// No description provided for @snackPasswordRequirements.
-  ///
-  /// In en, this message translates to:
-  /// **'Password does not meet requirements'**
-  String get snackPasswordRequirements;
-
-  /// No description provided for @snackSignupSuccess.
-  ///
-  /// In en, this message translates to:
-  /// **'Signup successful'**
-  String get snackSignupSuccess;
-
-  /// No description provided for @snackFillAllFields.
-  ///
-  /// In en, this message translates to:
-  /// **'Please fill all fields'**
-  String get snackFillAllFields;
-
-  /// No description provided for @snackLoginFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Login failed'**
-  String get snackLoginFailed;
-
-  /// No description provided for @snackInvalidCreds.
-  ///
-  /// In en, this message translates to:
-  /// **'Invalid email or password'**
-  String get snackInvalidCreds;
-
-  /// No description provided for @snackVerifyEmail.
-  ///
-  /// In en, this message translates to:
-  /// **'Please verify your email first'**
-  String get snackVerifyEmail;
-
-  /// No description provided for @snackNetworkError.
-  ///
-  /// In en, this message translates to:
-  /// **'Network error. Please check your connection'**
-  String get snackNetworkError;
-
-  /// No description provided for @snackEnterEmail.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter your email'**
-  String get snackEnterEmail;
-
-  /// No description provided for @snackOtpSent.
-  ///
-  /// In en, this message translates to:
-  /// **'Verification code sent to your email'**
-  String get snackOtpSent;
-
-  /// No description provided for @snackSendOtpFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Failed to send reset email'**
-  String get snackSendOtpFailed;
-
-  /// No description provided for @snackEmailNotFound.
-  ///
-  /// In en, this message translates to:
-  /// **'Email not found'**
-  String get snackEmailNotFound;
-
-  /// No description provided for @snackEnterCompleteOtp.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter complete OTP'**
-  String get snackEnterCompleteOtp;
-
-  /// No description provided for @snackOtpVerified.
-  ///
-  /// In en, this message translates to:
-  /// **'OTP verified successfully'**
-  String get snackOtpVerified;
-
-  /// No description provided for @snackInvalidOtp.
-  ///
-  /// In en, this message translates to:
-  /// **'Invalid or expired OTP'**
-  String get snackInvalidOtp;
-
-  /// No description provided for @snackEmailMissing.
-  ///
-  /// In en, this message translates to:
-  /// **'Email is missing. Please go back.'**
-  String get snackEmailMissing;
-
-  /// No description provided for @snackOtpResent.
-  ///
-  /// In en, this message translates to:
-  /// **'Verification code resent to your email'**
-  String get snackOtpResent;
-
-  /// No description provided for @snackResendOtpFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Failed to resend OTP'**
-  String get snackResendOtpFailed;
-
-  /// No description provided for @snackPasswordMismatch.
-  ///
-  /// In en, this message translates to:
-  /// **'Passwords do not match'**
-  String get snackPasswordMismatch;
-
-  /// No description provided for @snackPasswordTooShort.
-  ///
-  /// In en, this message translates to:
-  /// **'Password must be at least 6 characters'**
-  String get snackPasswordTooShort;
-
-  /// No description provided for @snackPasswordResetSuccess.
-  ///
-  /// In en, this message translates to:
-  /// **'Password reset successfully'**
-  String get snackPasswordResetSuccess;
-
-  /// No description provided for @snackPasswordResetFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Failed to reset password'**
-  String get snackPasswordResetFailed;
-
-  /// No description provided for @empInvite.
-  ///
-  /// In en, this message translates to:
-  /// **'Invite Employee'**
-  String get empInvite;
-
-  /// No description provided for @empAdd.
-  ///
-  /// In en, this message translates to:
-  /// **'Add Employees'**
-  String get empAdd;
-
-  /// No description provided for @empUploadCsv.
-  ///
-  /// In en, this message translates to:
-  /// **'Upload CSV'**
-  String get empUploadCsv;
-
-  /// No description provided for @landingNavProduct.
-  ///
-  /// In en, this message translates to:
-  /// **'Product'**
-  String get landingNavProduct;
-
-  /// No description provided for @landingNavWorkflow.
-  ///
-  /// In en, this message translates to:
-  /// **'Sequence'**
-  String get landingNavWorkflow;
-
-  /// No description provided for @landingNavEvidence.
-  ///
-  /// In en, this message translates to:
-  /// **'Evidence'**
-  String get landingNavEvidence;
-
-  /// No description provided for @landingNavPricing.
-  ///
-  /// In en, this message translates to:
-  /// **'Prices'**
-  String get landingNavPricing;
-
-  /// No description provided for @landingNavStart.
-  ///
-  /// In en, this message translates to:
-  /// **'Start Now'**
-  String get landingNavStart;
-
-  /// No description provided for @landingHeroEyebrow.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Test from Rulefox'**
-  String get landingHeroEyebrow;
-
-  /// No description provided for @landingHeroCtaPrimary.
-  ///
-  /// In en, this message translates to:
-  /// **'Start AI Compliance Test'**
-  String get landingHeroCtaPrimary;
-
-  /// No description provided for @landingHeroCtaSecondary.
-  ///
-  /// In en, this message translates to:
-  /// **'View example proof'**
-  String get landingHeroCtaSecondary;
-
-  /// No description provided for @landingBenefit1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Invite employees'**
-  String get landingBenefit1Title;
-
-  /// No description provided for @landingBenefit1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Import via CSV or manually and assign tests in a structured manner.'**
-  String get landingBenefit1Desc;
-
-  /// No description provided for @landingBenefit2Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Documenting AI Literacy'**
-  String get landingBenefit2Title;
-
-  /// No description provided for @landingBenefit2Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Track progress, completion rates, and status centrally.'**
-  String get landingBenefit2Desc;
-
-  /// No description provided for @landingBenefit3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Export evidence'**
-  String get landingBenefit3Title;
-
-  /// No description provided for @landingBenefit3Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Prepare reports for internal documentation, management, or audits.'**
-  String get landingBenefit3Desc;
-
-  /// No description provided for @landingFooterTagline.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance & Literacy Platform for Enterprise'**
-  String get landingFooterTagline;
-
-  /// No description provided for @footerImpressum.
-  ///
-  /// In en, this message translates to:
-  /// **'Impressum'**
-  String get footerImpressum;
-
-  /// No description provided for @footerDatenschutz.
-  ///
-  /// In en, this message translates to:
-  /// **'Privacy Policy'**
-  String get footerDatenschutz;
-
-  /// No description provided for @footerKontakt.
-  ///
-  /// In en, this message translates to:
-  /// **'Contact'**
-  String get footerKontakt;
-
-  /// No description provided for @navOverview.
-  ///
-  /// In en, this message translates to:
-  /// **'Overview'**
-  String get navOverview;
-
-  /// No description provided for @navEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees'**
-  String get navEmployees;
-
-  /// No description provided for @navTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Tests'**
-  String get navTests;
-
-  /// No description provided for @navEvidence.
-  ///
-  /// In en, this message translates to:
-  /// **'Evidence'**
-  String get navEvidence;
-
-  /// No description provided for @navInvoice.
-  ///
-  /// In en, this message translates to:
-  /// **'Invoice'**
-  String get navInvoice;
-
-  /// No description provided for @navSettings.
-  ///
-  /// In en, this message translates to:
-  /// **'Settings'**
-  String get navSettings;
-
-  /// No description provided for @dashboardTenantTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Dashboard'**
-  String get dashboardTenantTitle;
-
-  /// No description provided for @dashboardTenantSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
-  String get dashboardTenantSubtitle;
-
-  /// No description provided for @dashboardBannerTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance in Focus'**
-  String get dashboardBannerTitle;
-
-  /// No description provided for @dashboardBannerDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Easily and clearly keep track of your employees\' test status, evidence, and AI literacy.'**
-  String get dashboardBannerDesc;
-
-  /// No description provided for @dashboardBannerCta.
-  ///
-  /// In en, this message translates to:
-  /// **'More about the EU AI Act'**
-  String get dashboardBannerCta;
-
-  /// No description provided for @statEmployeesRecorded.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees recorded'**
-  String get statEmployeesRecorded;
-
-  /// No description provided for @statEmployeesNoData.
-  ///
-  /// In en, this message translates to:
-  /// **'No employees added yet'**
-  String get statEmployeesNoData;
-
-  /// No description provided for @statTestsAssigned.
-  ///
-  /// In en, this message translates to:
-  /// **'assigned tests'**
-  String get statTestsAssigned;
-
-  /// No description provided for @statTestsNoData.
-  ///
-  /// In en, this message translates to:
-  /// **'No tests assigned yet'**
-  String get statTestsNoData;
-
-  /// No description provided for @statCompleted.
-  ///
-  /// In en, this message translates to:
-  /// **'Completed'**
-  String get statCompleted;
-
-  /// No description provided for @statCompletionRate.
-  ///
-  /// In en, this message translates to:
-  /// **'Completion rate'**
-  String get statCompletionRate;
-
-  /// No description provided for @statEvidenceAvailable.
-  ///
-  /// In en, this message translates to:
-  /// **'Evidence available'**
-  String get statEvidenceAvailable;
-
-  /// No description provided for @statEvidenceNoData.
-  ///
-  /// In en, this message translates to:
-  /// **'No evidence available yet'**
-  String get statEvidenceNoData;
-
-  /// No description provided for @nextStepsTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Next Steps'**
-  String get nextStepsTitle;
-
-  /// No description provided for @step1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Complete company data'**
-  String get step1Title;
-
-  /// No description provided for @step1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Add to your company information'**
-  String get step1Desc;
-
-  /// No description provided for @step1Btn.
-  ///
-  /// In en, this message translates to:
-  /// **'Start'**
-  String get step1Btn;
-
-  /// No description provided for @step2Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees import'**
-  String get step2Title;
-
-  /// No description provided for @step2Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Upload your employees or add them manually.'**
-  String get step2Desc;
-
-  /// No description provided for @step2Btn.
-  ///
-  /// In en, this message translates to:
-  /// **'Import'**
-  String get step2Btn;
-
-  /// No description provided for @step3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign compliance test'**
-  String get step3Title;
-
-  /// No description provided for @step3Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign the AI compliance test to your employees'**
-  String get step3Desc;
-
-  /// No description provided for @step3Btn.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign test'**
-  String get step3Btn;
-
-  /// No description provided for @step4Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Export evidence'**
-  String get step4Title;
-
-  /// No description provided for @step4Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Export evidence for internal or external audits'**
-  String get step4Desc;
-
-  /// No description provided for @step4Btn.
-  ///
-  /// In en, this message translates to:
-  /// **'Evidence'**
-  String get step4Btn;
-
-  /// No description provided for @currentAllocationsTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Current allocations'**
-  String get currentAllocationsTitle;
-
-  /// No description provided for @showAll.
-  ///
-  /// In en, this message translates to:
-  /// **'Show all'**
-  String get showAll;
-
-  /// No description provided for @noTestsAssigned.
-  ///
-  /// In en, this message translates to:
-  /// **'No tests assigned yet'**
-  String get noTestsAssigned;
-
-  /// No description provided for @noTestsAssignedDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Once you assign tests, you will see the status and progress of your employees here.'**
-  String get noTestsAssignedDesc;
-
-  /// No description provided for @inviteEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Invite employees'**
-  String get inviteEmployees;
-
-  /// No description provided for @titleLanding.
-  ///
-  /// In en, this message translates to:
-  /// **'RuleFox – AI Compliance for Enterprise'**
-  String get titleLanding;
-
-  /// No description provided for @titleLogin.
-  ///
-  /// In en, this message translates to:
-  /// **'Login · RuleFox'**
-  String get titleLogin;
-
-  /// No description provided for @titleSignup.
-  ///
-  /// In en, this message translates to:
-  /// **'Registration · RuleFox'**
-  String get titleSignup;
-
-  /// No description provided for @titleDashboard.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Dashboard · RuleFox'**
-  String get titleDashboard;
-
-  /// No description provided for @titleAssessmentComplete.
-  ///
-  /// In en, this message translates to:
-  /// **'Assessment completed · RuleFox'**
-  String get titleAssessmentComplete;
-
-  /// No description provided for @titleOwnerDashboard.
-  ///
-  /// In en, this message translates to:
-  /// **'Owner Dashboard · RuleFox'**
-  String get titleOwnerDashboard;
-
-  /// No description provided for @titleOwnerTestManagement.
-  ///
-  /// In en, this message translates to:
-  /// **'Test Management · RuleFox'**
-  String get titleOwnerTestManagement;
-
-  /// No description provided for @titleOwnerNewTest.
-  ///
-  /// In en, this message translates to:
-  /// **'New test · RuleFox'**
-  String get titleOwnerNewTest;
-
-  /// No description provided for @titleTenantDashboard.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Dashboard · RuleFox'**
-  String get titleTenantDashboard;
-
-  /// No description provided for @titleTenantAvailableTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Available tests · RuleFox'**
-  String get titleTenantAvailableTests;
-
-  /// No description provided for @titleTenantTestQuota.
-  ///
-  /// In en, this message translates to:
-  /// **'Test quota · RuleFox'**
-  String get titleTenantTestQuota;
-
-  /// No description provided for @titleAssignEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign employees · RuleFox'**
-  String get titleAssignEmployees;
-
-  /// No description provided for @titleEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees · RuleFox'**
-  String get titleEmployees;
-
-  /// No description provided for @titleBilling.
-  ///
-  /// In en, this message translates to:
-  /// **'Billing · RuleFox'**
-  String get titleBilling;
-
-  /// No description provided for @titlePurchaseHistory.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchase history · RuleFox'**
-  String get titlePurchaseHistory;
-
-  /// No description provided for @titleInvoice.
-  ///
-  /// In en, this message translates to:
-  /// **'Invoice · RuleFox'**
-  String get titleInvoice;
-
-  /// No description provided for @titleCheckout.
-  ///
-  /// In en, this message translates to:
-  /// **'Checkout · RuleFox'**
-  String get titleCheckout;
-
-  /// No description provided for @titleAssessmentReady.
-  ///
-  /// In en, this message translates to:
-  /// **'Assessment ready · RuleFox'**
-  String get titleAssessmentReady;
-
-  /// No description provided for @titleTestDetail.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Test · RuleFox'**
-  String get titleTestDetail;
-
-  /// No description provided for @titleAssessmentQuestions.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Test · RuleFox'**
-  String get titleAssessmentQuestions;
-
-  /// No description provided for @titleResults.
-  ///
-  /// In en, this message translates to:
-  /// **'Results · RuleFox'**
-  String get titleResults;
-
-  /// No description provided for @landingHeroStatEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees'**
-  String get landingHeroStatEmployees;
-
-  /// No description provided for @landingHeroStatCompleted.
-  ///
-  /// In en, this message translates to:
-  /// **'Completed'**
-  String get landingHeroStatCompleted;
-
-  /// No description provided for @landingHeroBannerTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance at a glance'**
-  String get landingHeroBannerTitle;
-
-  /// No description provided for @landingHeroBannerDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Manage test status, employees and evidence centrally.'**
-  String get landingHeroBannerDesc;
-
-  /// No description provided for @landingHeroDashboardTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Dashboard'**
-  String get landingHeroDashboardTitle;
-
-  /// No description provided for @navQuota.
-  ///
-  /// In en, this message translates to:
-  /// **'Quota: {count} tests'**
-  String navQuota(Object count);
-
-  /// No description provided for @navCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'{count} Credits'**
-  String navCredits(Object count);
-
-  /// No description provided for @navFooterTagline.
-  ///
-  /// In en, this message translates to:
-  /// **'Compliance that is verifiable.'**
-  String get navFooterTagline;
-
-  /// No description provided for @navFooterLogoText.
-  ///
-  /// In en, this message translates to:
-  /// **'RULEFOX'**
-  String get navFooterLogoText;
-
-  /// No description provided for @screenTenantDashboard.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Dashboard'**
-  String get screenTenantDashboard;
-
-  /// No description provided for @screenEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees'**
-  String get screenEmployees;
-
-  /// No description provided for @screenAvailableTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Available tests'**
-  String get screenAvailableTests;
-
-  /// No description provided for @screenResults.
-  ///
-  /// In en, this message translates to:
-  /// **'Results'**
-  String get screenResults;
-
-  /// No description provided for @screenBilling.
-  ///
-  /// In en, this message translates to:
-  /// **'Billing'**
-  String get screenBilling;
-
-  /// No description provided for @screenSettings.
-  ///
-  /// In en, this message translates to:
-  /// **'Settings'**
-  String get screenSettings;
-
-  /// No description provided for @screenOwnerDashboard.
-  ///
-  /// In en, this message translates to:
-  /// **'Owner Dashboard'**
-  String get screenOwnerDashboard;
-
-  /// No description provided for @screenOwnerTestManagement.
-  ///
-  /// In en, this message translates to:
-  /// **'Test Management'**
-  String get screenOwnerTestManagement;
-
-  /// No description provided for @subtitleTenantDashboard.
-  ///
-  /// In en, this message translates to:
-  /// **'Document AI literacy, test status, and evidence centrally in Rulefox.'**
-  String get subtitleTenantDashboard;
-
-  /// No description provided for @subtitleEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Manage and invite your employees to compliance tests.'**
-  String get subtitleEmployees;
-
-  /// No description provided for @subtitleAvailableTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Find all available tests for your organization here.'**
-  String get subtitleAvailableTests;
-
-  /// No description provided for @subtitleResults.
-  ///
-  /// In en, this message translates to:
-  /// **'Review results and evidence of your employees.'**
-  String get subtitleResults;
-
-  /// No description provided for @subtitleBilling.
-  ///
-  /// In en, this message translates to:
-  /// **'Manage your subscriptions, invoices, and payment methods.'**
-  String get subtitleBilling;
-
-  /// No description provided for @subtitleSettings.
-  ///
-  /// In en, this message translates to:
-  /// **'Configure your personal and company settings.'**
-  String get subtitleSettings;
-
-  /// No description provided for @vatOptional.
-  ///
-  /// In en, this message translates to:
-  /// **'VAT (Optional)'**
-  String get vatOptional;
-
-  /// No description provided for @tabOverview.
-  ///
-  /// In en, this message translates to:
-  /// **'Overview'**
-  String get tabOverview;
-
-  /// No description provided for @tabInvoices.
-  ///
-  /// In en, this message translates to:
-  /// **'Invoices'**
-  String get tabInvoices;
-
-  /// No description provided for @labelBannerTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Quota & Billing'**
-  String get labelBannerTitle;
-
-  /// No description provided for @labelBannerSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Manage trial quotas, invoices, and payments for your business.'**
-  String get labelBannerSubtitle;
-
-  /// No description provided for @labelAvailableTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Available credits'**
-  String get labelAvailableTests;
-
-  /// No description provided for @labelAssigned.
-  ///
-  /// In en, this message translates to:
-  /// **'Assigned'**
-  String get labelAssigned;
-
-  /// No description provided for @labelPaid.
-  ///
-  /// In en, this message translates to:
-  /// **'Paid'**
-  String get labelPaid;
-
-  /// No description provided for @labelViewReceipt.
-  ///
-  /// In en, this message translates to:
-  /// **'View Receipt'**
-  String get labelViewReceipt;
-
-  /// No description provided for @labelLastPurchase.
-  ///
-  /// In en, this message translates to:
-  /// **'Last purchase'**
-  String get labelLastPurchase;
-
-  /// No description provided for @labelInvoices.
-  ///
-  /// In en, this message translates to:
-  /// **'Invoices'**
-  String get labelInvoices;
-
-  /// No description provided for @hintAiCompliance.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance'**
-  String get hintAiCompliance;
-
-  /// No description provided for @hintActiveInvites.
-  ///
-  /// In en, this message translates to:
-  /// **'Active invitations'**
-  String get hintActiveInvites;
-
-  /// No description provided for @labelAvailable.
-  ///
-  /// In en, this message translates to:
-  /// **'available'**
-  String get labelAvailable;
-
-  /// No description provided for @labelChoosePackage.
-  ///
-  /// In en, this message translates to:
-  /// **'Choose Package'**
-  String get labelChoosePackage;
-
-  /// No description provided for @labelCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits'**
-  String get labelCredits;
-
-  /// No description provided for @labelEur.
-  ///
-  /// In en, this message translates to:
-  /// **'EUR'**
-  String get labelEur;
-
-  /// No description provided for @authManageCompliance.
-  ///
-  /// In en, this message translates to:
-  /// **'Manage AI compliance centrally.'**
-  String get authManageCompliance;
-
-  /// No description provided for @authManageComplianceDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Rulefox guides companies from setup and employee invitation to exportable proof.'**
-  String get authManageComplianceDesc;
-
-  /// No description provided for @authCheckQuotas.
-  ///
-  /// In en, this message translates to:
-  /// **'Keeping an eye on test quotas and allocations'**
-  String get authCheckQuotas;
+  /// **'Category'**
+  String get authCategory;
 
   /// No description provided for @authCheckEvidence.
   ///
@@ -2696,17 +290,41 @@ abstract class AppLocalizations {
   /// **'Reduced, audit-compliant interface'**
   String get authCheckInterface;
 
-  /// No description provided for @authLoginDashboard.
+  /// No description provided for @authCheckQuotas.
   ///
   /// In en, this message translates to:
-  /// **'Login to the dashboard'**
-  String get authLoginDashboard;
+  /// **'Keeping an eye on test quotas and allocations'**
+  String get authCheckQuotas;
 
-  /// No description provided for @authLoginDashboardDesc.
+  /// No description provided for @authCompany.
   ///
   /// In en, this message translates to:
-  /// **'Sign in to manage tests, staff, and evidence.'**
-  String get authLoginDashboardDesc;
+  /// **'Company'**
+  String get authCompany;
+
+  /// No description provided for @authCompanyHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Beispiel GmbH'**
+  String get authCompanyHint;
+
+  /// No description provided for @authCountryLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Country'**
+  String get authCountryLabel;
+
+  /// No description provided for @authCreateAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Create account'**
+  String get authCreateAccount;
+
+  /// No description provided for @authEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'E-mail'**
+  String get authEmail;
 
   /// No description provided for @authEmailAddress.
   ///
@@ -2720,53 +338,11 @@ abstract class AppLocalizations {
   /// **'admin@unternehmen.at'**
   String get authEmailHint;
 
-  /// No description provided for @authCreateAccount.
+  /// No description provided for @authEmailHintAlt.
   ///
   /// In en, this message translates to:
-  /// **'Create account'**
-  String get authCreateAccount;
-
-  /// No description provided for @authReadyMinutes.
-  ///
-  /// In en, this message translates to:
-  /// **'Ready to go in minutes.'**
-  String get authReadyMinutes;
-
-  /// No description provided for @authReadyMinutesDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'After registration, you can import employees, assign tests, and export evidence.'**
-  String get authReadyMinutesDesc;
-
-  /// No description provided for @authStepCreateBusiness.
-  ///
-  /// In en, this message translates to:
-  /// **'Create a business'**
-  String get authStepCreateBusiness;
-
-  /// No description provided for @authStepSelectQuota.
-  ///
-  /// In en, this message translates to:
-  /// **'Select quota'**
-  String get authStepSelectQuota;
-
-  /// No description provided for @authStepStartCompliance.
-  ///
-  /// In en, this message translates to:
-  /// **'Start AI Compliance Test'**
-  String get authStepStartCompliance;
-
-  /// No description provided for @authSettingUpBusiness.
-  ///
-  /// In en, this message translates to:
-  /// **'Setting up a business'**
-  String get authSettingUpBusiness;
-
-  /// No description provided for @authSettingUpBusinessDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Create your Rulefox account and start the AI Compliance Test.'**
-  String get authSettingUpBusinessDesc;
+  /// **'max@beispiel.at'**
+  String get authEmailHintAlt;
 
   /// No description provided for @authFirstName.
   ///
@@ -2792,47 +368,41 @@ abstract class AppLocalizations {
   /// **'Mustermann'**
   String get authLastNameHint;
 
-  /// No description provided for @authEmail.
+  /// No description provided for @authLoginDashboard.
   ///
   /// In en, this message translates to:
-  /// **'E-mail'**
-  String get authEmail;
+  /// **'Login to the dashboard'**
+  String get authLoginDashboard;
 
-  /// No description provided for @authEmailHintAlt.
+  /// No description provided for @authLoginDashboardDesc.
   ///
   /// In en, this message translates to:
-  /// **'max@beispiel.at'**
-  String get authEmailHintAlt;
+  /// **'Sign in to manage tests, staff, and evidence.'**
+  String get authLoginDashboardDesc;
 
-  /// No description provided for @authCompany.
+  /// No description provided for @authManageCompliance.
   ///
   /// In en, this message translates to:
-  /// **'Company'**
-  String get authCompany;
+  /// **'Manage AI compliance centrally.'**
+  String get authManageCompliance;
 
-  /// No description provided for @authCompanyHint.
+  /// No description provided for @authManageComplianceDesc.
   ///
   /// In en, this message translates to:
-  /// **'Beispiel GmbH'**
-  String get authCompanyHint;
+  /// **'Rulefox guides companies from setup and employee invitation to exportable proof.'**
+  String get authManageComplianceDesc;
 
-  /// No description provided for @authCountryLabel.
+  /// No description provided for @authReadyMinutes.
   ///
   /// In en, this message translates to:
-  /// **'Country'**
-  String get authCountryLabel;
+  /// **'Ready to go in minutes.'**
+  String get authReadyMinutes;
 
-  /// No description provided for @authSelectCountry.
+  /// No description provided for @authReadyMinutesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Select country'**
-  String get authSelectCountry;
-
-  /// No description provided for @authCategory.
-  ///
-  /// In en, this message translates to:
-  /// **'Category'**
-  String get authCategory;
+  /// **'After registration, you can import employees, assign tests, and export evidence.'**
+  String get authReadyMinutesDesc;
 
   /// No description provided for @authSelectCategory.
   ///
@@ -2840,29 +410,41 @@ abstract class AppLocalizations {
   /// **'Select category'**
   String get authSelectCategory;
 
-  /// No description provided for @authVatOptional.
+  /// No description provided for @authSelectCountry.
   ///
   /// In en, this message translates to:
-  /// **'VAT (optional)'**
-  String get authVatOptional;
+  /// **'Select country'**
+  String get authSelectCountry;
 
-  /// No description provided for @authVatHint.
+  /// No description provided for @authSettingUpBusiness.
   ///
   /// In en, this message translates to:
-  /// **'Enter VAT number'**
-  String get authVatHint;
+  /// **'Setting up a business'**
+  String get authSettingUpBusiness;
 
-  /// No description provided for @authAddress.
+  /// No description provided for @authSettingUpBusinessDesc.
   ///
   /// In en, this message translates to:
-  /// **'Address'**
-  String get authAddress;
+  /// **'Create your Rulefox account and start the AI Compliance Test.'**
+  String get authSettingUpBusinessDesc;
 
-  /// No description provided for @authAddressHint.
+  /// No description provided for @authStepCreateBusiness.
   ///
   /// In en, this message translates to:
-  /// **'Enter your address'**
-  String get authAddressHint;
+  /// **'Create a business'**
+  String get authStepCreateBusiness;
+
+  /// No description provided for @authStepSelectQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Select quota'**
+  String get authStepSelectQuota;
+
+  /// No description provided for @authStepStartCompliance.
+  ///
+  /// In en, this message translates to:
+  /// **'Start AI Compliance Test'**
+  String get authStepStartCompliance;
 
   /// No description provided for @authUpdatePassword.
   ///
@@ -2870,905 +452,29 @@ abstract class AppLocalizations {
   /// **'Update password'**
   String get authUpdatePassword;
 
+  /// No description provided for @authVatHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter VAT number'**
+  String get authVatHint;
+
+  /// No description provided for @authVatOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'VAT (optional)'**
+  String get authVatOptional;
+
   /// No description provided for @authVerifyOtp.
   ///
   /// In en, this message translates to:
   /// **'Verify OTP'**
   String get authVerifyOtp;
 
-  /// No description provided for @buttonChoose.
+  /// No description provided for @backToLogin.
   ///
   /// In en, this message translates to:
-  /// **'Choose'**
-  String get buttonChoose;
-
-  /// No description provided for @billingCreditsTaken.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits Taken'**
-  String get billingCreditsTaken;
-
-  /// No description provided for @billingTotalSpent.
-  ///
-  /// In en, this message translates to:
-  /// **'Total Spent'**
-  String get billingTotalSpent;
-
-  /// No description provided for @billingPendingInvoices.
-  ///
-  /// In en, this message translates to:
-  /// **'Pending Invoices'**
-  String get billingPendingInvoices;
-
-  /// No description provided for @billingTotalThroughoutTime.
-  ///
-  /// In en, this message translates to:
-  /// **'Total throughout time'**
-  String get billingTotalThroughoutTime;
-
-  /// No description provided for @billingSuccessfulPayments.
-  ///
-  /// In en, this message translates to:
-  /// **'Successful payments'**
-  String get billingSuccessfulPayments;
-
-  /// No description provided for @billingRequireAttention.
-  ///
-  /// In en, this message translates to:
-  /// **'Require attention'**
-  String get billingRequireAttention;
-
-  /// No description provided for @statEvidence.
-  ///
-  /// In en, this message translates to:
-  /// **'Evidence'**
-  String get statEvidence;
-
-  /// No description provided for @statExportable.
-  ///
-  /// In en, this message translates to:
-  /// **'exportable'**
-  String get statExportable;
-
-  /// No description provided for @statAverage.
-  ///
-  /// In en, this message translates to:
-  /// **'Average'**
-  String get statAverage;
-
-  /// No description provided for @statOpen.
-  ///
-  /// In en, this message translates to:
-  /// **'Open'**
-  String get statOpen;
-
-  /// No description provided for @statInvitations.
-  ///
-  /// In en, this message translates to:
-  /// **'Invitations'**
-  String get statInvitations;
-
-  /// No description provided for @statAssignedOutOf.
-  ///
-  /// In en, this message translates to:
-  /// **'{count} of {total} assigned'**
-  String statAssignedOutOf(Object count, Object total);
-
-  /// No description provided for @exportEvidenceAction.
-  ///
-  /// In en, this message translates to:
-  /// **'Export evidence'**
-  String get exportEvidenceAction;
-
-  /// No description provided for @testResultsTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Test results'**
-  String get testResultsTitle;
-
-  /// No description provided for @exportCsvAction.
-  ///
-  /// In en, this message translates to:
-  /// **'Export CSV'**
-  String get exportCsvAction;
-
-  /// No description provided for @filterAllStatus.
-  ///
-  /// In en, this message translates to:
-  /// **'All Status'**
-  String get filterAllStatus;
-
-  /// No description provided for @filterAllDepartments.
-  ///
-  /// In en, this message translates to:
-  /// **'All Departments'**
-  String get filterAllDepartments;
-
-  /// No description provided for @statEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees'**
-  String get statEmployees;
-
-  /// No description provided for @statInvited.
-  ///
-  /// In en, this message translates to:
-  /// **'Invited'**
-  String get statInvited;
-
-  /// No description provided for @statCertificates.
-  ///
-  /// In en, this message translates to:
-  /// **'Certificates'**
-  String get statCertificates;
-
-  /// No description provided for @tabEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees'**
-  String get tabEmployees;
-
-  /// No description provided for @tabInvites.
-  ///
-  /// In en, this message translates to:
-  /// **'Invites'**
-  String get tabInvites;
-
-  /// No description provided for @tabImport.
-  ///
-  /// In en, this message translates to:
-  /// **'Import'**
-  String get tabImport;
-
-  /// No description provided for @editEmployee.
-  ///
-  /// In en, this message translates to:
-  /// **'Edit Employee'**
-  String get editEmployee;
-
-  /// No description provided for @labelOr.
-  ///
-  /// In en, this message translates to:
-  /// **'OR'**
-  String get labelOr;
-
-  /// No description provided for @labelUploadCsv.
-  ///
-  /// In en, this message translates to:
-  /// **'Upload CSV'**
-  String get labelUploadCsv;
-
-  /// No description provided for @labelTapChangeFile.
-  ///
-  /// In en, this message translates to:
-  /// **'Tap to change file'**
-  String get labelTapChangeFile;
-
-  /// No description provided for @labelDragDropFile.
-  ///
-  /// In en, this message translates to:
-  /// **'Drag & drop your file here'**
-  String get labelDragDropFile;
-
-  /// No description provided for @labelBrowseFile.
-  ///
-  /// In en, this message translates to:
-  /// **'Browse File'**
-  String get labelBrowseFile;
-
-  /// No description provided for @labelDownloadTemplate.
-  ///
-  /// In en, this message translates to:
-  /// **'Download CSV Template'**
-  String get labelDownloadTemplate;
-
-  /// No description provided for @saveDetails.
-  ///
-  /// In en, this message translates to:
-  /// **'Save Details'**
-  String get saveDetails;
-
-  /// No description provided for @addEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Add Employees'**
-  String get addEmployees;
-
-  /// No description provided for @labelDownload.
-  ///
-  /// In en, this message translates to:
-  /// **'Download'**
-  String get labelDownload;
-
-  /// No description provided for @labelRemind.
-  ///
-  /// In en, this message translates to:
-  /// **'Remind'**
-  String get labelRemind;
-
-  /// No description provided for @resultsColCompletion.
-  ///
-  /// In en, this message translates to:
-  /// **'Completion'**
-  String get resultsColCompletion;
-
-  /// No description provided for @resultsColProof.
-  ///
-  /// In en, this message translates to:
-  /// **'Proof'**
-  String get resultsColProof;
-
-  /// No description provided for @resultsStatTestResult.
-  ///
-  /// In en, this message translates to:
-  /// **'Test result'**
-  String get resultsStatTestResult;
-
-  /// No description provided for @resultsPageTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Results & Evidence'**
-  String get resultsPageTitle;
-
-  /// No description provided for @resultsPageSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
-  String get resultsPageSubtitle;
-
-  /// No description provided for @snackNoResultsToExport.
-  ///
-  /// In en, this message translates to:
-  /// **'No passed results to export.'**
-  String get snackNoResultsToExport;
-
-  /// No description provided for @csvHeaderEmployee.
-  ///
-  /// In en, this message translates to:
-  /// **'Employee'**
-  String get csvHeaderEmployee;
-
-  /// No description provided for @csvHeaderTest.
-  ///
-  /// In en, this message translates to:
-  /// **'Test'**
-  String get csvHeaderTest;
-
-  /// No description provided for @csvHeaderScore.
-  ///
-  /// In en, this message translates to:
-  /// **'Score'**
-  String get csvHeaderScore;
-
-  /// No description provided for @csvHeaderStatus.
-  ///
-  /// In en, this message translates to:
-  /// **'Status'**
-  String get csvHeaderStatus;
-
-  /// No description provided for @csvHeaderDate.
-  ///
-  /// In en, this message translates to:
-  /// **'Completion'**
-  String get csvHeaderDate;
-
-  /// No description provided for @labelEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees'**
-  String get labelEmployees;
-
-  /// No description provided for @statusInvited.
-  ///
-  /// In en, this message translates to:
-  /// **'Invited'**
-  String get statusInvited;
-
-  /// No description provided for @statusExpired.
-  ///
-  /// In en, this message translates to:
-  /// **'Expired'**
-  String get statusExpired;
-
-  /// No description provided for @errorPassedOnly.
-  ///
-  /// In en, this message translates to:
-  /// **'Only available for passed tests.'**
-  String get errorPassedOnly;
-
-  /// No description provided for @snackReminderSent.
-  ///
-  /// In en, this message translates to:
-  /// **'Reminder sent to {name}'**
-  String snackReminderSent(String name);
-
-  /// No description provided for @snackError.
-  ///
-  /// In en, this message translates to:
-  /// **'Error'**
-  String get snackError;
-
-  /// No description provided for @filterNone.
-  ///
-  /// In en, this message translates to:
-  /// **'None'**
-  String get filterNone;
-
-  /// No description provided for @labelDepartment.
-  ///
-  /// In en, this message translates to:
-  /// **'Department'**
-  String get labelDepartment;
-
-  /// No description provided for @labelEmployeeID.
-  ///
-  /// In en, this message translates to:
-  /// **'Employee ID'**
-  String get labelEmployeeID;
-
-  /// No description provided for @filterDateNewest.
-  ///
-  /// In en, this message translates to:
-  /// **'Date Added (Newest)'**
-  String get filterDateNewest;
-
-  /// No description provided for @filterDateOldest.
-  ///
-  /// In en, this message translates to:
-  /// **'Date Added (Oldest)'**
-  String get filterDateOldest;
-
-  /// No description provided for @buttonAddEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Add employees'**
-  String get buttonAddEmployees;
-
-  /// No description provided for @labelFirstName.
-  ///
-  /// In en, this message translates to:
-  /// **'First Name'**
-  String get labelFirstName;
-
-  /// No description provided for @labelLastName.
-  ///
-  /// In en, this message translates to:
-  /// **'Last Name'**
-  String get labelLastName;
-
-  /// No description provided for @labelEmail.
-  ///
-  /// In en, this message translates to:
-  /// **'Email'**
-  String get labelEmail;
-
-  /// No description provided for @labelAction.
-  ///
-  /// In en, this message translates to:
-  /// **'Action'**
-  String get labelAction;
-
-  /// No description provided for @tooltipEdit.
-  ///
-  /// In en, this message translates to:
-  /// **'Edit Details'**
-  String get tooltipEdit;
-
-  /// No description provided for @tooltipDelete.
-  ///
-  /// In en, this message translates to:
-  /// **'Delete'**
-  String get tooltipDelete;
-
-  /// No description provided for @msgSaving.
-  ///
-  /// In en, this message translates to:
-  /// **'Saving...'**
-  String get msgSaving;
-
-  /// No description provided for @msgEmployeeSaved.
-  ///
-  /// In en, this message translates to:
-  /// **'Employee saved successfully!'**
-  String get msgEmployeeSaved;
-
-  /// No description provided for @msgImporting.
-  ///
-  /// In en, this message translates to:
-  /// **'Importing Employees...'**
-  String get msgImporting;
-
-  /// No description provided for @msgEmployeesImported.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees imported successfully!'**
-  String get msgEmployeesImported;
-
-  /// No description provided for @titleDeleteEmployee.
-  ///
-  /// In en, this message translates to:
-  /// **'Delete Employee'**
-  String get titleDeleteEmployee;
-
-  /// No description provided for @msgDeleteConfirm.
-  ///
-  /// In en, this message translates to:
-  /// **'Are you sure you want to delete {name}?\nThis action cannot be undone.'**
-  String msgDeleteConfirm(Object name);
-
-  /// No description provided for @labelCancel.
-  ///
-  /// In en, this message translates to:
-  /// **'Cancel'**
-  String get labelCancel;
-
-  /// No description provided for @labelDelete.
-  ///
-  /// In en, this message translates to:
-  /// **'Delete'**
-  String get labelDelete;
-
-  /// No description provided for @labelOthers.
-  ///
-  /// In en, this message translates to:
-  /// **'Others'**
-  String get labelOthers;
-
-  /// No description provided for @ownerPlatformOverview.
-  ///
-  /// In en, this message translates to:
-  /// **'Rulefox platform overview'**
-  String get ownerPlatformOverview;
-
-  /// No description provided for @ownerPlatformDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Manage tests, tenants, and platform metrics in one place.'**
-  String get ownerPlatformDesc;
-
-  /// No description provided for @statRegisteredTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Registered tests'**
-  String get statRegisteredTests;
-
-  /// No description provided for @statRegisteredTestsHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Active test products'**
-  String get statRegisteredTestsHint;
-
-  /// No description provided for @statActiveClients.
-  ///
-  /// In en, this message translates to:
-  /// **'Active clients'**
-  String get statActiveClients;
-
-  /// No description provided for @statActiveClientsHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Pursue'**
-  String get statActiveClientsHint;
-
-  /// No description provided for @statUsers.
-  ///
-  /// In en, this message translates to:
-  /// **'users'**
-  String get statUsers;
-
-  /// No description provided for @statUsersHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Invited persons'**
-  String get statUsersHint;
-
-  /// No description provided for @statCompletionRateHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Across all tests'**
-  String get statCompletionRateHint;
-
-  /// No description provided for @titleCurrentTestProducts.
-  ///
-  /// In en, this message translates to:
-  /// **'Current test products'**
-  String get titleCurrentTestProducts;
-
-  /// No description provided for @actionShowAll.
-  ///
-  /// In en, this message translates to:
-  /// **'Show all'**
-  String get actionShowAll;
-
-  /// No description provided for @columnTest.
-  ///
-  /// In en, this message translates to:
-  /// **'test'**
-  String get columnTest;
-
-  /// No description provided for @columnStatus.
-  ///
-  /// In en, this message translates to:
-  /// **'Status'**
-  String get columnStatus;
-
-  /// No description provided for @columnPrice.
-  ///
-  /// In en, this message translates to:
-  /// **'Price'**
-  String get columnPrice;
-
-  /// No description provided for @columnAction.
-  ///
-  /// In en, this message translates to:
-  /// **'Action'**
-  String get columnAction;
-
-  /// No description provided for @titleNextAdminSteps.
-  ///
-  /// In en, this message translates to:
-  /// **'Next admin steps'**
-  String get titleNextAdminSteps;
-
-  /// No description provided for @stepComplianceCheckTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Test Check'**
-  String get stepComplianceCheckTitle;
-
-  /// No description provided for @stepComplianceCheckDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Questions, prices and supporting documents'**
-  String get stepComplianceCheckDesc;
-
-  /// No description provided for @stepClientOnboardingTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Client onboarding'**
-  String get stepClientOnboardingTitle;
-
-  /// No description provided for @stepClientOnboardingDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Prepare demo client'**
-  String get stepClientOnboardingDesc;
-
-  /// No description provided for @buttonOpen.
-  ///
-  /// In en, this message translates to:
-  /// **'Open'**
-  String get buttonOpen;
-
-  /// No description provided for @buttonStart.
-  ///
-  /// In en, this message translates to:
-  /// **'Start'**
-  String get buttonStart;
-
-  /// No description provided for @buttonPlan.
-  ///
-  /// In en, this message translates to:
-  /// **'Plan'**
-  String get buttonPlan;
-
-  /// No description provided for @titleTestManagement.
-  ///
-  /// In en, this message translates to:
-  /// **'Test Management'**
-  String get titleTestManagement;
-
-  /// No description provided for @descTestManagement.
-  ///
-  /// In en, this message translates to:
-  /// **'Manage test products, prices, and release status.'**
-  String get descTestManagement;
-
-  /// No description provided for @titleTestOverview.
-  ///
-  /// In en, this message translates to:
-  /// **'Test overview'**
-  String get titleTestOverview;
-
-  /// No description provided for @columnName.
-  ///
-  /// In en, this message translates to:
-  /// **'name'**
-  String get columnName;
-
-  /// No description provided for @columnQuestions.
-  ///
-  /// In en, this message translates to:
-  /// **'Questions'**
-  String get columnQuestions;
-
-  /// No description provided for @columnLastUpdated.
-  ///
-  /// In en, this message translates to:
-  /// **'Last updated'**
-  String get columnLastUpdated;
-
-  /// No description provided for @titleCreateNewTest.
-  ///
-  /// In en, this message translates to:
-  /// **'Create new test'**
-  String get titleCreateNewTest;
-
-  /// No description provided for @subtitleCreateNewTest.
-  ///
-  /// In en, this message translates to:
-  /// **'Prepare a test product as a draft.'**
-  String get subtitleCreateNewTest;
-
-  /// No description provided for @labelTestName.
-  ///
-  /// In en, this message translates to:
-  /// **'Test name'**
-  String get labelTestName;
-
-  /// No description provided for @labelBriefDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'Brief description'**
-  String get labelBriefDescription;
-
-  /// No description provided for @labelLanguage.
-  ///
-  /// In en, this message translates to:
-  /// **'Language'**
-  String get labelLanguage;
-
-  /// No description provided for @tooltipCannotDownloadFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Certificate is only available for passed tests.'**
-  String get tooltipCannotDownloadFailed;
-
-  /// No description provided for @buttonBuyQuota.
-  ///
-  /// In en, this message translates to:
-  /// **'Buy quota'**
-  String get buttonBuyQuota;
-
-  /// No description provided for @buttonBuyMoreTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Buy more tests'**
-  String get buttonBuyMoreTests;
-
-  /// No description provided for @buttonBuyTest.
-  ///
-  /// In en, this message translates to:
-  /// **'Buy test'**
-  String get buttonBuyTest;
-
-  /// No description provided for @buttonNotifyMe.
-  ///
-  /// In en, this message translates to:
-  /// **'Notify me'**
-  String get buttonNotifyMe;
-
-  /// No description provided for @labelBought.
-  ///
-  /// In en, this message translates to:
-  /// **'Bought'**
-  String get labelBought;
-
-  /// No description provided for @labelAssignedCount.
-  ///
-  /// In en, this message translates to:
-  /// **'Assigned'**
-  String get labelAssignedCount;
-
-  /// No description provided for @labelAvailableCount.
-  ///
-  /// In en, this message translates to:
-  /// **'Available'**
-  String get labelAvailableCount;
-
-  /// No description provided for @labelSoon.
-  ///
-  /// In en, this message translates to:
-  /// **'Soon'**
-  String get labelSoon;
-
-  /// No description provided for @labelActive.
-  ///
-  /// In en, this message translates to:
-  /// **'Active'**
-  String get labelActive;
-
-  /// No description provided for @labelPurchaseHistory.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchase history'**
-  String get labelPurchaseHistory;
-
-  /// No description provided for @labelPerPerson.
-  ///
-  /// In en, this message translates to:
-  /// **'per person'**
-  String get labelPerPerson;
-
-  /// No description provided for @labelTestQuota.
-  ///
-  /// In en, this message translates to:
-  /// **'Test Quota'**
-  String get labelTestQuota;
-
-  /// No description provided for @labelPurchasedTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchased tests'**
-  String get labelPurchasedTests;
-
-  /// No description provided for @howItWorksTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'How the assignment works'**
-  String get howItWorksTitle;
-
-  /// No description provided for @howItWorksStep1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Buy quota'**
-  String get howItWorksStep1Title;
-
-  /// No description provided for @howItWorksStep1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Select the number of tests required.'**
-  String get howItWorksStep1Desc;
-
-  /// No description provided for @howItWorksStep2Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Select employees'**
-  String get howItWorksStep2Title;
-
-  /// No description provided for @howItWorksStep2Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign the test to individuals or groups.'**
-  String get howItWorksStep2Desc;
-
-  /// No description provided for @howItWorksStep3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Export evidence'**
-  String get howItWorksStep3Title;
-
-  /// No description provided for @howItWorksStep3Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Results can be documented upon completion.'**
-  String get howItWorksStep3Desc;
-
-  /// No description provided for @dropdownAvailableTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Available tests'**
-  String get dropdownAvailableTests;
-
-  /// No description provided for @dropdownPurchasedTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Purchased tests'**
-  String get dropdownPurchasedTests;
-
-  /// No description provided for @bannerQuotaDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'You have purchased {n} tests. Assign any unused tests to your employees.'**
-  String bannerQuotaDesc(int n);
-
-  /// No description provided for @labelSortByName.
-  ///
-  /// In en, this message translates to:
-  /// **'Sort by Name'**
-  String get labelSortByName;
-
-  /// No description provided for @labelSortByCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'Sort by Credits'**
-  String get labelSortByCredits;
-
-  /// No description provided for @labelAllCategories.
-  ///
-  /// In en, this message translates to:
-  /// **'All Categories'**
-  String get labelAllCategories;
-
-  /// No description provided for @categorySecurity.
-  ///
-  /// In en, this message translates to:
-  /// **'Security'**
-  String get categorySecurity;
-
-  /// No description provided for @categoryCompliance.
-  ///
-  /// In en, this message translates to:
-  /// **'Compliance'**
-  String get categoryCompliance;
-
-  /// No description provided for @labelAssign.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign'**
-  String get labelAssign;
-
-  /// No description provided for @categoryDevOps.
-  ///
-  /// In en, this message translates to:
-  /// **'DevOps'**
-  String get categoryDevOps;
-
-  /// No description provided for @labelConfirmation.
-  ///
-  /// In en, this message translates to:
-  /// **'Confirmation'**
-  String get labelConfirmation;
-
-  /// No description provided for @labelTest.
-  ///
-  /// In en, this message translates to:
-  /// **'Test:'**
-  String get labelTest;
-
-  /// No description provided for @labelTotalSeats.
-  ///
-  /// In en, this message translates to:
-  /// **'Total Seats:'**
-  String get labelTotalSeats;
-
-  /// No description provided for @labelRemainingSeats.
-  ///
-  /// In en, this message translates to:
-  /// **'Remaining Seats:'**
-  String get labelRemainingSeats;
-
-  /// No description provided for @labelSelectedEmployees.
-  ///
-  /// In en, this message translates to:
-  /// **'Selected Employees:'**
-  String get labelSelectedEmployees;
-
-  /// No description provided for @labelStartingDate.
-  ///
-  /// In en, this message translates to:
-  /// **'Starting Date:'**
-  String get labelStartingDate;
-
-  /// No description provided for @labelTestExpiry.
-  ///
-  /// In en, this message translates to:
-  /// **'Test Expiry:'**
-  String get labelTestExpiry;
-
-  /// No description provided for @buttonConfirm.
-  ///
-  /// In en, this message translates to:
-  /// **'Confirm'**
-  String get buttonConfirm;
-
-  /// No description provided for @labelAllDepartments.
-  ///
-  /// In en, this message translates to:
-  /// **'All departments'**
-  String get labelAllDepartments;
-
-  /// No description provided for @labelAllStatuses.
-  ///
-  /// In en, this message translates to:
-  /// **'All statuses'**
-  String get labelAllStatuses;
-
-  /// No description provided for @bannerAssignTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Assign AI Compliance Test'**
-  String get bannerAssignTitle;
+  /// **'Back to Login'**
+  String get backToLogin;
 
   /// No description provided for @bannerAssignDesc.
   ///
@@ -3776,23 +482,485 @@ abstract class AppLocalizations {
   /// **'Select the employees who should take the test. Available tests: {count}.'**
   String bannerAssignDesc(int count);
 
+  /// No description provided for @bannerAssignTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign AI Compliance Test'**
+  String get bannerAssignTitle;
+
+  /// No description provided for @bannerQuotaDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'You have purchased {n} tests. Assign any unused tests to your employees.'**
+  String bannerQuotaDesc(int n);
+
+  /// No description provided for @billingAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get billingAmount;
+
+  /// No description provided for @billingBuy.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy Credits'**
+  String get billingBuy;
+
+  /// No description provided for @billingChoosePackage.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Package'**
+  String get billingChoosePackage;
+
+  /// No description provided for @billingColumnAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get billingColumnAmount;
+
+  /// No description provided for @billingColumnDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get billingColumnDate;
+
+  /// No description provided for @billingColumnInvoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice'**
+  String get billingColumnInvoice;
+
+  /// No description provided for @billingColumnNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Number'**
+  String get billingColumnNumber;
+
+  /// No description provided for @billingColumnProduct.
+  ///
+  /// In en, this message translates to:
+  /// **'Product'**
+  String get billingColumnProduct;
+
+  /// No description provided for @billingColumnStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get billingColumnStatus;
+
+  /// No description provided for @billingCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get billingCredits;
+
+  /// No description provided for @billingCreditsPerSeat.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits Per Seat'**
+  String get billingCreditsPerSeat;
+
+  /// No description provided for @billingCreditsTaken.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits Taken'**
+  String get billingCreditsTaken;
+
+  /// No description provided for @billingDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get billingDate;
+
+  /// No description provided for @billingDocument.
+  ///
+  /// In en, this message translates to:
+  /// **'Document'**
+  String get billingDocument;
+
+  /// No description provided for @billingHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing history'**
+  String get billingHistory;
+
+  /// No description provided for @billingPendingInvoices.
+  ///
+  /// In en, this message translates to:
+  /// **'Pending Invoices'**
+  String get billingPendingInvoices;
+
+  /// No description provided for @billingReceipt.
+  ///
+  /// In en, this message translates to:
+  /// **'Receipt'**
+  String get billingReceipt;
+
+  /// No description provided for @billingRequireAttention.
+  ///
+  /// In en, this message translates to:
+  /// **'Require attention'**
+  String get billingRequireAttention;
+
+  /// No description provided for @billingSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Seats'**
+  String get billingSeats;
+
+  /// No description provided for @billingSeatsPurchased.
+  ///
+  /// In en, this message translates to:
+  /// **'Seats Purchased'**
+  String get billingSeatsPurchased;
+
+  /// No description provided for @billingSelectPackageSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Select the package that best fits your needs'**
+  String get billingSelectPackageSubtitle;
+
+  /// No description provided for @billingStripeId.
+  ///
+  /// In en, this message translates to:
+  /// **'Stripe ID'**
+  String get billingStripeId;
+
+  /// No description provided for @billingSuccessfulPayments.
+  ///
+  /// In en, this message translates to:
+  /// **'Successful payments'**
+  String get billingSuccessfulPayments;
+
+  /// No description provided for @billingTestName.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Name'**
+  String get billingTestName;
+
+  /// No description provided for @billingTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'Total'**
+  String get billingTotal;
+
+  /// No description provided for @billingTotalCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Credits'**
+  String get billingTotalCredits;
+
+  /// No description provided for @billingTotalSpent.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Spent'**
+  String get billingTotalSpent;
+
+  /// No description provided for @billingTotalThroughoutTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Total throughout time'**
+  String get billingTotalThroughoutTime;
+
+  /// No description provided for @billingVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Version'**
+  String get billingVersion;
+
+  /// No description provided for @bookkeepingEmailCheckboxLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Send invoices to bookkeeping email'**
+  String get bookkeepingEmailCheckboxLabel;
+
+  /// No description provided for @bookkeepingEmailLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Bookkeeping Email'**
+  String get bookkeepingEmailLabel;
+
+  /// No description provided for @buttonAddEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Add employees'**
+  String get buttonAddEmployees;
+
+  /// No description provided for @buttonAddNewVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Add New Version'**
+  String get buttonAddNewVersion;
+
+  /// No description provided for @buttonAddToCart.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to Cart'**
+  String get buttonAddToCart;
+
+  /// No description provided for @buttonAssignEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign Employees'**
+  String get buttonAssignEmployees;
+
+  /// No description provided for @buttonBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get buttonBack;
+
+  /// No description provided for @buttonBuyCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Quota'**
+  String get buttonBuyCredits;
+
+  /// No description provided for @buttonBuyMoreTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy more tests'**
+  String get buttonBuyMoreTests;
+
+  /// No description provided for @buttonBuyNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy Now'**
+  String get buttonBuyNow;
+
+  /// No description provided for @buttonBuyQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy quota'**
+  String get buttonBuyQuota;
+
+  /// No description provided for @buttonBuyTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy test'**
+  String get buttonBuyTest;
+
+  /// No description provided for @buttonChoose.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose'**
+  String get buttonChoose;
+
+  /// No description provided for @buttonConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm'**
+  String get buttonConfirm;
+
+  /// No description provided for @buttonCreateNewTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Create New Test'**
+  String get buttonCreateNewTest;
+
   /// No description provided for @buttonInviteSelected.
   ///
   /// In en, this message translates to:
   /// **'Invite selected'**
   String get buttonInviteSelected;
 
-  /// No description provided for @errorSelectAtLeastOne.
+  /// No description provided for @buttonMakePrimary.
   ///
   /// In en, this message translates to:
-  /// **'Please select at least one employee.'**
-  String get errorSelectAtLeastOne;
+  /// **'Make Primary'**
+  String get buttonMakePrimary;
 
-  /// No description provided for @errorInsufficientSeats.
+  /// No description provided for @buttonNext.
   ///
   /// In en, this message translates to:
-  /// **'Insufficient seats. You only have {count} seats available.'**
-  String errorInsufficientSeats(int count);
+  /// **'Next'**
+  String get buttonNext;
+
+  /// No description provided for @buttonNotifyMe.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify me'**
+  String get buttonNotifyMe;
+
+  /// No description provided for @buttonOpen.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get buttonOpen;
+
+  /// No description provided for @buttonPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan'**
+  String get buttonPlan;
+
+  /// No description provided for @buttonPreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview'**
+  String get buttonPreview;
+
+  /// No description provided for @buttonPublish.
+  ///
+  /// In en, this message translates to:
+  /// **'Publish'**
+  String get buttonPublish;
+
+  /// No description provided for @buttonSelect.
+  ///
+  /// In en, this message translates to:
+  /// **'Select'**
+  String get buttonSelect;
+
+  /// No description provided for @buttonSelectSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Seats'**
+  String get buttonSelectSeats;
+
+  /// No description provided for @buttonStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get buttonStart;
+
+  /// No description provided for @buttonSubmit.
+  ///
+  /// In en, this message translates to:
+  /// **'Submit'**
+  String get buttonSubmit;
+
+  /// No description provided for @cancelButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get cancelButton;
+
+  /// No description provided for @categoryCompliance.
+  ///
+  /// In en, this message translates to:
+  /// **'Compliance'**
+  String get categoryCompliance;
+
+  /// No description provided for @categoryDevOps.
+  ///
+  /// In en, this message translates to:
+  /// **'DevOps'**
+  String get categoryDevOps;
+
+  /// No description provided for @categoryGeneral.
+  ///
+  /// In en, this message translates to:
+  /// **'General'**
+  String get categoryGeneral;
+
+  /// No description provided for @categoryLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Category'**
+  String get categoryLabel;
+
+  /// No description provided for @categorySecurity.
+  ///
+  /// In en, this message translates to:
+  /// **'Security'**
+  String get categorySecurity;
+
+  /// No description provided for @certAcmeEmployee.
+  ///
+  /// In en, this message translates to:
+  /// **'Marketing Operations Specialist • Acme Enterprise GmbH'**
+  String get certAcmeEmployee;
+
+  /// No description provided for @certAssessmentTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment Test'**
+  String get certAssessmentTest;
+
+  /// No description provided for @certCloseButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get certCloseButton;
+
+  /// No description provided for @certComplianceBoard.
+  ///
+  /// In en, this message translates to:
+  /// **'Rulefox Compliance Board'**
+  String get certComplianceBoard;
+
+  /// No description provided for @certDateOfCompletion.
+  ///
+  /// In en, this message translates to:
+  /// **'Date of Completion'**
+  String get certDateOfCompletion;
+
+  /// No description provided for @certPassedVerified.
+  ///
+  /// In en, this message translates to:
+  /// **'PASSED & VERIFIED'**
+  String get certPassedVerified;
+
+  /// No description provided for @certReturnHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Return Home'**
+  String get certReturnHome;
+
+  /// No description provided for @certScoreAchieved.
+  ///
+  /// In en, this message translates to:
+  /// **'Score Achieved'**
+  String get certScoreAchieved;
+
+  /// No description provided for @certSecureDigitalProof.
+  ///
+  /// In en, this message translates to:
+  /// **'SECURE DIGITAL PROOF'**
+  String get certSecureDigitalProof;
+
+  /// No description provided for @certThisIsToCertify.
+  ///
+  /// In en, this message translates to:
+  /// **'THIS IS TO CERTIFY THAT'**
+  String get certThisIsToCertify;
+
+  /// No description provided for @certVerificationCertificate.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification Certificate'**
+  String get certVerificationCertificate;
+
+  /// No description provided for @certVerifiedDigitally.
+  ///
+  /// In en, this message translates to:
+  /// **'Verified Digitally'**
+  String get certVerifiedDigitally;
+
+  /// No description provided for @certViewPdf.
+  ///
+  /// In en, this message translates to:
+  /// **'View PDF Certificate'**
+  String get certViewPdf;
+
+  /// No description provided for @columnAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Action'**
+  String get columnAction;
+
+  /// No description provided for @columnDepartment.
+  ///
+  /// In en, this message translates to:
+  /// **'Department'**
+  String get columnDepartment;
+
+  /// No description provided for @columnEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get columnEmail;
 
   /// No description provided for @columnEmployeeId.
   ///
@@ -3812,515 +980,683 @@ abstract class AppLocalizations {
   /// **'Last Name'**
   String get columnLastName;
 
-  /// No description provided for @columnEmail.
+  /// No description provided for @columnLastUpdated.
   ///
   /// In en, this message translates to:
-  /// **'Email'**
-  String get columnEmail;
+  /// **'Last updated'**
+  String get columnLastUpdated;
 
-  /// No description provided for @columnDepartment.
+  /// No description provided for @columnName.
   ///
   /// In en, this message translates to:
-  /// **'Department'**
-  String get columnDepartment;
+  /// **'name'**
+  String get columnName;
 
-  /// No description provided for @labelReassign.
+  /// No description provided for @columnPrice.
   ///
   /// In en, this message translates to:
-  /// **'Re-assign'**
-  String get labelReassign;
+  /// **'Price'**
+  String get columnPrice;
 
-  /// No description provided for @subtitleAssignEmployees.
+  /// No description provided for @columnQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Questions'**
+  String get columnQuestions;
+
+  /// No description provided for @columnStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get columnStatus;
+
+  /// No description provided for @columnTest.
+  ///
+  /// In en, this message translates to:
+  /// **'test'**
+  String get columnTest;
+
+  /// No description provided for @columnVersions.
+  ///
+  /// In en, this message translates to:
+  /// **'Versions'**
+  String get columnVersions;
+
+  /// No description provided for @companyHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter company name'**
+  String get companyHint;
+
+  /// No description provided for @companyName.
+  ///
+  /// In en, this message translates to:
+  /// **'Company Name'**
+  String get companyName;
+
+  /// No description provided for @companyNameLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Company Name'**
+  String get companyNameLabel;
+
+  /// No description provided for @confirmPasswordHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enter password'**
+  String get confirmPasswordHint;
+
+  /// No description provided for @confirmPasswordLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm Password'**
+  String get confirmPasswordLabel;
+
+  /// No description provided for @contactLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact'**
+  String get contactLink;
+
+  /// No description provided for @country.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Country'**
+  String get country;
+
+  /// No description provided for @countryLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Country'**
+  String get countryLabel;
+
+  /// No description provided for @credits.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get credits;
+
+  /// No description provided for @creditsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get creditsLabel;
+
+  /// No description provided for @csvHeaderDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Completion'**
+  String get csvHeaderDate;
+
+  /// No description provided for @csvHeaderEmployee.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee'**
+  String get csvHeaderEmployee;
+
+  /// No description provided for @csvHeaderScore.
+  ///
+  /// In en, this message translates to:
+  /// **'Score'**
+  String get csvHeaderScore;
+
+  /// No description provided for @csvHeaderStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get csvHeaderStatus;
+
+  /// No description provided for @csvHeaderTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Test'**
+  String get csvHeaderTest;
+
+  /// No description provided for @currentAllocationsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Current allocations'**
+  String get currentAllocationsTitle;
+
+  /// No description provided for @dashboardBannerCta.
+  ///
+  /// In en, this message translates to:
+  /// **'More about the EU AI Act'**
+  String get dashboardBannerCta;
+
+  /// No description provided for @dashboardBannerDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Easily and clearly keep track of your employees\' test status, evidence, and AI literacy.'**
+  String get dashboardBannerDesc;
+
+  /// No description provided for @dashboardBannerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance in Focus'**
+  String get dashboardBannerTitle;
+
+  /// No description provided for @dashboardOwner.
+  ///
+  /// In en, this message translates to:
+  /// **'Owner Dashboard'**
+  String get dashboardOwner;
+
+  /// No description provided for @dashboardTenant.
+  ///
+  /// In en, this message translates to:
+  /// **'Tenant Dashboard'**
+  String get dashboardTenant;
+
+  /// No description provided for @dashboardTenantSubtitle.
   ///
   /// In en, this message translates to:
   /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
-  String get subtitleAssignEmployees;
+  String get dashboardTenantSubtitle;
 
-  /// No description provided for @labelEdit.
+  /// No description provided for @dashboardTenantTitle.
   ///
   /// In en, this message translates to:
-  /// **'Edit'**
-  String get labelEdit;
+  /// **'AI Compliance Dashboard'**
+  String get dashboardTenantTitle;
 
-  /// No description provided for @labelSaveAsDraft.
+  /// No description provided for @descTestManagement.
   ///
   /// In en, this message translates to:
-  /// **'Save as Draft'**
-  String get labelSaveAsDraft;
+  /// **'Manage test products, prices, and release status.'**
+  String get descTestManagement;
 
-  /// No description provided for @labelUploadAndPublish.
+  /// No description provided for @dropdownAvailableTests.
   ///
   /// In en, this message translates to:
-  /// **'Upload & Publish'**
-  String get labelUploadAndPublish;
+  /// **'Available tests'**
+  String get dropdownAvailableTests;
 
-  /// No description provided for @labelPreviewAndPublish.
+  /// No description provided for @dropdownPurchasedTests.
   ///
   /// In en, this message translates to:
-  /// **'Preview & Publish'**
-  String get labelPreviewAndPublish;
+  /// **'Purchased tests'**
+  String get dropdownPurchasedTests;
 
-  /// No description provided for @labelUploadTestFile.
+  /// No description provided for @editEmployee.
   ///
   /// In en, this message translates to:
-  /// **'Upload Test File (.json)'**
-  String get labelUploadTestFile;
+  /// **'Edit Employee'**
+  String get editEmployee;
 
-  /// No description provided for @labelTimeLimitMinutes.
+  /// No description provided for @editProfile.
   ///
   /// In en, this message translates to:
-  /// **'Time Limit (Minutes)'**
-  String get labelTimeLimitMinutes;
+  /// **'Edit Profile'**
+  String get editProfile;
 
-  /// No description provided for @labelTimeLimitHint.
+  /// No description provided for @emailHint.
   ///
   /// In en, this message translates to:
-  /// **'e.g. 20 (0 for no limit)'**
-  String get labelTimeLimitHint;
+  /// **'Enter your email'**
+  String get emailHint;
 
-  /// No description provided for @labelCreditsRequired.
+  /// No description provided for @emailLabel.
   ///
   /// In en, this message translates to:
-  /// **'Credits Required'**
-  String get labelCreditsRequired;
+  /// **'Email'**
+  String get emailLabel;
 
-  /// No description provided for @labelCreditsHint.
+  /// No description provided for @empAdd.
   ///
   /// In en, this message translates to:
-  /// **'e.g. 30'**
-  String get labelCreditsHint;
+  /// **'Add Employees'**
+  String get empAdd;
 
-  /// No description provided for @labelFreeTest.
+  /// No description provided for @empInvite.
   ///
   /// In en, this message translates to:
-  /// **'Free Test'**
-  String get labelFreeTest;
+  /// **'Invite Employee'**
+  String get empInvite;
 
-  /// No description provided for @labelNoCreditsRequired.
+  /// No description provided for @empResultsComplete.
   ///
   /// In en, this message translates to:
-  /// **'No credits required'**
-  String get labelNoCreditsRequired;
+  /// **'Assessment Complete'**
+  String get empResultsComplete;
 
-  /// No description provided for @labelRequiresCredits.
+  /// No description provided for @empResultsCorrectAnswers.
   ///
   /// In en, this message translates to:
-  /// **'Requires credits to purchase'**
-  String get labelRequiresCredits;
+  /// **'Correct Answers'**
+  String get empResultsCorrectAnswers;
 
-  /// No description provided for @labelTapToChangeFile.
-  ///
-  /// In en, this message translates to:
-  /// **'Tap to change file'**
-  String get labelTapToChangeFile;
-
-  /// No description provided for @subtitleOwnerDashboard.
-  ///
-  /// In en, this message translates to:
-  /// **'Manage the platform, test products, and clients centrally.'**
-  String get subtitleOwnerDashboard;
-
-  /// No description provided for @labelMore.
-  ///
-  /// In en, this message translates to:
-  /// **'more'**
-  String get labelMore;
-
-  /// No description provided for @searchTests.
-  ///
-  /// In en, this message translates to:
-  /// **'Search tests'**
-  String get searchTests;
-
-  /// No description provided for @assessmentVerifying.
-  ///
-  /// In en, this message translates to:
-  /// **'Verifying your invitation...'**
-  String get assessmentVerifying;
-
-  /// No description provided for @assessmentInvalidToken.
-  ///
-  /// In en, this message translates to:
-  /// **'Invalid or missing token.'**
-  String get assessmentInvalidToken;
-
-  /// No description provided for @assessmentVerificationFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Verification failed.'**
-  String get assessmentVerificationFailed;
-
-  /// No description provided for @assessmentVerificationError.
-  ///
-  /// In en, this message translates to:
-  /// **'An error occurred during verification. Please try again later.'**
-  String get assessmentVerificationError;
-
-  /// No description provided for @assessmentAlreadyCompleted.
-  ///
-  /// In en, this message translates to:
-  /// **'Assessment Already Completed'**
-  String get assessmentAlreadyCompleted;
-
-  /// No description provided for @assessmentInvalidLink.
-  ///
-  /// In en, this message translates to:
-  /// **'Invalid or Expired Link'**
-  String get assessmentInvalidLink;
-
-  /// No description provided for @assessmentAlreadySubmittedDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'You have already submitted this assessment. If you believe this is an error, please contact your administrator.'**
-  String get assessmentAlreadySubmittedDesc;
-
-  /// No description provided for @assessmentExpiredLinkDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'This invitation link has expired or is invalid. Please request a new link from your administrator to take the assessment.'**
-  String get assessmentExpiredLinkDesc;
-
-  /// No description provided for @assessmentCloseButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Close'**
-  String get assessmentCloseButton;
-
-  /// No description provided for @assessmentStartTestBtn.
-  ///
-  /// In en, this message translates to:
-  /// **'Start test'**
-  String get assessmentStartTestBtn;
-
-  /// No description provided for @assessmentResumeTestBtn.
-  ///
-  /// In en, this message translates to:
-  /// **'Resume test'**
-  String get assessmentResumeTestBtn;
-
-  /// No description provided for @assessmentLoadingDetails.
-  ///
-  /// In en, this message translates to:
-  /// **'Loading Test Details...'**
-  String get assessmentLoadingDetails;
-
-  /// No description provided for @testRunnerPublishing.
-  ///
-  /// In en, this message translates to:
-  /// **'Publishing...'**
-  String get testRunnerPublishing;
-
-  /// No description provided for @testRunnerSubmitting.
-  ///
-  /// In en, this message translates to:
-  /// **'Submitting Test...'**
-  String get testRunnerSubmitting;
-
-  /// No description provided for @testRunnerPublishFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Publish failed. Please try again.'**
-  String get testRunnerPublishFailed;
-
-  /// No description provided for @testRunnerSubmitFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Submit failed. Please try again.'**
-  String get testRunnerSubmitFailed;
-
-  /// No description provided for @testRunnerFlaggedToReview.
-  ///
-  /// In en, this message translates to:
-  /// **'You have {count} flagged question(s). Please review before submitting.'**
-  String testRunnerFlaggedToReview(int count);
-
-  /// No description provided for @testRunnerReviewFlaggedQuestions.
-  ///
-  /// In en, this message translates to:
-  /// **'Review Flagged Questions'**
-  String get testRunnerReviewFlaggedQuestions;
-
-  /// No description provided for @testRunnerReviewingFlagged.
-  ///
-  /// In en, this message translates to:
-  /// **'Reviewing Flagged: {current} of {total}'**
-  String testRunnerReviewingFlagged(int current, int total);
-
-  /// No description provided for @testRunnerPreviousFlag.
-  ///
-  /// In en, this message translates to:
-  /// **'Previous Flag'**
-  String get testRunnerPreviousFlag;
-
-  /// No description provided for @testRunnerNextFlag.
-  ///
-  /// In en, this message translates to:
-  /// **'Next Flag'**
-  String get testRunnerNextFlag;
-
-  /// No description provided for @testRunnerExitReview.
-  ///
-  /// In en, this message translates to:
-  /// **'Exit Review'**
-  String get testRunnerExitReview;
-
-  /// No description provided for @testRunnerFinishReview.
-  ///
-  /// In en, this message translates to:
-  /// **'Finish Review'**
-  String get testRunnerFinishReview;
-
-  /// No description provided for @testRunnerNotStarted.
-  ///
-  /// In en, this message translates to:
-  /// **'Not started'**
-  String get testRunnerNotStarted;
-
-  /// No description provided for @testRunnerInProgress.
-  ///
-  /// In en, this message translates to:
-  /// **'In Progress'**
-  String get testRunnerInProgress;
-
-  /// No description provided for @testRunnerApproxMinutes.
-  ///
-  /// In en, this message translates to:
-  /// **'approximately {minutes} minutes'**
-  String testRunnerApproxMinutes(int minutes);
-
-  /// No description provided for @testRunnerClosePreview.
-  ///
-  /// In en, this message translates to:
-  /// **'Close Preview'**
-  String get testRunnerClosePreview;
-
-  /// No description provided for @testRunnerPreviewTest.
-  ///
-  /// In en, this message translates to:
-  /// **'Preview Test'**
-  String get testRunnerPreviewTest;
-
-  /// No description provided for @testRunnerStartWithTest.
-  ///
-  /// In en, this message translates to:
-  /// **'Start with test'**
-  String get testRunnerStartWithTest;
-
-  /// No description provided for @testRunnerSectionPassed.
-  ///
-  /// In en, this message translates to:
-  /// **'Passed'**
-  String get testRunnerSectionPassed;
-
-  /// No description provided for @testRunnerSectionFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Failed'**
-  String get testRunnerSectionFailed;
-
-  /// No description provided for @testRunnerExitPortal.
+  /// No description provided for @empResultsExitPortal.
   ///
   /// In en, this message translates to:
   /// **'Exit Portal'**
-  String get testRunnerExitPortal;
+  String get empResultsExitPortal;
 
-  /// No description provided for @testRunnerIntegrityCheck.
+  /// No description provided for @empResultsNotPassed.
   ///
   /// In en, this message translates to:
-  /// **'Integrity check - please stay in full-screen mode.'**
-  String get testRunnerIntegrityCheck;
+  /// **'Not Passed'**
+  String get empResultsNotPassed;
 
-  /// No description provided for @testRunnerReenterFullscreen.
+  /// No description provided for @empResultsPass.
   ///
   /// In en, this message translates to:
-  /// **'Re-enter fullscreen'**
-  String get testRunnerReenterFullscreen;
+  /// **'Pass'**
+  String get empResultsPass;
 
-  /// No description provided for @testRunnerExitAssessmentTitle.
+  /// No description provided for @empResultsScore.
   ///
   /// In en, this message translates to:
-  /// **'Exit Assessment?'**
-  String get testRunnerExitAssessmentTitle;
+  /// **'Score'**
+  String get empResultsScore;
 
-  /// No description provided for @testRunnerExitAssessmentDesc.
+  /// No description provided for @empResultsShareMessage.
   ///
   /// In en, this message translates to:
-  /// **'Are you sure you want to exit? Your progress is saved but the timer will continue.'**
-  String get testRunnerExitAssessmentDesc;
+  /// **'Share Results'**
+  String get empResultsShareMessage;
 
-  /// No description provided for @testRunnerStay.
+  /// No description provided for @empResultsTimeTaken.
   ///
   /// In en, this message translates to:
-  /// **'Stay'**
-  String get testRunnerStay;
+  /// **'Time Taken'**
+  String get empResultsTimeTaken;
 
-  /// No description provided for @testRunnerExit.
+  /// No description provided for @empResultsWellDone.
   ///
   /// In en, this message translates to:
-  /// **'Exit'**
-  String get testRunnerExit;
+  /// **'Well Done!'**
+  String get empResultsWellDone;
 
-  /// No description provided for @testRunnerReviewCount.
+  /// No description provided for @empUploadCsv.
   ///
   /// In en, this message translates to:
-  /// **'Review ({count})'**
-  String testRunnerReviewCount(int count);
+  /// **'Upload CSV'**
+  String get empUploadCsv;
 
-  /// No description provided for @testRunnerTimesUp.
+  /// No description provided for @emptyNoMatchingTests.
   ///
   /// In en, this message translates to:
-  /// **'Time\'s Up!'**
-  String get testRunnerTimesUp;
+  /// **'No matching tests found'**
+  String get emptyNoMatchingTests;
 
-  /// No description provided for @testRunnerSubmitCountdown.
+  /// No description provided for @emptyNoPurchaseHistory.
   ///
   /// In en, this message translates to:
-  /// **'Your assessment is being submitted in {countdown}...'**
-  String testRunnerSubmitCountdown(int countdown);
+  /// **'No purchase history'**
+  String get emptyNoPurchaseHistory;
 
-  /// No description provided for @testRunnerPreviewModeLabel.
+  /// No description provided for @emptyNoPurchaseHistorySubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Preview Mode'**
-  String get testRunnerPreviewModeLabel;
+  /// **'You haven\'t made any purchases yet'**
+  String get emptyNoPurchaseHistorySubtitle;
 
-  /// No description provided for @testRunnerQuestionAnsweredOfTotal.
+  /// No description provided for @emptyNoTests.
   ///
   /// In en, this message translates to:
-  /// **'{answered} of {total} questions answered'**
-  String testRunnerQuestionAnsweredOfTotal(int answered, int total);
+  /// **'No tests available'**
+  String get emptyNoTests;
 
-  /// No description provided for @assessmentDescriptionDefault.
+  /// No description provided for @emptyNoVersions.
   ///
   /// In en, this message translates to:
-  /// **'You have been invited to take the {testName}. This assessment evaluates your knowledge and skills in this specific area.'**
-  String assessmentDescriptionDefault(String testName);
+  /// **'No versions found'**
+  String get emptyNoVersions;
 
-  /// No description provided for @certVerificationCertificate.
+  /// No description provided for @englishLanguage.
   ///
   /// In en, this message translates to:
-  /// **'Verification Certificate'**
-  String get certVerificationCertificate;
+  /// **'English'**
+  String get englishLanguage;
 
-  /// No description provided for @certPassedVerified.
+  /// No description provided for @enterBookkeepingEmailHint.
   ///
   /// In en, this message translates to:
-  /// **'PASSED & VERIFIED'**
-  String get certPassedVerified;
+  /// **'Enter bookkeeping email'**
+  String get enterBookkeepingEmailHint;
 
-  /// No description provided for @certThisIsToCertify.
+  /// No description provided for @enterEmailHint.
   ///
   /// In en, this message translates to:
-  /// **'THIS IS TO CERTIFY THAT'**
-  String get certThisIsToCertify;
+  /// **'Enter your email'**
+  String get enterEmailHint;
 
-  /// No description provided for @certAcmeEmployee.
+  /// No description provided for @enterEmailPrompt.
   ///
   /// In en, this message translates to:
-  /// **'Marketing Operations Specialist • Acme Enterprise GmbH'**
-  String get certAcmeEmployee;
+  /// **'Enter email'**
+  String get enterEmailPrompt;
 
-  /// No description provided for @certAssessmentTest.
+  /// No description provided for @errorAddOneSection.
   ///
   /// In en, this message translates to:
-  /// **'Assessment Test'**
-  String get certAssessmentTest;
+  /// **'Add at least one section.'**
+  String get errorAddOneSection;
 
-  /// No description provided for @certDateOfCompletion.
+  /// No description provided for @errorConfirmPasswordRequired.
   ///
   /// In en, this message translates to:
-  /// **'Date of Completion'**
-  String get certDateOfCompletion;
+  /// **'Please confirm your password'**
+  String get errorConfirmPasswordRequired;
 
-  /// No description provided for @certScoreAchieved.
+  /// No description provided for @errorCorrectAnswerDetailed.
   ///
   /// In en, this message translates to:
-  /// **'Score Achieved'**
-  String get certScoreAchieved;
+  /// **'Please select a correct answer for question {qNum} in \"{sTitle}\".'**
+  String errorCorrectAnswerDetailed(int qNum, String sTitle);
 
-  /// No description provided for @certComplianceBoard.
+  /// No description provided for @errorCreditsRequired.
   ///
   /// In en, this message translates to:
-  /// **'Rulefox Compliance Board'**
-  String get certComplianceBoard;
+  /// **'Credits required'**
+  String get errorCreditsRequired;
 
-  /// No description provided for @certVerifiedDigitally.
+  /// No description provided for @errorEmailRequired.
   ///
   /// In en, this message translates to:
-  /// **'Verified Digitally'**
-  String get certVerifiedDigitally;
+  /// **'Email is required'**
+  String get errorEmailRequired;
 
-  /// No description provided for @labelSummary.
+  /// No description provided for @errorFirstNameRequired.
   ///
   /// In en, this message translates to:
-  /// **'Summary'**
-  String get labelSummary;
+  /// **'First name is required'**
+  String get errorFirstNameRequired;
 
-  /// No description provided for @labelVAT.
+  /// No description provided for @errorInsufficientSeats.
   ///
   /// In en, this message translates to:
-  /// **'VAT'**
-  String get labelVAT;
+  /// **'Insufficient seats. You only have {count} seats available.'**
+  String errorInsufficientSeats(int count);
 
-  /// No description provided for @labelInTotal.
+  /// No description provided for @errorInvalidJsonFile.
   ///
   /// In en, this message translates to:
-  /// **'In total'**
-  String get labelInTotal;
+  /// **'Invalid JSON file. Please check the content.'**
+  String get errorInvalidJsonFile;
 
-  /// No description provided for @labelProcessingPayment.
+  /// No description provided for @errorInvalidJsonStructure.
   ///
   /// In en, this message translates to:
-  /// **'Processing Payment...'**
-  String get labelProcessingPayment;
+  /// **'Invalid JSON file structure'**
+  String get errorInvalidJsonStructure;
 
-  /// No description provided for @labelCalculating.
+  /// No description provided for @errorInvalidScore.
   ///
   /// In en, this message translates to:
-  /// **'Calculating...'**
-  String get labelCalculating;
+  /// **'Passing score must be a number between 0 and 100.'**
+  String get errorInvalidScore;
 
-  /// No description provided for @labelSecurePayment.
+  /// No description provided for @errorLastNameRequired.
   ///
   /// In en, this message translates to:
-  /// **'Secure payment'**
-  String get labelSecurePayment;
+  /// **'Last name is required'**
+  String get errorLastNameRequired;
 
-  /// No description provided for @labelPaymentDetails.
+  /// No description provided for @errorNewPasswordRequired.
   ///
   /// In en, this message translates to:
-  /// **'Payment details'**
-  String get labelPaymentDetails;
+  /// **'New password is required'**
+  String get errorNewPasswordRequired;
 
-  /// No description provided for @labelCardholder.
+  /// No description provided for @errorOptionEmptyDetailed.
   ///
   /// In en, this message translates to:
-  /// **'Cardholder'**
-  String get labelCardholder;
+  /// **'Option {key} of question {qNum} in \"{sTitle}\" cannot be empty.'**
+  String errorOptionEmptyDetailed(String key, int qNum, String sTitle);
 
-  /// No description provided for @labelCardNumber.
+  /// No description provided for @errorPassedOnly.
   ///
   /// In en, this message translates to:
-  /// **'Card number'**
-  String get labelCardNumber;
+  /// **'Only available for passed tests.'**
+  String get errorPassedOnly;
 
-  /// No description provided for @labelBillingAddress.
+  /// No description provided for @errorPasswordRequired.
   ///
   /// In en, this message translates to:
-  /// **'Billing address'**
-  String get labelBillingAddress;
+  /// **'Password is required'**
+  String get errorPasswordRequired;
 
-  /// No description provided for @labelBuyNow.
+  /// No description provided for @errorQuestionEmptyDetailed.
   ///
   /// In en, this message translates to:
-  /// **'Buy now'**
-  String get labelBuyNow;
+  /// **'Question {qNum} in \"{sTitle}\" cannot be empty.'**
+  String errorQuestionEmptyDetailed(int qNum, String sTitle);
 
-  /// No description provided for @labelEmailForInvoice.
+  /// No description provided for @errorSectionTitleEmptyDetailed.
   ///
   /// In en, this message translates to:
-  /// **'Email for invoice'**
-  String get labelEmailForInvoice;
+  /// **'Section {num} title cannot be empty.'**
+  String errorSectionTitleEmptyDetailed(int num);
+
+  /// No description provided for @errorSelectAtLeastOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select at least one employee.'**
+  String get errorSelectAtLeastOne;
+
+  /// No description provided for @errorSelectCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select a category'**
+  String get errorSelectCategory;
+
+  /// No description provided for @errorTestNameRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Test name is required'**
+  String get errorTestNameRequired;
+
+  /// No description provided for @errorTimeLimitInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid number or leave empty for no limit'**
+  String get errorTimeLimitInvalid;
+
+  /// No description provided for @errorTimeLimitNegative.
+  ///
+  /// In en, this message translates to:
+  /// **'Time limit cannot be negative (0 for no limit)'**
+  String get errorTimeLimitNegative;
+
+  /// No description provided for @errorUploadJson.
+  ///
+  /// In en, this message translates to:
+  /// **'Please upload a JSON test file'**
+  String get errorUploadJson;
+
+  /// No description provided for @errorValidNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid number'**
+  String get errorValidNumber;
+
+  /// No description provided for @exportCsvAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Export CSV'**
+  String get exportCsvAction;
+
+  /// No description provided for @exportEvidenceAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get exportEvidenceAction;
+
+  /// No description provided for @filterAllDepartments.
+  ///
+  /// In en, this message translates to:
+  /// **'All Departments'**
+  String get filterAllDepartments;
+
+  /// No description provided for @filterAllStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'All Status'**
+  String get filterAllStatus;
+
+  /// No description provided for @filterAllTests.
+  ///
+  /// In en, this message translates to:
+  /// **'All Tests'**
+  String get filterAllTests;
+
+  /// No description provided for @filterAllTransactions.
+  ///
+  /// In en, this message translates to:
+  /// **'All Transactions'**
+  String get filterAllTransactions;
+
+  /// No description provided for @filterDateNewest.
+  ///
+  /// In en, this message translates to:
+  /// **'Date Added (Newest)'**
+  String get filterDateNewest;
+
+  /// No description provided for @filterDateOldest.
+  ///
+  /// In en, this message translates to:
+  /// **'Date Added (Oldest)'**
+  String get filterDateOldest;
+
+  /// No description provided for @filterDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Draft'**
+  String get filterDraft;
+
+  /// No description provided for @filterLast14Days.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 14 Days'**
+  String get filterLast14Days;
+
+  /// No description provided for @filterLast30Days.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 30 Days'**
+  String get filterLast30Days;
+
+  /// No description provided for @filterLast7Days.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 7 Days'**
+  String get filterLast7Days;
+
+  /// No description provided for @filterNone.
+  ///
+  /// In en, this message translates to:
+  /// **'None'**
+  String get filterNone;
+
+  /// No description provided for @filterPublished.
+  ///
+  /// In en, this message translates to:
+  /// **'Published'**
+  String get filterPublished;
+
+  /// No description provided for @filterToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get filterToday;
+
+  /// No description provided for @firstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get firstName;
+
+  /// No description provided for @firstNameHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter first name'**
+  String get firstNameHint;
+
+  /// No description provided for @firstNameLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get firstNameLabel;
+
+  /// No description provided for @footerDatenschutz.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get footerDatenschutz;
+
+  /// No description provided for @footerImpressum.
+  ///
+  /// In en, this message translates to:
+  /// **'Impressum'**
+  String get footerImpressum;
+
+  /// No description provided for @footerKontakt.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact'**
+  String get footerKontakt;
+
+  /// No description provided for @forBookkeepingEmailLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Bookkeeping Email'**
+  String get forBookkeepingEmailLabel;
+
+  /// No description provided for @forgotPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot Password?'**
+  String get forgotPassword;
+
+  /// No description provided for @forgotPasswordSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email to receive an OTP'**
+  String get forgotPasswordSubtitle;
+
+  /// No description provided for @forgotPasswordTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot Password'**
+  String get forgotPasswordTitle;
+
+  /// No description provided for @germanLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'German'**
+  String get germanLanguage;
+
+  /// No description provided for @haveAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account?'**
+  String get haveAccount;
+
+  /// No description provided for @heroTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Making your workforce '**
+  String get heroTitle;
+
+  /// No description provided for @hintActiveInvites.
+  ///
+  /// In en, this message translates to:
+  /// **'Active invitations'**
+  String get hintActiveInvites;
+
+  /// No description provided for @hintAiCompliance.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance'**
+  String get hintAiCompliance;
+
+  /// No description provided for @hintBillingAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'Musterstraße 1, 1010 Wien'**
+  String get hintBillingAddress;
 
   /// No description provided for @hintBillingEmail.
   ///
@@ -4328,17 +1664,1714 @@ abstract class AppLocalizations {
   /// **'billing@beispiel.at'**
   String get hintBillingEmail;
 
+  /// No description provided for @hintEnterVat.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter VAT number'**
+  String get hintEnterVat;
+
   /// No description provided for @hintFullName.
   ///
   /// In en, this message translates to:
   /// **'Full name'**
   String get hintFullName;
 
-  /// No description provided for @hintBillingAddress.
+  /// No description provided for @hintSearch.
   ///
   /// In en, this message translates to:
-  /// **'Musterstraße 1, 1010 Wien'**
-  String get hintBillingAddress;
+  /// **'Search...'**
+  String get hintSearch;
+
+  /// No description provided for @hintSelectCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Category'**
+  String get hintSelectCategory;
+
+  /// No description provided for @hintSelectCountry.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Country'**
+  String get hintSelectCountry;
+
+  /// No description provided for @hintTestName.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. AI Compliance Test'**
+  String get hintTestName;
+
+  /// No description provided for @homeLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get homeLink;
+
+  /// No description provided for @howItWorksStep1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Select the number of tests required.'**
+  String get howItWorksStep1Desc;
+
+  /// No description provided for @howItWorksStep1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy quota'**
+  String get howItWorksStep1Title;
+
+  /// No description provided for @howItWorksStep2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign the test to individuals or groups.'**
+  String get howItWorksStep2Desc;
+
+  /// No description provided for @howItWorksStep2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Select employees'**
+  String get howItWorksStep2Title;
+
+  /// No description provided for @howItWorksStep3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Results can be documented upon completion.'**
+  String get howItWorksStep3Desc;
+
+  /// No description provided for @howItWorksStep3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get howItWorksStep3Title;
+
+  /// No description provided for @howItWorksTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'How the assignment works'**
+  String get howItWorksTitle;
+
+  /// No description provided for @inviteEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite employees'**
+  String get inviteEmployees;
+
+  /// No description provided for @justNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Just Now'**
+  String get justNow;
+
+  /// No description provided for @labelAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Action'**
+  String get labelAction;
+
+  /// No description provided for @labelActionColumn.
+  ///
+  /// In en, this message translates to:
+  /// **'ACTION'**
+  String get labelActionColumn;
+
+  /// No description provided for @labelActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Active'**
+  String get labelActive;
+
+  /// No description provided for @labelAddOption.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Option'**
+  String get labelAddOption;
+
+  /// No description provided for @labelAddQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Question'**
+  String get labelAddQuestion;
+
+  /// No description provided for @labelAddSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Section'**
+  String get labelAddSection;
+
+  /// No description provided for @labelAiComplianceCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Credits'**
+  String get labelAiComplianceCredits;
+
+  /// No description provided for @labelAllCategories.
+  ///
+  /// In en, this message translates to:
+  /// **'All Categories'**
+  String get labelAllCategories;
+
+  /// No description provided for @labelAllDepartments.
+  ///
+  /// In en, this message translates to:
+  /// **'All departments'**
+  String get labelAllDepartments;
+
+  /// No description provided for @labelAllStatuses.
+  ///
+  /// In en, this message translates to:
+  /// **'All statuses'**
+  String get labelAllStatuses;
+
+  /// No description provided for @labelAssign.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign'**
+  String get labelAssign;
+
+  /// No description provided for @labelAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'Assigned'**
+  String get labelAssigned;
+
+  /// No description provided for @labelAssignedCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Assigned'**
+  String get labelAssignedCount;
+
+  /// No description provided for @labelAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'available'**
+  String get labelAvailable;
+
+  /// No description provided for @labelAvailableCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Available'**
+  String get labelAvailableCount;
+
+  /// No description provided for @labelAvailableCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Available Credits'**
+  String get labelAvailableCredits;
+
+  /// No description provided for @labelAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Available credits'**
+  String get labelAvailableTests;
+
+  /// No description provided for @labelBannerSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage trial quotas, invoices, and payments for your business.'**
+  String get labelBannerSubtitle;
+
+  /// No description provided for @labelBannerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Quota & Billing'**
+  String get labelBannerTitle;
+
+  /// No description provided for @labelBillingAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing address'**
+  String get labelBillingAddress;
+
+  /// No description provided for @labelBillingPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing & Credits'**
+  String get labelBillingPageTitle;
+
+  /// No description provided for @labelBought.
+  ///
+  /// In en, this message translates to:
+  /// **'Bought'**
+  String get labelBought;
+
+  /// No description provided for @labelBriefDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Brief description'**
+  String get labelBriefDescription;
+
+  /// No description provided for @labelBrowseFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Browse File'**
+  String get labelBrowseFile;
+
+  /// No description provided for @labelBuildTestDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Add sections and questions to structure your test'**
+  String get labelBuildTestDescription;
+
+  /// No description provided for @labelBuildTestVisually.
+  ///
+  /// In en, this message translates to:
+  /// **'Build Test Visually'**
+  String get labelBuildTestVisually;
+
+  /// No description provided for @labelBuildVisually.
+  ///
+  /// In en, this message translates to:
+  /// **'Build Visually'**
+  String get labelBuildVisually;
+
+  /// No description provided for @labelBuyNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy now'**
+  String get labelBuyNow;
+
+  /// No description provided for @labelByCountryInvoicing.
+  ///
+  /// In en, this message translates to:
+  /// **'by country of invoicing'**
+  String get labelByCountryInvoicing;
+
+  /// No description provided for @labelCalculating.
+  ///
+  /// In en, this message translates to:
+  /// **'Calculating...'**
+  String get labelCalculating;
+
+  /// No description provided for @labelCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get labelCancel;
+
+  /// No description provided for @labelCardNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Card number'**
+  String get labelCardNumber;
+
+  /// No description provided for @labelCardholder.
+  ///
+  /// In en, this message translates to:
+  /// **'Cardholder'**
+  String get labelCardholder;
+
+  /// No description provided for @labelCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'category'**
+  String get labelCategory;
+
+  /// No description provided for @labelCategoryColon.
+  ///
+  /// In en, this message translates to:
+  /// **'Category:'**
+  String get labelCategoryColon;
+
+  /// No description provided for @labelChooseAddQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose How to Add Questions'**
+  String get labelChooseAddQuestions;
+
+  /// No description provided for @labelChoosePackage.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Package'**
+  String get labelChoosePackage;
+
+  /// No description provided for @labelConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirmation'**
+  String get labelConfirmation;
+
+  /// No description provided for @labelCreateQuestionsInside.
+  ///
+  /// In en, this message translates to:
+  /// **'Create questions inside the app'**
+  String get labelCreateQuestionsInside;
+
+  /// No description provided for @labelCreatedAt.
+  ///
+  /// In en, this message translates to:
+  /// **'Created At'**
+  String get labelCreatedAt;
+
+  /// No description provided for @labelCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get labelCredits;
+
+  /// No description provided for @labelCreditsHint.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. 30'**
+  String get labelCreditsHint;
+
+  /// No description provided for @labelCreditsLowercase.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get labelCreditsLowercase;
+
+  /// No description provided for @labelCreditsPerSeat.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits Per Seat'**
+  String get labelCreditsPerSeat;
+
+  /// No description provided for @labelCreditsRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits Required'**
+  String get labelCreditsRequired;
+
+  /// No description provided for @labelCreditsUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get labelCreditsUnit;
+
+  /// No description provided for @labelCreditsXPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} credits x €{price}'**
+  String labelCreditsXPrice(int count, String price);
+
+  /// No description provided for @labelDelete.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get labelDelete;
+
+  /// No description provided for @labelDepartment.
+  ///
+  /// In en, this message translates to:
+  /// **'Department'**
+  String get labelDepartment;
+
+  /// No description provided for @labelDownload.
+  ///
+  /// In en, this message translates to:
+  /// **'Download'**
+  String get labelDownload;
+
+  /// No description provided for @labelDownloadTemplate.
+  ///
+  /// In en, this message translates to:
+  /// **'Download CSV Template'**
+  String get labelDownloadTemplate;
+
+  /// No description provided for @labelDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Draft'**
+  String get labelDraft;
+
+  /// No description provided for @labelDragDropFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Drag & drop your file here'**
+  String get labelDragDropFile;
+
+  /// No description provided for @labelEdit.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit'**
+  String get labelEdit;
+
+  /// No description provided for @labelEditInVisualBuilder.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit in Visual Builder'**
+  String get labelEditInVisualBuilder;
+
+  /// No description provided for @labelEditTestQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Test Questions'**
+  String get labelEditTestQuestions;
+
+  /// No description provided for @labelEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get labelEmail;
+
+  /// No description provided for @labelEmailForInvoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Email for invoice'**
+  String get labelEmailForInvoice;
+
+  /// No description provided for @labelEmployeeID.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee ID'**
+  String get labelEmployeeID;
+
+  /// No description provided for @labelEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get labelEmployees;
+
+  /// No description provided for @labelEur.
+  ///
+  /// In en, this message translates to:
+  /// **'EUR'**
+  String get labelEur;
+
+  /// No description provided for @labelFirstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get labelFirstName;
+
+  /// No description provided for @labelFlagForReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Flag for Review'**
+  String get labelFlagForReview;
+
+  /// No description provided for @labelFlagged.
+  ///
+  /// In en, this message translates to:
+  /// **'Flagged'**
+  String get labelFlagged;
+
+  /// No description provided for @labelFree.
+  ///
+  /// In en, this message translates to:
+  /// **'Free'**
+  String get labelFree;
+
+  /// No description provided for @labelFreeTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Free Test'**
+  String get labelFreeTest;
+
+  /// No description provided for @labelFrom.
+  ///
+  /// In en, this message translates to:
+  /// **'From'**
+  String get labelFrom;
+
+  /// No description provided for @labelGroupBy.
+  ///
+  /// In en, this message translates to:
+  /// **'Group By'**
+  String get labelGroupBy;
+
+  /// No description provided for @labelId.
+  ///
+  /// In en, this message translates to:
+  /// **'ID'**
+  String get labelId;
+
+  /// No description provided for @labelImportTestFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Import a pre-made test file'**
+  String get labelImportTestFile;
+
+  /// No description provided for @labelInTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'In total'**
+  String get labelInTotal;
+
+  /// No description provided for @labelInvoices.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoices'**
+  String get labelInvoices;
+
+  /// No description provided for @labelLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get labelLanguage;
+
+  /// No description provided for @labelLastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Last Name'**
+  String get labelLastName;
+
+  /// No description provided for @labelLastPurchase.
+  ///
+  /// In en, this message translates to:
+  /// **'Last purchase'**
+  String get labelLastPurchase;
+
+  /// No description provided for @labelLinkSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Link sent'**
+  String get labelLinkSent;
+
+  /// No description provided for @labelMore.
+  ///
+  /// In en, this message translates to:
+  /// **'more'**
+  String get labelMore;
+
+  /// No description provided for @labelNoCreditsRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'No credits required'**
+  String get labelNoCreditsRequired;
+
+  /// No description provided for @labelNoTestsAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'No tests available'**
+  String get labelNoTestsAvailable;
+
+  /// No description provided for @labelNotAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'Not assigned'**
+  String get labelNotAssigned;
+
+  /// No description provided for @labelNumberOfSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Number of Seats'**
+  String get labelNumberOfSeats;
+
+  /// No description provided for @labelOptionPrefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Option {key}...'**
+  String labelOptionPrefix(String key);
+
+  /// No description provided for @labelOptionsInstruction.
+  ///
+  /// In en, this message translates to:
+  /// **'OPTIONS • TAP CIRCLE TO MARK CORRECT ANSWER'**
+  String get labelOptionsInstruction;
+
+  /// No description provided for @labelOr.
+  ///
+  /// In en, this message translates to:
+  /// **'OR'**
+  String get labelOr;
+
+  /// No description provided for @labelOthers.
+  ///
+  /// In en, this message translates to:
+  /// **'Others'**
+  String get labelOthers;
+
+  /// No description provided for @labelPaid.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid'**
+  String get labelPaid;
+
+  /// No description provided for @labelPassingScore.
+  ///
+  /// In en, this message translates to:
+  /// **'Passing Score (%)'**
+  String get labelPassingScore;
+
+  /// No description provided for @labelPaymentDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment details'**
+  String get labelPaymentDetails;
+
+  /// No description provided for @labelPerPerson.
+  ///
+  /// In en, this message translates to:
+  /// **'per person'**
+  String get labelPerPerson;
+
+  /// No description provided for @labelPopular.
+  ///
+  /// In en, this message translates to:
+  /// **'Popular'**
+  String get labelPopular;
+
+  /// No description provided for @labelPopularBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'POPULAR'**
+  String get labelPopularBadge;
+
+  /// No description provided for @labelPreviewAndPublish.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview & Publish'**
+  String get labelPreviewAndPublish;
+
+  /// No description provided for @labelPrimary.
+  ///
+  /// In en, this message translates to:
+  /// **'Primary'**
+  String get labelPrimary;
+
+  /// No description provided for @labelProcessingPayment.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing Payment...'**
+  String get labelProcessingPayment;
+
+  /// No description provided for @labelPublished.
+  ///
+  /// In en, this message translates to:
+  /// **'Published'**
+  String get labelPublished;
+
+  /// No description provided for @labelPurchaseHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase history'**
+  String get labelPurchaseHistory;
+
+  /// No description provided for @labelPurchasedTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased tests'**
+  String get labelPurchasedTests;
+
+  /// No description provided for @labelQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Question'**
+  String get labelQuestion;
+
+  /// No description provided for @labelQuestionCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Question {num}'**
+  String labelQuestionCount(int num);
+
+  /// No description provided for @labelQuestionHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter question text...'**
+  String get labelQuestionHint;
+
+  /// No description provided for @labelReassign.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-assign'**
+  String get labelReassign;
+
+  /// No description provided for @labelRemainingSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Remaining Seats:'**
+  String get labelRemainingSeats;
+
+  /// No description provided for @labelRemind.
+  ///
+  /// In en, this message translates to:
+  /// **'Remind'**
+  String get labelRemind;
+
+  /// No description provided for @labelRequiresCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Requires credits to purchase'**
+  String get labelRequiresCredits;
+
+  /// No description provided for @labelSaveAsDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Save as Draft'**
+  String get labelSaveAsDraft;
+
+  /// No description provided for @labelSaveTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Test'**
+  String get labelSaveTest;
+
+  /// No description provided for @labelSectionCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Section {num}'**
+  String labelSectionCount(int num);
+
+  /// No description provided for @labelSectionTitleHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Section title...'**
+  String get labelSectionTitleHint;
+
+  /// No description provided for @labelSectionsAndQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'{sCount} section{sPlural} • {qCount} question{qPlural}'**
+  String labelSectionsAndQuestions(
+    int sCount,
+    String sPlural,
+    int qCount,
+    String qPlural,
+  );
+
+  /// No description provided for @labelSecurePayment.
+  ///
+  /// In en, this message translates to:
+  /// **'Secure payment'**
+  String get labelSecurePayment;
+
+  /// No description provided for @labelSelectedEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected Employees:'**
+  String get labelSelectedEmployees;
+
+  /// No description provided for @labelSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Soon'**
+  String get labelSoon;
+
+  /// No description provided for @labelSortBy.
+  ///
+  /// In en, this message translates to:
+  /// **'Sort By'**
+  String get labelSortBy;
+
+  /// No description provided for @labelSortByCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Sort by Credits'**
+  String get labelSortByCredits;
+
+  /// No description provided for @labelSortByName.
+  ///
+  /// In en, this message translates to:
+  /// **'Sort by Name'**
+  String get labelSortByName;
+
+  /// No description provided for @labelStartingDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Starting Date:'**
+  String get labelStartingDate;
+
+  /// No description provided for @labelSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Summary'**
+  String get labelSummary;
+
+  /// No description provided for @labelSwitchToJsonUpload.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch to JSON Upload'**
+  String get labelSwitchToJsonUpload;
+
+  /// No description provided for @labelSwitchToVisualBuilder.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch to Visual Builder'**
+  String get labelSwitchToVisualBuilder;
+
+  /// No description provided for @labelTapChangeFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to change file'**
+  String get labelTapChangeFile;
+
+  /// No description provided for @labelTapToChangeFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to change file'**
+  String get labelTapToChangeFile;
+
+  /// No description provided for @labelTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Test:'**
+  String get labelTest;
+
+  /// No description provided for @labelTestBuiltSuccessfully.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Built Successfully'**
+  String get labelTestBuiltSuccessfully;
+
+  /// No description provided for @labelTestExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Test expired'**
+  String get labelTestExpired;
+
+  /// No description provided for @labelTestExpiry.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Expiry:'**
+  String get labelTestExpiry;
+
+  /// No description provided for @labelTestName.
+  ///
+  /// In en, this message translates to:
+  /// **'Test name'**
+  String get labelTestName;
+
+  /// No description provided for @labelTestQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Quota'**
+  String get labelTestQuota;
+
+  /// No description provided for @labelTimeLimitHint.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. 20 (0 for no limit)'**
+  String get labelTimeLimitHint;
+
+  /// No description provided for @labelTimeLimitMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'Time Limit (Minutes)'**
+  String get labelTimeLimitMinutes;
+
+  /// No description provided for @labelTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'Total'**
+  String get labelTotal;
+
+  /// No description provided for @labelTotalSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Seats:'**
+  String get labelTotalSeats;
+
+  /// No description provided for @labelUploadAndPublish.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload & Publish'**
+  String get labelUploadAndPublish;
+
+  /// No description provided for @labelUploadCsv.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload CSV'**
+  String get labelUploadCsv;
+
+  /// No description provided for @labelUploadJson.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload JSON'**
+  String get labelUploadJson;
+
+  /// No description provided for @labelUploadTestFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload Test File (.json)'**
+  String get labelUploadTestFile;
+
+  /// No description provided for @labelUsd.
+  ///
+  /// In en, this message translates to:
+  /// **'USD'**
+  String get labelUsd;
+
+  /// No description provided for @labelUseAccountEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Use account email: {email}'**
+  String labelUseAccountEmail(String email);
+
+  /// No description provided for @labelUseBookkeepingEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Use bookkeeping email: {email}'**
+  String labelUseBookkeepingEmail(String email);
+
+  /// No description provided for @labelVAT.
+  ///
+  /// In en, this message translates to:
+  /// **'VAT'**
+  String get labelVAT;
+
+  /// No description provided for @labelVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Version'**
+  String get labelVersion;
+
+  /// No description provided for @labelVersionNumberAuto.
+  ///
+  /// In en, this message translates to:
+  /// **'Version Number (Auto-generated)'**
+  String get labelVersionNumberAuto;
+
+  /// No description provided for @labelView.
+  ///
+  /// In en, this message translates to:
+  /// **'View'**
+  String get labelView;
+
+  /// No description provided for @labelViewReceipt.
+  ///
+  /// In en, this message translates to:
+  /// **'View Receipt'**
+  String get labelViewReceipt;
+
+  /// No description provided for @landingNavEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get landingNavEvidence;
+
+  /// No description provided for @landingNavPricing.
+  ///
+  /// In en, this message translates to:
+  /// **'Prices'**
+  String get landingNavPricing;
+
+  /// No description provided for @landingNavProduct.
+  ///
+  /// In en, this message translates to:
+  /// **'Product'**
+  String get landingNavProduct;
+
+  /// No description provided for @landingNavStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Now'**
+  String get landingNavStart;
+
+  /// No description provided for @landingNavWorkflow.
+  ///
+  /// In en, this message translates to:
+  /// **'Sequence'**
+  String get landingNavWorkflow;
+
+  /// No description provided for @landingEvidenceDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Compliance is only valuable if it can be documented. RuleFox creates clear evidence of participation, results, and status—clearly organized, exportable, and internally traceable.'**
+  String get landingEvidenceDesc;
+
+  /// No description provided for @landingEvidenceEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get landingEvidenceEyebrow;
+
+  /// No description provided for @landingEvidenceFeat1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Name, test, date and result on one compact PDF.'**
+  String get landingEvidenceFeat1Desc;
+
+  /// No description provided for @landingEvidenceFeat1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Individual proof per employee'**
+  String get landingEvidenceFeat1Title;
+
+  /// No description provided for @landingEvidenceFeat2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Each piece of evidence receives a unique reference for internal documentation and later allocation.'**
+  String get landingEvidenceFeat2Desc;
+
+  /// No description provided for @landingEvidenceFeat2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Unique verification ID'**
+  String get landingEvidenceFeat2Title;
+
+  /// No description provided for @landingEvidenceFeat3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Overview of participation rate, status and progress of all tested employees in one report.'**
+  String get landingEvidenceFeat3Desc;
+
+  /// No description provided for @landingEvidenceFeat3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Overall report for management'**
+  String get landingEvidenceFeat3Title;
+
+  /// No description provided for @landingEvidenceTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t just test. Prove it.'**
+  String get landingEvidenceTitle;
+
+  /// No description provided for @landingFloatEvalDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Make progress visible'**
+  String get landingFloatEvalDesc;
+
+  /// No description provided for @landingFloatEvalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Evaluate'**
+  String get landingFloatEvalTitle;
+
+  /// No description provided for @landingFloatProveDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get landingFloatProveDesc;
+
+  /// No description provided for @landingFloatProveTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Prove'**
+  String get landingFloatProveTitle;
+
+  /// No description provided for @landingFloatSecureDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Audit-ready and traceable'**
+  String get landingFloatSecureDesc;
+
+  /// No description provided for @landingFloatSecureTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Be secure'**
+  String get landingFloatSecureTitle;
+
+  /// No description provided for @landingFloatTestDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify knowledge'**
+  String get landingFloatTestDesc;
+
+  /// No description provided for @landingFloatTestTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Test'**
+  String get landingFloatTestTitle;
+
+  /// No description provided for @landingHeroBtnEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'View example proof'**
+  String get landingHeroBtnEvidence;
+
+  /// No description provided for @landingHeroBtnStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start EU AI Compliance Test'**
+  String get landingHeroBtnStart;
+
+  /// No description provided for @landingHeroDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox allows companies to test whether employees understand key compliance requirements – and provides exportable evidence for internal documentation, management and audits.'**
+  String get landingHeroDesc;
+
+  /// No description provided for @landingHeroNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Aktuell verfügbar: EU AI Compliance Test. Weitere Compliance-Tests folgen.'**
+  String get landingHeroNote;
+
+  /// No description provided for @landingHeroNote1.
+  ///
+  /// In en, this message translates to:
+  /// **'Currently\navailable:'**
+  String get landingHeroNote1;
+
+  /// No description provided for @landingHeroNote2.
+  ///
+  /// In en, this message translates to:
+  /// **'EU AI\nCompliance\nTest.'**
+  String get landingHeroNote2;
+
+  /// No description provided for @landingHeroNote3.
+  ///
+  /// In en, this message translates to:
+  /// **'Further compliance tests\nwill follow.'**
+  String get landingHeroNote3;
+
+  /// No description provided for @landingHeroTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Make compliance knowledge measurable. Document evidence centrally.'**
+  String get landingHeroTitle;
+
+  /// No description provided for @landingMockDate.
+  ///
+  /// In en, this message translates to:
+  /// **'May 14, 2024'**
+  String get landingMockDate;
+
+  /// No description provided for @landingMockScore.
+  ///
+  /// In en, this message translates to:
+  /// **'86% – passed'**
+  String get landingMockScore;
+
+  /// No description provided for @landingModalBtnClose.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get landingModalBtnClose;
+
+  /// No description provided for @landingModalBtnStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Test it yourself now'**
+  String get landingModalBtnStart;
+
+  /// No description provided for @landingModalDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'This is what the individual certificate looks like, which every employee receives after a successful test.'**
+  String get landingModalDesc;
+
+  /// No description provided for @landingModalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Example proof'**
+  String get landingModalTitle;
+
+  /// No description provided for @landingPlatformCol1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Add teams via CSV or invitation link and assign tests to specific tasks.'**
+  String get landingPlatformCol1Desc;
+
+  /// No description provided for @landingPlatformCol1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite employees'**
+  String get landingPlatformCol1Title;
+
+  /// No description provided for @landingPlatformCol2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep a central eye on participation rate, completion rate, pass rate and open invitations.'**
+  String get landingPlatformCol2Desc;
+
+  /// No description provided for @landingPlatformCol2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Evaluate progress'**
+  String get landingPlatformCol2Title;
+
+  /// No description provided for @landingPlatformCol3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Create individual reports and overall reports for documentation, management and audits.'**
+  String get landingPlatformCol3Desc;
+
+  /// No description provided for @landingPlatformCol3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get landingPlatformCol3Title;
+
+  /// No description provided for @landingPlatformDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Whether it\'s AI compliance, data protection, security awareness or internal guidelines: RuleFox makes knowledge testable, results visible and evidence exportable.'**
+  String get landingPlatformDesc;
+
+  /// No description provided for @landingPlatformEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Platform'**
+  String get landingPlatformEyebrow;
+
+  /// No description provided for @landingPlatformTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'One platform. Many compliance tests.'**
+  String get landingPlatformTitle;
+
+  /// No description provided for @landingPriceAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'€99'**
+  String get landingPriceAmount;
+
+  /// No description provided for @landingPriceUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'per test'**
+  String get landingPriceUnit;
+
+  /// No description provided for @landingPricesBtnStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start test'**
+  String get landingPricesBtnStart;
+
+  /// No description provided for @landingPricesDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Book individual tests or flexible quotas and use them for your employees as needed.'**
+  String get landingPricesDesc;
+
+  /// No description provided for @landingPricesEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Prices'**
+  String get landingPricesEyebrow;
+
+  /// No description provided for @landingPricesFeat1.
+  ///
+  /// In en, this message translates to:
+  /// **'21 practical questions'**
+  String get landingPricesFeat1;
+
+  /// No description provided for @landingPricesFeat2.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing time approximately 15 minutes'**
+  String get landingPricesFeat2;
+
+  /// No description provided for @landingPricesFeat3.
+  ///
+  /// In en, this message translates to:
+  /// **'German English'**
+  String get landingPricesFeat3;
+
+  /// No description provided for @landingPricesFeat4.
+  ///
+  /// In en, this message translates to:
+  /// **'automatic evaluation'**
+  String get landingPricesFeat4;
+
+  /// No description provided for @landingPricesFeat5.
+  ///
+  /// In en, this message translates to:
+  /// **'Individual proof as a PDF'**
+  String get landingPricesFeat5;
+
+  /// No description provided for @landingPricesFeat6.
+  ///
+  /// In en, this message translates to:
+  /// **'Reporting overview for the tenant'**
+  String get landingPricesFeat6;
+
+  /// No description provided for @landingPricesNote.
+  ///
+  /// In en, this message translates to:
+  /// **'All prices exclude VAT. Larger quantities and individual requirements available upon request.'**
+  String get landingPricesNote;
+
+  /// No description provided for @landingPricesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Transparent.\n€99 per test.'**
+  String get landingPricesTitle;
+
+  /// No description provided for @landingReportingDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox shows not only individual test results, but the entire progress of your company at a glance.'**
+  String get landingReportingDesc;
+
+  /// No description provided for @landingReportingEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Reporting & Insights'**
+  String get landingReportingEyebrow;
+
+  /// No description provided for @landingReportingFeat1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Compare progress by teams & departments.'**
+  String get landingReportingFeat1Desc;
+
+  /// No description provided for @landingReportingFeat1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Filter by departments'**
+  String get landingReportingFeat1Title;
+
+  /// No description provided for @landingReportingFeat2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Analyze rollout development over time periods.'**
+  String get landingReportingFeat2Desc;
+
+  /// No description provided for @landingReportingFeat2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep track of progress'**
+  String get landingReportingFeat2Title;
+
+  /// No description provided for @landingReportingFeat3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Quickly identify open tests and low results.'**
+  String get landingReportingFeat3Desc;
+
+  /// No description provided for @landingReportingFeat3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Identify need for action'**
+  String get landingReportingFeat3Title;
+
+  /// No description provided for @landingReportingFeat4Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Export reports as PDF or CSV.'**
+  String get landingReportingFeat4Desc;
+
+  /// No description provided for @landingReportingFeat4Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export & Reporting'**
+  String get landingReportingFeat4Title;
+
+  /// No description provided for @landingReportingKpi1.
+  ///
+  /// In en, this message translates to:
+  /// **'Participation rate'**
+  String get landingReportingKpi1;
+
+  /// No description provided for @landingReportingKpi1Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'156 of 200 employees invited'**
+  String get landingReportingKpi1Sub;
+
+  /// No description provided for @landingReportingKpi2.
+  ///
+  /// In en, this message translates to:
+  /// **'Completion rate'**
+  String get landingReportingKpi2;
+
+  /// No description provided for @landingReportingKpi2Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'97 of 156 tests completed'**
+  String get landingReportingKpi2Sub;
+
+  /// No description provided for @landingReportingKpi3.
+  ///
+  /// In en, this message translates to:
+  /// **'Pass rate'**
+  String get landingReportingKpi3;
+
+  /// No description provided for @landingReportingKpi3Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'82 of 97 tests passed'**
+  String get landingReportingKpi3Sub;
+
+  /// No description provided for @landingReportingKpi4.
+  ///
+  /// In en, this message translates to:
+  /// **'Average result'**
+  String get landingReportingKpi4;
+
+  /// No description provided for @landingReportingKpi4Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'Average score of all participants'**
+  String get landingReportingKpi4Sub;
+
+  /// No description provided for @landingReportingKpi5.
+  ///
+  /// In en, this message translates to:
+  /// **'Open invitations'**
+  String get landingReportingKpi5;
+
+  /// No description provided for @landingReportingKpi5Sub.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees have not yet started.'**
+  String get landingReportingKpi5Sub;
+
+  /// No description provided for @landingReportingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Make compliance progress visible.'**
+  String get landingReportingTitle;
+
+  /// No description provided for @landingSequenceEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Here\'s how it works'**
+  String get landingSequenceEyebrow;
+
+  /// No description provided for @landingSequenceStep1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite teams via CSV import or invitation link and assign the appropriate test.'**
+  String get landingSequenceStep1Desc;
+
+  /// No description provided for @landingSequenceStep1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite employees'**
+  String get landingSequenceStep1Title;
+
+  /// No description provided for @landingSequenceStep2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees answer practical questions on the selected compliance topic in just a few minutes. The evaluation is automatic and transparent.'**
+  String get landingSequenceStep2Desc;
+
+  /// No description provided for @landingSequenceStep2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Take the test'**
+  String get landingSequenceStep2Title;
+
+  /// No description provided for @landingSequenceStep3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Export individual certificates and an overall report as a PDF - ready for documentation, management, or audits.'**
+  String get landingSequenceStep3Desc;
+
+  /// No description provided for @landingSequenceStep3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get landingSequenceStep3Title;
+
+  /// No description provided for @landingSequenceTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Three steps to documented compliance proof.'**
+  String get landingSequenceTitle;
+
+  /// No description provided for @landingTest1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Check whether employees understand the most important basics for the safe and responsible use of AI systems – including relevant duties, risk awareness and practical application in everyday work.'**
+  String get landingTest1Desc;
+
+  /// No description provided for @landingTest1Eyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'FIRST AVAILABLE TEST'**
+  String get landingTest1Eyebrow;
+
+  /// No description provided for @landingTest1Meta1.
+  ///
+  /// In en, this message translates to:
+  /// **'21 questions'**
+  String get landingTest1Meta1;
+
+  /// No description provided for @landingTest1Meta2.
+  ///
+  /// In en, this message translates to:
+  /// **'approx. 15 min.'**
+  String get landingTest1Meta2;
+
+  /// No description provided for @landingTest1Meta3.
+  ///
+  /// In en, this message translates to:
+  /// **'DE & EN'**
+  String get landingTest1Meta3;
+
+  /// No description provided for @landingTestSoonBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'Soon'**
+  String get landingTestSoonBadge;
+
+  /// No description provided for @landingTestSoonBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Available soon'**
+  String get landingTestSoonBtn;
+
+  /// No description provided for @landingTestSoonDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox is continuously being expanded with new test modules – for further compliance, training and verification obligations via a central platform.'**
+  String get landingTestSoonDesc;
+
+  /// No description provided for @landingTestSoonTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Further compliance tests'**
+  String get landingTestSoonTitle;
+
+  /// No description provided for @landingTestsDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox has a modular structure. The EU AI Compliance Test is the first available test. Further compliance topics can be tested, evaluated, and documented via the same platform in the future.'**
+  String get landingTestsDesc;
+
+  /// No description provided for @landingTestsEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Available tests'**
+  String get landingTestsEyebrow;
+
+  /// No description provided for @landingTestsFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you need a specific compliance test for your company? Contact us — we are happy to review your individual topic requests.'**
+  String get landingTestsFooter;
+
+  /// No description provided for @landingTestsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Start with the first available test.'**
+  String get landingTestsTitle;
+
+  /// No description provided for @languageLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get languageLabel;
+
+  /// No description provided for @lastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Last Name'**
+  String get lastName;
+
+  /// No description provided for @lastNameHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter last name'**
+  String get lastNameHint;
+
+  /// No description provided for @lastNameLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Last Name'**
+  String get lastNameLabel;
+
+  /// No description provided for @loadingLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Logging in...'**
+  String get loadingLogin;
+
+  /// No description provided for @loadingResendOtp.
+  ///
+  /// In en, this message translates to:
+  /// **'Resending OTP...'**
+  String get loadingResendOtp;
+
+  /// No description provided for @loadingResetLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Sending reset link...'**
+  String get loadingResetLink;
+
+  /// No description provided for @loadingResettingPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Resetting password...'**
+  String get loadingResettingPassword;
+
+  /// No description provided for @loadingVerifyOtp.
+  ///
+  /// In en, this message translates to:
+  /// **'Verifying OTP...'**
+  String get loadingVerifyOtp;
+
+  /// No description provided for @loginButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Log In'**
+  String get loginButton;
+
+  /// No description provided for @loginSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Fill the below form to login'**
+  String get loginSubtitle;
+
+  /// No description provided for @loginTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Login to Dashboard'**
+  String get loginTitle;
+
+  /// No description provided for @logoutButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Logout'**
+  String get logoutButton;
+
+  /// No description provided for @msgActionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Action Failed'**
+  String get msgActionFailed;
+
+  /// No description provided for @msgCouldNotReadFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not read file. Try again.'**
+  String get msgCouldNotReadFile;
+
+  /// No description provided for @msgCreditsAdded.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} credits added to your account. Total paid: €{total}'**
+  String msgCreditsAdded(int count, double total);
+
+  /// No description provided for @msgDeleteConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete {name}?\nThis action cannot be undone.'**
+  String msgDeleteConfirm(Object name);
+
+  /// No description provided for @msgEmployeeSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee saved successfully!'**
+  String get msgEmployeeSaved;
+
+  /// No description provided for @msgEmployeesImported.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees imported successfully!'**
+  String get msgEmployeesImported;
+
+  /// No description provided for @msgEnterCompleteCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter complete card information'**
+  String get msgEnterCompleteCard;
+
+  /// No description provided for @msgEnterEmailReceipt.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your email for the receipt'**
+  String get msgEnterEmailReceipt;
+
+  /// No description provided for @msgImporting.
+  ///
+  /// In en, this message translates to:
+  /// **'Importing Employees...'**
+  String get msgImporting;
+
+  /// No description provided for @msgInvalidTestFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid test file structure'**
+  String get msgInvalidTestFile;
+
+  /// No description provided for @msgNewVersionDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'New Version Uploaded as Draft!'**
+  String get msgNewVersionDraft;
+
+  /// No description provided for @msgNoTestData.
+  ///
+  /// In en, this message translates to:
+  /// **'No test data found for this version.'**
+  String get msgNoTestData;
 
   /// No description provided for @msgPaymentCanceled.
   ///
@@ -4364,179 +3397,11 @@ abstract class AppLocalizations {
   /// **'Payment processing error. Please try again.'**
   String get msgPaymentProcessingError;
 
-  /// No description provided for @msgEnterCompleteCard.
+  /// No description provided for @msgPreparingPreview.
   ///
   /// In en, this message translates to:
-  /// **'Please enter complete card information'**
-  String get msgEnterCompleteCard;
-
-  /// No description provided for @msgEnterEmailReceipt.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter your email for the receipt'**
-  String get msgEnterEmailReceipt;
-
-  /// No description provided for @msgCreditsAdded.
-  ///
-  /// In en, this message translates to:
-  /// **'{count} credits added to your account. Total paid: €{total}'**
-  String msgCreditsAdded(int count, double total);
-
-  /// No description provided for @labelAiComplianceCredits.
-  ///
-  /// In en, this message translates to:
-  /// **'AI Compliance Credits'**
-  String get labelAiComplianceCredits;
-
-  /// No description provided for @labelCreditsXPrice.
-  ///
-  /// In en, this message translates to:
-  /// **'{count} credits x €{price}'**
-  String labelCreditsXPrice(int count, String price);
-
-  /// No description provided for @labelByCountryInvoicing.
-  ///
-  /// In en, this message translates to:
-  /// **'by country of invoicing'**
-  String get labelByCountryInvoicing;
-
-  /// No description provided for @labelUseBookkeepingEmail.
-  ///
-  /// In en, this message translates to:
-  /// **'Use bookkeeping email: {email}'**
-  String labelUseBookkeepingEmail(String email);
-
-  /// No description provided for @labelUseAccountEmail.
-  ///
-  /// In en, this message translates to:
-  /// **'Use account email: {email}'**
-  String labelUseAccountEmail(String email);
-
-  /// No description provided for @labelPopularBadge.
-  ///
-  /// In en, this message translates to:
-  /// **'POPULAR'**
-  String get labelPopularBadge;
-
-  /// No description provided for @labelActionColumn.
-  ///
-  /// In en, this message translates to:
-  /// **'ACTION'**
-  String get labelActionColumn;
-
-  /// No description provided for @labelCreditsUnit.
-  ///
-  /// In en, this message translates to:
-  /// **'Credits'**
-  String get labelCreditsUnit;
-
-  /// No description provided for @pkgDescSmall.
-  ///
-  /// In en, this message translates to:
-  /// **'For small teams and pilot phase.'**
-  String get pkgDescSmall;
-
-  /// No description provided for @pkgDescMedium.
-  ///
-  /// In en, this message translates to:
-  /// **'Recommended for departments.'**
-  String get pkgDescMedium;
-
-  /// No description provided for @pkgDescLarge.
-  ///
-  /// In en, this message translates to:
-  /// **'For larger rollouts.'**
-  String get pkgDescLarge;
-
-  /// No description provided for @labelNoTestsAvailable.
-  ///
-  /// In en, this message translates to:
-  /// **'No tests available'**
-  String get labelNoTestsAvailable;
-
-  /// No description provided for @labelBillingPageTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Billing & Credits'**
-  String get labelBillingPageTitle;
-
-  /// No description provided for @screenCheckout.
-  ///
-  /// In en, this message translates to:
-  /// **'Checkout'**
-  String get screenCheckout;
-
-  /// No description provided for @certSecureDigitalProof.
-  ///
-  /// In en, this message translates to:
-  /// **'SECURE DIGITAL PROOF'**
-  String get certSecureDigitalProof;
-
-  /// No description provided for @certCloseButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Close'**
-  String get certCloseButton;
-
-  /// No description provided for @certViewPdf.
-  ///
-  /// In en, this message translates to:
-  /// **'View PDF Certificate'**
-  String get certViewPdf;
-
-  /// No description provided for @certReturnHome.
-  ///
-  /// In en, this message translates to:
-  /// **'Return Home'**
-  String get certReturnHome;
-
-  /// No description provided for @titleTestHistory.
-  ///
-  /// In en, this message translates to:
-  /// **'Test History'**
-  String get titleTestHistory;
-
-  /// No description provided for @buttonAddNewVersion.
-  ///
-  /// In en, this message translates to:
-  /// **'Add New Version'**
-  String get buttonAddNewVersion;
-
-  /// No description provided for @columnVersions.
-  ///
-  /// In en, this message translates to:
-  /// **'Versions'**
-  String get columnVersions;
-
-  /// No description provided for @emptyNoVersions.
-  ///
-  /// In en, this message translates to:
-  /// **'No versions found'**
-  String get emptyNoVersions;
-
-  /// No description provided for @labelPrimary.
-  ///
-  /// In en, this message translates to:
-  /// **'Primary'**
-  String get labelPrimary;
-
-  /// No description provided for @buttonMakePrimary.
-  ///
-  /// In en, this message translates to:
-  /// **'Make Primary'**
-  String get buttonMakePrimary;
-
-  /// No description provided for @buttonPreview.
-  ///
-  /// In en, this message translates to:
-  /// **'Preview'**
-  String get buttonPreview;
-
-  /// No description provided for @msgUpdatingPrimaryVersion.
-  ///
-  /// In en, this message translates to:
-  /// **'Updating Primary Version...'**
-  String get msgUpdatingPrimaryVersion;
+  /// **'Preparing Preview...'**
+  String get msgPreparingPreview;
 
   /// No description provided for @msgPrimaryVersionUpdated.
   ///
@@ -4544,23 +3409,17 @@ abstract class AppLocalizations {
   /// **'Primary Version Updated!'**
   String get msgPrimaryVersionUpdated;
 
-  /// No description provided for @msgPreparingPreview.
-  ///
-  /// In en, this message translates to:
-  /// **'Preparing Preview...'**
-  String get msgPreparingPreview;
-
-  /// No description provided for @msgNoTestData.
-  ///
-  /// In en, this message translates to:
-  /// **'No test data found for this version.'**
-  String get msgNoTestData;
-
   /// No description provided for @msgPublishingTest.
   ///
   /// In en, this message translates to:
   /// **'Publishing Test...'**
   String get msgPublishingTest;
+
+  /// No description provided for @msgSaving.
+  ///
+  /// In en, this message translates to:
+  /// **'Saving...'**
+  String get msgSaving;
 
   /// No description provided for @msgSavingDraft.
   ///
@@ -4568,11 +3427,11 @@ abstract class AppLocalizations {
   /// **'Saving Draft...'**
   String get msgSavingDraft;
 
-  /// No description provided for @msgNewVersionDraft.
+  /// No description provided for @msgSessionExpired.
   ///
   /// In en, this message translates to:
-  /// **'New Version Uploaded as Draft!'**
-  String get msgNewVersionDraft;
+  /// **'Session expired. Please log in again.'**
+  String get msgSessionExpired;
 
   /// No description provided for @msgTestSavedDraft.
   ///
@@ -4580,179 +3439,209 @@ abstract class AppLocalizations {
   /// **'Test Saved as Draft!'**
   String get msgTestSavedDraft;
 
-  /// No description provided for @titleUpdateTest.
+  /// No description provided for @msgUpdatingPrimaryVersion.
   ///
   /// In en, this message translates to:
-  /// **'Update Test'**
-  String get titleUpdateTest;
+  /// **'Updating Primary Version...'**
+  String get msgUpdatingPrimaryVersion;
 
-  /// No description provided for @msgActionFailed.
+  /// No description provided for @nameLabel.
   ///
   /// In en, this message translates to:
-  /// **'Action Failed'**
-  String get msgActionFailed;
+  /// **'Name'**
+  String get nameLabel;
 
-  /// No description provided for @msgSessionExpired.
+  /// No description provided for @navBilling.
   ///
   /// In en, this message translates to:
-  /// **'Session expired. Please log in again.'**
-  String get msgSessionExpired;
+  /// **'Billing'**
+  String get navBilling;
 
-  /// No description provided for @msgInvalidTestFile.
+  /// No description provided for @navBillingCredits.
   ///
   /// In en, this message translates to:
-  /// **'Invalid test file structure'**
-  String get msgInvalidTestFile;
+  /// **'Billing & Credits'**
+  String get navBillingCredits;
 
-  /// No description provided for @msgCouldNotReadFile.
+  /// No description provided for @navCredits.
   ///
   /// In en, this message translates to:
-  /// **'Could not read file. Try again.'**
-  String get msgCouldNotReadFile;
+  /// **'{count} Credits'**
+  String navCredits(Object count);
 
-  /// No description provided for @errorUploadJson.
+  /// No description provided for @navDashboard.
   ///
   /// In en, this message translates to:
-  /// **'Please upload a JSON test file'**
-  String get errorUploadJson;
+  /// **'Dashboard'**
+  String get navDashboard;
 
-  /// No description provided for @errorTestNameRequired.
+  /// No description provided for @navEmployees.
   ///
   /// In en, this message translates to:
-  /// **'Test name is required'**
-  String get errorTestNameRequired;
+  /// **'Employees'**
+  String get navEmployees;
 
-  /// No description provided for @errorCreditsRequired.
+  /// No description provided for @navEvidence.
   ///
   /// In en, this message translates to:
-  /// **'Credits required'**
-  String get errorCreditsRequired;
+  /// **'Evidence'**
+  String get navEvidence;
 
-  /// No description provided for @errorValidNumber.
+  /// No description provided for @navFooterLogoText.
   ///
   /// In en, this message translates to:
-  /// **'Enter a valid number'**
-  String get errorValidNumber;
+  /// **'RULEFOX'**
+  String get navFooterLogoText;
 
-  /// No description provided for @errorSelectCategory.
+  /// No description provided for @navFooterTagline.
   ///
   /// In en, this message translates to:
-  /// **'Please select a category'**
-  String get errorSelectCategory;
+  /// **'Compliance that is verifiable.'**
+  String get navFooterTagline;
 
-  /// No description provided for @errorTimeLimitNegative.
+  /// No description provided for @navInvoice.
   ///
   /// In en, this message translates to:
-  /// **'Time limit cannot be negative (0 for no limit)'**
-  String get errorTimeLimitNegative;
+  /// **'Invoice'**
+  String get navInvoice;
 
-  /// No description provided for @errorTimeLimitInvalid.
+  /// No description provided for @navOverview.
   ///
   /// In en, this message translates to:
-  /// **'Enter a valid number or leave empty for no limit'**
-  String get errorTimeLimitInvalid;
+  /// **'Overview'**
+  String get navOverview;
 
-  /// No description provided for @labelVersionNumberAuto.
+  /// No description provided for @navQuota.
   ///
   /// In en, this message translates to:
-  /// **'Version Number (Auto-generated)'**
-  String get labelVersionNumberAuto;
+  /// **'Quota: {count} tests'**
+  String navQuota(Object count);
 
-  /// No description provided for @hintTestName.
+  /// No description provided for @navResults.
   ///
   /// In en, this message translates to:
-  /// **'e.g. AI Compliance Test'**
-  String get hintTestName;
+  /// **'Results'**
+  String get navResults;
 
-  /// No description provided for @errorInvalidJsonFile.
+  /// No description provided for @navSettings.
   ///
   /// In en, this message translates to:
-  /// **'Invalid JSON file. Please check the content.'**
-  String get errorInvalidJsonFile;
+  /// **'Settings'**
+  String get navSettings;
 
-  /// No description provided for @errorInvalidJsonStructure.
+  /// No description provided for @navTestMgmt.
   ///
   /// In en, this message translates to:
-  /// **'Invalid JSON file structure'**
-  String get errorInvalidJsonStructure;
+  /// **'Test Management'**
+  String get navTestMgmt;
 
-  /// No description provided for @labelSwitchToVisualBuilder.
+  /// No description provided for @navTests.
   ///
   /// In en, this message translates to:
-  /// **'Switch to Visual Builder'**
-  String get labelSwitchToVisualBuilder;
+  /// **'Tests'**
+  String get navTests;
 
-  /// No description provided for @labelSwitchToJsonUpload.
+  /// No description provided for @newPasswordHint.
   ///
   /// In en, this message translates to:
-  /// **'Switch to JSON Upload'**
-  String get labelSwitchToJsonUpload;
+  /// **'Enter new password'**
+  String get newPasswordHint;
 
-  /// No description provided for @labelTestBuiltSuccessfully.
+  /// No description provided for @newPasswordLabel.
   ///
   /// In en, this message translates to:
-  /// **'Test Built Successfully'**
-  String get labelTestBuiltSuccessfully;
+  /// **'New Password'**
+  String get newPasswordLabel;
 
-  /// No description provided for @labelEditInVisualBuilder.
+  /// No description provided for @nextStepsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Edit in Visual Builder'**
-  String get labelEditInVisualBuilder;
+  /// **'Next Steps'**
+  String get nextStepsTitle;
 
-  /// No description provided for @labelEditTestQuestions.
+  /// No description provided for @noTestsAssigned.
   ///
   /// In en, this message translates to:
-  /// **'Edit Test Questions'**
-  String get labelEditTestQuestions;
+  /// **'No tests assigned yet'**
+  String get noTestsAssigned;
 
-  /// No description provided for @labelBuildTestVisually.
+  /// No description provided for @noTestsAssignedDesc.
   ///
   /// In en, this message translates to:
-  /// **'Build Test Visually'**
-  String get labelBuildTestVisually;
+  /// **'Once you assign tests, you will see the status and progress of your employees here.'**
+  String get noTestsAssignedDesc;
 
-  /// No description provided for @labelBuildTestDescription.
+  /// No description provided for @ownerPlatformDesc.
   ///
   /// In en, this message translates to:
-  /// **'Add sections and questions to structure your test'**
-  String get labelBuildTestDescription;
+  /// **'Manage tests, tenants, and platform metrics in one place.'**
+  String get ownerPlatformDesc;
 
-  /// No description provided for @labelPassingScore.
+  /// No description provided for @ownerPlatformOverview.
   ///
   /// In en, this message translates to:
-  /// **'Passing Score (%)'**
-  String get labelPassingScore;
+  /// **'Rulefox platform overview'**
+  String get ownerPlatformOverview;
 
-  /// No description provided for @labelAddSection.
+  /// No description provided for @passwordHint.
   ///
   /// In en, this message translates to:
-  /// **'Add Section'**
-  String get labelAddSection;
+  /// **'Enter password'**
+  String get passwordHint;
 
-  /// No description provided for @labelAddQuestion.
+  /// No description provided for @passwordLabel.
   ///
   /// In en, this message translates to:
-  /// **'Add Question'**
-  String get labelAddQuestion;
+  /// **'Password'**
+  String get passwordLabel;
 
-  /// No description provided for @labelAddOption.
+  /// No description provided for @pkgDescLarge.
   ///
   /// In en, this message translates to:
-  /// **'Add Option'**
-  String get labelAddOption;
+  /// **'For larger rollouts.'**
+  String get pkgDescLarge;
 
-  /// No description provided for @questionTypePickerTitle.
+  /// No description provided for @pkgDescMedium.
   ///
   /// In en, this message translates to:
-  /// **'Choose Question Type'**
-  String get questionTypePickerTitle;
+  /// **'Recommended for departments.'**
+  String get pkgDescMedium;
 
-  /// No description provided for @questionTypePickerSubtitle.
+  /// No description provided for @pkgDescSmall.
   ///
   /// In en, this message translates to:
-  /// **'Select how you want the question to be answered'**
-  String get questionTypePickerSubtitle;
+  /// **'For small teams and pilot phase.'**
+  String get pkgDescSmall;
+
+  /// No description provided for @pricingLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Pricing'**
+  String get pricingLink;
+
+  /// No description provided for @profileButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profileButton;
+
+  /// No description provided for @profileTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profileTitle;
+
+  /// No description provided for @profileUpdateFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to update profile'**
+  String get profileUpdateFailed;
+
+  /// No description provided for @profileUpdateSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile updated successfully'**
+  String get profileUpdateSuccess;
 
   /// No description provided for @questionTypeMultipleChoice.
   ///
@@ -4766,6 +3655,18 @@ abstract class AppLocalizations {
   /// **'Provide options and let users pick the correct one(s)'**
   String get questionTypeMultipleChoiceDesc;
 
+  /// No description provided for @questionTypePickerSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Select how you want the question to be answered'**
+  String get questionTypePickerSubtitle;
+
+  /// No description provided for @questionTypePickerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Question Type'**
+  String get questionTypePickerTitle;
+
   /// No description provided for @questionTypeTextInput.
   ///
   /// In en, this message translates to:
@@ -4778,166 +3679,1025 @@ abstract class AppLocalizations {
   /// **'Users type their answer in a free text field'**
   String get questionTypeTextInputDesc;
 
-  /// No description provided for @labelQuestion.
+  /// No description provided for @registerButton.
   ///
   /// In en, this message translates to:
-  /// **'Question'**
-  String get labelQuestion;
+  /// **'Register Now'**
+  String get registerButton;
 
-  /// No description provided for @labelOptionsInstruction.
+  /// No description provided for @registerLink.
   ///
   /// In en, this message translates to:
-  /// **'OPTIONS • TAP CIRCLE TO MARK CORRECT ANSWER'**
-  String get labelOptionsInstruction;
+  /// **'Don\'t have an account?'**
+  String get registerLink;
 
-  /// No description provided for @labelSaveTest.
+  /// No description provided for @registerNow.
   ///
   /// In en, this message translates to:
-  /// **'Save Test'**
-  String get labelSaveTest;
+  /// **'Register now'**
+  String get registerNow;
 
-  /// No description provided for @errorAddOneSection.
+  /// No description provided for @rememberMe.
   ///
   /// In en, this message translates to:
-  /// **'Add at least one section.'**
-  String get errorAddOneSection;
+  /// **'Remember me'**
+  String get rememberMe;
 
-  /// No description provided for @errorInvalidScore.
+  /// No description provided for @resendOtpButton.
   ///
   /// In en, this message translates to:
-  /// **'Passing score must be a number between 0 and 100.'**
-  String get errorInvalidScore;
+  /// **'Resend OTP'**
+  String get resendOtpButton;
 
-  /// No description provided for @labelSectionCount.
+  /// No description provided for @resendOtpQuestion.
   ///
   /// In en, this message translates to:
-  /// **'Section {num}'**
-  String labelSectionCount(int num);
+  /// **'Didn\'t receive code?'**
+  String get resendOtpQuestion;
 
-  /// No description provided for @labelQuestionCount.
+  /// No description provided for @resetPasswordButton.
   ///
   /// In en, this message translates to:
-  /// **'Question {num}'**
-  String labelQuestionCount(int num);
+  /// **'Reset Password'**
+  String get resetPasswordButton;
 
-  /// No description provided for @labelOptionPrefix.
+  /// No description provided for @resetPasswordSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Option {key}...'**
-  String labelOptionPrefix(String key);
+  /// **'Set your new password below'**
+  String get resetPasswordSubtitle;
 
-  /// No description provided for @labelSectionTitleHint.
+  /// No description provided for @resetPasswordTitle.
   ///
   /// In en, this message translates to:
-  /// **'Section title...'**
-  String get labelSectionTitleHint;
+  /// **'Reset Password'**
+  String get resetPasswordTitle;
 
-  /// No description provided for @labelQuestionHint.
+  /// No description provided for @resultsAll.
   ///
   /// In en, this message translates to:
-  /// **'Enter question text...'**
-  String get labelQuestionHint;
+  /// **'All'**
+  String get resultsAll;
 
-  /// No description provided for @errorSectionTitleEmptyDetailed.
+  /// No description provided for @resultsCertDownloaded.
   ///
   /// In en, this message translates to:
-  /// **'Section {num} title cannot be empty.'**
-  String errorSectionTitleEmptyDetailed(int num);
+  /// **'Certificate downloaded successfully'**
+  String get resultsCertDownloaded;
 
-  /// No description provided for @errorQuestionEmptyDetailed.
+  /// No description provided for @resultsCertError.
   ///
   /// In en, this message translates to:
-  /// **'Question {qNum} in \"{sTitle}\" cannot be empty.'**
-  String errorQuestionEmptyDetailed(int qNum, String sTitle);
+  /// **'Error downloading certificate: {error}'**
+  String resultsCertError(String error);
 
-  /// No description provided for @errorOptionEmptyDetailed.
+  /// No description provided for @resultsColAttempt.
   ///
   /// In en, this message translates to:
-  /// **'Option {key} of question {qNum} in \"{sTitle}\" cannot be empty.'**
-  String errorOptionEmptyDetailed(String key, int qNum, String sTitle);
+  /// **'Attempt'**
+  String get resultsColAttempt;
 
-  /// No description provided for @errorCorrectAnswerDetailed.
+  /// No description provided for @resultsColCompletion.
   ///
   /// In en, this message translates to:
-  /// **'Please select a correct answer for question {qNum} in \"{sTitle}\".'**
-  String errorCorrectAnswerDetailed(int qNum, String sTitle);
+  /// **'Completion'**
+  String get resultsColCompletion;
 
-  /// No description provided for @labelSectionsAndQuestions.
+  /// No description provided for @resultsColDate.
   ///
   /// In en, this message translates to:
-  /// **'{sCount} section{sPlural} • {qCount} question{qPlural}'**
-  String labelSectionsAndQuestions(
-    int sCount,
-    String sPlural,
-    int qCount,
-    String qPlural,
-  );
+  /// **'Date'**
+  String get resultsColDate;
 
-  /// No description provided for @labelChooseAddQuestions.
+  /// No description provided for @resultsColEmployeeName.
   ///
   /// In en, this message translates to:
-  /// **'Choose How to Add Questions'**
-  String get labelChooseAddQuestions;
+  /// **'Employee Name'**
+  String get resultsColEmployeeName;
 
-  /// No description provided for @labelUploadJson.
+  /// No description provided for @resultsColProof.
   ///
   /// In en, this message translates to:
-  /// **'Upload JSON'**
-  String get labelUploadJson;
+  /// **'Proof'**
+  String get resultsColProof;
 
-  /// No description provided for @labelImportTestFile.
+  /// No description provided for @resultsColScore.
   ///
   /// In en, this message translates to:
-  /// **'Import a pre-made test file'**
-  String get labelImportTestFile;
+  /// **'Score'**
+  String get resultsColScore;
 
-  /// No description provided for @labelBuildVisually.
+  /// No description provided for @resultsColStatus.
   ///
   /// In en, this message translates to:
-  /// **'Build Visually'**
-  String get labelBuildVisually;
+  /// **'Status'**
+  String get resultsColStatus;
 
-  /// No description provided for @labelCreateQuestionsInside.
+  /// No description provided for @resultsColTestName.
   ///
   /// In en, this message translates to:
-  /// **'Create questions inside the app'**
-  String get labelCreateQuestionsInside;
+  /// **'Test Name'**
+  String get resultsColTestName;
 
-  /// No description provided for @testEditorTypeImageUpload.
+  /// No description provided for @resultsColVersion.
   ///
   /// In en, this message translates to:
-  /// **'Image Upload'**
-  String get testEditorTypeImageUpload;
+  /// **'Version'**
+  String get resultsColVersion;
 
-  /// No description provided for @testEditorTypeImageUploadDesc.
+  /// No description provided for @resultsCsvSaved.
   ///
   /// In en, this message translates to:
-  /// **'Attach an image for visual question context'**
-  String get testEditorTypeImageUploadDesc;
+  /// **'CSV saved to {path}'**
+  String resultsCsvSaved(String path);
 
-  /// No description provided for @testEditorReplaceImage.
+  /// No description provided for @resultsExportCsv.
   ///
   /// In en, this message translates to:
-  /// **'Replace Image'**
-  String get testEditorReplaceImage;
+  /// **'Export CSV'**
+  String get resultsExportCsv;
 
-  /// No description provided for @testEditorUploading.
+  /// No description provided for @resultsFail.
   ///
   /// In en, this message translates to:
-  /// **'Uploading...'**
-  String get testEditorUploading;
+  /// **'Failed'**
+  String get resultsFail;
 
-  /// No description provided for @testEditorTapToAttachImage.
+  /// No description provided for @resultsGetCertificate.
   ///
   /// In en, this message translates to:
-  /// **'Tap to attach an image'**
-  String get testEditorTapToAttachImage;
+  /// **'Get Certificate'**
+  String get resultsGetCertificate;
 
-  /// No description provided for @testEditorImageSupportedFormats.
+  /// No description provided for @resultsGroupBy.
   ///
   /// In en, this message translates to:
-  /// **'PNG, JPG, WEBP supported'**
-  String get testEditorImageSupportedFormats;
+  /// **'Group By'**
+  String get resultsGroupBy;
+
+  /// No description provided for @resultsMultiCertDownloaded.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} Certificates downloaded successfully'**
+  String resultsMultiCertDownloaded(int count);
+
+  /// No description provided for @resultsNoPassedSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'No passed tests selected'**
+  String get resultsNoPassedSelected;
+
+  /// No description provided for @resultsNoResults.
+  ///
+  /// In en, this message translates to:
+  /// **'No results found'**
+  String get resultsNoResults;
+
+  /// No description provided for @resultsPageSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
+  String get resultsPageSubtitle;
+
+  /// No description provided for @resultsPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Results & Evidence'**
+  String get resultsPageTitle;
+
+  /// No description provided for @resultsPass.
+  ///
+  /// In en, this message translates to:
+  /// **'Passed'**
+  String get resultsPass;
+
+  /// No description provided for @resultsSearchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search employees'**
+  String get resultsSearchHint;
+
+  /// No description provided for @resultsSingleCertDownloaded.
+  ///
+  /// In en, this message translates to:
+  /// **'Certificate downloaded successfully'**
+  String get resultsSingleCertDownloaded;
+
+  /// No description provided for @resultsStatTestResult.
+  ///
+  /// In en, this message translates to:
+  /// **'Test result'**
+  String get resultsStatTestResult;
+
+  /// No description provided for @resultsStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get resultsStatus;
+
+  /// No description provided for @saveChangesButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Changes'**
+  String get saveChangesButton;
+
+  /// No description provided for @saveDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Details'**
+  String get saveDetails;
+
+  /// No description provided for @screenAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Available tests'**
+  String get screenAvailableTests;
+
+  /// No description provided for @screenBilling.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing'**
+  String get screenBilling;
+
+  /// No description provided for @screenCheckout.
+  ///
+  /// In en, this message translates to:
+  /// **'Checkout'**
+  String get screenCheckout;
+
+  /// No description provided for @screenEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get screenEmployees;
+
+  /// No description provided for @screenOwnerDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Owner Dashboard'**
+  String get screenOwnerDashboard;
+
+  /// No description provided for @screenOwnerTestManagement.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Management'**
+  String get screenOwnerTestManagement;
+
+  /// No description provided for @screenResults.
+  ///
+  /// In en, this message translates to:
+  /// **'Results'**
+  String get screenResults;
+
+  /// No description provided for @screenSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get screenSettings;
+
+  /// No description provided for @screenTenantDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Dashboard'**
+  String get screenTenantDashboard;
+
+  /// No description provided for @searchTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Search tests'**
+  String get searchTests;
+
+  /// No description provided for @selectCategoryHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Category'**
+  String get selectCategoryHint;
+
+  /// No description provided for @sendOtpButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Send OTP'**
+  String get sendOtpButton;
+
+  /// No description provided for @showAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Show all'**
+  String get showAll;
+
+  /// No description provided for @signupSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Register for your account instantly!'**
+  String get signupSubtitle;
+
+  /// No description provided for @signupTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Create Account'**
+  String get signupTitle;
+
+  /// No description provided for @smarterWord.
+  ///
+  /// In en, this message translates to:
+  /// **'smarter'**
+  String get smarterWord;
+
+  /// No description provided for @snackAccountCreated.
+  ///
+  /// In en, this message translates to:
+  /// **'Account created successfully! Please check your email to verify your account.'**
+  String get snackAccountCreated;
+
+  /// No description provided for @snackAddedToCart.
+  ///
+  /// In en, this message translates to:
+  /// **'Added to cart successfully'**
+  String get snackAddedToCart;
+
+  /// No description provided for @snackEmailMissing.
+  ///
+  /// In en, this message translates to:
+  /// **'Email is missing. Please go back.'**
+  String get snackEmailMissing;
+
+  /// No description provided for @snackEmailNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'Email not found'**
+  String get snackEmailNotFound;
+
+  /// No description provided for @snackEmailTaken.
+  ///
+  /// In en, this message translates to:
+  /// **'This email is already registered'**
+  String get snackEmailTaken;
+
+  /// No description provided for @snackEnterCompleteOtp.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter complete OTP'**
+  String get snackEnterCompleteOtp;
+
+  /// No description provided for @snackEnterEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your email'**
+  String get snackEnterEmail;
+
+  /// No description provided for @snackEnterValidEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid email address'**
+  String get snackEnterValidEmail;
+
+  /// No description provided for @snackError.
+  ///
+  /// In en, this message translates to:
+  /// **'Error'**
+  String get snackError;
+
+  /// No description provided for @snackFillAllFields.
+  ///
+  /// In en, this message translates to:
+  /// **'Please fill all fields'**
+  String get snackFillAllFields;
+
+  /// No description provided for @snackInvalidCreds.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid email or password'**
+  String get snackInvalidCreds;
+
+  /// No description provided for @snackInvalidEmailFormat.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid email format'**
+  String get snackInvalidEmailFormat;
+
+  /// No description provided for @snackInvalidOtp.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid or expired OTP'**
+  String get snackInvalidOtp;
+
+  /// No description provided for @snackLoginFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Login failed'**
+  String get snackLoginFailed;
+
+  /// No description provided for @snackNetworkError.
+  ///
+  /// In en, this message translates to:
+  /// **'Network error. Please check your connection'**
+  String get snackNetworkError;
+
+  /// No description provided for @snackNoResultsToExport.
+  ///
+  /// In en, this message translates to:
+  /// **'No passed results to export.'**
+  String get snackNoResultsToExport;
+
+  /// No description provided for @snackOtpResent.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code resent to your email'**
+  String get snackOtpResent;
+
+  /// No description provided for @snackOtpSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code sent to your email'**
+  String get snackOtpSent;
+
+  /// No description provided for @snackOtpVerified.
+  ///
+  /// In en, this message translates to:
+  /// **'OTP verified successfully'**
+  String get snackOtpVerified;
+
+  /// No description provided for @snackPasswordMismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Passwords do not match'**
+  String get snackPasswordMismatch;
+
+  /// No description provided for @snackPasswordRequirements.
+  ///
+  /// In en, this message translates to:
+  /// **'Password does not meet requirements'**
+  String get snackPasswordRequirements;
+
+  /// No description provided for @snackPasswordResetFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to reset password'**
+  String get snackPasswordResetFailed;
+
+  /// No description provided for @snackPasswordResetSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Password reset successfully'**
+  String get snackPasswordResetSuccess;
+
+  /// No description provided for @snackPasswordTooShort.
+  ///
+  /// In en, this message translates to:
+  /// **'Password must be at least 6 characters'**
+  String get snackPasswordTooShort;
+
+  /// No description provided for @snackRegistrationFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Registration failed'**
+  String get snackRegistrationFailed;
+
+  /// No description provided for @snackReminderSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder sent to {name}'**
+  String snackReminderSent(String name);
+
+  /// No description provided for @snackResendOtpFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to resend OTP'**
+  String get snackResendOtpFailed;
+
+  /// No description provided for @snackSendOtpFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to send reset email'**
+  String get snackSendOtpFailed;
+
+  /// No description provided for @snackSignupSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Signup successful'**
+  String get snackSignupSuccess;
+
+  /// No description provided for @snackVerifyEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Please verify your email first'**
+  String get snackVerifyEmail;
+
+  /// No description provided for @snackWeakPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Password must be at least 8 characters with uppercase, lowercase, number, and special character'**
+  String get snackWeakPassword;
+
+  /// No description provided for @statActiveClients.
+  ///
+  /// In en, this message translates to:
+  /// **'Active clients'**
+  String get statActiveClients;
+
+  /// No description provided for @statActiveClientsHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Pursue'**
+  String get statActiveClientsHint;
+
+  /// No description provided for @statAssignedOutOf.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} of {total} assigned'**
+  String statAssignedOutOf(Object count, Object total);
+
+  /// No description provided for @statAverage.
+  ///
+  /// In en, this message translates to:
+  /// **'Average'**
+  String get statAverage;
+
+  /// No description provided for @statCertificates.
+  ///
+  /// In en, this message translates to:
+  /// **'Certificates'**
+  String get statCertificates;
+
+  /// No description provided for @statCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get statCompleted;
+
+  /// No description provided for @statCompletedTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed Tests'**
+  String get statCompletedTests;
+
+  /// No description provided for @statCompletionRate.
+  ///
+  /// In en, this message translates to:
+  /// **'Completion rate'**
+  String get statCompletionRate;
+
+  /// No description provided for @statCompletionRateHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Across all tests'**
+  String get statCompletionRateHint;
+
+  /// No description provided for @statCreditsLeft.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits Left'**
+  String get statCreditsLeft;
+
+  /// No description provided for @statDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Draft Tests'**
+  String get statDraft;
+
+  /// No description provided for @statEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get statEmployees;
+
+  /// No description provided for @statEmployeesNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No employees added yet'**
+  String get statEmployeesNoData;
+
+  /// No description provided for @statEmployeesRecorded.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees recorded'**
+  String get statEmployeesRecorded;
+
+  /// No description provided for @statEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get statEvidence;
+
+  /// No description provided for @statEvidenceAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence available'**
+  String get statEvidenceAvailable;
+
+  /// No description provided for @statEvidenceNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No evidence available yet'**
+  String get statEvidenceNoData;
+
+  /// No description provided for @statExportable.
+  ///
+  /// In en, this message translates to:
+  /// **'exportable'**
+  String get statExportable;
+
+  /// No description provided for @statInvitations.
+  ///
+  /// In en, this message translates to:
+  /// **'Invitations'**
+  String get statInvitations;
+
+  /// No description provided for @statInvited.
+  ///
+  /// In en, this message translates to:
+  /// **'Invited'**
+  String get statInvited;
+
+  /// No description provided for @statMyEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'My Employees'**
+  String get statMyEmployees;
+
+  /// No description provided for @statOpen.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get statOpen;
+
+  /// No description provided for @statPassRate.
+  ///
+  /// In en, this message translates to:
+  /// **'Pass Rate'**
+  String get statPassRate;
+
+  /// No description provided for @statPendingAssignments.
+  ///
+  /// In en, this message translates to:
+  /// **'Pending Assignments'**
+  String get statPendingAssignments;
+
+  /// No description provided for @statPlatformPassRate.
+  ///
+  /// In en, this message translates to:
+  /// **'Platform Pass Rate'**
+  String get statPlatformPassRate;
+
+  /// No description provided for @statPublished.
+  ///
+  /// In en, this message translates to:
+  /// **'Published Tests'**
+  String get statPublished;
+
+  /// No description provided for @statPurchasedTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased Tests'**
+  String get statPurchasedTests;
+
+  /// No description provided for @statRegisteredTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Registered tests'**
+  String get statRegisteredTests;
+
+  /// No description provided for @statRegisteredTestsHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Active test products'**
+  String get statRegisteredTestsHint;
+
+  /// No description provided for @statTestsAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'assigned tests'**
+  String get statTestsAssigned;
+
+  /// No description provided for @statTestsNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No tests assigned yet'**
+  String get statTestsNoData;
+
+  /// No description provided for @statTestsTaken.
+  ///
+  /// In en, this message translates to:
+  /// **'Tests Taken'**
+  String get statTestsTaken;
+
+  /// No description provided for @statTopDepartment.
+  ///
+  /// In en, this message translates to:
+  /// **'Top Department'**
+  String get statTopDepartment;
+
+  /// No description provided for @statTotalEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Employees'**
+  String get statTotalEmployees;
+
+  /// No description provided for @statTotalTenants.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Tenants'**
+  String get statTotalTenants;
+
+  /// No description provided for @statTotalTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Tests'**
+  String get statTotalTests;
+
+  /// No description provided for @statUsers.
+  ///
+  /// In en, this message translates to:
+  /// **'users'**
+  String get statUsers;
+
+  /// No description provided for @statUsersHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Invited persons'**
+  String get statUsersHint;
+
+  /// No description provided for @statusExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Expired'**
+  String get statusExpired;
+
+  /// No description provided for @statusInvited.
+  ///
+  /// In en, this message translates to:
+  /// **'Invited'**
+  String get statusInvited;
+
+  /// No description provided for @step1Btn.
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get step1Btn;
+
+  /// No description provided for @step1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to your company information'**
+  String get step1Desc;
+
+  /// No description provided for @step1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete company data'**
+  String get step1Title;
+
+  /// No description provided for @step2Btn.
+  ///
+  /// In en, this message translates to:
+  /// **'Import'**
+  String get step2Btn;
+
+  /// No description provided for @step2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload your employees or add them manually.'**
+  String get step2Desc;
+
+  /// No description provided for @step2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees import'**
+  String get step2Title;
+
+  /// No description provided for @step3Btn.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign test'**
+  String get step3Btn;
+
+  /// No description provided for @step3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign the AI compliance test to your employees'**
+  String get step3Desc;
+
+  /// No description provided for @step3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Assign compliance test'**
+  String get step3Title;
+
+  /// No description provided for @step4Btn.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence'**
+  String get step4Btn;
+
+  /// No description provided for @step4Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence for internal or external audits'**
+  String get step4Desc;
+
+  /// No description provided for @step4Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Export evidence'**
+  String get step4Title;
+
+  /// No description provided for @stepClientOnboardingDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Prepare demo client'**
+  String get stepClientOnboardingDesc;
+
+  /// No description provided for @stepClientOnboardingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Client onboarding'**
+  String get stepClientOnboardingTitle;
+
+  /// No description provided for @stepComplianceCheckDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Questions, prices and supporting documents'**
+  String get stepComplianceCheckDesc;
+
+  /// No description provided for @stepComplianceCheckTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Compliance Test Check'**
+  String get stepComplianceCheckTitle;
+
+  /// No description provided for @subtitleAssignEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
+  String get subtitleAssignEmployees;
+
+  /// No description provided for @subtitleAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Find all available tests for your organization here.'**
+  String get subtitleAvailableTests;
+
+  /// No description provided for @subtitleBilling.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage your subscriptions, invoices, and payment methods.'**
+  String get subtitleBilling;
+
+  /// No description provided for @subtitleCreateNewTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Prepare a test product as a draft.'**
+  String get subtitleCreateNewTest;
+
+  /// No description provided for @subtitleEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage and invite your employees to compliance tests.'**
+  String get subtitleEmployees;
+
+  /// No description provided for @subtitleOwnerDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage the platform, test products, and clients centrally.'**
+  String get subtitleOwnerDashboard;
+
+  /// No description provided for @subtitleResults.
+  ///
+  /// In en, this message translates to:
+  /// **'Review results and evidence of your employees.'**
+  String get subtitleResults;
+
+  /// No description provided for @subtitleSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Configure your personal and company settings.'**
+  String get subtitleSettings;
+
+  /// No description provided for @subtitleTenantDashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Document AI literacy, test status, and evidence centrally in Rulefox.'**
+  String get subtitleTenantDashboard;
+
+  /// No description provided for @tabAvailableTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Available Credits'**
+  String get tabAvailableTests;
+
+  /// No description provided for @tabBilling.
+  ///
+  /// In en, this message translates to:
+  /// **'Billing'**
+  String get tabBilling;
+
+  /// No description provided for @tabEmployees.
+  ///
+  /// In en, this message translates to:
+  /// **'Employees'**
+  String get tabEmployees;
+
+  /// No description provided for @tabImport.
+  ///
+  /// In en, this message translates to:
+  /// **'Import'**
+  String get tabImport;
+
+  /// No description provided for @tabInvites.
+  ///
+  /// In en, this message translates to:
+  /// **'Invites'**
+  String get tabInvites;
+
+  /// No description provided for @tabInvoices.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoices'**
+  String get tabInvoices;
+
+  /// No description provided for @tabOverview.
+  ///
+  /// In en, this message translates to:
+  /// **'Overview'**
+  String get tabOverview;
+
+  /// No description provided for @tabPurchaseHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase History'**
+  String get tabPurchaseHistory;
+
+  /// No description provided for @tabPurchasedTestsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased Credits'**
+  String get tabPurchasedTestsLabel;
+
+  /// No description provided for @tableNoItems.
+  ///
+  /// In en, this message translates to:
+  /// **'No items to display'**
+  String get tableNoItems;
+
+  /// No description provided for @tableSelectAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Select All'**
+  String get tableSelectAll;
+
+  /// No description provided for @termsBody1.
+  ///
+  /// In en, this message translates to:
+  /// **'By accessing and using this login page, you agree to be bound by these Terms and Conditions, along with any related policies referenced herein. This platform is intended solely for authorised users, and access is granted only for lawful purposes. You must ensure that all information provided during the login process is accurate, complete, and up to date. Any use of the system that is unlawful, fraudulent, or intended to harm the platform or its users is strictly prohibited.'**
+  String get termsBody1;
+
+  /// No description provided for @termsBody2.
+  ///
+  /// In en, this message translates to:
+  /// **'You are responsible for maintaining the confidentiality of your login credentials, including your username and password, and for all activities carried out under your account. You agree not to share your login details with any third party or allow unauthorised access. We shall not be liable for any loss or damage arising from your failure to protect your account information. If you suspect any unauthorised use of your account, you must notify us immediately.'**
+  String get termsBody2;
+
+  /// No description provided for @termsBody3.
+  ///
+  /// In en, this message translates to:
+  /// **'We reserve the right, at our sole discretion, to restrict, suspend, or terminate your access to the platform without prior notice if we believe you have breached these Terms and Conditions or engaged in conduct that may compromise system security, integrity, or functionality. We may also update or modify these terms at any time, and continued use of the login page constitutes acceptance of any such changes.'**
+  String get termsBody3;
+
+  /// No description provided for @termsBody4.
+  ///
+  /// In en, this message translates to:
+  /// **'Access to this platform is provided on an \"as is\" and \"as available\" basis. While we take reasonable steps to maintain system security and availability, we do not guarantee uninterrupted, error-free, or secure access at all times. By logging in, you acknowledge and accept our Privacy Policy and consent to the collection, storage, and processing of your personal data in accordance with applicable data protection laws and regulations in the United Kingdom.'**
+  String get termsBody4;
+
+  /// No description provided for @termsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms & Conditions'**
+  String get termsTitle;
+
+  /// No description provided for @testCreateNew.
+  ///
+  /// In en, this message translates to:
+  /// **'Create New Test'**
+  String get testCreateNew;
+
+  /// No description provided for @testCreatedAt.
+  ///
+  /// In en, this message translates to:
+  /// **'Created At'**
+  String get testCreatedAt;
+
+  /// No description provided for @testCreatedBy.
+  ///
+  /// In en, this message translates to:
+  /// **'Created By'**
+  String get testCreatedBy;
+
+  /// No description provided for @testCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'Credits'**
+  String get testCredits;
 
   /// No description provided for @testEditorCorrectAnswerForGrading.
   ///
@@ -4951,575 +4711,617 @@ abstract class AppLocalizations {
   /// **'Enter correct answer'**
   String get testEditorEnterCorrectAnswer;
 
+  /// No description provided for @testEditorImageSupportedFormats.
+  ///
+  /// In en, this message translates to:
+  /// **'PNG, JPG, WEBP supported'**
+  String get testEditorImageSupportedFormats;
+
+  /// No description provided for @testEditorReplaceImage.
+  ///
+  /// In en, this message translates to:
+  /// **'Replace Image'**
+  String get testEditorReplaceImage;
+
+  /// No description provided for @testEditorTapToAttachImage.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to attach an image'**
+  String get testEditorTapToAttachImage;
+
+  /// No description provided for @testEditorTypeImageUpload.
+  ///
+  /// In en, this message translates to:
+  /// **'Image Upload'**
+  String get testEditorTypeImageUpload;
+
+  /// No description provided for @testEditorTypeImageUploadDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Attach an image for visual question context'**
+  String get testEditorTypeImageUploadDesc;
+
+  /// No description provided for @testEditorUploading.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploading...'**
+  String get testEditorUploading;
+
+  /// No description provided for @testFilterAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All Tests'**
+  String get testFilterAll;
+
+  /// No description provided for @testFilterDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Draft'**
+  String get testFilterDraft;
+
+  /// No description provided for @testFilterPublished.
+  ///
+  /// In en, this message translates to:
+  /// **'Published'**
+  String get testFilterPublished;
+
+  /// No description provided for @testResultsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Test results'**
+  String get testResultsTitle;
+
+  /// No description provided for @testRunnerAnsweredQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Questions Answered'**
+  String get testRunnerAnsweredQuestions;
+
+  /// No description provided for @testRunnerApproxMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'approximately {minutes} minutes'**
+  String testRunnerApproxMinutes(int minutes);
+
+  /// No description provided for @testRunnerAssessmentComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment Complete'**
+  String get testRunnerAssessmentComplete;
+
+  /// No description provided for @testRunnerBackToTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to Tests'**
+  String get testRunnerBackToTests;
+
+  /// No description provided for @testRunnerClosePreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Close Preview'**
+  String get testRunnerClosePreview;
+
+  /// No description provided for @testRunnerExit.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit'**
+  String get testRunnerExit;
+
+  /// No description provided for @testRunnerExitAssessmentDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to exit? Your progress is saved but the timer will continue.'**
+  String get testRunnerExitAssessmentDesc;
+
+  /// No description provided for @testRunnerExitAssessmentTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit Assessment?'**
+  String get testRunnerExitAssessmentTitle;
+
+  /// No description provided for @testRunnerExitPortal.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit Portal'**
+  String get testRunnerExitPortal;
+
+  /// No description provided for @testRunnerExitReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit Review'**
+  String get testRunnerExitReview;
+
+  /// No description provided for @testRunnerFinishReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish Review'**
+  String get testRunnerFinishReview;
+
+  /// No description provided for @testRunnerFlaggedForReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Flagged for Review'**
+  String get testRunnerFlaggedForReview;
+
+  /// No description provided for @testRunnerFlaggedToReview.
+  ///
+  /// In en, this message translates to:
+  /// **'You have {count} flagged question(s). Please review before submitting.'**
+  String testRunnerFlaggedToReview(int count);
+
+  /// No description provided for @testRunnerInProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'In Progress'**
+  String get testRunnerInProgress;
+
+  /// No description provided for @testRunnerIntegrityCheck.
+  ///
+  /// In en, this message translates to:
+  /// **'Integrity check - please stay in full-screen mode.'**
+  String get testRunnerIntegrityCheck;
+
+  /// No description provided for @testRunnerLiveMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'{testName} is live now'**
+  String testRunnerLiveMessage(String testName);
+
+  /// No description provided for @testRunnerNextFlag.
+  ///
+  /// In en, this message translates to:
+  /// **'Next Flag'**
+  String get testRunnerNextFlag;
+
+  /// No description provided for @testRunnerNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Not started'**
+  String get testRunnerNotStarted;
+
+  /// No description provided for @testRunnerPreviewModeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview Mode'**
+  String get testRunnerPreviewModeLabel;
+
+  /// No description provided for @testRunnerPreviewTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview Test'**
+  String get testRunnerPreviewTest;
+
+  /// No description provided for @testRunnerPreviousFlag.
+  ///
+  /// In en, this message translates to:
+  /// **'Previous Flag'**
+  String get testRunnerPreviousFlag;
+
+  /// No description provided for @testRunnerPublishFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Publish failed. Please try again.'**
+  String get testRunnerPublishFailed;
+
+  /// No description provided for @testRunnerPublishing.
+  ///
+  /// In en, this message translates to:
+  /// **'Publishing...'**
+  String get testRunnerPublishing;
+
+  /// No description provided for @testRunnerQuestionAnsweredOfTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'{answered} of {total} questions answered'**
+  String testRunnerQuestionAnsweredOfTotal(int answered, int total);
+
+  /// No description provided for @testRunnerQuestionCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Question {count}'**
+  String testRunnerQuestionCount(int count);
+
+  /// No description provided for @testRunnerReadyToSubmit.
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to Submit?'**
+  String get testRunnerReadyToSubmit;
+
+  /// No description provided for @testRunnerReenterFullscreen.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enter fullscreen'**
+  String get testRunnerReenterFullscreen;
+
+  /// No description provided for @testRunnerReturnToAssessment.
+  ///
+  /// In en, this message translates to:
+  /// **'Return to Assessment'**
+  String get testRunnerReturnToAssessment;
+
+  /// No description provided for @testRunnerReturnToHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Return to Home'**
+  String get testRunnerReturnToHome;
+
+  /// No description provided for @testRunnerReviewCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Review ({count})'**
+  String testRunnerReviewCount(int count);
+
+  /// No description provided for @testRunnerReviewFlaggedQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Review Flagged Questions'**
+  String get testRunnerReviewFlaggedQuestions;
+
+  /// No description provided for @testRunnerReviewingFlagged.
+  ///
+  /// In en, this message translates to:
+  /// **'Reviewing Flagged: {current} of {total}'**
+  String testRunnerReviewingFlagged(int current, int total);
+
+  /// No description provided for @testRunnerSectionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed'**
+  String get testRunnerSectionFailed;
+
+  /// No description provided for @testRunnerSectionNum.
+  ///
+  /// In en, this message translates to:
+  /// **'Section {num}'**
+  String testRunnerSectionNum(int num);
+
+  /// No description provided for @testRunnerSectionPassed.
+  ///
+  /// In en, this message translates to:
+  /// **'Passed'**
+  String get testRunnerSectionPassed;
+
+  /// No description provided for @testRunnerSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Section {num}: {title}'**
+  String testRunnerSectionTitle(int num, String title);
+
+  /// No description provided for @testRunnerStartWithTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Start with test'**
+  String get testRunnerStartWithTest;
+
+  /// No description provided for @testRunnerStay.
+  ///
+  /// In en, this message translates to:
+  /// **'Stay'**
+  String get testRunnerStay;
+
+  /// No description provided for @testRunnerSubmissionReceived.
+  ///
+  /// In en, this message translates to:
+  /// **'Your submission for {testName} has been received'**
+  String testRunnerSubmissionReceived(String testName);
+
+  /// No description provided for @testRunnerSubmitAssessment.
+  ///
+  /// In en, this message translates to:
+  /// **'Submit Assessment'**
+  String get testRunnerSubmitAssessment;
+
+  /// No description provided for @testRunnerSubmitCountdown.
+  ///
+  /// In en, this message translates to:
+  /// **'Your assessment is being submitted in {countdown}...'**
+  String testRunnerSubmitCountdown(int countdown);
+
+  /// No description provided for @testRunnerSubmitFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Submit failed. Please try again.'**
+  String get testRunnerSubmitFailed;
+
+  /// No description provided for @testRunnerSubmitting.
+  ///
+  /// In en, this message translates to:
+  /// **'Submitting Test...'**
+  String get testRunnerSubmitting;
+
+  /// No description provided for @testRunnerTestPublished.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Published'**
+  String get testRunnerTestPublished;
+
+  /// No description provided for @testRunnerTestSubmitted.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Submitted'**
+  String get testRunnerTestSubmitted;
+
+  /// No description provided for @testRunnerThankYou.
+  ///
+  /// In en, this message translates to:
+  /// **'Thank You'**
+  String get testRunnerThankYou;
+
+  /// No description provided for @testRunnerTimesUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Time\'s Up!'**
+  String get testRunnerTimesUp;
+
   /// No description provided for @testRunnerTypeAnswerHere.
   ///
   /// In en, this message translates to:
   /// **'Type your answer here...'**
   String get testRunnerTypeAnswerHere;
 
-  /// No description provided for @landingV2HeroTitle.
+  /// No description provided for @testRunnerUnansweredWarning.
   ///
   /// In en, this message translates to:
-  /// **'Make compliance knowledge measurable. Document evidence centrally.'**
-  String get landingV2HeroTitle;
+  /// **'You have {count} unanswered question(s). Please review before submitting.'**
+  String testRunnerUnansweredWarning(int count);
 
-  /// No description provided for @landingV2HeroDesc.
+  /// No description provided for @testRunnerViewResults.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox allows companies to test whether employees understand key compliance requirements – and provides exportable evidence for internal documentation, management and audits.'**
-  String get landingV2HeroDesc;
+  /// **'View Results'**
+  String get testRunnerViewResults;
 
-  /// No description provided for @landingV2HeroBtnStart.
+  /// No description provided for @testStatus.
   ///
   /// In en, this message translates to:
-  /// **'Start EU AI Compliance Test'**
-  String get landingV2HeroBtnStart;
+  /// **'Status'**
+  String get testStatus;
 
-  /// No description provided for @landingV2HeroBtnEvidence.
+  /// No description provided for @testVersion.
   ///
   /// In en, this message translates to:
-  /// **'View example proof'**
-  String get landingV2HeroBtnEvidence;
+  /// **'Version'**
+  String get testVersion;
 
-  /// No description provided for @landingV2HeroNote1.
+  /// No description provided for @testimonialsLink.
   ///
   /// In en, this message translates to:
-  /// **'Currently\navailable:'**
-  String get landingV2HeroNote1;
+  /// **'Testimonials'**
+  String get testimonialsLink;
 
-  /// No description provided for @landingV2HeroNote2.
+  /// No description provided for @titleAssessmentComplete.
   ///
   /// In en, this message translates to:
-  /// **'EU AI\nCompliance\nTest.'**
-  String get landingV2HeroNote2;
+  /// **'Assessment completed · RuleFox'**
+  String get titleAssessmentComplete;
 
-  /// No description provided for @landingV2HeroNote3.
+  /// No description provided for @titleAssessmentQuestions.
   ///
   /// In en, this message translates to:
-  /// **'Further compliance tests\nwill follow.'**
-  String get landingV2HeroNote3;
+  /// **'AI Compliance Test · RuleFox'**
+  String get titleAssessmentQuestions;
 
-  /// No description provided for @landingV2FloatTestTitle.
+  /// No description provided for @titleAssessmentReady.
   ///
   /// In en, this message translates to:
-  /// **'Test'**
-  String get landingV2FloatTestTitle;
+  /// **'Assessment ready · RuleFox'**
+  String get titleAssessmentReady;
 
-  /// No description provided for @landingV2FloatTestDesc.
+  /// No description provided for @titleAssignEmployees.
   ///
   /// In en, this message translates to:
-  /// **'Verify knowledge'**
-  String get landingV2FloatTestDesc;
+  /// **'Assign employees · RuleFox'**
+  String get titleAssignEmployees;
 
-  /// No description provided for @landingV2FloatEvalTitle.
+  /// No description provided for @titleBilling.
   ///
   /// In en, this message translates to:
-  /// **'Evaluate'**
-  String get landingV2FloatEvalTitle;
+  /// **'Billing · RuleFox'**
+  String get titleBilling;
 
-  /// No description provided for @landingV2FloatEvalDesc.
+  /// No description provided for @titleCheckout.
   ///
   /// In en, this message translates to:
-  /// **'Make progress visible'**
-  String get landingV2FloatEvalDesc;
+  /// **'Checkout · RuleFox'**
+  String get titleCheckout;
 
-  /// No description provided for @landingV2FloatProveTitle.
+  /// No description provided for @titleCreateNewTest.
   ///
   /// In en, this message translates to:
-  /// **'Prove'**
-  String get landingV2FloatProveTitle;
+  /// **'Create new test'**
+  String get titleCreateNewTest;
 
-  /// No description provided for @landingV2FloatProveDesc.
+  /// No description provided for @titleCurrentTestProducts.
   ///
   /// In en, this message translates to:
-  /// **'Export evidence'**
-  String get landingV2FloatProveDesc;
+  /// **'Current test products'**
+  String get titleCurrentTestProducts;
 
-  /// No description provided for @landingV2FloatSecureTitle.
+  /// No description provided for @titleDashboard.
   ///
   /// In en, this message translates to:
-  /// **'Be secure'**
-  String get landingV2FloatSecureTitle;
+  /// **'AI Compliance Dashboard · RuleFox'**
+  String get titleDashboard;
 
-  /// No description provided for @landingV2FloatSecureDesc.
+  /// No description provided for @titleDeleteEmployee.
   ///
   /// In en, this message translates to:
-  /// **'Audit-ready and traceable'**
-  String get landingV2FloatSecureDesc;
+  /// **'Delete Employee'**
+  String get titleDeleteEmployee;
 
-  /// No description provided for @landingV2TestsEyebrow.
+  /// No description provided for @titleEmployees.
   ///
   /// In en, this message translates to:
-  /// **'Available tests'**
-  String get landingV2TestsEyebrow;
+  /// **'Employees · RuleFox'**
+  String get titleEmployees;
 
-  /// No description provided for @landingV2TestsTitle.
+  /// No description provided for @titleInvoice.
   ///
   /// In en, this message translates to:
-  /// **'Start with the first available test.'**
-  String get landingV2TestsTitle;
+  /// **'Invoice · RuleFox'**
+  String get titleInvoice;
 
-  /// No description provided for @landingV2TestsDesc.
+  /// No description provided for @titleLanding.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox has a modular structure. The EU AI Compliance Test is the first available test. Further compliance topics can be tested, evaluated, and documented via the same platform in the future.'**
-  String get landingV2TestsDesc;
+  /// **'RuleFox – AI Compliance for Enterprise'**
+  String get titleLanding;
 
-  /// No description provided for @landingV2Test1Eyebrow.
+  /// No description provided for @titleLogin.
   ///
   /// In en, this message translates to:
-  /// **'FIRST AVAILABLE TEST'**
-  String get landingV2Test1Eyebrow;
+  /// **'Login · RuleFox'**
+  String get titleLogin;
 
-  /// No description provided for @landingV2Test1Desc.
+  /// No description provided for @titleNextAdminSteps.
   ///
   /// In en, this message translates to:
-  /// **'Check whether employees understand the most important basics for the safe and responsible use of AI systems – including relevant duties, risk awareness and practical application in everyday work.'**
-  String get landingV2Test1Desc;
+  /// **'Next admin steps'**
+  String get titleNextAdminSteps;
 
-  /// No description provided for @landingV2Test1Meta1.
+  /// No description provided for @titleOwnerDashboard.
   ///
   /// In en, this message translates to:
-  /// **'21 questions'**
-  String get landingV2Test1Meta1;
+  /// **'Owner Dashboard · RuleFox'**
+  String get titleOwnerDashboard;
 
-  /// No description provided for @landingV2Test1Meta2.
+  /// No description provided for @titleOwnerNewTest.
   ///
   /// In en, this message translates to:
-  /// **'approx. 15 min.'**
-  String get landingV2Test1Meta2;
+  /// **'New test · RuleFox'**
+  String get titleOwnerNewTest;
 
-  /// No description provided for @landingV2Test1Meta3.
+  /// No description provided for @titleOwnerTestManagement.
   ///
   /// In en, this message translates to:
-  /// **'DE & EN'**
-  String get landingV2Test1Meta3;
+  /// **'Test Management · RuleFox'**
+  String get titleOwnerTestManagement;
 
-  /// No description provided for @landingV2PriceAmount.
+  /// No description provided for @titlePurchaseHistory.
   ///
   /// In en, this message translates to:
-  /// **'€99'**
-  String get landingV2PriceAmount;
+  /// **'Purchase history · RuleFox'**
+  String get titlePurchaseHistory;
 
-  /// No description provided for @landingV2PriceUnit.
+  /// No description provided for @titleResults.
   ///
   /// In en, this message translates to:
-  /// **'per test'**
-  String get landingV2PriceUnit;
+  /// **'Results · RuleFox'**
+  String get titleResults;
 
-  /// No description provided for @landingV2TestSoonTitle.
+  /// No description provided for @titleSignup.
   ///
   /// In en, this message translates to:
-  /// **'Further compliance tests'**
-  String get landingV2TestSoonTitle;
+  /// **'Registration · RuleFox'**
+  String get titleSignup;
 
-  /// No description provided for @landingV2TestSoonBadge.
+  /// No description provided for @titleTenantAvailableTests.
   ///
   /// In en, this message translates to:
-  /// **'Soon'**
-  String get landingV2TestSoonBadge;
+  /// **'Available tests · RuleFox'**
+  String get titleTenantAvailableTests;
 
-  /// No description provided for @landingV2TestSoonDesc.
+  /// No description provided for @titleTenantDashboard.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox is continuously being expanded with new test modules – for further compliance, training and verification obligations via a central platform.'**
-  String get landingV2TestSoonDesc;
+  /// **'AI Compliance Dashboard · RuleFox'**
+  String get titleTenantDashboard;
 
-  /// No description provided for @landingV2TestSoonBtn.
+  /// No description provided for @titleTenantTestQuota.
   ///
   /// In en, this message translates to:
-  /// **'Available soon'**
-  String get landingV2TestSoonBtn;
+  /// **'Test quota · RuleFox'**
+  String get titleTenantTestQuota;
 
-  /// No description provided for @landingV2TestsFooter.
+  /// No description provided for @titleTestDetail.
   ///
   /// In en, this message translates to:
-  /// **'Do you need a specific compliance test for your company? Contact us — we are happy to review your individual topic requests.'**
-  String get landingV2TestsFooter;
+  /// **'AI Compliance Test · RuleFox'**
+  String get titleTestDetail;
 
-  /// No description provided for @landingV2PlatformEyebrow.
+  /// No description provided for @titleTestHistory.
   ///
   /// In en, this message translates to:
-  /// **'Platform'**
-  String get landingV2PlatformEyebrow;
+  /// **'Test History'**
+  String get titleTestHistory;
 
-  /// No description provided for @landingV2PlatformTitle.
+  /// No description provided for @titleTestManagement.
   ///
   /// In en, this message translates to:
-  /// **'One platform. Many compliance tests.'**
-  String get landingV2PlatformTitle;
+  /// **'Test Management'**
+  String get titleTestManagement;
 
-  /// No description provided for @landingV2PlatformDesc.
+  /// No description provided for @titleTestOverview.
   ///
   /// In en, this message translates to:
-  /// **'Whether it\'s AI compliance, data protection, security awareness or internal guidelines: RuleFox makes knowledge testable, results visible and evidence exportable.'**
-  String get landingV2PlatformDesc;
+  /// **'Test overview'**
+  String get titleTestOverview;
 
-  /// No description provided for @landingV2PlatformCol1Title.
+  /// No description provided for @titleUpdateTest.
   ///
   /// In en, this message translates to:
-  /// **'Invite employees'**
-  String get landingV2PlatformCol1Title;
+  /// **'Update Test'**
+  String get titleUpdateTest;
 
-  /// No description provided for @landingV2PlatformCol1Desc.
+  /// No description provided for @tooltipCannotDownloadFailed.
   ///
   /// In en, this message translates to:
-  /// **'Add teams via CSV or invitation link and assign tests to specific tasks.'**
-  String get landingV2PlatformCol1Desc;
+  /// **'Certificate is only available for passed tests.'**
+  String get tooltipCannotDownloadFailed;
 
-  /// No description provided for @landingV2PlatformCol2Title.
+  /// No description provided for @tooltipDelete.
   ///
   /// In en, this message translates to:
-  /// **'Evaluate progress'**
-  String get landingV2PlatformCol2Title;
+  /// **'Delete'**
+  String get tooltipDelete;
 
-  /// No description provided for @landingV2PlatformCol2Desc.
+  /// No description provided for @tooltipEdit.
   ///
   /// In en, this message translates to:
-  /// **'Keep a central eye on participation rate, completion rate, pass rate and open invitations.'**
-  String get landingV2PlatformCol2Desc;
+  /// **'Edit Details'**
+  String get tooltipEdit;
 
-  /// No description provided for @landingV2PlatformCol3Title.
+  /// No description provided for @vatLabel.
   ///
   /// In en, this message translates to:
-  /// **'Export evidence'**
-  String get landingV2PlatformCol3Title;
+  /// **'VAT'**
+  String get vatLabel;
 
-  /// No description provided for @landingV2PlatformCol3Desc.
+  /// No description provided for @vatNumberHint.
   ///
   /// In en, this message translates to:
-  /// **'Create individual reports and overall reports for documentation, management and audits.'**
-  String get landingV2PlatformCol3Desc;
+  /// **'Enter VAT number'**
+  String get vatNumberHint;
 
-  /// No description provided for @landingV2ReportingEyebrow.
+  /// No description provided for @vatOptional.
   ///
   /// In en, this message translates to:
-  /// **'Reporting & Insights'**
-  String get landingV2ReportingEyebrow;
+  /// **'VAT (Optional)'**
+  String get vatOptional;
 
-  /// No description provided for @landingV2ReportingTitle.
+  /// No description provided for @verifyOtpButton.
   ///
   /// In en, this message translates to:
-  /// **'Make compliance progress visible.'**
-  String get landingV2ReportingTitle;
+  /// **'Verify OTP'**
+  String get verifyOtpButton;
 
-  /// No description provided for @landingV2ReportingDesc.
+  /// No description provided for @verifyOtpSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox shows not only individual test results, but the entire progress of your company at a glance.'**
-  String get landingV2ReportingDesc;
+  /// **'Enter the 8-digit code sent to your email'**
+  String get verifyOtpSubtitle;
 
-  /// No description provided for @landingV2ReportingKpi1.
+  /// No description provided for @verifyOtpTitle.
   ///
   /// In en, this message translates to:
-  /// **'Participation rate'**
-  String get landingV2ReportingKpi1;
+  /// **'Verify OTP'**
+  String get verifyOtpTitle;
 
-  /// No description provided for @landingV2ReportingKpi1Sub.
+  /// No description provided for @workforceWord.
   ///
   /// In en, this message translates to:
-  /// **'156 of 200 employees invited'**
-  String get landingV2ReportingKpi1Sub;
-
-  /// No description provided for @landingV2ReportingKpi2.
-  ///
-  /// In en, this message translates to:
-  /// **'Completion rate'**
-  String get landingV2ReportingKpi2;
-
-  /// No description provided for @landingV2ReportingKpi2Sub.
-  ///
-  /// In en, this message translates to:
-  /// **'97 of 156 tests completed'**
-  String get landingV2ReportingKpi2Sub;
-
-  /// No description provided for @landingV2ReportingKpi3.
-  ///
-  /// In en, this message translates to:
-  /// **'Pass rate'**
-  String get landingV2ReportingKpi3;
-
-  /// No description provided for @landingV2ReportingKpi3Sub.
-  ///
-  /// In en, this message translates to:
-  /// **'82 of 97 tests passed'**
-  String get landingV2ReportingKpi3Sub;
-
-  /// No description provided for @landingV2ReportingKpi4.
-  ///
-  /// In en, this message translates to:
-  /// **'Average result'**
-  String get landingV2ReportingKpi4;
-
-  /// No description provided for @landingV2ReportingKpi4Sub.
-  ///
-  /// In en, this message translates to:
-  /// **'Average score of all participants'**
-  String get landingV2ReportingKpi4Sub;
-
-  /// No description provided for @landingV2ReportingKpi5.
-  ///
-  /// In en, this message translates to:
-  /// **'Open invitations'**
-  String get landingV2ReportingKpi5;
-
-  /// No description provided for @landingV2ReportingKpi5Sub.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees have not yet started.'**
-  String get landingV2ReportingKpi5Sub;
-
-  /// No description provided for @landingV2ReportingFeat1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Filter by departments'**
-  String get landingV2ReportingFeat1Title;
-
-  /// No description provided for @landingV2ReportingFeat1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Compare progress by teams & departments.'**
-  String get landingV2ReportingFeat1Desc;
-
-  /// No description provided for @landingV2ReportingFeat2Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Keep track of progress'**
-  String get landingV2ReportingFeat2Title;
-
-  /// No description provided for @landingV2ReportingFeat2Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Analyze rollout development over time periods.'**
-  String get landingV2ReportingFeat2Desc;
-
-  /// No description provided for @landingV2ReportingFeat3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Identify need for action'**
-  String get landingV2ReportingFeat3Title;
-
-  /// No description provided for @landingV2ReportingFeat3Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Quickly identify open tests and low results.'**
-  String get landingV2ReportingFeat3Desc;
-
-  /// No description provided for @landingV2ReportingFeat4Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Export & Reporting'**
-  String get landingV2ReportingFeat4Title;
-
-  /// No description provided for @landingV2ReportingFeat4Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Export reports as PDF or CSV.'**
-  String get landingV2ReportingFeat4Desc;
-
-  /// No description provided for @landingV2SequenceEyebrow.
-  ///
-  /// In en, this message translates to:
-  /// **'Here\'s how it works'**
-  String get landingV2SequenceEyebrow;
-
-  /// No description provided for @landingV2SequenceTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Three steps to documented compliance proof.'**
-  String get landingV2SequenceTitle;
-
-  /// No description provided for @landingV2SequenceStep1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Invite employees'**
-  String get landingV2SequenceStep1Title;
-
-  /// No description provided for @landingV2SequenceStep1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Invite teams via CSV import or invitation link and assign the appropriate test.'**
-  String get landingV2SequenceStep1Desc;
-
-  /// No description provided for @landingV2SequenceStep2Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Take the test'**
-  String get landingV2SequenceStep2Title;
-
-  /// No description provided for @landingV2SequenceStep2Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Employees answer practical questions on the selected compliance topic in just a few minutes. The evaluation is automatic and transparent.'**
-  String get landingV2SequenceStep2Desc;
-
-  /// No description provided for @landingV2SequenceStep3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Export evidence'**
-  String get landingV2SequenceStep3Title;
-
-  /// No description provided for @landingV2SequenceStep3Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Export individual certificates and an overall report as a PDF - ready for documentation, management, or audits.'**
-  String get landingV2SequenceStep3Desc;
-
-  /// No description provided for @landingV2EvidenceEyebrow.
-  ///
-  /// In en, this message translates to:
-  /// **'Evidence'**
-  String get landingV2EvidenceEyebrow;
-
-  /// No description provided for @landingV2EvidenceTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Don\'t just test. Prove it.'**
-  String get landingV2EvidenceTitle;
-
-  /// No description provided for @landingV2EvidenceDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Compliance is only valuable if it can be documented. RuleFox creates clear evidence of participation, results, and status—clearly organized, exportable, and internally traceable.'**
-  String get landingV2EvidenceDesc;
-
-  /// No description provided for @landingV2EvidenceFeat1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Individual proof per employee'**
-  String get landingV2EvidenceFeat1Title;
-
-  /// No description provided for @landingV2EvidenceFeat1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Name, test, date and result on one compact PDF.'**
-  String get landingV2EvidenceFeat1Desc;
-
-  /// No description provided for @landingV2EvidenceFeat2Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Unique verification ID'**
-  String get landingV2EvidenceFeat2Title;
-
-  /// No description provided for @landingV2EvidenceFeat2Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Each piece of evidence receives a unique reference for internal documentation and later allocation.'**
-  String get landingV2EvidenceFeat2Desc;
-
-  /// No description provided for @landingV2EvidenceFeat3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Overall report for management'**
-  String get landingV2EvidenceFeat3Title;
-
-  /// No description provided for @landingV2EvidenceFeat3Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Overview of participation rate, status and progress of all tested employees in one report.'**
-  String get landingV2EvidenceFeat3Desc;
-
-  /// No description provided for @landingV2PricesEyebrow.
-  ///
-  /// In en, this message translates to:
-  /// **'Prices'**
-  String get landingV2PricesEyebrow;
-
-  /// No description provided for @landingV2PricesTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Transparent.\n€99 per test.'**
-  String get landingV2PricesTitle;
-
-  /// No description provided for @landingV2PricesDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'Book individual tests or flexible quotas and use them for your employees as needed.'**
-  String get landingV2PricesDesc;
-
-  /// No description provided for @landingV2PricesFeat1.
-  ///
-  /// In en, this message translates to:
-  /// **'21 practical questions'**
-  String get landingV2PricesFeat1;
-
-  /// No description provided for @landingV2PricesFeat2.
-  ///
-  /// In en, this message translates to:
-  /// **'Processing time approximately 15 minutes'**
-  String get landingV2PricesFeat2;
-
-  /// No description provided for @landingV2PricesFeat3.
-  ///
-  /// In en, this message translates to:
-  /// **'German English'**
-  String get landingV2PricesFeat3;
-
-  /// No description provided for @landingV2PricesFeat4.
-  ///
-  /// In en, this message translates to:
-  /// **'automatic evaluation'**
-  String get landingV2PricesFeat4;
-
-  /// No description provided for @landingV2PricesFeat5.
-  ///
-  /// In en, this message translates to:
-  /// **'Individual proof as a PDF'**
-  String get landingV2PricesFeat5;
-
-  /// No description provided for @landingV2PricesFeat6.
-  ///
-  /// In en, this message translates to:
-  /// **'Reporting overview for the tenant'**
-  String get landingV2PricesFeat6;
-
-  /// No description provided for @landingV2PricesBtnStart.
-  ///
-  /// In en, this message translates to:
-  /// **'Start test'**
-  String get landingV2PricesBtnStart;
-
-  /// No description provided for @landingV2PricesNote.
-  ///
-  /// In en, this message translates to:
-  /// **'All prices exclude VAT. Larger quantities and individual requirements available upon request.'**
-  String get landingV2PricesNote;
-
-  /// No description provided for @landingV2ModalTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Example proof'**
-  String get landingV2ModalTitle;
-
-  /// No description provided for @landingV2ModalDesc.
-  ///
-  /// In en, this message translates to:
-  /// **'This is what the individual certificate looks like, which every employee receives after a successful test.'**
-  String get landingV2ModalDesc;
-
-  /// No description provided for @landingV2ModalBtnClose.
-  ///
-  /// In en, this message translates to:
-  /// **'Close'**
-  String get landingV2ModalBtnClose;
-
-  /// No description provided for @landingV2ModalBtnStart.
-  ///
-  /// In en, this message translates to:
-  /// **'Test it yourself now'**
-  String get landingV2ModalBtnStart;
-
-  /// No description provided for @landingV2MockDate.
-  ///
-  /// In en, this message translates to:
-  /// **'May 14, 2024'**
-  String get landingV2MockDate;
-
-  /// No description provided for @landingV2MockScore.
-  ///
-  /// In en, this message translates to:
-  /// **'86% – passed'**
-  String get landingV2MockScore;
+  /// **' and faster.'**
+  String get workforceWord;
 }
 
 class _AppLocalizationsDelegate
