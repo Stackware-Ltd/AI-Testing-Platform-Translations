@@ -3301,6 +3301,12 @@ abstract class AppLocalizations {
   /// **'Logout'**
   String get logoutButton;
 
+  /// No description provided for @logoutConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to log out?'**
+  String get logoutConfirmation;
+
   /// No description provided for @msgActionFailed.
   ///
   /// In en, this message translates to:

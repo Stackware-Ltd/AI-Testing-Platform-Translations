@@ -1708,6 +1708,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get logoutButton => 'Abmelden';
 
   @override
+  String get logoutConfirmation => 'Möchten Sie sich wirklich abmelden?';
+
+  @override
   String get msgActionFailed => 'Aktion fehlgeschlagen';
 
   @override

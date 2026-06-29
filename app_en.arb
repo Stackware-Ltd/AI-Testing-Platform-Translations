@@ -793,6 +793,7 @@
   "loginSubtitle": "Fill the below form to login",
   "loginTitle": "Login to Dashboard",
   "logoutButton": "Logout",
+  "logoutConfirmation": "Are you sure you want to log out?",
   "msgActionFailed": "Action Failed",
   "msgCouldNotReadFile": "Could not read file. Try again.",
   "msgCreditsAdded": "{count} credits added to your account. Total paid: €{total}",

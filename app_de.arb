@@ -793,6 +793,7 @@
   "loginSubtitle": "Füllen Sie das untenstehende Formular aus",
   "loginTitle": "Im Dashboard anmelden",
   "logoutButton": "Abmelden",
+  "logoutConfirmation": "Möchten Sie sich wirklich abmelden?",
   "msgActionFailed": "Aktion fehlgeschlagen",
   "msgCouldNotReadFile": "Datei konnte nicht gelesen werden. Versuchen Sie es erneut.",
   "msgCreditsAdded": "{count} Guthaben wurden Ihrem Konto hinzugefügt. Gesamt bezahlt: €{total}",
