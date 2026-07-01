@@ -118,7 +118,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get authCompany => 'Company';
 
   @override
-  String get authCompanyHint => 'Beispiel GmbH';
+  String get authCompanyHint => 'Example Inc.';
 
   @override
   String get authCountryLabel => 'Country';
@@ -133,22 +133,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get authEmailAddress => 'E-mail address';
 
   @override
-  String get authEmailHint => 'admin@unternehmen.at';
+  String get authEmailHint => 'admin@company.com';
 
   @override
-  String get authEmailHintAlt => 'max@beispiel.at';
+  String get authEmailHintAlt => 'john@example.com';
 
   @override
   String get authFirstName => 'First name';
 
   @override
-  String get authFirstNameHint => 'Max';
+  String get authFirstNameHint => 'John';
 
   @override
   String get authLastName => 'Last name';
 
   @override
-  String get authLastNameHint => 'Mustermann';
+  String get authLastNameHint => 'Doe';
 
   @override
   String get authLoginDashboard => 'Login to the dashboard';

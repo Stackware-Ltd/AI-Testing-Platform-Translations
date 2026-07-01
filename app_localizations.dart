@@ -305,7 +305,7 @@ abstract class AppLocalizations {
   /// No description provided for @authCompanyHint.
   ///
   /// In en, this message translates to:
-  /// **'Beispiel GmbH'**
+  /// **'Example Inc.'**
   String get authCompanyHint;
 
   /// No description provided for @authCountryLabel.
@@ -335,13 +335,13 @@ abstract class AppLocalizations {
   /// No description provided for @authEmailHint.
   ///
   /// In en, this message translates to:
-  /// **'admin@unternehmen.at'**
+  /// **'admin@company.com'**
   String get authEmailHint;
 
   /// No description provided for @authEmailHintAlt.
   ///
   /// In en, this message translates to:
-  /// **'max@beispiel.at'**
+  /// **'john@example.com'**
   String get authEmailHintAlt;
 
   /// No description provided for @authFirstName.
@@ -353,7 +353,7 @@ abstract class AppLocalizations {
   /// No description provided for @authFirstNameHint.
   ///
   /// In en, this message translates to:
-  /// **'Max'**
+  /// **'John'**
   String get authFirstNameHint;
 
   /// No description provided for @authLastName.
@@ -365,7 +365,7 @@ abstract class AppLocalizations {
   /// No description provided for @authLastNameHint.
   ///
   /// In en, this message translates to:
-  /// **'Mustermann'**
+  /// **'Doe'**
   String get authLastNameHint;
 
   /// No description provided for @authLoginDashboard.
