@@ -1043,6 +1043,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelEdit => 'Edit';
 
   @override
+  String get labelEditTest => 'Edit Test';
+
+  @override
   String get labelEditInVisualBuilder => 'Edit in Visual Builder';
 
   @override

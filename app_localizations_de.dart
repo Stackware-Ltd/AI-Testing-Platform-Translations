@@ -1053,6 +1053,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelEdit => 'Bearbeiten';
 
   @override
+  String get labelEditTest => 'Test bearbeiten';
+
+  @override
   String get labelEditInVisualBuilder => 'Im Visual Builder bearbeiten';
 
   @override

@@ -2084,6 +2084,12 @@ abstract class AppLocalizations {
   /// **'Edit'**
   String get labelEdit;
 
+  /// No description provided for @labelEditTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Test'**
+  String get labelEditTest;
+
   /// No description provided for @labelEditInVisualBuilder.
   ///
   /// In en, this message translates to:

@@ -591,6 +591,7 @@
   "labelDraft": "Entwurf",
   "labelDragDropFile": "Ziehen Sie Ihre Datei hierher",
   "labelEdit": "Bearbeiten",
+  "labelEditTest": "Test bearbeiten",
   "labelEditInVisualBuilder": "Im Visual Builder bearbeiten",
   "labelEditTestQuestions": "Testfragen bearbeiten",
   "labelEmail": "Email",
