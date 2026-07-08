@@ -2834,4 +2834,14 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get titleVerifyCertificate => 'Zertifikat verifizieren · RuleFox';
+
+  @override
+  String get titleCannotArchive => 'Test kann nicht archiviert werden';
+
+  @override
+  String get msgCannotArchiveAssigned =>
+      'Dieser Test ist bereits Mitarbeitern zugewiesen. Tests mit aktiven Zuweisungen können nicht archiviert werden.';
+
+  @override
+  String get buttonGotIt => 'Verstanden';
 }

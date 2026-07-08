@@ -2802,4 +2802,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get titleVerifyCertificate => 'Verify Certificate · RuleFox';
+
+  @override
+  String get titleCannotArchive => 'Cannot Archive Test';
+
+  @override
+  String get msgCannotArchiveAssigned =>
+      'This test is already assigned to employees. Tests with active assignments cannot be archived.';
+
+  @override
+  String get buttonGotIt => 'Got it';
 }

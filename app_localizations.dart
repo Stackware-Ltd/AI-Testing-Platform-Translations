@@ -5376,6 +5376,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Verify Certificate · RuleFox'**
   String get titleVerifyCertificate;
+
+  /// No description provided for @titleCannotArchive.
+  ///
+  /// In en, this message translates to:
+  /// **'Cannot Archive Test'**
+  String get titleCannotArchive;
+
+  /// No description provided for @msgCannotArchiveAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'This test is already assigned to employees. Tests with active assignments cannot be archived.'**
+  String get msgCannotArchiveAssigned;
+
+  /// No description provided for @buttonGotIt.
+  ///
+  /// In en, this message translates to:
+  /// **'Got it'**
+  String get buttonGotIt;
 }
 
 class _AppLocalizationsDelegate
