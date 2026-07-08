@@ -1141,5 +1141,8 @@
   "titleVerifyCertificate": "Verify Certificate · RuleFox",
   "titleCannotArchive": "Cannot Archive Test",
   "msgCannotArchiveAssigned": "This test is already assigned to employees. Tests with active assignments cannot be archived.",
-  "buttonGotIt": "Got it"
+  "buttonGotIt": "Got it",
+  "cookieConsentMessage": "We use cookies to enhance your experience, analyze traffic, and support marketing efforts. By clicking \"Accept\", you consent to our use of these tracking cookies. If you decline, we will not track your session.",
+  "cookieConsentAccept": "Accept",
+  "cookieConsentDecline": "Decline"
 }

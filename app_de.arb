@@ -1141,5 +1141,8 @@
   "titleVerifyCertificate": "Zertifikat verifizieren · RuleFox",
   "titleCannotArchive": "Test kann nicht archiviert werden",
   "msgCannotArchiveAssigned": "Dieser Test ist bereits Mitarbeitern zugewiesen. Tests mit aktiven Zuweisungen können nicht archiviert werden.",
-  "buttonGotIt": "Verstanden"
+  "buttonGotIt": "Verstanden",
+  "cookieConsentMessage": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Datenverkehr zu analysieren und Marketingbemühungen zu unterstützen. Wenn Sie auf „Akzeptieren“ klicken, stimmen Sie der Verwendung dieser Tracking-Cookies zu. Wenn Sie ablehnen, werden wir Ihre Sitzung nicht verfolgen.",
+  "cookieConsentAccept": "Akzeptieren",
+  "cookieConsentDecline": "Ablehnen"
 }

@@ -2844,4 +2844,14 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get buttonGotIt => 'Verstanden';
+
+  @override
+  String get cookieConsentMessage =>
+      'Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Datenverkehr zu analysieren und Marketingbemühungen zu unterstützen. Wenn Sie auf „Akzeptieren“ klicken, stimmen Sie der Verwendung dieser Tracking-Cookies zu. Wenn Sie ablehnen, werden wir Ihre Sitzung nicht verfolgen.';
+
+  @override
+  String get cookieConsentAccept => 'Akzeptieren';
+
+  @override
+  String get cookieConsentDecline => 'Ablehnen';
 }

@@ -2812,4 +2812,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get buttonGotIt => 'Got it';
+
+  @override
+  String get cookieConsentMessage =>
+      'We use cookies to enhance your experience, analyze traffic, and support marketing efforts. By clicking \"Accept\", you consent to our use of these tracking cookies. If you decline, we will not track your session.';
+
+  @override
+  String get cookieConsentAccept => 'Accept';
+
+  @override
+  String get cookieConsentDecline => 'Decline';
 }

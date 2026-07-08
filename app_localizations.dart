@@ -5394,6 +5394,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Got it'**
   String get buttonGotIt;
+
+  /// No description provided for @cookieConsentMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'We use cookies to enhance your experience, analyze traffic, and support marketing efforts. By clicking \"Accept\", you consent to our use of these tracking cookies. If you decline, we will not track your session.'**
+  String get cookieConsentMessage;
+
+  /// No description provided for @cookieConsentAccept.
+  ///
+  /// In en, this message translates to:
+  /// **'Accept'**
+  String get cookieConsentAccept;
+
+  /// No description provided for @cookieConsentDecline.
+  ///
+  /// In en, this message translates to:
+  /// **'Decline'**
+  String get cookieConsentDecline;
 }
 
 class _AppLocalizationsDelegate
