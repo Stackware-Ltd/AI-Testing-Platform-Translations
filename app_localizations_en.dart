@@ -1500,7 +1500,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingPricesFeat2 => 'Processing time approximately 15 minutes';
 
   @override
-  String get landingPricesFeat3 => 'German English';
+  String get landingPricesFeat3 => 'German & English';
 
   @override
   String get landingPricesFeat4 => 'automatic evaluation';
@@ -2822,4 +2822,30 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get cookieConsentDecline => 'Decline';
+
+  @override
+  String get cookieManagePreferences => 'Manage Preferences';
+
+  @override
+  String get cookiePreferencesTitle => 'Cookie Preferences';
+
+  @override
+  String get cookieTechnical => 'Technically Necessary';
+
+  @override
+  String get cookieTechnicalDesc =>
+      'Required for the platform to function. Cannot be disabled.';
+
+  @override
+  String get cookieMarketing => 'Marketing & Analytics';
+
+  @override
+  String get cookieMarketingDesc =>
+      'Used for tracking ad performance and usage via Meta Pixel.';
+
+  @override
+  String get cookieSavePreferences => 'Save Preferences';
+
+  @override
+  String get cookieAcceptAll => 'Accept All';
 }

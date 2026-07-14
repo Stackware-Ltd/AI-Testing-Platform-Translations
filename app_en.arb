@@ -1144,5 +1144,13 @@
   "buttonGotIt": "Got it",
   "cookieConsentMessage": "We use cookies to enhance your experience, analyze traffic, and support marketing efforts. By clicking \"Accept\", you consent to our use of these tracking cookies. If you decline, we will not track your session.",
   "cookieConsentAccept": "Accept",
-  "cookieConsentDecline": "Decline"
+  "cookieConsentDecline": "Decline",
+  "cookieManagePreferences": "Manage Preferences",
+  "cookiePreferencesTitle": "Cookie Preferences",
+  "cookieTechnical": "Technically Necessary",
+  "cookieTechnicalDesc": "Required for the platform to function. Cannot be disabled.",
+  "cookieMarketing": "Marketing & Analytics",
+  "cookieMarketingDesc": "Used for tracking ad performance and usage via Meta Pixel.",
+  "cookieSavePreferences": "Save Preferences",
+  "cookieAcceptAll": "Accept All"
 }

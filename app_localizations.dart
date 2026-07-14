@@ -2944,7 +2944,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingPricesFeat3.
   ///
   /// In en, this message translates to:
-  /// **'German English'**
+  /// **'German & English'**
   String get landingPricesFeat3;
 
   /// No description provided for @landingPricesFeat4.
@@ -5412,6 +5412,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Decline'**
   String get cookieConsentDecline;
+
+  /// No description provided for @cookieManagePreferences.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage Preferences'**
+  String get cookieManagePreferences;
+
+  /// No description provided for @cookiePreferencesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Cookie Preferences'**
+  String get cookiePreferencesTitle;
+
+  /// No description provided for @cookieTechnical.
+  ///
+  /// In en, this message translates to:
+  /// **'Technically Necessary'**
+  String get cookieTechnical;
+
+  /// No description provided for @cookieTechnicalDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Required for the platform to function. Cannot be disabled.'**
+  String get cookieTechnicalDesc;
+
+  /// No description provided for @cookieMarketing.
+  ///
+  /// In en, this message translates to:
+  /// **'Marketing & Analytics'**
+  String get cookieMarketing;
+
+  /// No description provided for @cookieMarketingDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Used for tracking ad performance and usage via Meta Pixel.'**
+  String get cookieMarketingDesc;
+
+  /// No description provided for @cookieSavePreferences.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Preferences'**
+  String get cookieSavePreferences;
+
+  /// No description provided for @cookieAcceptAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Accept All'**
+  String get cookieAcceptAll;
 }
 
 class _AppLocalizationsDelegate

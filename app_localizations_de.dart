@@ -2854,4 +2854,30 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get cookieConsentDecline => 'Ablehnen';
+
+  @override
+  String get cookieManagePreferences => 'Einstellungen verwalten';
+
+  @override
+  String get cookiePreferencesTitle => 'Cookie-Einstellungen';
+
+  @override
+  String get cookieTechnical => 'Technisch Notwendig';
+
+  @override
+  String get cookieTechnicalDesc =>
+      'Erforderlich für die Funktionalität der Plattform. Kann nicht deaktiviert werden.';
+
+  @override
+  String get cookieMarketing => 'Marketing & Analyse';
+
+  @override
+  String get cookieMarketingDesc =>
+      'Wird für das Tracking der Anzeigenleistung und Nutzung via Meta Pixel verwendet.';
+
+  @override
+  String get cookieSavePreferences => 'Einstellungen speichern';
+
+  @override
+  String get cookieAcceptAll => 'Alle akzeptieren';
 }
