@@ -1655,13 +1655,13 @@ abstract class AppLocalizations {
   /// No description provided for @hintBillingAddress.
   ///
   /// In en, this message translates to:
-  /// **'Musterstraße 1, 1010 Wien'**
+  /// **'123 Main St, London'**
   String get hintBillingAddress;
 
   /// No description provided for @hintBillingEmail.
   ///
   /// In en, this message translates to:
-  /// **'billing@beispiel.at'**
+  /// **'billing@example.com'**
   String get hintBillingEmail;
 
   /// No description provided for @hintEnterVat.

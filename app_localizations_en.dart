@@ -822,10 +822,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get hintAiCompliance => 'AI Compliance';
 
   @override
-  String get hintBillingAddress => 'Musterstraße 1, 1010 Wien';
+  String get hintBillingAddress => '123 Main St, London';
 
   @override
-  String get hintBillingEmail => 'billing@beispiel.at';
+  String get hintBillingEmail => 'billing@example.com';
 
   @override
   String get hintEnterVat => 'Enter VAT number';
