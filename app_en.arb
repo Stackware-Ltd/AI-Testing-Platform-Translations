@@ -1152,5 +1152,22 @@
   "cookieMarketing": "Marketing & Analytics",
   "cookieMarketingDesc": "Used for tracking ad performance and usage via Meta Pixel.",
   "cookieSavePreferences": "Save Preferences",
-  "cookieAcceptAll": "Accept All"
+  "cookieAcceptAll": "Accept All",
+  "cookieTabConsent": "Consent",
+  "cookieTabDetails": "Details",
+  "cookieTabAbout": "About",
+  "cookieConsentTitle": "This website uses cookies",
+  "cookieCategoryNecessary": "Necessary",
+  "cookieCategoryPreferences": "Preferences",
+  "cookieCategoryStatistics": "Statistics",
+  "cookieCategoryUnclassified": "Unclassified",
+  "cookieActionDeny": "Deny",
+  "cookieActionAllowSelection": "Allow selection",
+  "cookieActionAllowAll": "Allow all",
+  "cookieTextAbout": "Cookies are small text files that can be used by websites to make a user's experience more efficient.",
+  "cookieAboutDesc1": "The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.",
+  "cookieAboutDesc2": "This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.",
+  "cookieAboutDesc3": "You can at any time change or withdraw your consent from the Cookie Declaration on our website.",
+  "cookieAboutDesc4": "Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.",
+  "cookieAboutDesc5": "Please state your consent ID and date when you contact us regarding your consent."
 }

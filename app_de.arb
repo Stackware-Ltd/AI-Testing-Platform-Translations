@@ -1152,5 +1152,22 @@
   "cookieMarketing": "Marketing & Analyse",
   "cookieMarketingDesc": "Wird für das Tracking der Anzeigenleistung und Nutzung via Meta Pixel verwendet.",
   "cookieSavePreferences": "Einstellungen speichern",
-  "cookieAcceptAll": "Alle akzeptieren"
+  "cookieAcceptAll": "Alle akzeptieren",
+  "cookieTabConsent": "Einwilligung",
+  "cookieTabDetails": "Details",
+  "cookieTabAbout": "Über",
+  "cookieConsentTitle": "Diese Website verwendet Cookies",
+  "cookieCategoryNecessary": "Notwendig",
+  "cookieCategoryPreferences": "Präferenzen",
+  "cookieCategoryStatistics": "Statistiken",
+  "cookieCategoryUnclassified": "Nicht klassifiziert",
+  "cookieActionDeny": "Ablehnen",
+  "cookieActionAllowSelection": "Auswahl erlauben",
+  "cookieActionAllowAll": "Alle erlauben",
+  "cookieTextAbout": "Cookies sind kleine Textdateien, die von Webseiten verwendet werden, um die Benutzererfahrung effizienter zu gestalten.",
+  "cookieAboutDesc1": "Laut Gesetz können wir Cookies auf Ihrem Gerät speichern, wenn diese für den Betrieb dieser Seite unbedingt notwendig sind. Für alle anderen Cookie-Typen benötigen wir Ihre Erlaubnis.",
+  "cookieAboutDesc2": "Diese Seite verwendet unterschiedliche Cookie-Typen. Einige Cookies werden von Drittparteien platziert, die auf unseren Seiten erscheinen.",
+  "cookieAboutDesc3": "Sie können Ihre Einwilligung jederzeit von der Cookie-Erklärung auf unserer Website ändern oder widerrufen.",
+  "cookieAboutDesc4": "Erfahren Sie in unserer Datenschutzrichtlinie mehr darüber, wer wir sind, wie Sie uns kontaktieren können und wie wir personenbezogene Daten verarbeiten.",
+  "cookieAboutDesc5": "Bitte geben Sie Ihre Einwilligungs-ID und das Datum an, wenn Sie uns bezüglich Ihrer Einwilligung kontaktieren."
 }

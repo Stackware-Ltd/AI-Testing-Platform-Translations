@@ -5460,6 +5460,108 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Accept All'**
   String get cookieAcceptAll;
+
+  /// No description provided for @cookieTabConsent.
+  ///
+  /// In en, this message translates to:
+  /// **'Consent'**
+  String get cookieTabConsent;
+
+  /// No description provided for @cookieTabDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Details'**
+  String get cookieTabDetails;
+
+  /// No description provided for @cookieTabAbout.
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get cookieTabAbout;
+
+  /// No description provided for @cookieConsentTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'This website uses cookies'**
+  String get cookieConsentTitle;
+
+  /// No description provided for @cookieCategoryNecessary.
+  ///
+  /// In en, this message translates to:
+  /// **'Necessary'**
+  String get cookieCategoryNecessary;
+
+  /// No description provided for @cookieCategoryPreferences.
+  ///
+  /// In en, this message translates to:
+  /// **'Preferences'**
+  String get cookieCategoryPreferences;
+
+  /// No description provided for @cookieCategoryStatistics.
+  ///
+  /// In en, this message translates to:
+  /// **'Statistics'**
+  String get cookieCategoryStatistics;
+
+  /// No description provided for @cookieCategoryUnclassified.
+  ///
+  /// In en, this message translates to:
+  /// **'Unclassified'**
+  String get cookieCategoryUnclassified;
+
+  /// No description provided for @cookieActionDeny.
+  ///
+  /// In en, this message translates to:
+  /// **'Deny'**
+  String get cookieActionDeny;
+
+  /// No description provided for @cookieActionAllowSelection.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow selection'**
+  String get cookieActionAllowSelection;
+
+  /// No description provided for @cookieActionAllowAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow all'**
+  String get cookieActionAllowAll;
+
+  /// No description provided for @cookieTextAbout.
+  ///
+  /// In en, this message translates to:
+  /// **'Cookies are small text files that can be used by websites to make a user\'s experience more efficient.'**
+  String get cookieTextAbout;
+
+  /// No description provided for @cookieAboutDesc1.
+  ///
+  /// In en, this message translates to:
+  /// **'The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.'**
+  String get cookieAboutDesc1;
+
+  /// No description provided for @cookieAboutDesc2.
+  ///
+  /// In en, this message translates to:
+  /// **'This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.'**
+  String get cookieAboutDesc2;
+
+  /// No description provided for @cookieAboutDesc3.
+  ///
+  /// In en, this message translates to:
+  /// **'You can at any time change or withdraw your consent from the Cookie Declaration on our website.'**
+  String get cookieAboutDesc3;
+
+  /// No description provided for @cookieAboutDesc4.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.'**
+  String get cookieAboutDesc4;
+
+  /// No description provided for @cookieAboutDesc5.
+  ///
+  /// In en, this message translates to:
+  /// **'Please state your consent ID and date when you contact us regarding your consent.'**
+  String get cookieAboutDesc5;
 }
 
 class _AppLocalizationsDelegate

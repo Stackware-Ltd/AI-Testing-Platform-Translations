@@ -2848,4 +2848,61 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get cookieAcceptAll => 'Accept All';
+
+  @override
+  String get cookieTabConsent => 'Consent';
+
+  @override
+  String get cookieTabDetails => 'Details';
+
+  @override
+  String get cookieTabAbout => 'About';
+
+  @override
+  String get cookieConsentTitle => 'This website uses cookies';
+
+  @override
+  String get cookieCategoryNecessary => 'Necessary';
+
+  @override
+  String get cookieCategoryPreferences => 'Preferences';
+
+  @override
+  String get cookieCategoryStatistics => 'Statistics';
+
+  @override
+  String get cookieCategoryUnclassified => 'Unclassified';
+
+  @override
+  String get cookieActionDeny => 'Deny';
+
+  @override
+  String get cookieActionAllowSelection => 'Allow selection';
+
+  @override
+  String get cookieActionAllowAll => 'Allow all';
+
+  @override
+  String get cookieTextAbout =>
+      'Cookies are small text files that can be used by websites to make a user\'s experience more efficient.';
+
+  @override
+  String get cookieAboutDesc1 =>
+      'The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.';
+
+  @override
+  String get cookieAboutDesc2 =>
+      'This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.';
+
+  @override
+  String get cookieAboutDesc3 =>
+      'You can at any time change or withdraw your consent from the Cookie Declaration on our website.';
+
+  @override
+  String get cookieAboutDesc4 =>
+      'Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.';
+
+  @override
+  String get cookieAboutDesc5 =>
+      'Please state your consent ID and date when you contact us regarding your consent.';
 }

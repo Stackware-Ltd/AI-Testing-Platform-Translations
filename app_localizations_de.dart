@@ -2880,4 +2880,61 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get cookieAcceptAll => 'Alle akzeptieren';
+
+  @override
+  String get cookieTabConsent => 'Einwilligung';
+
+  @override
+  String get cookieTabDetails => 'Details';
+
+  @override
+  String get cookieTabAbout => 'Über';
+
+  @override
+  String get cookieConsentTitle => 'Diese Website verwendet Cookies';
+
+  @override
+  String get cookieCategoryNecessary => 'Notwendig';
+
+  @override
+  String get cookieCategoryPreferences => 'Präferenzen';
+
+  @override
+  String get cookieCategoryStatistics => 'Statistiken';
+
+  @override
+  String get cookieCategoryUnclassified => 'Nicht klassifiziert';
+
+  @override
+  String get cookieActionDeny => 'Ablehnen';
+
+  @override
+  String get cookieActionAllowSelection => 'Auswahl erlauben';
+
+  @override
+  String get cookieActionAllowAll => 'Alle erlauben';
+
+  @override
+  String get cookieTextAbout =>
+      'Cookies sind kleine Textdateien, die von Webseiten verwendet werden, um die Benutzererfahrung effizienter zu gestalten.';
+
+  @override
+  String get cookieAboutDesc1 =>
+      'Laut Gesetz können wir Cookies auf Ihrem Gerät speichern, wenn diese für den Betrieb dieser Seite unbedingt notwendig sind. Für alle anderen Cookie-Typen benötigen wir Ihre Erlaubnis.';
+
+  @override
+  String get cookieAboutDesc2 =>
+      'Diese Seite verwendet unterschiedliche Cookie-Typen. Einige Cookies werden von Drittparteien platziert, die auf unseren Seiten erscheinen.';
+
+  @override
+  String get cookieAboutDesc3 =>
+      'Sie können Ihre Einwilligung jederzeit von der Cookie-Erklärung auf unserer Website ändern oder widerrufen.';
+
+  @override
+  String get cookieAboutDesc4 =>
+      'Erfahren Sie in unserer Datenschutzrichtlinie mehr darüber, wer wir sind, wie Sie uns kontaktieren können und wie wir personenbezogene Daten verarbeiten.';
+
+  @override
+  String get cookieAboutDesc5 =>
+      'Bitte geben Sie Ihre Einwilligungs-ID und das Datum an, wenn Sie uns bezüglich Ihrer Einwilligung kontaktieren.';
 }
