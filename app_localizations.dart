@@ -731,7 +731,7 @@ abstract class AppLocalizations {
   /// No description provided for @buttonAssignEmployees.
   ///
   /// In en, this message translates to:
-  /// **'Assign Employees'**
+  /// **'Assign employees'**
   String get buttonAssignEmployees;
 
   /// No description provided for @buttonBack.
@@ -953,13 +953,13 @@ abstract class AppLocalizations {
   /// No description provided for @certThisIsToCertify.
   ///
   /// In en, this message translates to:
-  /// **'THIS IS TO CERTIFY THAT'**
+  /// **'RESULT EVIDENCE RECORD FOR'**
   String get certThisIsToCertify;
 
   /// No description provided for @certVerificationCertificate.
   ///
   /// In en, this message translates to:
-  /// **'Verification Evidence Record'**
+  /// **'Result Evidence Verification'**
   String get certVerificationCertificate;
 
   /// No description provided for @certVerifiedDigitally.
@@ -971,7 +971,7 @@ abstract class AppLocalizations {
   /// No description provided for @certViewPdf.
   ///
   /// In en, this message translates to:
-  /// **'View PDF Evidence Record'**
+  /// **'View Result Evidence PDF'**
   String get certViewPdf;
 
   /// No description provided for @columnAction.
@@ -1157,7 +1157,7 @@ abstract class AppLocalizations {
   /// No description provided for @dashboardBannerDesc.
   ///
   /// In en, this message translates to:
-  /// **'Keep track of your employees\' test status, results, and evidence of results simply and clearly.'**
+  /// **'Keep track of your employees\' test status, results, and result evidence simply and clearly.'**
   String get dashboardBannerDesc;
 
   /// No description provided for @dashboardBannerTitle.
@@ -1181,7 +1181,7 @@ abstract class AppLocalizations {
   /// No description provided for @dashboardTenantSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Document test status, results, and evidence records centrally in RuleFox.'**
+  /// **'Document test status, results, and result evidence centrally in RuleFox.'**
   String get dashboardTenantSubtitle;
 
   /// No description provided for @dashboardTenantTitle.
@@ -2674,25 +2674,25 @@ abstract class AppLocalizations {
   /// No description provided for @landingNavProduct.
   ///
   /// In en, this message translates to:
-  /// **'Product'**
+  /// **'Tests'**
   String get landingNavProduct;
 
   /// No description provided for @landingNavStart.
   ///
   /// In en, this message translates to:
-  /// **'Start Now'**
+  /// **'Start test'**
   String get landingNavStart;
 
   /// No description provided for @landingNavWorkflow.
   ///
   /// In en, this message translates to:
-  /// **'Sequence'**
+  /// **'Reporting'**
   String get landingNavWorkflow;
 
   /// No description provided for @landingEvidenceDesc.
   ///
   /// In en, this message translates to:
-  /// **'Compliance is only valuable if it can be documented. RuleFox creates clear evidence of participation, results, and status—clearly organized, exportable, and internally traceable.'**
+  /// **'Test results are especially valuable when they are documented traceably. RuleFox creates result evidence records covering participation, result, and status—clearly organized, exportable, and internally traceable.'**
   String get landingEvidenceDesc;
 
   /// No description provided for @landingEvidenceEyebrow.
@@ -2710,43 +2710,43 @@ abstract class AppLocalizations {
   /// No description provided for @landingEvidenceFeat1Title.
   ///
   /// In en, this message translates to:
-  /// **'Individual proof per employee'**
+  /// **'Individual result evidence per employee'**
   String get landingEvidenceFeat1Title;
 
   /// No description provided for @landingEvidenceFeat2Desc.
   ///
   /// In en, this message translates to:
-  /// **'Each piece of evidence receives a unique reference for internal documentation and later allocation.'**
+  /// **'Each result evidence record receives a unique reference for internal documentation and later allocation.'**
   String get landingEvidenceFeat2Desc;
 
   /// No description provided for @landingEvidenceFeat2Title.
   ///
   /// In en, this message translates to:
-  /// **'Unique verification ID'**
+  /// **'Unique evidence ID'**
   String get landingEvidenceFeat2Title;
 
   /// No description provided for @landingEvidenceFeat3Desc.
   ///
   /// In en, this message translates to:
-  /// **'Overview of participation rate, status and progress of all tested employees in one report.'**
+  /// **'An overview of participation, status, and results for all tested employees in one report.'**
   String get landingEvidenceFeat3Desc;
 
   /// No description provided for @landingEvidenceFeat3Title.
   ///
   /// In en, this message translates to:
-  /// **'Overall report for management'**
+  /// **'Overall report for responsible teams'**
   String get landingEvidenceFeat3Title;
 
   /// No description provided for @landingEvidenceTitle.
   ///
   /// In en, this message translates to:
-  /// **'Don\'t just test. Prove it.'**
+  /// **'Don\'t just test. Document traceably.'**
   String get landingEvidenceTitle;
 
   /// No description provided for @landingFloatEvalDesc.
   ///
   /// In en, this message translates to:
-  /// **'Make progress visible'**
+  /// **'Make results visible'**
   String get landingFloatEvalDesc;
 
   /// No description provided for @landingFloatEvalTitle.
@@ -2758,31 +2758,31 @@ abstract class AppLocalizations {
   /// No description provided for @landingFloatProveDesc.
   ///
   /// In en, this message translates to:
-  /// **'Export evidence'**
+  /// **'Export result evidence'**
   String get landingFloatProveDesc;
 
   /// No description provided for @landingFloatProveTitle.
   ///
   /// In en, this message translates to:
-  /// **'Prove'**
+  /// **'Document'**
   String get landingFloatProveTitle;
 
   /// No description provided for @landingFloatSecureDesc.
   ///
   /// In en, this message translates to:
-  /// **'Audit-ready and traceable'**
+  /// **'For internal documentation'**
   String get landingFloatSecureDesc;
 
   /// No description provided for @landingFloatSecureTitle.
   ///
   /// In en, this message translates to:
-  /// **'Be secure'**
+  /// **'Traceable'**
   String get landingFloatSecureTitle;
 
   /// No description provided for @landingFloatTestDesc.
   ///
   /// In en, this message translates to:
-  /// **'Verify knowledge'**
+  /// **'Test knowledge systematically'**
   String get landingFloatTestDesc;
 
   /// No description provided for @landingFloatTestTitle.
@@ -2794,7 +2794,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingHeroBtnEvidence.
   ///
   /// In en, this message translates to:
-  /// **'View example proof'**
+  /// **'View sample evidence'**
   String get landingHeroBtnEvidence;
 
   /// No description provided for @landingHeroBtnStart.
@@ -2806,13 +2806,13 @@ abstract class AppLocalizations {
   /// No description provided for @landingHeroDesc.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox allows companies to test whether employees understand key compliance requirements – and provides exportable evidence for internal documentation, management and audits.'**
+  /// **'With RuleFox, companies can test whether employees understand important fundamentals of responsible AI use and AI compliance—with exportable result evidence for internal documentation, management, and further review.'**
   String get landingHeroDesc;
 
   /// No description provided for @landingHeroNote.
   ///
   /// In en, this message translates to:
-  /// **'Aktuell verfügbar: EU AI Compliance Test. Weitere Compliance-Tests folgen.'**
+  /// **'Currently available: EU AI Compliance Test. Further compliance checks will follow.'**
   String get landingHeroNote;
 
   /// No description provided for @landingHeroNote1.
@@ -2836,19 +2836,19 @@ abstract class AppLocalizations {
   /// No description provided for @landingHeroTitle.
   ///
   /// In en, this message translates to:
-  /// **'Make compliance knowledge measurable. Document evidence centrally.'**
+  /// **'Test AI compliance knowledge.\nDocument results centrally.'**
   String get landingHeroTitle;
 
   /// No description provided for @landingMockDate.
   ///
   /// In en, this message translates to:
-  /// **'August 04, 2026'**
+  /// **'August 4, 2026'**
   String get landingMockDate;
 
   /// No description provided for @landingMockScore.
   ///
   /// In en, this message translates to:
-  /// **'86% – passed'**
+  /// **'86 % – passed'**
   String get landingMockScore;
 
   /// No description provided for @landingModalBtnClose.
@@ -2866,19 +2866,19 @@ abstract class AppLocalizations {
   /// No description provided for @landingModalDesc.
   ///
   /// In en, this message translates to:
-  /// **'This is what the individual evidence record looks like, which every employee receives after a successful test.'**
+  /// **'This is what an exported result evidence record looks like—as a compact PDF for each employee.'**
   String get landingModalDesc;
 
   /// No description provided for @landingModalTitle.
   ///
   /// In en, this message translates to:
-  /// **'Example proof'**
+  /// **'Sample result evidence'**
   String get landingModalTitle;
 
   /// No description provided for @landingPlatformCol1Desc.
   ///
   /// In en, this message translates to:
-  /// **'Add teams via CSV or invitation link and assign tests to specific tasks.'**
+  /// **'Add teams by CSV or invitation link and assign tests to the right employees.'**
   String get landingPlatformCol1Desc;
 
   /// No description provided for @landingPlatformCol1Title.
@@ -2890,7 +2890,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingPlatformCol2Desc.
   ///
   /// In en, this message translates to:
-  /// **'Keep a central eye on participation rate, completion rate, pass rate and open invitations.'**
+  /// **'Keep participation, completion status, results, and open invitations in view centrally.'**
   String get landingPlatformCol2Desc;
 
   /// No description provided for @landingPlatformCol2Title.
@@ -2902,7 +2902,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingPlatformCol3Desc.
   ///
   /// In en, this message translates to:
-  /// **'Create individual reports and overall reports for documentation, management and audits.'**
+  /// **'Create individual result evidence records and overall reports for internal documentation, management, and further review.'**
   String get landingPlatformCol3Desc;
 
   /// No description provided for @landingPlatformCol3Title.
@@ -2914,7 +2914,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingPlatformDesc.
   ///
   /// In en, this message translates to:
-  /// **'Whether it\'s AI compliance, data protection, security awareness or internal guidelines: RuleFox makes knowledge testable, results visible and evidence exportable.'**
+  /// **'Whether AI compliance, data protection, security awareness, or internal policies: RuleFox makes knowledge testable, results visible, and evidence exportable.'**
   String get landingPlatformDesc;
 
   /// No description provided for @landingPlatformEyebrow.
@@ -2926,7 +2926,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingPlatformTitle.
   ///
   /// In en, this message translates to:
-  /// **'One platform. Many compliance tests.'**
+  /// **'One platform. Many compliance checks.'**
   String get landingPlatformTitle;
 
   /// No description provided for @landingPriceAmount.
@@ -2950,7 +2950,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingPricesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Book individual tests or flexible quotas and use them for your employees as needed.'**
+  /// **'Book individual tests or flexible quotas and use them as needed for employees, teams, or locations.'**
   String get landingPricesDesc;
 
   /// No description provided for @landingPricesEyebrow.
@@ -2980,19 +2980,19 @@ abstract class AppLocalizations {
   /// No description provided for @landingPricesFeat4.
   ///
   /// In en, this message translates to:
-  /// **'automatic evaluation'**
+  /// **'automated evaluation'**
   String get landingPricesFeat4;
 
   /// No description provided for @landingPricesFeat5.
   ///
   /// In en, this message translates to:
-  /// **'Individual proof as a PDF'**
+  /// **'Individual result evidence record as a PDF'**
   String get landingPricesFeat5;
 
   /// No description provided for @landingPricesFeat6.
   ///
   /// In en, this message translates to:
-  /// **'Reporting overview for the tenant'**
+  /// **'Reporting overview for responsible teams'**
   String get landingPricesFeat6;
 
   /// No description provided for @landingPricesNote.
@@ -3010,7 +3010,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingReportingDesc.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox shows not only individual test results, but the entire progress of your company at a glance.'**
+  /// **'RuleFox shows not only individual test results, but also participation, completion status, and result summaries at a glance.'**
   String get landingReportingDesc;
 
   /// No description provided for @landingReportingEyebrow.
@@ -3022,19 +3022,19 @@ abstract class AppLocalizations {
   /// No description provided for @landingReportingFeat1Desc.
   ///
   /// In en, this message translates to:
-  /// **'Compare progress by teams & departments.'**
+  /// **'Compare progress by teams or departments.'**
   String get landingReportingFeat1Desc;
 
   /// No description provided for @landingReportingFeat1Title.
   ///
   /// In en, this message translates to:
-  /// **'Filter by departments'**
+  /// **'Filter by areas'**
   String get landingReportingFeat1Title;
 
   /// No description provided for @landingReportingFeat2Desc.
   ///
   /// In en, this message translates to:
-  /// **'Analyze rollout development over time periods.'**
+  /// **'Track participation and results over time.'**
   String get landingReportingFeat2Desc;
 
   /// No description provided for @landingReportingFeat2Title.
@@ -3046,13 +3046,13 @@ abstract class AppLocalizations {
   /// No description provided for @landingReportingFeat3Desc.
   ///
   /// In en, this message translates to:
-  /// **'Quickly identify open tests and low results.'**
+  /// **'Identify incomplete tests and notable results.'**
   String get landingReportingFeat3Desc;
 
   /// No description provided for @landingReportingFeat3Title.
   ///
   /// In en, this message translates to:
-  /// **'Identify need for action'**
+  /// **'Identify open topics'**
   String get landingReportingFeat3Title;
 
   /// No description provided for @landingReportingFeat4Desc.
@@ -3130,7 +3130,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingReportingTitle.
   ///
   /// In en, this message translates to:
-  /// **'Make compliance progress visible.'**
+  /// **'Make test progress and results visible.'**
   String get landingReportingTitle;
 
   /// No description provided for @landingSequenceEyebrow.
@@ -3154,7 +3154,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingSequenceStep2Desc.
   ///
   /// In en, this message translates to:
-  /// **'Employees answer practical questions on the selected compliance topic in just a few minutes. The evaluation is automatic and transparent.'**
+  /// **'Employees answer practical questions on the selected compliance topic. Evaluation is automatic and traceable.'**
   String get landingSequenceStep2Desc;
 
   /// No description provided for @landingSequenceStep2Title.
@@ -3166,25 +3166,25 @@ abstract class AppLocalizations {
   /// No description provided for @landingSequenceStep3Desc.
   ///
   /// In en, this message translates to:
-  /// **'Export individual evidence records and an overall report as a PDF - for internal documentation, management, and further review.'**
+  /// **'Export individual result evidence records and overall reports as PDFs—for internal documentation, management, and further review.'**
   String get landingSequenceStep3Desc;
 
   /// No description provided for @landingSequenceStep3Title.
   ///
   /// In en, this message translates to:
-  /// **'Export evidence'**
+  /// **'Export results'**
   String get landingSequenceStep3Title;
 
   /// No description provided for @landingSequenceTitle.
   ///
   /// In en, this message translates to:
-  /// **'Three steps to documented compliance proof.'**
+  /// **'Three steps to a documented test result.'**
   String get landingSequenceTitle;
 
   /// No description provided for @landingTest1Desc.
   ///
   /// In en, this message translates to:
-  /// **'Check whether employees understand the most important basics for the safe and responsible use of AI systems – including relevant duties, risk awareness and practical application in everyday work.'**
+  /// **'Check whether employees understand important fundamentals for the safe and responsible use of AI systems—including risk awareness, principles of the EU AI Act, and practical application in everyday work.'**
   String get landingTest1Desc;
 
   /// No description provided for @landingTest1Eyebrow.
@@ -3211,6 +3211,12 @@ abstract class AppLocalizations {
   /// **'DE & EN'**
   String get landingTest1Meta3;
 
+  /// No description provided for @landingTestAvailableBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'Available'**
+  String get landingTestAvailableBadge;
+
   /// No description provided for @landingTestSoonBadge.
   ///
   /// In en, this message translates to:
@@ -3226,19 +3232,19 @@ abstract class AppLocalizations {
   /// No description provided for @landingTestSoonDesc.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox is continuously being expanded with new test modules – for further compliance, training and verification obligations via a central platform.'**
+  /// **'RuleFox is continuously expanding with further check modules, including transparency and labeling topics, AI-system documentation, and other EU AI Act topics.'**
   String get landingTestSoonDesc;
 
   /// No description provided for @landingTestSoonTitle.
   ///
   /// In en, this message translates to:
-  /// **'Further compliance tests'**
+  /// **'Further compliance checks'**
   String get landingTestSoonTitle;
 
   /// No description provided for @landingTestsDesc.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox has a modular structure. The EU AI Compliance Test is the first available test. Further compliance topics can be tested, evaluated, and documented via the same platform in the future.'**
+  /// **'RuleFox is modular. The EU AI Compliance Test helps companies test, evaluate, and document fundamental knowledge of AI use and AI compliance in a structured way. Further compliance checks can be added through the same platform in the future.'**
   String get landingTestsDesc;
 
   /// No description provided for @landingTestsEyebrow.
@@ -3252,6 +3258,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Do you need a specific compliance test for your company? Contact us — we are happy to review your individual topic requests.'**
   String get landingTestsFooter;
+
+  /// No description provided for @landingTestsFooterPrefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you need a specific compliance topic for your company? '**
+  String get landingTestsFooterPrefix;
+
+  /// No description provided for @landingTestsFooterLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact us'**
+  String get landingTestsFooterLink;
+
+  /// No description provided for @landingTestsFooterSuffix.
+  ///
+  /// In en, this message translates to:
+  /// **' — we are happy to review individual topic requests.'**
+  String get landingTestsFooterSuffix;
 
   /// No description provided for @landingTestsTitle.
   ///
@@ -3538,7 +3562,7 @@ abstract class AppLocalizations {
   /// No description provided for @navFooterTagline.
   ///
   /// In en, this message translates to:
-  /// **'Compliance that is verifiable.'**
+  /// **'Knowledge that is documented.'**
   String get navFooterTagline;
 
   /// No description provided for @navInvoice.
@@ -3784,13 +3808,13 @@ abstract class AppLocalizations {
   /// No description provided for @resultsCertDownloaded.
   ///
   /// In en, this message translates to:
-  /// **'Evidence Record downloaded successfully'**
+  /// **'Result evidence downloaded successfully'**
   String get resultsCertDownloaded;
 
   /// No description provided for @resultsCertError.
   ///
   /// In en, this message translates to:
-  /// **'Error downloading evidence record: {error}'**
+  /// **'Error downloading result evidence: {error}'**
   String resultsCertError(String error);
 
   /// No description provided for @resultsColAttempt.
@@ -3868,7 +3892,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsGetCertificate.
   ///
   /// In en, this message translates to:
-  /// **'Get Evidence Record'**
+  /// **'Get Result Evidence'**
   String get resultsGetCertificate;
 
   /// No description provided for @resultsGroupBy.
@@ -3880,7 +3904,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsMultiCertDownloaded.
   ///
   /// In en, this message translates to:
-  /// **'{count} Evidence Records downloaded successfully'**
+  /// **'{count} result evidence records downloaded successfully'**
   String resultsMultiCertDownloaded(int count);
 
   /// No description provided for @resultsNoPassedSelected.
@@ -3898,7 +3922,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsPageSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Document test status, results, and evidence records centrally in RuleFox.'**
+  /// **'Document test status, results, and result evidence centrally in RuleFox.'**
   String get resultsPageSubtitle;
 
   /// No description provided for @resultsPageTitle.
@@ -3922,7 +3946,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsSingleCertDownloaded.
   ///
   /// In en, this message translates to:
-  /// **'Evidence Record downloaded successfully'**
+  /// **'Result evidence downloaded successfully'**
   String get resultsSingleCertDownloaded;
 
   /// No description provided for @resultsStatTestResult.
@@ -3988,7 +4012,7 @@ abstract class AppLocalizations {
   /// No description provided for @screenResults.
   ///
   /// In en, this message translates to:
-  /// **'Results'**
+  /// **'Results & Evidence'**
   String get screenResults;
 
   /// No description provided for @screenSettings.
@@ -4258,7 +4282,7 @@ abstract class AppLocalizations {
   /// No description provided for @statCertificates.
   ///
   /// In en, this message translates to:
-  /// **'Evidence Records'**
+  /// **'Result Evidence'**
   String get statCertificates;
 
   /// No description provided for @statCompleted.
@@ -4534,7 +4558,7 @@ abstract class AppLocalizations {
   /// No description provided for @step4Desc.
   ///
   /// In en, this message translates to:
-  /// **'Export evidence for internal or external audits'**
+  /// **'Export result evidence for internal documentation and further review'**
   String get step4Desc;
 
   /// No description provided for @step4Title.
@@ -4570,7 +4594,7 @@ abstract class AppLocalizations {
   /// No description provided for @subtitleAssignEmployees.
   ///
   /// In en, this message translates to:
-  /// **'Document test status, results, and evidence records centrally in RuleFox.'**
+  /// **'Document test status, results, and result evidence centrally in RuleFox.'**
   String get subtitleAssignEmployees;
 
   /// No description provided for @subtitleAvailableTests.
@@ -4584,6 +4608,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Manage your subscriptions, invoices, and payment methods.'**
   String get subtitleBilling;
+
+  /// No description provided for @subtitleCheckout.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete the purchase of your test quota.'**
+  String get subtitleCheckout;
 
   /// No description provided for @subtitleCreateNewTest.
   ///
@@ -4618,7 +4648,7 @@ abstract class AppLocalizations {
   /// No description provided for @subtitleTenantDashboard.
   ///
   /// In en, this message translates to:
-  /// **'Document test status, results, and evidence records centrally in RuleFox.'**
+  /// **'Document test status, results, and result evidence centrally in RuleFox.'**
   String get subtitleTenantDashboard;
 
   /// No description provided for @tabAvailableTests.
@@ -5206,7 +5236,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleLanding.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox – AI Compliance for Companies'**
+  /// **'RuleFox – Test AI compliance knowledge and document results'**
   String get titleLanding;
 
   /// No description provided for @titleAdminLogin.
@@ -5314,7 +5344,7 @@ abstract class AppLocalizations {
   /// No description provided for @tooltipCannotDownloadFailed.
   ///
   /// In en, this message translates to:
-  /// **'Evidence Record is only available for passed tests.'**
+  /// **'Result evidence is only available for passed tests.'**
   String get tooltipCannotDownloadFailed;
 
   /// No description provided for @tooltipDelete.
@@ -5410,7 +5440,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleVerifyCertificate.
   ///
   /// In en, this message translates to:
-  /// **'Verify Evidence Record · RuleFox'**
+  /// **'Verify Result Evidence · RuleFox'**
   String get titleVerifyCertificate;
 
   /// No description provided for @titleCannotArchive.
@@ -5602,7 +5632,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleSettings.
   ///
   /// In en, this message translates to:
-  /// **'Settings'**
+  /// **'Settings · RuleFox'**
   String get titleSettings;
 
   /// No description provided for @tabProfile.
@@ -5674,7 +5704,7 @@ abstract class AppLocalizations {
   /// No description provided for @settingsSecurityDesc.
   ///
   /// In en, this message translates to:
-  /// **'Change password, enable two-factor authentication (2FA), manage active sessions.'**
+  /// **'Change your account password.'**
   String get settingsSecurityDesc;
 
   /// No description provided for @settingsDiscard.
@@ -5712,6 +5742,204 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Confirm New Password'**
   String get settingsConfirmPassword;
+
+  /// No description provided for @settingsPasswordRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your current and new password.'**
+  String get settingsPasswordRequired;
+
+  /// No description provided for @settingsPasswordTooShort.
+  ///
+  /// In en, this message translates to:
+  /// **'The new password must be at least 8 characters.'**
+  String get settingsPasswordTooShort;
+
+  /// No description provided for @settingsPasswordMismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'The new passwords do not match.'**
+  String get settingsPasswordMismatch;
+
+  /// No description provided for @settingsPasswordChanged.
+  ///
+  /// In en, this message translates to:
+  /// **'Password changed successfully.'**
+  String get settingsPasswordChanged;
+
+  /// No description provided for @creditPricePreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Equivalent price: {price} at €99 per credit'**
+  String creditPricePreview(String price);
+
+  /// No description provided for @onboardingCompanyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Company and administrator'**
+  String get onboardingCompanyTitle;
+
+  /// No description provided for @onboardingQuotaTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the starting quota'**
+  String get onboardingQuotaTitle;
+
+  /// No description provided for @onboardingHandoffTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Self-registration handoff'**
+  String get onboardingHandoffTitle;
+
+  /// No description provided for @onboardingHandoffDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Send this public registration link to the client administrator. No client account is created or stored by this assistant.'**
+  String get onboardingHandoffDesc;
+
+  /// No description provided for @onboardingRequiredError.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a company name and a valid administrator email.'**
+  String get onboardingRequiredError;
+
+  /// No description provided for @onboardingLinkCopied.
+  ///
+  /// In en, this message translates to:
+  /// **'Registration link copied.'**
+  String get onboardingLinkCopied;
+
+  /// No description provided for @onboardingCopyLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy registration link'**
+  String get onboardingCopyLink;
+
+  /// No description provided for @landingReportingSampleNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Sample data illustrating the reporting function.'**
+  String get landingReportingSampleNote;
+
+  /// No description provided for @certEvidenceFootnote.
+  ///
+  /// In en, this message translates to:
+  /// **'Sample evidence record · not an official certification'**
+  String get certEvidenceFootnote;
+
+  /// No description provided for @landingAboutEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'About RuleFox'**
+  String get landingAboutEyebrow;
+
+  /// No description provided for @landingAboutTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Developed by practitioners in software development, AI application, and communication.'**
+  String get landingAboutTitle;
+
+  /// No description provided for @landingAboutBody1.
+  ///
+  /// In en, this message translates to:
+  /// **'RuleFox was developed by a team working in software development, digital product development, and corporate communications. In practice, we see that AI and compliance topics can feel complex, expensive, and difficult to document for many companies.'**
+  String get landingAboutBody1;
+
+  /// No description provided for @landingAboutBody2.
+  ///
+  /// In en, this message translates to:
+  /// **'Our goal is to give companies simple and affordable access to structured knowledge tests, clear evaluations, and exportable result evidence records—digital, understandable, and without exaggerated legal promises.'**
+  String get landingAboutBody2;
+
+  /// No description provided for @landingAboutTile1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Software & platform practice'**
+  String get landingAboutTile1Title;
+
+  /// No description provided for @landingAboutTile1Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Digital workflows for tests, evaluation, and result documentation.'**
+  String get landingAboutTile1Desc;
+
+  /// No description provided for @landingAboutTile2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear communication'**
+  String get landingAboutTile2Title;
+
+  /// No description provided for @landingAboutTile2Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Complex topics are translated into clear questions and traceable results.'**
+  String get landingAboutTile2Desc;
+
+  /// No description provided for @landingAboutTile3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Affordable entry'**
+  String get landingAboutTile3Title;
+
+  /// No description provided for @landingAboutTile3Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Fairly priced tests for companies, teams, and locations.'**
+  String get landingAboutTile3Desc;
+
+  /// No description provided for @footerLegalDisclaimer.
+  ///
+  /// In en, this message translates to:
+  /// **'Legal status: August 4, 2026. RuleFox does not replace individual legal advice, review by lawyers or data protection experts, or official certification. The platform helps companies test knowledge in a structured way, evaluate results, and provide result evidence records for internal documentation. Whether and which legal obligations apply in an individual case depends on the specific AI system, the company\'s role, and the context of use.'**
+  String get footerLegalDisclaimer;
+
+  /// No description provided for @resultsGeneratingEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Generating {count} result evidence records...'**
+  String resultsGeneratingEvidence(int count);
+
+  /// No description provided for @resultsGeneratingSecureEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Generating secure result evidence...'**
+  String get resultsGeneratingSecureEvidence;
+
+  /// No description provided for @resultsOpenEvidenceFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open the result evidence record.'**
+  String get resultsOpenEvidenceFailed;
+
+  /// No description provided for @resultsGenerateEvidenceFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to generate the result evidence record.'**
+  String get resultsGenerateEvidenceFailed;
+
+  /// No description provided for @errorUnexpectedDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'An unexpected error occurred: {details}'**
+  String errorUnexpectedDetails(String details);
+
+  /// No description provided for @verifyEvidenceLoading.
+  ///
+  /// In en, this message translates to:
+  /// **'Verifying result evidence authenticity...'**
+  String get verifyEvidenceLoading;
+
+  /// No description provided for @verifyEvidenceInvalidTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid result evidence'**
+  String get verifyEvidenceInvalidTitle;
+
+  /// No description provided for @verifyEvidenceInvalidDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'This result evidence record is not recognized by our system.'**
+  String get verifyEvidenceInvalidDesc;
 }
 
 class _AppLocalizationsDelegate
