@@ -127,7 +127,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get authCheckEvidence => 'Ergebnisorientierte Nachweise';
 
   @override
-  String get authCheckInterface => 'Reduzierte, auditkonforme Schnittstelle';
+  String get authCheckInterface => 'Reduzierte, nachvollziehbare Schnittstelle';
 
   @override
   String get authCheckQuotas =>
@@ -181,7 +181,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get authManageComplianceDesc =>
-      'Rulefox führt Unternehmen von der Einrichtung und Mitarbeitereinladung bis zum exportierbaren Nachweis.';
+      'RuleFox führt Unternehmen von der Einrichtung und Mitarbeitereinladung bis zum exportierbaren Nachweis.';
 
   @override
   String get authReadyMinutes => 'In wenigen Minuten startklar.';
@@ -201,7 +201,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get authSettingUpBusinessDesc =>
-      'Erstellen Sie Ihr Rulefox-Konto und starten Sie den KI-Compliance Test.';
+      'Erstellen Sie Ihr RuleFox-Konto und starten Sie den KI-Compliance Test.';
 
   @override
   String get authStepCreateBusiness => 'Unternehmen anlegen';
@@ -439,7 +439,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get certCloseButton => 'Schließen';
 
   @override
-  String get certComplianceBoard => 'Rulefox Compliance-Ausschuss';
+  String get certComplianceBoard => 'RuleFox Compliance-Ausschuss';
 
   @override
   String get certDateOfCompletion => 'Abschlussdatum';
@@ -466,7 +466,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get certVerifiedDigitally => 'Digital verifiziert';
 
   @override
-  String get certViewPdf => 'PDF-Zertifikat ansehen';
+  String get certViewPdf => 'PDF-Ergebnisnachweis ansehen';
 
   @override
   String get columnAction => 'Aktion';
@@ -560,7 +560,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get dashboardBannerDesc =>
-      'Behalten Sie Teststatus, Nachweise und AI-Literacy Ihrer Mitarbeitenden einfach und übersichtlich im Blick.';
+      'Behalten Sie Teststatus, Ergebnisse und Ergebnisnachweise Ihrer Mitarbeitenden einfach und übersichtlich im Blick.';
 
   @override
   String get dashboardBannerTitle => 'AI Compliance im Blick';
@@ -573,7 +573,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get dashboardTenantSubtitle =>
-      'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
+      'Dokumentieren Sie Teststatus, Ergebnisse und Ergebnisnachweise zentral in RuleFox.';
 
   @override
   String get dashboardTenantTitle => 'AI Compliance Dashboard';
@@ -1368,7 +1368,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get landingNavProduct => 'Produkt';
 
   @override
-  String get landingNavStart => 'Jetzt starten';
+  String get landingNavStart => 'Test starten';
 
   @override
   String get landingNavWorkflow => 'Ablauf';
@@ -1457,7 +1457,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Compliance-Wissen messbar machen. Nachweise zentral dokumentieren.';
 
   @override
-  String get landingMockDate => '14.05.2024';
+  String get landingMockDate => '04.08.2026';
 
   @override
   String get landingMockScore => '86% – bestanden';
@@ -1635,7 +1635,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingSequenceStep3Desc =>
-      'Exportieren Sie individuelle Zertifikate und einen Gesamtbericht als PDF – bereit für Dokumentation, Management oder Audits.';
+      'Exportieren Sie individuelle Ergebnisnachweise und einen Gesamtbericht als PDF – für interne Dokumentation, Management und weitere Prüfung.';
 
   @override
   String get landingSequenceStep3Title => 'Nachweise exportieren';
@@ -1841,7 +1841,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get navFooterLogoText => 'RULEFOX';
 
   @override
-  String get navFooterTagline => 'Compliance, die belegbar ist.';
+  String get navFooterTagline => 'Wissen, das dokumentiert ist.';
 
   @override
   String get navInvoice => 'Abrechnung';
@@ -1887,7 +1887,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Verwalten Sie Tests, Mandanten und Plattformkennzahlen an einem Ort.';
 
   @override
-  String get ownerPlatformOverview => 'Rulefox Plattformübersicht';
+  String get ownerPlatformOverview => 'RuleFox Plattformübersicht';
 
   @override
   String get passwordHint => 'Passwort eingeben';
@@ -1971,11 +1971,12 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resultsAll => 'Alle';
 
   @override
-  String get resultsCertDownloaded => 'Zertifikat erfolgreich heruntergeladen';
+  String get resultsCertDownloaded =>
+      'Ergebnisnachweis erfolgreich heruntergeladen';
 
   @override
   String resultsCertError(String error) {
-    return 'Fehler beim Herunterladen des Zertifikats: $error';
+    return 'Fehler beim Herunterladen des Ergebnisnachweiss: $error';
   }
 
   @override
@@ -2017,14 +2018,14 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resultsFail => 'Nicht bestanden';
 
   @override
-  String get resultsGetCertificate => 'Zertifikat abrufen';
+  String get resultsGetCertificate => 'Ergebnisnachweis abrufen';
 
   @override
   String get resultsGroupBy => 'Gruppieren nach';
 
   @override
   String resultsMultiCertDownloaded(int count) {
-    return '$count Zertifikate erfolgreich heruntergeladen';
+    return '$count Ergebnisnachweise erfolgreich heruntergeladen';
   }
 
   @override
@@ -2035,7 +2036,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get resultsPageSubtitle =>
-      'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
+      'Dokumentieren Sie Teststatus, Ergebnisse und Ergebnisnachweise zentral in RuleFox.';
 
   @override
   String get resultsPageTitle => 'Ergebnisse & Nachweise';
@@ -2048,7 +2049,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get resultsSingleCertDownloaded =>
-      'Zertifikat erfolgreich heruntergeladen';
+      'Ergebnisnachweis erfolgreich heruntergeladen';
 
   @override
   String get resultsStatTestResult => 'Testergebnis';
@@ -2227,7 +2228,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get statAverage => 'Durchschnitt';
 
   @override
-  String get statCertificates => 'Zertifikate';
+  String get statCertificates => 'Ergebnisnachweise';
 
   @override
   String get statCompleted => 'Abgeschlossen';
@@ -2388,7 +2389,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get subtitleAssignEmployees =>
-      'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
+      'Dokumentieren Sie Teststatus, Ergebnisse und Ergebnisnachweise zentral in RuleFox.';
 
   @override
   String get subtitleAvailableTests =>
@@ -2415,11 +2416,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get subtitleSettings =>
-      'Konfigurieren Sie Ihre persönlichen und Unternehmenseinstellungen.';
+      'Profil, Unternehmen, Sicherheit und Integrationen.';
 
   @override
   String get subtitleTenantDashboard =>
-      'Dokumentieren Sie AI-Literacy, Teststatus und Nachweise zentral in Rulefox.';
+      'Dokumentieren Sie Teststatus, Ergebnisse und Ergebnisnachweise zentral in RuleFox.';
 
   @override
   String get tabAvailableTests => 'Verfügbares Guthaben';
@@ -2803,7 +2804,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tooltipCannotDownloadFailed =>
-      'Das Zertifikat ist nur für bestandene Tests verfügbar.';
+      'Das Ergebnisnachweis ist nur für bestandene Tests verfügbar.';
 
   @override
   String get tooltipDelete => 'Löschen';
@@ -2853,7 +2854,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get titlePrivacy => 'Datenschutz · RuleFox';
 
   @override
-  String get titleVerifyCertificate => 'Zertifikat verifizieren · RuleFox';
+  String get titleVerifyCertificate =>
+      'Ergebnisnachweis verifizieren · RuleFox';
 
   @override
   String get titleCannotArchive => 'Test kann nicht archiviert werden';
@@ -2957,4 +2959,65 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get cookieAboutDesc5 =>
       'Bitte geben Sie Ihre Einwilligungs-ID und das Datum an, wenn Sie uns bezüglich Ihrer Einwilligung kontaktieren.';
+
+  @override
+  String get titleSettings => 'Einstellungen';
+
+  @override
+  String get tabProfile => 'Profil';
+
+  @override
+  String get tabCompany => 'Unternehmen';
+
+  @override
+  String get tabNotifications => 'Benachrichtigungen';
+
+  @override
+  String get tabSecurity => 'Sicherheit';
+
+  @override
+  String get settingsProfileTitle => 'Profildaten';
+
+  @override
+  String get settingsProfileDesc =>
+      'Die Anzeige in der Sidebar und auf Nachweisen basiert auf diesen Angaben.';
+
+  @override
+  String get settingsCompanyTitle => 'Unternehmen';
+
+  @override
+  String get settingsCompanyDesc =>
+      'Firmenname, Rechtsform, Adresse, USt-ID, Branche — erscheint auf Nachweisen und Rechnungen.';
+
+  @override
+  String get settingsNotificationsTitle => 'Benachrichtigungen';
+
+  @override
+  String get settingsNotificationsDesc =>
+      'E-Mail-Benachrichtigungen bei abgeschlossenen Tests, ablaufenden Kontingenten und neuen Mitarbeitenden.';
+
+  @override
+  String get settingsSecurityTitle => 'Sicherheit';
+
+  @override
+  String get settingsSecurityDesc =>
+      'Passwort ändern, Zwei-Faktor-Authentifizierung (2FA) aktivieren, aktive Sitzungen verwalten.';
+
+  @override
+  String get settingsDiscard => 'Verwerfen';
+
+  @override
+  String get settingsSave => 'Änderungen speichern';
+
+  @override
+  String get settingsChangePassword => 'Passwort ändern';
+
+  @override
+  String get settingsCurrentPassword => 'Aktuelles Passwort';
+
+  @override
+  String get settingsNewPassword => 'Neues Passwort';
+
+  @override
+  String get settingsConfirmPassword => 'Neues Passwort bestätigen';
 }

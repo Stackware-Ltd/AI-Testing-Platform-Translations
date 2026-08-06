@@ -125,7 +125,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get authCheckEvidence => 'Evidence-oriented results';
 
   @override
-  String get authCheckInterface => 'Reduced, audit-compliant interface';
+  String get authCheckInterface => 'Reduced, traceable interface';
 
   @override
   String get authCheckQuotas => 'Keeping an eye on test quotas and allocations';
@@ -178,7 +178,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get authManageComplianceDesc =>
-      'Rulefox guides companies from setup and employee invitation to exportable proof.';
+      'RuleFox guides companies from setup and employee invitation to exportable proof.';
 
   @override
   String get authReadyMinutes => 'Ready to go in minutes.';
@@ -198,7 +198,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get authSettingUpBusinessDesc =>
-      'Create your Rulefox account and start the AI Compliance Test.';
+      'Create your RuleFox account and start the AI Compliance Test.';
 
   @override
   String get authStepCreateBusiness => 'Create a business';
@@ -436,7 +436,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get certCloseButton => 'Close';
 
   @override
-  String get certComplianceBoard => 'Rulefox Compliance Board';
+  String get certComplianceBoard => 'RuleFox Compliance Board';
 
   @override
   String get certDateOfCompletion => 'Date of Completion';
@@ -457,13 +457,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get certThisIsToCertify => 'THIS IS TO CERTIFY THAT';
 
   @override
-  String get certVerificationCertificate => 'Verification Certificate';
+  String get certVerificationCertificate => 'Verification Evidence Record';
 
   @override
   String get certVerifiedDigitally => 'Verified Digitally';
 
   @override
-  String get certViewPdf => 'View PDF Certificate';
+  String get certViewPdf => 'View PDF Evidence Record';
 
   @override
   String get columnAction => 'Action';
@@ -557,10 +557,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dashboardBannerDesc =>
-      'Easily and clearly keep track of your employees\' test status, evidence, and AI literacy.';
+      'Keep track of your employees\' test status, results, and evidence of results simply and clearly.';
 
   @override
-  String get dashboardBannerTitle => 'AI Compliance in Focus';
+  String get dashboardBannerTitle => 'AI compliance in focus';
 
   @override
   String get dashboardOwner => 'Owner Dashboard';
@@ -570,7 +570,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dashboardTenantSubtitle =>
-      'Document AI literacy, test status and evidence centrally in Rulefox.';
+      'Document test status, results, and evidence records centrally in RuleFox.';
 
   @override
   String get dashboardTenantTitle => 'AI Compliance Dashboard';
@@ -1444,7 +1444,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Make compliance knowledge measurable. Document evidence centrally.';
 
   @override
-  String get landingMockDate => 'May 14, 2024';
+  String get landingMockDate => 'August 04, 2026';
 
   @override
   String get landingMockScore => '86% – passed';
@@ -1457,7 +1457,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingModalDesc =>
-      'This is what the individual certificate looks like, which every employee receives after a successful test.';
+      'This is what the individual evidence record looks like, which every employee receives after a successful test.';
 
   @override
   String get landingModalTitle => 'Example proof';
@@ -1575,7 +1575,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingReportingKpi1Sub => '156 of 200 employees invited';
 
   @override
-  String get landingReportingKpi2 => 'Completion rate';
+  String get landingReportingKpi2 => 'Graduation rate';
 
   @override
   String get landingReportingKpi2Sub => '97 of 156 tests completed';
@@ -1620,7 +1620,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingSequenceStep3Desc =>
-      'Export individual certificates and an overall report as a PDF - ready for documentation, management, or audits.';
+      'Export individual evidence records and an overall report as a PDF - for internal documentation, management, and further review.';
 
   @override
   String get landingSequenceStep3Title => 'Export evidence';
@@ -1734,7 +1734,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get msgEmployeeSaved => 'Employee saved successfully!';
 
   @override
-  String get msgEmployeesImported => 'Employees imported successfully!';
+  String get msgEmployeesImported => 'Import employeesed successfully!';
 
   @override
   String get msgEnterCompleteCard => 'Please enter complete card information';
@@ -1851,7 +1851,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get newPasswordLabel => 'New Password';
 
   @override
-  String get nextStepsTitle => 'Next Steps';
+  String get nextStepsTitle => 'Next steps';
 
   @override
   String get noTestsAssigned => 'No tests assigned yet';
@@ -1865,7 +1865,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Manage tests, tenants, and platform metrics in one place.';
 
   @override
-  String get ownerPlatformOverview => 'Rulefox platform overview';
+  String get ownerPlatformOverview => 'RuleFox platform overview';
 
   @override
   String get passwordHint => 'Enter password';
@@ -1949,11 +1949,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get resultsAll => 'All';
 
   @override
-  String get resultsCertDownloaded => 'Certificate downloaded successfully';
+  String get resultsCertDownloaded => 'Evidence Record downloaded successfully';
 
   @override
   String resultsCertError(String error) {
-    return 'Error downloading certificate: $error';
+    return 'Error downloading evidence record: $error';
   }
 
   @override
@@ -1995,14 +1995,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get resultsFail => 'Failed';
 
   @override
-  String get resultsGetCertificate => 'Get Certificate';
+  String get resultsGetCertificate => 'Get Evidence Record';
 
   @override
   String get resultsGroupBy => 'Group By';
 
   @override
   String resultsMultiCertDownloaded(int count) {
-    return '$count Certificates downloaded successfully';
+    return '$count Evidence Records downloaded successfully';
   }
 
   @override
@@ -2013,7 +2013,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get resultsPageSubtitle =>
-      'Document AI literacy, test status and evidence centrally in Rulefox.';
+      'Document test status, results, and evidence records centrally in RuleFox.';
 
   @override
   String get resultsPageTitle => 'Results & Evidence';
@@ -2026,7 +2026,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get resultsSingleCertDownloaded =>
-      'Certificate downloaded successfully';
+      'Evidence Record downloaded successfully';
 
   @override
   String get resultsStatTestResult => 'Test result';
@@ -2200,7 +2200,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get statAverage => 'Average';
 
   @override
-  String get statCertificates => 'Certificates';
+  String get statCertificates => 'Evidence Records';
 
   @override
   String get statCompleted => 'Completed';
@@ -2209,7 +2209,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get statCompletedTests => 'Completed Tests';
 
   @override
-  String get statCompletionRate => 'Completion rate';
+  String get statCompletionRate => 'Graduation rate';
 
   @override
   String get statCompletionRateHint => 'Across all tests';
@@ -2275,7 +2275,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get statRegisteredTestsHint => 'Active test products';
 
   @override
-  String get statTestsAssigned => 'assigned tests';
+  String get statTestsAssigned => 'Tests assigned';
 
   @override
   String get statTestsNoData => 'No tests assigned yet';
@@ -2311,7 +2311,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get step1Btn => 'Start';
 
   @override
-  String get step1Desc => 'Add to your company information';
+  String get step1Desc => 'Supplement your company information';
 
   @override
   String get step1Title => 'Complete company data';
@@ -2323,7 +2323,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get step2Desc => 'Upload your employees or add them manually.';
 
   @override
-  String get step2Title => 'Employees import';
+  String get step2Title => 'Import employees';
 
   @override
   String get step3Btn => 'Assign test';
@@ -2358,7 +2358,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get subtitleAssignEmployees =>
-      'Document AI literacy, test status and evidence centrally in Rulefox.';
+      'Document test status, results, and evidence records centrally in RuleFox.';
 
   @override
   String get subtitleAvailableTests =>
@@ -2384,12 +2384,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Review results and evidence of your employees.';
 
   @override
-  String get subtitleSettings =>
-      'Configure your personal and company settings.';
+  String get subtitleSettings => 'Profile, company, security and integrations.';
 
   @override
   String get subtitleTenantDashboard =>
-      'Document AI literacy, test status, and evidence centrally in Rulefox.';
+      'Document test status, results, and evidence records centrally in RuleFox.';
 
   @override
   String get tabAvailableTests => 'Available Credits';
@@ -2770,7 +2769,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tooltipCannotDownloadFailed =>
-      'Certificate is only available for passed tests.';
+      'Evidence Record is only available for passed tests.';
 
   @override
   String get tooltipDelete => 'Delete';
@@ -2820,7 +2819,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get titlePrivacy => 'Privacy Policy · RuleFox';
 
   @override
-  String get titleVerifyCertificate => 'Verify Certificate · RuleFox';
+  String get titleVerifyCertificate => 'Verify Evidence Record · RuleFox';
 
   @override
   String get titleCannotArchive => 'Cannot Archive Test';
@@ -2924,4 +2923,65 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get cookieAboutDesc5 =>
       'Please state your consent ID and date when you contact us regarding your consent.';
+
+  @override
+  String get titleSettings => 'Settings';
+
+  @override
+  String get tabProfile => 'Profile';
+
+  @override
+  String get tabCompany => 'Company';
+
+  @override
+  String get tabNotifications => 'Notifications';
+
+  @override
+  String get tabSecurity => 'Security';
+
+  @override
+  String get settingsProfileTitle => 'Profile data';
+
+  @override
+  String get settingsProfileDesc =>
+      'The display in the sidebar and on evidence is based on this information.';
+
+  @override
+  String get settingsCompanyTitle => 'Company';
+
+  @override
+  String get settingsCompanyDesc =>
+      'Company name, legal form, address, VAT ID, industry — appears on receipts and invoices.';
+
+  @override
+  String get settingsNotificationsTitle => 'Notifications';
+
+  @override
+  String get settingsNotificationsDesc =>
+      'Email notifications for completed tests, expiring quotas and new employees.';
+
+  @override
+  String get settingsSecurityTitle => 'Security';
+
+  @override
+  String get settingsSecurityDesc =>
+      'Change password, enable two-factor authentication (2FA), manage active sessions.';
+
+  @override
+  String get settingsDiscard => 'Discard';
+
+  @override
+  String get settingsSave => 'Save changes';
+
+  @override
+  String get settingsChangePassword => 'Change Password';
+
+  @override
+  String get settingsCurrentPassword => 'Current Password';
+
+  @override
+  String get settingsNewPassword => 'New Password';
+
+  @override
+  String get settingsConfirmPassword => 'Confirm New Password';
 }

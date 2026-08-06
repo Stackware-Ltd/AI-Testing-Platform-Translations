@@ -317,7 +317,7 @@ abstract class AppLocalizations {
   /// No description provided for @authCheckInterface.
   ///
   /// In en, this message translates to:
-  /// **'Reduced, audit-compliant interface'**
+  /// **'Reduced, traceable interface'**
   String get authCheckInterface;
 
   /// No description provided for @authCheckQuotas.
@@ -419,7 +419,7 @@ abstract class AppLocalizations {
   /// No description provided for @authManageComplianceDesc.
   ///
   /// In en, this message translates to:
-  /// **'Rulefox guides companies from setup and employee invitation to exportable proof.'**
+  /// **'RuleFox guides companies from setup and employee invitation to exportable proof.'**
   String get authManageComplianceDesc;
 
   /// No description provided for @authReadyMinutes.
@@ -455,7 +455,7 @@ abstract class AppLocalizations {
   /// No description provided for @authSettingUpBusinessDesc.
   ///
   /// In en, this message translates to:
-  /// **'Create your Rulefox account and start the AI Compliance Test.'**
+  /// **'Create your RuleFox account and start the AI Compliance Test.'**
   String get authSettingUpBusinessDesc;
 
   /// No description provided for @authStepCreateBusiness.
@@ -917,7 +917,7 @@ abstract class AppLocalizations {
   /// No description provided for @certComplianceBoard.
   ///
   /// In en, this message translates to:
-  /// **'Rulefox Compliance Board'**
+  /// **'RuleFox Compliance Board'**
   String get certComplianceBoard;
 
   /// No description provided for @certDateOfCompletion.
@@ -959,7 +959,7 @@ abstract class AppLocalizations {
   /// No description provided for @certVerificationCertificate.
   ///
   /// In en, this message translates to:
-  /// **'Verification Certificate'**
+  /// **'Verification Evidence Record'**
   String get certVerificationCertificate;
 
   /// No description provided for @certVerifiedDigitally.
@@ -971,7 +971,7 @@ abstract class AppLocalizations {
   /// No description provided for @certViewPdf.
   ///
   /// In en, this message translates to:
-  /// **'View PDF Certificate'**
+  /// **'View PDF Evidence Record'**
   String get certViewPdf;
 
   /// No description provided for @columnAction.
@@ -1157,13 +1157,13 @@ abstract class AppLocalizations {
   /// No description provided for @dashboardBannerDesc.
   ///
   /// In en, this message translates to:
-  /// **'Easily and clearly keep track of your employees\' test status, evidence, and AI literacy.'**
+  /// **'Keep track of your employees\' test status, results, and evidence of results simply and clearly.'**
   String get dashboardBannerDesc;
 
   /// No description provided for @dashboardBannerTitle.
   ///
   /// In en, this message translates to:
-  /// **'AI Compliance in Focus'**
+  /// **'AI compliance in focus'**
   String get dashboardBannerTitle;
 
   /// No description provided for @dashboardOwner.
@@ -1181,7 +1181,7 @@ abstract class AppLocalizations {
   /// No description provided for @dashboardTenantSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
+  /// **'Document test status, results, and evidence records centrally in RuleFox.'**
   String get dashboardTenantSubtitle;
 
   /// No description provided for @dashboardTenantTitle.
@@ -2842,7 +2842,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingMockDate.
   ///
   /// In en, this message translates to:
-  /// **'May 14, 2024'**
+  /// **'August 04, 2026'**
   String get landingMockDate;
 
   /// No description provided for @landingMockScore.
@@ -2866,7 +2866,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingModalDesc.
   ///
   /// In en, this message translates to:
-  /// **'This is what the individual certificate looks like, which every employee receives after a successful test.'**
+  /// **'This is what the individual evidence record looks like, which every employee receives after a successful test.'**
   String get landingModalDesc;
 
   /// No description provided for @landingModalTitle.
@@ -3082,7 +3082,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingReportingKpi2.
   ///
   /// In en, this message translates to:
-  /// **'Completion rate'**
+  /// **'Graduation rate'**
   String get landingReportingKpi2;
 
   /// No description provided for @landingReportingKpi2Sub.
@@ -3166,7 +3166,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingSequenceStep3Desc.
   ///
   /// In en, this message translates to:
-  /// **'Export individual certificates and an overall report as a PDF - ready for documentation, management, or audits.'**
+  /// **'Export individual evidence records and an overall report as a PDF - for internal documentation, management, and further review.'**
   String get landingSequenceStep3Desc;
 
   /// No description provided for @landingSequenceStep3Title.
@@ -3376,7 +3376,7 @@ abstract class AppLocalizations {
   /// No description provided for @msgEmployeesImported.
   ///
   /// In en, this message translates to:
-  /// **'Employees imported successfully!'**
+  /// **'Import employeesed successfully!'**
   String get msgEmployeesImported;
 
   /// No description provided for @msgEnterCompleteCard.
@@ -3598,7 +3598,7 @@ abstract class AppLocalizations {
   /// No description provided for @nextStepsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Next Steps'**
+  /// **'Next steps'**
   String get nextStepsTitle;
 
   /// No description provided for @noTestsAssigned.
@@ -3622,7 +3622,7 @@ abstract class AppLocalizations {
   /// No description provided for @ownerPlatformOverview.
   ///
   /// In en, this message translates to:
-  /// **'Rulefox platform overview'**
+  /// **'RuleFox platform overview'**
   String get ownerPlatformOverview;
 
   /// No description provided for @passwordHint.
@@ -3784,13 +3784,13 @@ abstract class AppLocalizations {
   /// No description provided for @resultsCertDownloaded.
   ///
   /// In en, this message translates to:
-  /// **'Certificate downloaded successfully'**
+  /// **'Evidence Record downloaded successfully'**
   String get resultsCertDownloaded;
 
   /// No description provided for @resultsCertError.
   ///
   /// In en, this message translates to:
-  /// **'Error downloading certificate: {error}'**
+  /// **'Error downloading evidence record: {error}'**
   String resultsCertError(String error);
 
   /// No description provided for @resultsColAttempt.
@@ -3868,7 +3868,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsGetCertificate.
   ///
   /// In en, this message translates to:
-  /// **'Get Certificate'**
+  /// **'Get Evidence Record'**
   String get resultsGetCertificate;
 
   /// No description provided for @resultsGroupBy.
@@ -3880,7 +3880,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsMultiCertDownloaded.
   ///
   /// In en, this message translates to:
-  /// **'{count} Certificates downloaded successfully'**
+  /// **'{count} Evidence Records downloaded successfully'**
   String resultsMultiCertDownloaded(int count);
 
   /// No description provided for @resultsNoPassedSelected.
@@ -3898,7 +3898,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsPageSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
+  /// **'Document test status, results, and evidence records centrally in RuleFox.'**
   String get resultsPageSubtitle;
 
   /// No description provided for @resultsPageTitle.
@@ -3922,7 +3922,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsSingleCertDownloaded.
   ///
   /// In en, this message translates to:
-  /// **'Certificate downloaded successfully'**
+  /// **'Evidence Record downloaded successfully'**
   String get resultsSingleCertDownloaded;
 
   /// No description provided for @resultsStatTestResult.
@@ -4258,7 +4258,7 @@ abstract class AppLocalizations {
   /// No description provided for @statCertificates.
   ///
   /// In en, this message translates to:
-  /// **'Certificates'**
+  /// **'Evidence Records'**
   String get statCertificates;
 
   /// No description provided for @statCompleted.
@@ -4276,7 +4276,7 @@ abstract class AppLocalizations {
   /// No description provided for @statCompletionRate.
   ///
   /// In en, this message translates to:
-  /// **'Completion rate'**
+  /// **'Graduation rate'**
   String get statCompletionRate;
 
   /// No description provided for @statCompletionRateHint.
@@ -4408,7 +4408,7 @@ abstract class AppLocalizations {
   /// No description provided for @statTestsAssigned.
   ///
   /// In en, this message translates to:
-  /// **'assigned tests'**
+  /// **'Tests assigned'**
   String get statTestsAssigned;
 
   /// No description provided for @statTestsNoData.
@@ -4480,7 +4480,7 @@ abstract class AppLocalizations {
   /// No description provided for @step1Desc.
   ///
   /// In en, this message translates to:
-  /// **'Add to your company information'**
+  /// **'Supplement your company information'**
   String get step1Desc;
 
   /// No description provided for @step1Title.
@@ -4504,7 +4504,7 @@ abstract class AppLocalizations {
   /// No description provided for @step2Title.
   ///
   /// In en, this message translates to:
-  /// **'Employees import'**
+  /// **'Import employees'**
   String get step2Title;
 
   /// No description provided for @step3Btn.
@@ -4570,7 +4570,7 @@ abstract class AppLocalizations {
   /// No description provided for @subtitleAssignEmployees.
   ///
   /// In en, this message translates to:
-  /// **'Document AI literacy, test status and evidence centrally in Rulefox.'**
+  /// **'Document test status, results, and evidence records centrally in RuleFox.'**
   String get subtitleAssignEmployees;
 
   /// No description provided for @subtitleAvailableTests.
@@ -4612,13 +4612,13 @@ abstract class AppLocalizations {
   /// No description provided for @subtitleSettings.
   ///
   /// In en, this message translates to:
-  /// **'Configure your personal and company settings.'**
+  /// **'Profile, company, security and integrations.'**
   String get subtitleSettings;
 
   /// No description provided for @subtitleTenantDashboard.
   ///
   /// In en, this message translates to:
-  /// **'Document AI literacy, test status, and evidence centrally in Rulefox.'**
+  /// **'Document test status, results, and evidence records centrally in RuleFox.'**
   String get subtitleTenantDashboard;
 
   /// No description provided for @tabAvailableTests.
@@ -5314,7 +5314,7 @@ abstract class AppLocalizations {
   /// No description provided for @tooltipCannotDownloadFailed.
   ///
   /// In en, this message translates to:
-  /// **'Certificate is only available for passed tests.'**
+  /// **'Evidence Record is only available for passed tests.'**
   String get tooltipCannotDownloadFailed;
 
   /// No description provided for @tooltipDelete.
@@ -5410,7 +5410,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleVerifyCertificate.
   ///
   /// In en, this message translates to:
-  /// **'Verify Certificate · RuleFox'**
+  /// **'Verify Evidence Record · RuleFox'**
   String get titleVerifyCertificate;
 
   /// No description provided for @titleCannotArchive.
@@ -5598,6 +5598,120 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Please state your consent ID and date when you contact us regarding your consent.'**
   String get cookieAboutDesc5;
+
+  /// No description provided for @titleSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get titleSettings;
+
+  /// No description provided for @tabProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get tabProfile;
+
+  /// No description provided for @tabCompany.
+  ///
+  /// In en, this message translates to:
+  /// **'Company'**
+  String get tabCompany;
+
+  /// No description provided for @tabNotifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get tabNotifications;
+
+  /// No description provided for @tabSecurity.
+  ///
+  /// In en, this message translates to:
+  /// **'Security'**
+  String get tabSecurity;
+
+  /// No description provided for @settingsProfileTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile data'**
+  String get settingsProfileTitle;
+
+  /// No description provided for @settingsProfileDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'The display in the sidebar and on evidence is based on this information.'**
+  String get settingsProfileDesc;
+
+  /// No description provided for @settingsCompanyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Company'**
+  String get settingsCompanyTitle;
+
+  /// No description provided for @settingsCompanyDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Company name, legal form, address, VAT ID, industry — appears on receipts and invoices.'**
+  String get settingsCompanyDesc;
+
+  /// No description provided for @settingsNotificationsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get settingsNotificationsTitle;
+
+  /// No description provided for @settingsNotificationsDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Email notifications for completed tests, expiring quotas and new employees.'**
+  String get settingsNotificationsDesc;
+
+  /// No description provided for @settingsSecurityTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Security'**
+  String get settingsSecurityTitle;
+
+  /// No description provided for @settingsSecurityDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Change password, enable two-factor authentication (2FA), manage active sessions.'**
+  String get settingsSecurityDesc;
+
+  /// No description provided for @settingsDiscard.
+  ///
+  /// In en, this message translates to:
+  /// **'Discard'**
+  String get settingsDiscard;
+
+  /// No description provided for @settingsSave.
+  ///
+  /// In en, this message translates to:
+  /// **'Save changes'**
+  String get settingsSave;
+
+  /// No description provided for @settingsChangePassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Change Password'**
+  String get settingsChangePassword;
+
+  /// No description provided for @settingsCurrentPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Current Password'**
+  String get settingsCurrentPassword;
+
+  /// No description provided for @settingsNewPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'New Password'**
+  String get settingsNewPassword;
+
+  /// No description provided for @settingsConfirmPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm New Password'**
+  String get settingsConfirmPassword;
 }
 
 class _AppLocalizationsDelegate
