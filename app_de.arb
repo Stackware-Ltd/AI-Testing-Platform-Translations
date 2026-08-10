@@ -42,9 +42,9 @@
   "authAddress": "Adresse",
   "authAddressHint": "Adresse eingeben",
   "authCategory": "Kategorie",
-  "authCheckEvidence": "Ergebnisorientierte Nachweise",
-  "authCheckInterface": "Reduzierte, nachvollziehbare Schnittstelle",
-  "authCheckQuotas": "Testkontingente und -zuweisungen im Blick behalten",
+  "authCheckEvidence": "Nachweisorientierte Ergebnisse",
+  "authCheckInterface": "Reduziertes, nachvollziehbares Interface",
+  "authCheckQuotas": "Testkontingente und Zuweisungen im Blick",
   "authCompany": "Unternehmen",
   "authCompanyHint": "Beispiel GmbH",
   "authCountryLabel": "Land",
@@ -57,19 +57,19 @@
   "authFirstNameHint": "Max",
   "authLastName": "Nachname",
   "authLastNameHint": "Mustermann",
-  "authLoginDashboard": "Login im Dashboard",
-  "authLoginDashboardDesc": "Melden Sie sich an, um Tests, Personal und Nachweise zu verwalten.",
-  "authManageCompliance": "KI-Compliance zentral verwalten.",
-  "authManageComplianceDesc": "RuleFox führt Unternehmen von der Einrichtung und Mitarbeitereinladung bis zum exportierbaren Nachweis.",
+  "authLoginDashboard": "Login zum Dashboard",
+  "authLoginDashboardDesc": "Melden Sie sich an, um Tests, Mitarbeitende und Nachweise zu verwalten.",
+  "authManageCompliance": "AI Compliance zentral verwalten.",
+  "authManageComplianceDesc": "RuleFox führt Unternehmen vom Setup über Mitarbeitenden-Einladung bis zum exportierbaren Nachweis.",
   "authReadyMinutes": "In wenigen Minuten startklar.",
-  "authReadyMinutesDesc": "Nach der Registrierung können Sie Mitarbeiter importieren, Tests zuweisen und Nachweise exportieren.",
+  "authReadyMinutesDesc": "Nach der Registrierung können Sie Mitarbeitende importieren, Tests zuweisen und Nachweise exportieren.",
   "authSelectCategory": "Kategorie auswählen",
-  "authSelectCountry": "Land auswählen",
-  "authSettingUpBusiness": "Unternehmen anlegen",
-  "authSettingUpBusinessDesc": "Erstellen Sie Ihr RuleFox-Konto und starten Sie den KI-Compliance Test.",
+  "authSelectCountry": "Österreich",
+  "authSettingUpBusiness": "Unternehmen einrichten",
+  "authSettingUpBusinessDesc": "Erstellen Sie Ihr RuleFox-Konto und starten Sie mit dem AI Compliance Test.",
   "authStepCreateBusiness": "Unternehmen anlegen",
   "authStepSelectQuota": "Kontingent wählen",
-  "authStepStartCompliance": "KI-Compliance Test starten",
+  "authStepStartCompliance": "AI Compliance Test starten",
   "authUpdatePassword": "Passwort aktualisieren",
   "authVatHint": "USt-IdNr. eingeben",
   "authVatOptional": "USt-IdNr. (optional)",
@@ -568,7 +568,7 @@
   "landingEvidenceFeat2Title": "Eindeutige Nachweis-ID",
   "landingEvidenceFeat3Desc": "Überblick über Teilnahme, Status und Ergebnisse aller getesteten Mitarbeitenden in einem Bericht.",
   "landingEvidenceFeat3Title": "Gesamt-Report für Verantwortliche",
-  "landingEvidenceTitle": "Nicht nur testen. Nachvollziehbar dokumentieren.",
+  "landingEvidenceTitle": "Nicht nur testen.\nNachvollziehbar dokumentieren.",
   "landingFloatEvalDesc": "Ergebnisse sichtbar machen",
   "landingFloatEvalTitle": "Auswerten",
   "landingFloatProveDesc": "Ergebnisnachweise exportieren",
@@ -581,16 +581,16 @@
   "landingHeroBtnStart": "EU AI Compliance Test starten",
   "landingHeroDesc": "Mit RuleFox testen Unternehmen, ob Mitarbeitende wichtige Grundlagen zum verantwortungsvollen Einsatz von KI und zu KI-Compliance-Themen verstanden haben – mit exportierbaren Ergebnisnachweisen für interne Dokumentation, Management und weitere Prüfung.",
   "landingHeroNote": "Aktuell verfügbar: EU AI Compliance Test. Weitere Compliance-Checks folgen.",
-  "landingHeroNote1": "Derzeit\nverfügbar:",
+  "landingHeroNote1": "Aktuell\nverfügbar:",
   "landingHeroNote2": "EU AI\nCompliance\nTest.",
-  "landingHeroNote3": "Weitere Compliance-Tests\nfolgen in Kürze.",
+  "landingHeroNote3": "Weitere Compliance-Checks\nfolgen.",
   "landingHeroTitle": "KI-Compliance-Wissen prüfen.\nErgebnisse zentral dokumentieren.",
   "landingMockDate": "04.08.2026",
   "landingMockScore": "86 % – bestanden",
   "landingModalBtnClose": "Schließen",
   "landingModalBtnStart": "Jetzt selbst testen",
   "landingModalDesc": "So sieht ein exportierter Ergebnisnachweis aus – als kompaktes PDF pro Mitarbeitendem.",
-  "landingModalTitle": "Beispiel-Ergebnisnachweis",
+  "landingModalTitle": "Beispiel-Nachweis ansehen",
   "landingPlatformCol1Desc": "Teams per CSV oder Einladungslink hinzufügen und Tests gezielt zuweisen.",
   "landingPlatformCol1Title": "Mitarbeitende einladen",
   "landingPlatformCol2Desc": "Teilnahme, Abschlussstatus, Ergebnisse und offene Einladungen zentral im Blick behalten.",
@@ -599,7 +599,7 @@
   "landingPlatformCol3Title": "Nachweise exportieren",
   "landingPlatformDesc": "Ob KI-Compliance, Datenschutz, Security Awareness oder interne Richtlinien: RuleFox macht Wissen prüfbar, Ergebnisse sichtbar und Nachweise exportierbar.",
   "landingPlatformEyebrow": "Plattform",
-  "landingPlatformTitle": "Eine Plattform. Viele Compliance-Checks.",
+  "landingPlatformTitle": "Eine Plattform.\nViele Compliance-Checks.",
   "landingPriceAmount": "€99",
   "landingPriceUnit": "pro Test",
   "landingPricesBtnStart": "Test starten",
@@ -612,7 +612,7 @@
   "landingPricesFeat5": "individueller Ergebnisnachweis als PDF",
   "landingPricesFeat6": "Reporting-Übersicht für Verantwortliche",
   "landingPricesNote": "Alle Preise zzgl. USt. Größere Kontingente und individuelle Anforderungen auf Anfrage.",
-  "landingPricesTitle": "Transparent. €99 pro Test.",
+  "landingPricesTitle": "Transparent.\n€99 pro Test.",
   "landingReportingDesc": "RuleFox zeigt nicht nur einzelne Testergebnisse, sondern auch Teilnahme, Abschlussstatus und Ergebnisübersichten auf einen Blick.",
   "landingReportingEyebrow": "Reporting & Insights",
   "landingReportingFeat1Desc": "Fortschritt nach Teams oder Abteilungen vergleichen.",
@@ -668,7 +668,7 @@
   "loadingResetLink": "Sende Reset-Link...",
   "loadingResettingPassword": "Passwort wird zurückgesetzt...",
   "loadingVerifyOtp": "OTP wird verifiziert...",
-  "loginButton": "Anmelden",
+  "loginButton": "Einloggen",
   "loginSubtitle": "Füllen Sie das untenstehende Formular aus",
   "loginTitle": "Im Dashboard anmelden",
   "logoutButton": "Abmelden",
@@ -730,7 +730,7 @@
   "noTestsAssignedDesc": "Sobald Sie Tests zuweisen, sehen Sie hier den Status und Fortschritt Ihrer Mitarbeitenden.",
   "ownerPlatformDesc": "Verwalten Sie Tests, Mandanten und Plattformkennzahlen an einem Ort.",
   "ownerPlatformOverview": "RuleFox Plattformübersicht",
-  "passwordHint": "Passwort eingeben",
+  "passwordHint": "••••••••",
   "passwordLabel": "Passwort",
   "pkgDescLarge": "Für größere Roll-outs.",
   "pkgDescMedium": "Empfohlen für Abteilungen.",
@@ -1206,7 +1206,11 @@
   "settingsPasswordChanged": "Passwort erfolgreich geändert.",
   "creditPricePreview": "Entsprechender Preis: {price} bei 99 € pro Credit",
   "@creditPricePreview": {
-    "placeholders": {"price": {"type": "String"}}
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
   },
   "onboardingCompanyTitle": "Unternehmen und Administration",
   "onboardingQuotaTitle": "Startkontingent auswählen",
@@ -1230,16 +1234,25 @@
   "footerLegalDisclaimer": "Rechtsstand: 04.08.2026. RuleFox ersetzt keine individuelle Rechtsberatung, keine Prüfung durch Rechtsanwälte oder Datenschutzexperten und keine behördliche Zertifizierung. Die Plattform unterstützt Unternehmen dabei, Wissen strukturiert zu prüfen, Ergebnisse auszuwerten und Ergebnisnachweise für interne Dokumentation bereitzustellen. Ob und welche rechtlichen Pflichten im Einzelfall bestehen, hängt vom konkreten KI-System, der Rolle des Unternehmens und dem Einsatzkontext ab.",
   "resultsGeneratingEvidence": "{count} Ergebnisnachweise werden erstellt...",
   "@resultsGeneratingEvidence": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "resultsGeneratingSecureEvidence": "Sicherer Ergebnisnachweis wird erstellt...",
   "resultsOpenEvidenceFailed": "Der Ergebnisnachweis konnte nicht geöffnet werden.",
   "resultsGenerateEvidenceFailed": "Der Ergebnisnachweis konnte nicht erstellt werden.",
   "errorUnexpectedDetails": "Ein unerwarteter Fehler ist aufgetreten: {details}",
   "@errorUnexpectedDetails": {
-    "placeholders": {"details": {"type": "String"}}
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
   },
   "verifyEvidenceLoading": "Authentizität des Ergebnisnachweises wird geprüft...",
   "verifyEvidenceInvalidTitle": "Ungültiger Ergebnisnachweis",
-  "verifyEvidenceInvalidDesc": "Dieser Ergebnisnachweis wird von unserem System nicht erkannt."
+  "verifyEvidenceInvalidDesc": "Dieser Ergebnisnachweis wird von unserem System nicht erkannt.",
+  "landingMockDisclaimer": "Beispiel-Nachweis · keine behördliche Zertifizierung"
 }

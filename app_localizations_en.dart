@@ -1363,7 +1363,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingEvidenceDesc =>
-      'Test results are especially valuable when they are documented traceably. RuleFox creates result evidence records covering participation, result, and status—clearly organized, exportable, and internally traceable.';
+      'Test results are especially valuable when they are documented transparently. RuleFox creates results reports on participation, results, and status – clear, exportable, and internally traceable.';
 
   @override
   String get landingEvidenceEyebrow => 'Evidence';
@@ -1374,25 +1374,26 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingEvidenceFeat1Title =>
-      'Individual result evidence per employee';
+      'Individual results report per employee';
 
   @override
   String get landingEvidenceFeat2Desc =>
-      'Each result evidence record receives a unique reference for internal documentation and later allocation.';
+      'Each result record receives a unique reference for internal documentation and later allocation.';
 
   @override
-  String get landingEvidenceFeat2Title => 'Unique evidence ID';
+  String get landingEvidenceFeat2Title => 'Unique verification ID';
 
   @override
   String get landingEvidenceFeat3Desc =>
-      'An overview of participation, status, and results for all tested employees in one report.';
+      'Overview of participation, status and results of all tested employees in one report.';
 
   @override
   String get landingEvidenceFeat3Title =>
-      'Overall report for responsible teams';
+      'Comprehensive report for those responsible';
 
   @override
-  String get landingEvidenceTitle => 'Don\'t just test. Document traceably.';
+  String get landingEvidenceTitle =>
+      'Don\'t just test.\nDocument everything transparently.';
 
   @override
   String get landingFloatEvalDesc => 'Make results visible';
@@ -1401,7 +1402,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingFloatEvalTitle => 'Evaluate';
 
   @override
-  String get landingFloatProveDesc => 'Export result evidence';
+  String get landingFloatProveDesc => 'Export results documentation';
 
   @override
   String get landingFloatProveTitle => 'Document';
@@ -1410,23 +1411,23 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingFloatSecureDesc => 'For internal documentation';
 
   @override
-  String get landingFloatSecureTitle => 'Traceable';
+  String get landingFloatSecureTitle => 'Understandable';
 
   @override
-  String get landingFloatTestDesc => 'Test knowledge systematically';
+  String get landingFloatTestDesc => 'Testing knowledge in a structured way';
 
   @override
   String get landingFloatTestTitle => 'Test';
 
   @override
-  String get landingHeroBtnEvidence => 'View sample evidence';
+  String get landingHeroBtnEvidence => 'View example proof';
 
   @override
   String get landingHeroBtnStart => 'Start EU AI Compliance Test';
 
   @override
   String get landingHeroDesc =>
-      'With RuleFox, companies can test whether employees understand important fundamentals of responsible AI use and AI compliance—with exportable result evidence for internal documentation, management, and further review.';
+      'RuleFox enables companies to test whether employees have understood important basics for the responsible use of AI and AI compliance issues – with exportable results for internal documentation, management and further review.';
 
   @override
   String get landingHeroNote =>
@@ -1439,17 +1440,17 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingHeroNote2 => 'EU AI\nCompliance\nTest.';
 
   @override
-  String get landingHeroNote3 => 'Further compliance tests\nwill follow.';
+  String get landingHeroNote3 => 'Further compliance checks\nwill follow.';
 
   @override
   String get landingHeroTitle =>
-      'Test AI compliance knowledge.\nDocument results centrally.';
+      'Assess AI compliance knowledge.\nCentrally document results.';
 
   @override
   String get landingMockDate => 'August 4, 2026';
 
   @override
-  String get landingMockScore => '86 % – passed';
+  String get landingMockScore => '86% – passed';
 
   @override
   String get landingModalBtnClose => 'Close';
@@ -1466,34 +1467,34 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingPlatformCol1Desc =>
-      'Add teams by CSV or invitation link and assign tests to the right employees.';
+      'Add teams via CSV or invitation link and assign tests to specific tasks.';
 
   @override
   String get landingPlatformCol1Title => 'Invite employees';
 
   @override
   String get landingPlatformCol2Desc =>
-      'Keep participation, completion status, results, and open invitations in view centrally.';
+      'Keep a central overview of participation, completion status, results and open invitations.';
 
   @override
   String get landingPlatformCol2Title => 'Evaluate progress';
 
   @override
   String get landingPlatformCol3Desc =>
-      'Create individual result evidence records and overall reports for internal documentation, management, and further review.';
+      'Create individual results reports and overall reports for internal documentation, management, and further auditing.';
 
   @override
   String get landingPlatformCol3Title => 'Export evidence';
 
   @override
   String get landingPlatformDesc =>
-      'Whether AI compliance, data protection, security awareness, or internal policies: RuleFox makes knowledge testable, results visible, and evidence exportable.';
+      'Whether it\'s AI compliance, data protection, security awareness or internal guidelines: RuleFox makes knowledge verifiable, results visible and evidence exportable.';
 
   @override
-  String get landingPlatformEyebrow => 'Platform';
+  String get landingPlatformEyebrow => 'platform';
 
   @override
-  String get landingPlatformTitle => 'One platform. Many compliance checks.';
+  String get landingPlatformTitle => 'One platform.\nMany compliance checks.';
 
   @override
   String get landingPriceAmount => '€99';
@@ -1506,7 +1507,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingPricesDesc =>
-      'Book individual tests or flexible quotas and use them as needed for employees, teams, or locations.';
+      'Book individual tests or flexible packages and deploy them as needed for employees, teams or locations.';
 
   @override
   String get landingPricesEyebrow => 'Prices';
@@ -1524,10 +1525,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingPricesFeat4 => 'automated evaluation';
 
   @override
-  String get landingPricesFeat5 => 'Individual result evidence record as a PDF';
+  String get landingPricesFeat5 => 'Individual results report as a PDF';
 
   @override
-  String get landingPricesFeat6 => 'Reporting overview for responsible teams';
+  String get landingPricesFeat6 => 'Reporting overview for managers';
 
   @override
   String get landingPricesNote =>
@@ -1538,31 +1539,31 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingReportingDesc =>
-      'RuleFox shows not only individual test results, but also participation, completion status, and result summaries at a glance.';
+      'RuleFox not only displays individual test results, but also participation, completion status and result overviews at a glance.';
 
   @override
   String get landingReportingEyebrow => 'Reporting & Insights';
 
   @override
   String get landingReportingFeat1Desc =>
-      'Compare progress by teams or departments.';
+      'Compare progress by team or department.';
 
   @override
-  String get landingReportingFeat1Title => 'Filter by areas';
+  String get landingReportingFeat1Title => 'Filter by area';
 
   @override
   String get landingReportingFeat2Desc =>
       'Track participation and results over time.';
 
   @override
-  String get landingReportingFeat2Title => 'Keep track of progress';
+  String get landingReportingFeat2Title => 'Keep an eye on the progress';
 
   @override
   String get landingReportingFeat3Desc =>
-      'Identify incomplete tests and notable results.';
+      'Identify incomplete tests and abnormal results.';
 
   @override
-  String get landingReportingFeat3Title => 'Identify open topics';
+  String get landingReportingFeat3Title => 'Identifying open issues';
 
   @override
   String get landingReportingFeat4Desc => 'Export reports as PDF or CSV.';
@@ -1574,19 +1575,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingReportingKpi1 => 'Participation rate';
 
   @override
-  String get landingReportingKpi1Sub => '156 of 200 employees invited';
+  String get landingReportingKpi1Sub => '156 out of 200 employees invited';
 
   @override
-  String get landingReportingKpi2 => 'Graduation rate';
+  String get landingReportingKpi2 => 'Closing rate';
 
   @override
-  String get landingReportingKpi2Sub => '97 of 156 tests completed';
+  String get landingReportingKpi2Sub => '97 out of 156 tests completed';
 
   @override
   String get landingReportingKpi3 => 'Pass rate';
 
   @override
-  String get landingReportingKpi3Sub => '82 of 97 tests passed';
+  String get landingReportingKpi3Sub => '82 out of 97 tests passed';
 
   @override
   String get landingReportingKpi4 => 'Average result';
@@ -1615,14 +1616,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingSequenceStep2Desc =>
-      'Employees answer practical questions on the selected compliance topic. Evaluation is automatic and traceable.';
+      'Employees answer practical questions on the selected compliance topic. The evaluation is automatic and transparent.';
 
   @override
   String get landingSequenceStep2Title => 'Take the test';
 
   @override
   String get landingSequenceStep3Desc =>
-      'Export individual result evidence records and overall reports as PDFs—for internal documentation, management, and further review.';
+      'Export individual results statements and overall reports as PDFs – for internal documentation, management, and further review.';
 
   @override
   String get landingSequenceStep3Title => 'Export results';
@@ -1632,7 +1633,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingTest1Desc =>
-      'Check whether employees understand important fundamentals for the safe and responsible use of AI systems—including risk awareness, principles of the EU AI Act, and practical application in everyday work.';
+      'Check whether employees have understood important basics for the safe and responsible use of AI systems – including risk awareness, basic principles of the EU AI Act and practical application in everyday work.';
 
   @override
   String get landingTest1Eyebrow => 'FIRST AVAILABLE TEST';
@@ -1657,14 +1658,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingTestSoonDesc =>
-      'RuleFox is continuously expanding with further check modules, including transparency and labeling topics, AI-system documentation, and other EU AI Act topics.';
+      'RuleFox is continuously being expanded with additional check modules – for example on transparency and labeling issues, AI system documentation and other EU AI Act topics.';
 
   @override
   String get landingTestSoonTitle => 'Further compliance checks';
 
   @override
   String get landingTestsDesc =>
-      'RuleFox is modular. The EU AI Compliance Test helps companies test, evaluate, and document fundamental knowledge of AI use and AI compliance in a structured way. Further compliance checks can be added through the same platform in the future.';
+      'RuleFox is modular in design. The EU AI Compliance Test helps companies to systematically review, evaluate, and document fundamental knowledge about AI usage and AI compliance. Additional compliance checks can be added via the same platform in the future.';
 
   @override
   String get landingTestsEyebrow => 'Available tests';
@@ -3047,7 +3048,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingReportingSampleNote =>
-      'Sample data illustrating the reporting function.';
+      'Example data to illustrate the reporting function.';
 
   @override
   String get certEvidenceFootnote =>
@@ -3058,29 +3059,29 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingAboutTitle =>
-      'Developed by practitioners in software development, AI application, and communication.';
+      'Developed by practitioners from software development, AI application and communication.';
 
   @override
   String get landingAboutBody1 =>
-      'RuleFox was developed by a team working in software development, digital product development, and corporate communications. In practice, we see that AI and compliance topics can feel complex, expensive, and difficult to document for many companies.';
+      'RuleFox was developed by a team from software development, digital product development, and corporate communications. In practice, we see that AI and compliance issues appear complex, expensive, and difficult to document for many companies.';
 
   @override
   String get landingAboutBody2 =>
-      'Our goal is to give companies simple and affordable access to structured knowledge tests, clear evaluations, and exportable result evidence records—digital, understandable, and without exaggerated legal promises.';
+      'Our goal is to provide companies with easy and affordable access to structured knowledge tests, clear evaluations and exportable results – digitally, understandably and without exaggerated legal promises.';
 
   @override
-  String get landingAboutTile1Title => 'Software & platform practice';
+  String get landingAboutTile1Title => 'Software & Platform Practice';
 
   @override
   String get landingAboutTile1Desc =>
-      'Digital workflows for tests, evaluation, and result documentation.';
+      'Digital processes for testing, evaluation and results documentation.';
 
   @override
   String get landingAboutTile2Title => 'Clear communication';
 
   @override
   String get landingAboutTile2Desc =>
-      'Complex topics are translated into clear questions and traceable results.';
+      'Complex topics are translated into clear questions and comprehensible results.';
 
   @override
   String get landingAboutTile3Title => 'Affordable entry';
@@ -3091,7 +3092,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get footerLegalDisclaimer =>
-      'Legal status: August 4, 2026. RuleFox does not replace individual legal advice, review by lawyers or data protection experts, or official certification. The platform helps companies test knowledge in a structured way, evaluate results, and provide result evidence records for internal documentation. Whether and which legal obligations apply in an individual case depends on the specific AI system, the company\'s role, and the context of use.';
+      'Legal status: August 4, 2026. RuleFox does not replace individual legal advice, review by lawyers or data protection experts, or official certification. The platform supports companies in systematically reviewing knowledge, evaluating results, and providing evidence for internal documentation. Whether and which legal obligations exist in a specific case depends on the concrete AI system, the company\'s role, and the context of use.';
 
   @override
   String resultsGeneratingEvidence(int count) {
@@ -3125,4 +3126,8 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get verifyEvidenceInvalidDesc =>
       'This result evidence record is not recognized by our system.';
+
+  @override
+  String get landingMockDisclaimer =>
+      'Example proof · not an official certification';
 }

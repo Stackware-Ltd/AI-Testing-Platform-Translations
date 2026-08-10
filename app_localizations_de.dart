@@ -124,14 +124,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get authCategory => 'Kategorie';
 
   @override
-  String get authCheckEvidence => 'Ergebnisorientierte Nachweise';
+  String get authCheckEvidence => 'Nachweisorientierte Ergebnisse';
 
   @override
-  String get authCheckInterface => 'Reduzierte, nachvollziehbare Schnittstelle';
+  String get authCheckInterface => 'Reduziertes, nachvollziehbares Interface';
 
   @override
-  String get authCheckQuotas =>
-      'Testkontingente und -zuweisungen im Blick behalten';
+  String get authCheckQuotas => 'Testkontingente und Zuweisungen im Blick';
 
   @override
   String get authCompany => 'Unternehmen';
@@ -170,38 +169,38 @@ class AppLocalizationsDe extends AppLocalizations {
   String get authLastNameHint => 'Mustermann';
 
   @override
-  String get authLoginDashboard => 'Login im Dashboard';
+  String get authLoginDashboard => 'Login zum Dashboard';
 
   @override
   String get authLoginDashboardDesc =>
-      'Melden Sie sich an, um Tests, Personal und Nachweise zu verwalten.';
+      'Melden Sie sich an, um Tests, Mitarbeitende und Nachweise zu verwalten.';
 
   @override
-  String get authManageCompliance => 'KI-Compliance zentral verwalten.';
+  String get authManageCompliance => 'AI Compliance zentral verwalten.';
 
   @override
   String get authManageComplianceDesc =>
-      'RuleFox führt Unternehmen von der Einrichtung und Mitarbeitereinladung bis zum exportierbaren Nachweis.';
+      'RuleFox führt Unternehmen vom Setup über Mitarbeitenden-Einladung bis zum exportierbaren Nachweis.';
 
   @override
   String get authReadyMinutes => 'In wenigen Minuten startklar.';
 
   @override
   String get authReadyMinutesDesc =>
-      'Nach der Registrierung können Sie Mitarbeiter importieren, Tests zuweisen und Nachweise exportieren.';
+      'Nach der Registrierung können Sie Mitarbeitende importieren, Tests zuweisen und Nachweise exportieren.';
 
   @override
   String get authSelectCategory => 'Kategorie auswählen';
 
   @override
-  String get authSelectCountry => 'Land auswählen';
+  String get authSelectCountry => 'Österreich';
 
   @override
-  String get authSettingUpBusiness => 'Unternehmen anlegen';
+  String get authSettingUpBusiness => 'Unternehmen einrichten';
 
   @override
   String get authSettingUpBusinessDesc =>
-      'Erstellen Sie Ihr RuleFox-Konto und starten Sie den KI-Compliance Test.';
+      'Erstellen Sie Ihr RuleFox-Konto und starten Sie mit dem AI Compliance Test.';
 
   @override
   String get authStepCreateBusiness => 'Unternehmen anlegen';
@@ -210,7 +209,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get authStepSelectQuota => 'Kontingent wählen';
 
   @override
-  String get authStepStartCompliance => 'KI-Compliance Test starten';
+  String get authStepStartCompliance => 'AI Compliance Test starten';
 
   @override
   String get authUpdatePassword => 'Passwort aktualisieren';
@@ -1404,7 +1403,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingEvidenceTitle =>
-      'Nicht nur testen. Nachvollziehbar dokumentieren.';
+      'Nicht nur testen.\nNachvollziehbar dokumentieren.';
 
   @override
   String get landingFloatEvalDesc => 'Ergebnisse sichtbar machen';
@@ -1445,13 +1444,13 @@ class AppLocalizationsDe extends AppLocalizations {
       'Aktuell verfügbar: EU AI Compliance Test. Weitere Compliance-Checks folgen.';
 
   @override
-  String get landingHeroNote1 => 'Derzeit\nverfügbar:';
+  String get landingHeroNote1 => 'Aktuell\nverfügbar:';
 
   @override
   String get landingHeroNote2 => 'EU AI\nCompliance\nTest.';
 
   @override
-  String get landingHeroNote3 => 'Weitere Compliance-Tests\nfolgen in Kürze.';
+  String get landingHeroNote3 => 'Weitere Compliance-Checks\nfolgen.';
 
   @override
   String get landingHeroTitle =>
@@ -1474,7 +1473,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'So sieht ein exportierter Ergebnisnachweis aus – als kompaktes PDF pro Mitarbeitendem.';
 
   @override
-  String get landingModalTitle => 'Beispiel-Ergebnisnachweis';
+  String get landingModalTitle => 'Beispiel-Nachweis ansehen';
 
   @override
   String get landingPlatformCol1Desc =>
@@ -1505,7 +1504,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get landingPlatformEyebrow => 'Plattform';
 
   @override
-  String get landingPlatformTitle => 'Eine Plattform. Viele Compliance-Checks.';
+  String get landingPlatformTitle =>
+      'Eine Plattform.\nViele Compliance-Checks.';
 
   @override
   String get landingPriceAmount => '€99';
@@ -1546,7 +1546,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Alle Preise zzgl. USt. Größere Kontingente und individuelle Anforderungen auf Anfrage.';
 
   @override
-  String get landingPricesTitle => 'Transparent. €99 pro Test.';
+  String get landingPricesTitle => 'Transparent.\n€99 pro Test.';
 
   @override
   String get landingReportingDesc =>
@@ -1732,7 +1732,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get loadingVerifyOtp => 'OTP wird verifiziert...';
 
   @override
-  String get loginButton => 'Anmelden';
+  String get loginButton => 'Einloggen';
 
   @override
   String get loginSubtitle => 'Füllen Sie das untenstehende Formular aus';
@@ -1906,7 +1906,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get ownerPlatformOverview => 'RuleFox Plattformübersicht';
 
   @override
-  String get passwordHint => 'Passwort eingeben';
+  String get passwordHint => '••••••••';
 
   @override
   String get passwordLabel => 'Passwort';
@@ -3164,4 +3164,8 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get verifyEvidenceInvalidDesc =>
       'Dieser Ergebnisnachweis wird von unserem System nicht erkannt.';
+
+  @override
+  String get landingMockDisclaimer =>
+      'Beispiel-Nachweis · keine behördliche Zertifizierung';
 }
