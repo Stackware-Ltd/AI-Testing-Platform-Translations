@@ -3130,4 +3130,68 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get landingMockDisclaimer =>
       'Example proof · not an official certification';
+
+  @override
+  String get onboardDialogTitle => 'Client onboarding';
+
+  @override
+  String get onboardStep1 => 'Client data';
+
+  @override
+  String get onboardStep2 => 'Initial quota';
+
+  @override
+  String get onboardStep3 => 'Confirmation';
+
+  @override
+  String get onboardCompanyName => 'Company name';
+
+  @override
+  String get onboardCompanyHint => 'Example GmbH';
+
+  @override
+  String get onboardCountry => 'Country';
+
+  @override
+  String get onboardIndustry => 'Industry (optional)';
+
+  @override
+  String get onboardIndustryHint => 'e.g. financial services';
+
+  @override
+  String get onboardAdminEmail => 'Admin email';
+
+  @override
+  String get onboardConfirmDesc =>
+      'Please confirm the details below. A welcome email will be sent to the administrator with a temporary password.';
+
+  @override
+  String get onboardConfirmCompany => 'Company';
+
+  @override
+  String get onboardConfirmAdmin => 'Admin';
+
+  @override
+  String get onboardConfirmQuota => 'Quota';
+
+  @override
+  String get onboardBtnBack => 'Back';
+
+  @override
+  String get onboardBtnFurther => 'Further';
+
+  @override
+  String get onboardBtnConfirm => 'Confirm';
+
+  @override
+  String get onboardErrorValidation => 'Enter a valid company name and email.';
+
+  @override
+  String get onboardSuccess => 'Client onboarded successfully. Email sent!';
+
+  @override
+  String get onboardBtnCancel => 'Cancel';
+
+  @override
+  String get onboardAdminEmailHint => 'admin@company.com';
 }

@@ -5946,6 +5946,132 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Example proof · not an official certification'**
   String get landingMockDisclaimer;
+
+  /// No description provided for @onboardDialogTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Client onboarding'**
+  String get onboardDialogTitle;
+
+  /// No description provided for @onboardStep1.
+  ///
+  /// In en, this message translates to:
+  /// **'Client data'**
+  String get onboardStep1;
+
+  /// No description provided for @onboardStep2.
+  ///
+  /// In en, this message translates to:
+  /// **'Initial quota'**
+  String get onboardStep2;
+
+  /// No description provided for @onboardStep3.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirmation'**
+  String get onboardStep3;
+
+  /// No description provided for @onboardCompanyName.
+  ///
+  /// In en, this message translates to:
+  /// **'Company name'**
+  String get onboardCompanyName;
+
+  /// No description provided for @onboardCompanyHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Example GmbH'**
+  String get onboardCompanyHint;
+
+  /// No description provided for @onboardCountry.
+  ///
+  /// In en, this message translates to:
+  /// **'Country'**
+  String get onboardCountry;
+
+  /// No description provided for @onboardIndustry.
+  ///
+  /// In en, this message translates to:
+  /// **'Industry (optional)'**
+  String get onboardIndustry;
+
+  /// No description provided for @onboardIndustryHint.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. financial services'**
+  String get onboardIndustryHint;
+
+  /// No description provided for @onboardAdminEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Admin email'**
+  String get onboardAdminEmail;
+
+  /// No description provided for @onboardConfirmDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Please confirm the details below. A welcome email will be sent to the administrator with a temporary password.'**
+  String get onboardConfirmDesc;
+
+  /// No description provided for @onboardConfirmCompany.
+  ///
+  /// In en, this message translates to:
+  /// **'Company'**
+  String get onboardConfirmCompany;
+
+  /// No description provided for @onboardConfirmAdmin.
+  ///
+  /// In en, this message translates to:
+  /// **'Admin'**
+  String get onboardConfirmAdmin;
+
+  /// No description provided for @onboardConfirmQuota.
+  ///
+  /// In en, this message translates to:
+  /// **'Quota'**
+  String get onboardConfirmQuota;
+
+  /// No description provided for @onboardBtnBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get onboardBtnBack;
+
+  /// No description provided for @onboardBtnFurther.
+  ///
+  /// In en, this message translates to:
+  /// **'Further'**
+  String get onboardBtnFurther;
+
+  /// No description provided for @onboardBtnConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm'**
+  String get onboardBtnConfirm;
+
+  /// No description provided for @onboardErrorValidation.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid company name and email.'**
+  String get onboardErrorValidation;
+
+  /// No description provided for @onboardSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Client onboarded successfully. Email sent!'**
+  String get onboardSuccess;
+
+  /// No description provided for @onboardBtnCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get onboardBtnCancel;
+
+  /// No description provided for @onboardAdminEmailHint.
+  ///
+  /// In en, this message translates to:
+  /// **'admin@company.com'**
+  String get onboardAdminEmailHint;
 }
 
 class _AppLocalizationsDelegate

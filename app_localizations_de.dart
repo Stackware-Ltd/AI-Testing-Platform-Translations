@@ -3168,4 +3168,69 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get landingMockDisclaimer =>
       'Beispiel-Nachweis · keine behördliche Zertifizierung';
+
+  @override
+  String get onboardDialogTitle => 'Kunde anlegen';
+
+  @override
+  String get onboardStep1 => 'Kundendaten';
+
+  @override
+  String get onboardStep2 => 'Startkontingent';
+
+  @override
+  String get onboardStep3 => 'Bestätigung';
+
+  @override
+  String get onboardCompanyName => 'Firmenname';
+
+  @override
+  String get onboardCompanyHint => 'Beispiel GmbH';
+
+  @override
+  String get onboardCountry => 'Land';
+
+  @override
+  String get onboardIndustry => 'Branche (optional)';
+
+  @override
+  String get onboardIndustryHint => 'z.B. Finanzdienstleistungen';
+
+  @override
+  String get onboardAdminEmail => 'Admin E-Mail';
+
+  @override
+  String get onboardConfirmDesc =>
+      'Bitte bestätigen Sie die untenstehenden Details. Eine Willkommens-E-Mail mit einem temporären Passwort wird an den Administrator gesendet.';
+
+  @override
+  String get onboardConfirmCompany => 'Firma';
+
+  @override
+  String get onboardConfirmAdmin => 'Admin';
+
+  @override
+  String get onboardConfirmQuota => 'Kontingent';
+
+  @override
+  String get onboardBtnBack => 'Zurück';
+
+  @override
+  String get onboardBtnFurther => 'Weiter';
+
+  @override
+  String get onboardBtnConfirm => 'Bestätigen';
+
+  @override
+  String get onboardErrorValidation =>
+      'Geben Sie einen gültigen Firmennamen und eine E-Mail-Adresse ein.';
+
+  @override
+  String get onboardSuccess => 'Kunde erfolgreich angelegt. E-Mail gesendet!';
+
+  @override
+  String get onboardBtnCancel => 'Abbrechen';
+
+  @override
+  String get onboardAdminEmailHint => 'admin@unternehmen.at';
 }
