@@ -6072,6 +6072,198 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'admin@company.com'**
   String get onboardAdminEmailHint;
+
+  /// No description provided for @emailNewEmployeeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'New Employee Added'**
+  String get emailNewEmployeeTitle;
+
+  /// No description provided for @emailNewEmployeeHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'New Employee Added'**
+  String get emailNewEmployeeHeading;
+
+  /// No description provided for @emailNewEmployeeHello.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello <b>{employer_name}</b>,<br>A new employee has been added to your RuleFox directory.'**
+  String emailNewEmployeeHello(Object employer_name);
+
+  /// No description provided for @emailNameLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Name:'**
+  String get emailNameLabel;
+
+  /// No description provided for @emailEmailLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Email:'**
+  String get emailEmailLabel;
+
+  /// No description provided for @emailNewEmployeeFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'You can now assign AI compliance tests to this employee from your dashboard.'**
+  String get emailNewEmployeeFooter;
+
+  /// No description provided for @emailTestCompletedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee Test Completed'**
+  String get emailTestCompletedTitle;
+
+  /// No description provided for @emailTestCompletedHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment Completed'**
+  String get emailTestCompletedHeading;
+
+  /// No description provided for @emailTestCompletedHello.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello <b>{employer_name}</b>,<br><b>{employee_name}</b> has successfully completed an assessment.'**
+  String emailTestCompletedHello(Object employee_name, Object employer_name);
+
+  /// No description provided for @emailAssessmentLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment:'**
+  String get emailAssessmentLabel;
+
+  /// No description provided for @emailScoreLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Score:'**
+  String get emailScoreLabel;
+
+  /// No description provided for @emailTestCompletedFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'You can review their detailed results and generate the evidence record in the Results tab of your dashboard.'**
+  String get emailTestCompletedFooter;
+
+  /// No description provided for @emailEmployeeTestDoneTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Completed - Thank You!'**
+  String get emailEmployeeTestDoneTitle;
+
+  /// No description provided for @emailEmployeeTestDoneHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Completed'**
+  String get emailEmployeeTestDoneHeading;
+
+  /// No description provided for @emailEmployeeTestDoneHello.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello <b>{employee_name}</b>,<br>Thank you for conducting the test <b>{test_name}</b>.'**
+  String emailEmployeeTestDoneHello(Object employee_name, Object test_name);
+
+  /// No description provided for @emailEmployeeTestDoneFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'Your submission has been successfully recorded. You will be notified if any further action is required.'**
+  String get emailEmployeeTestDoneFooter;
+
+  /// No description provided for @emailOnboardTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to RuleFox'**
+  String get emailOnboardTitle;
+
+  /// No description provided for @emailOnboardHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to RuleFox!'**
+  String get emailOnboardHeading;
+
+  /// No description provided for @emailOnboardLine1.
+  ///
+  /// In en, this message translates to:
+  /// **'Your administrator account has been created successfully.'**
+  String get emailOnboardLine1;
+
+  /// No description provided for @emailOnboardLine2.
+  ///
+  /// In en, this message translates to:
+  /// **'You can log in to your account using the credentials below:'**
+  String get emailOnboardLine2;
+
+  /// No description provided for @emailTempPasswordLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Temporary Password:'**
+  String get emailTempPasswordLabel;
+
+  /// No description provided for @emailBtnLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Log In Now'**
+  String get emailBtnLogin;
+
+  /// No description provided for @emailOnboardFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'Please change your password after your first login.'**
+  String get emailOnboardFooter;
+
+  /// No description provided for @emailResetPasswordTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset Your Password'**
+  String get emailResetPasswordTitle;
+
+  /// No description provided for @emailResetPasswordHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Password Reset Request'**
+  String get emailResetPasswordHeading;
+
+  /// No description provided for @emailResetPasswordLine1.
+  ///
+  /// In en, this message translates to:
+  /// **'We received a request to reset your password. Please use the One-Time Password (OTP) below to proceed.'**
+  String get emailResetPasswordLine1;
+
+  /// No description provided for @emailVerifyCodeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Verification Code'**
+  String get emailVerifyCodeLabel;
+
+  /// No description provided for @emailResetPasswordFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'This OTP is valid for the next 15 minutes. If you did not request a password reset, you can safely ignore this email.'**
+  String get emailResetPasswordFooter;
+
+  /// No description provided for @emailVerifyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Your Email Address'**
+  String get emailVerifyTitle;
+
+  /// No description provided for @emailVerifyHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to RuleFox!'**
+  String get emailVerifyHeading;
+
+  /// No description provided for @emailVerifyLine1.
+  ///
+  /// In en, this message translates to:
+  /// **'To complete your account creation, please verify your email address by using the code below.'**
+  String get emailVerifyLine1;
+
+  /// No description provided for @emailVerifyFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'This code is valid for 15 minutes.'**
+  String get emailVerifyFooter;
 }
 
 class _AppLocalizationsDelegate

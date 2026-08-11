@@ -3233,4 +3233,116 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get onboardAdminEmailHint => 'admin@unternehmen.at';
+
+  @override
+  String get emailNewEmployeeTitle => 'Neuer Mitarbeiter hinzugefügt';
+
+  @override
+  String get emailNewEmployeeHeading => 'Neuer Mitarbeiter hinzugefügt';
+
+  @override
+  String emailNewEmployeeHello(Object employer_name) {
+    return 'Hallo <b>$employer_name</b>,<br>Ein neuer Mitarbeiter wurde Ihrem RuleFox-Verzeichnis hinzugefügt.';
+  }
+
+  @override
+  String get emailNameLabel => 'Name:';
+
+  @override
+  String get emailEmailLabel => 'E-Mail:';
+
+  @override
+  String get emailNewEmployeeFooter =>
+      'Sie können diesem Mitarbeiter nun von Ihrem Dashboard aus KI-Compliance-Tests zuweisen.';
+
+  @override
+  String get emailTestCompletedTitle => 'Mitarbeitertest abgeschlossen';
+
+  @override
+  String get emailTestCompletedHeading => 'Bewertung abgeschlossen';
+
+  @override
+  String emailTestCompletedHello(Object employee_name, Object employer_name) {
+    return 'Hallo <b>$employer_name</b>,<br><b>$employee_name</b> hat eine Bewertung erfolgreich abgeschlossen.';
+  }
+
+  @override
+  String get emailAssessmentLabel => 'Bewertung:';
+
+  @override
+  String get emailScoreLabel => 'Punktzahl:';
+
+  @override
+  String get emailTestCompletedFooter =>
+      'Sie können die detaillierten Ergebnisse einsehen und den Nachweis im Tab \'Ergebnisse\' Ihres Dashboards generieren.';
+
+  @override
+  String get emailEmployeeTestDoneTitle => 'Test abgeschlossen - Vielen Dank!';
+
+  @override
+  String get emailEmployeeTestDoneHeading => 'Test abgeschlossen';
+
+  @override
+  String emailEmployeeTestDoneHello(Object employee_name, Object test_name) {
+    return 'Hallo <b>$employee_name</b>,<br>Vielen Dank für die Durchführung des Tests <b>$test_name</b>.';
+  }
+
+  @override
+  String get emailEmployeeTestDoneFooter =>
+      'Ihre Einreichung wurde erfolgreich aufgezeichnet. Sie werden benachrichtigt, falls weitere Maßnahmen erforderlich sind.';
+
+  @override
+  String get emailOnboardTitle => 'Willkommen bei RuleFox';
+
+  @override
+  String get emailOnboardHeading => 'Willkommen bei RuleFox!';
+
+  @override
+  String get emailOnboardLine1 =>
+      'Ihr Administratorkonto wurde erfolgreich erstellt.';
+
+  @override
+  String get emailOnboardLine2 =>
+      'Sie können sich mit den folgenden Anmeldedaten in Ihrem Konto anmelden:';
+
+  @override
+  String get emailTempPasswordLabel => 'Temporäres Passwort:';
+
+  @override
+  String get emailBtnLogin => 'Jetzt anmelden';
+
+  @override
+  String get emailOnboardFooter =>
+      'Bitte ändern Sie Ihr Passwort nach der ersten Anmeldung.';
+
+  @override
+  String get emailResetPasswordTitle => 'Passwort zurücksetzen';
+
+  @override
+  String get emailResetPasswordHeading =>
+      'Anfrage zum Zurücksetzen des Passworts';
+
+  @override
+  String get emailResetPasswordLine1 =>
+      'Wir haben eine Anfrage zum Zurücksetzen Ihres Passworts erhalten. Bitte verwenden Sie das untenstehende Einmalpasswort (OTP), um fortzufahren.';
+
+  @override
+  String get emailVerifyCodeLabel => 'Ihr Bestätigungscode';
+
+  @override
+  String get emailResetPasswordFooter =>
+      'Dieses OTP ist für die nächsten 15 Minuten gültig. Wenn Sie kein neues Passwort angefordert haben, können Sie diese E-Mail ignorieren.';
+
+  @override
+  String get emailVerifyTitle => 'Bestätigen Sie Ihre E-Mail-Adresse';
+
+  @override
+  String get emailVerifyHeading => 'Willkommen bei RuleFox!';
+
+  @override
+  String get emailVerifyLine1 =>
+      'Um die Kontoerstellung abzuschließen, bestätigen Sie bitte Ihre E-Mail-Adresse mit dem untenstehenden Code.';
+
+  @override
+  String get emailVerifyFooter => 'Dieser Code ist 15 Minuten lang gültig.';
 }
