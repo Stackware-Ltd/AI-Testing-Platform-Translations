@@ -1307,5 +1307,10 @@
   "emailVerifyTitle": "Bestätigen Sie Ihre E-Mail-Adresse",
   "emailVerifyHeading": "Willkommen bei RuleFox!",
   "emailVerifyLine1": "Um die Kontoerstellung abzuschließen, bestätigen Sie bitte Ihre E-Mail-Adresse mit dem untenstehenden Code.",
-  "emailVerifyFooter": "Dieser Code ist 15 Minuten lang gültig."
+  "emailVerifyFooter": "Dieser Code ist 15 Minuten lang gültig.",
+  "emailInvitationTitle": "Bewertungseinladung",
+  "emailInvitationHeading": "Testeinladung",
+  "emailInvitationHello": "Hallo <b>{employee_name}</b>,<br>Sie wurden von <b>{employer_name}</b> eingeladen, an der Bewertung <b>{test_name}</b> teilzunehmen.",
+  "emailInvitationAction": "Bewertung starten",
+  "emailInvitationFooter": "Bitte klicken Sie auf den obigen Button, um zu beginnen."
 }

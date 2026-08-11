@@ -1307,5 +1307,10 @@
   "emailVerifyTitle": "Verify Your Email Address",
   "emailVerifyHeading": "Welcome to RuleFox!",
   "emailVerifyLine1": "To complete your account creation, please verify your email address by using the code below.",
-  "emailVerifyFooter": "This code is valid for 15 minutes."
+  "emailVerifyFooter": "This code is valid for 15 minutes.",
+  "emailInvitationTitle": "Assessment Invitation",
+  "emailInvitationHeading": "Test Invitation",
+  "emailInvitationHello": "Hello <b>{employee_name}</b>,<br>You have been invited by <b>{employer_name}</b> to take the assessment <b>{test_name}</b>.",
+  "emailInvitationAction": "Start Assessment",
+  "emailInvitationFooter": "Please click the button above to begin."
 }
