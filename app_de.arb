@@ -1314,7 +1314,7 @@
   "emailVerifyFooter": "Dieser Code ist 15 Minuten lang gültig.",
   "emailInvitationTitle": "Bewertungseinladung",
   "emailInvitationHeading": "Testeinladung",
-  "emailInvitationHello": "Hallo <b>{employee_name}</b>,<br>Sie wurden von <b>{employer_name}</b> eingeladen, an der Bewertung <b>{test_name}</b> teilzunehmen.",
+  "emailInvitationHello": "Hallo <b>{employee_name}</b>,<br>Sie wurden eingeladen, an einer KI-Compliance-Bewertung auf der RuleFox-Plattform teilzunehmen. Dies ist ein sicherer, nur für Sie bestimmter Einladungslink.",
   "emailInvitationAction": "Bewertung starten",
   "emailInvitationFooter": "Bitte klicken Sie auf den obigen Button, um zu beginnen."
 }

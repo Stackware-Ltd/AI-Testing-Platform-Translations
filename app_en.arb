@@ -1314,7 +1314,7 @@
   "emailVerifyFooter": "This code is valid for 15 minutes.",
   "emailInvitationTitle": "Assessment Invitation",
   "emailInvitationHeading": "Test Invitation",
-  "emailInvitationHello": "Hello <b>{employee_name}</b>,<br>You have been invited by <b>{employer_name}</b> to take the assessment <b>{test_name}</b>.",
+  "emailInvitationHello": "Hello <b>{employee_name}</b>,<br>You have been invited to take an AI compliance assessment on the RuleFox platform. This is a secure invitation link unique to you.",
   "emailInvitationAction": "Start Assessment",
   "emailInvitationFooter": "Please click the button above to begin."
 }
