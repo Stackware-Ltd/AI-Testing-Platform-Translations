@@ -1367,7 +1367,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get landingNavProduct => 'Tests';
 
   @override
-  String get landingNavStart => 'Test starten';
+  String get landingNavStart => 'Registrieren';
 
   @override
   String get landingNavWorkflow => 'Reporting';
