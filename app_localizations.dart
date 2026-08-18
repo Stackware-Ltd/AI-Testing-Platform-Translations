@@ -2680,7 +2680,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingNavStart.
   ///
   /// In en, this message translates to:
-  /// **'Start test'**
+  /// **'Sign up'**
   String get landingNavStart;
 
   /// No description provided for @landingNavWorkflow.
@@ -5707,6 +5707,30 @@ abstract class AppLocalizations {
   /// **'Change your account password.'**
   String get settingsSecurityDesc;
 
+  /// No description provided for @settingsNotifyCompletedTestsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed tests'**
+  String get settingsNotifyCompletedTestsTitle;
+
+  /// No description provided for @settingsNotifyCompletedTestsDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive an email when a candidate completes a test.'**
+  String get settingsNotifyCompletedTestsDesc;
+
+  /// No description provided for @settingsNotifyNewEmployeesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'New employees'**
+  String get settingsNotifyNewEmployeesTitle;
+
+  /// No description provided for @settingsNotifyNewEmployeesDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive an email when a new employee is added.'**
+  String get settingsNotifyNewEmployeesDesc;
+
   /// No description provided for @settingsDiscard.
   ///
   /// In en, this message translates to:
@@ -6264,6 +6288,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'This code is valid for 15 minutes.'**
   String get emailVerifyFooter;
+
+  /// No description provided for @emailInvitationTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Assessment Invitation'**
+  String get emailInvitationTitle;
+
+  /// No description provided for @emailInvitationHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Invitation'**
+  String get emailInvitationHeading;
+
+  /// No description provided for @emailInvitationHello.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello <b>{employee_name}</b>,<br>You have been invited to take an AI compliance assessment on the RuleFox platform. This is a secure invitation link unique to you.'**
+  String emailInvitationHello(Object employee_name);
+
+  /// No description provided for @emailInvitationAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Assessment'**
+  String get emailInvitationAction;
+
+  /// No description provided for @emailInvitationFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'Please click the button above to begin.'**
+  String get emailInvitationFooter;
 }
 
 class _AppLocalizationsDelegate

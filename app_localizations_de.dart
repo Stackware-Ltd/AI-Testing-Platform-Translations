@@ -3021,7 +3021,21 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsSecurityTitle => 'Sicherheit';
 
   @override
-  String get settingsSecurityDesc => 'Ändern Sie das Passwort Ihres Kontos.';
+  String get settingsSecurityDesc => 'Ändern Sie Ihr Kontopasswort.';
+
+  @override
+  String get settingsNotifyCompletedTestsTitle => 'Abgeschlossene Tests';
+
+  @override
+  String get settingsNotifyCompletedTestsDesc =>
+      'Erhalten Sie eine E-Mail, wenn ein Kandidat einen Test abschließt.';
+
+  @override
+  String get settingsNotifyNewEmployeesTitle => 'Neue Mitarbeitende';
+
+  @override
+  String get settingsNotifyNewEmployeesDesc =>
+      'Erhalten Sie eine E-Mail, wenn ein neuer Mitarbeitender hinzugefügt wird.';
 
   @override
   String get settingsDiscard => 'Verwerfen';
@@ -3345,4 +3359,22 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get emailVerifyFooter => 'Dieser Code ist 15 Minuten lang gültig.';
+
+  @override
+  String get emailInvitationTitle => 'Bewertungseinladung';
+
+  @override
+  String get emailInvitationHeading => 'Testeinladung';
+
+  @override
+  String emailInvitationHello(Object employee_name) {
+    return 'Hallo <b>$employee_name</b>,<br>Sie wurden eingeladen, an einer KI-Compliance-Bewertung auf der RuleFox-Plattform teilzunehmen. Dies ist ein sicherer, nur für Sie bestimmter Einladungslink.';
+  }
+
+  @override
+  String get emailInvitationAction => 'Bewertung starten';
+
+  @override
+  String get emailInvitationFooter =>
+      'Bitte klicken Sie auf den obigen Button, um zu beginnen.';
 }

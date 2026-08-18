@@ -2988,6 +2988,20 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsSecurityDesc => 'Change your account password.';
 
   @override
+  String get settingsNotifyCompletedTestsTitle => 'Completed tests';
+
+  @override
+  String get settingsNotifyCompletedTestsDesc =>
+      'Receive an email when a candidate completes a test.';
+
+  @override
+  String get settingsNotifyNewEmployeesTitle => 'New employees';
+
+  @override
+  String get settingsNotifyNewEmployeesDesc =>
+      'Receive an email when a new employee is added.';
+
+  @override
   String get settingsDiscard => 'Discard';
 
   @override
@@ -3305,4 +3319,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get emailVerifyFooter => 'This code is valid for 15 minutes.';
+
+  @override
+  String get emailInvitationTitle => 'Assessment Invitation';
+
+  @override
+  String get emailInvitationHeading => 'Test Invitation';
+
+  @override
+  String emailInvitationHello(Object employee_name) {
+    return 'Hello <b>$employee_name</b>,<br>You have been invited to take an AI compliance assessment on the RuleFox platform. This is a secure invitation link unique to you.';
+  }
+
+  @override
+  String get emailInvitationAction => 'Start Assessment';
+
+  @override
+  String get emailInvitationFooter => 'Please click the button above to begin.';
 }
