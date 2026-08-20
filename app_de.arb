@@ -1286,6 +1286,7 @@
   "emailNameLabel": "Name:",
   "emailEmailLabel": "E-Mail:",
   "emailNewEmployeeFooter": "Sie können diesem Mitarbeiter nun von Ihrem Dashboard aus KI-Compliance-Tests zuweisen.",
+  "emailBulkNewEmployeeIntro": "{count} neue Mitarbeiter wurden erfolgreich importiert:",
   "emailTestCompletedTitle": "Mitarbeitertest abgeschlossen",
   "emailTestCompletedHeading": "Bewertung abgeschlossen",
   "emailTestCompletedHello": "Hallo <b>{employer_name}</b>,<br><b>{employee_name}</b> hat eine Bewertung erfolgreich abgeschlossen.",

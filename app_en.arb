@@ -1286,6 +1286,14 @@
   "emailNameLabel": "Name:",
   "emailEmailLabel": "Email:",
   "emailNewEmployeeFooter": "You can now assign AI compliance tests to this employee from your dashboard.",
+  "emailBulkNewEmployeeIntro": "{count} new employees have been successfully imported:",
+  "@emailBulkNewEmployeeIntro": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "emailTestCompletedTitle": "Employee Test Completed",
   "emailTestCompletedHeading": "Assessment Completed",
   "emailTestCompletedHello": "Hello <b>{employer_name}</b>,<br><b>{employee_name}</b> has successfully completed an assessment.",
