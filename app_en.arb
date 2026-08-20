@@ -1287,6 +1287,17 @@
   "emailNameLabel": "Name:",
   "emailEmailLabel": "Email:",
   "emailNewEmployeeFooter": "You can now assign AI compliance tests to this employee from your dashboard.",
+  "emailBulkNewEmployeeTitle": "New Employees Added",
+  "emailBulkNewEmployeeHeading": "New Employees Added",
+  "emailBulkNewEmployeeHello": "Hello <b>{employer_name}</b>,<br>New employees have been added to your RuleFox directory.",
+  "@emailBulkNewEmployeeHello": {
+    "placeholders": {
+      "employer_name": {
+        "type": "String"
+      }
+    }
+  },
+  "emailBulkNewEmployeeFooter": "You can now assign AI compliance tests to these employees from your dashboard.",
   "emailBulkNewEmployeeIntro": "{count} new employees have been successfully imported:",
   "@emailBulkNewEmployeeIntro": {
     "placeholders": {
