@@ -1114,6 +1114,7 @@
   "titleCurrentTestProducts": "Current test products",
   "titleDashboard": "AI Compliance Dashboard · RuleFox",
   "titleDeleteEmployee": "Delete Employee",
+  "msgEmployeeDeleted": "Employee deleted successfully.",
   "titleEmployees": "Employees · RuleFox",
   "titleInvoice": "Invoice · RuleFox",
   "titleLanding": "RuleFox – Test AI compliance knowledge and document results",
