@@ -935,6 +935,7 @@
   "snackInvalidEmailFormat": "Invalid email format",
   "snackInvalidOtp": "Invalid or expired OTP",
   "snackLoginFailed": "Login failed",
+  "snackLogoutSuccess": "Logged out successfully",
   "snackNetworkError": "Network error. Please check your connection",
   "snackNoResultsToExport": "No passed results to export.",
   "snackOtpResent": "Verification code resent to your email",

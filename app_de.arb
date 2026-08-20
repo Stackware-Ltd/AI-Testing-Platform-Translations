@@ -835,6 +835,7 @@
   "snackInvalidEmailFormat": "Ungültiges E-Mail-Format",
   "snackInvalidOtp": "Ungültiger oder abgelaufener OTP",
   "snackLoginFailed": "Anmeldung fehlgeschlagen",
+  "snackLogoutSuccess": "Erfolgreich abgemeldet",
   "snackNetworkError": "Netzwerkfehler. Bitte Verbindung prüfen",
   "snackNoResultsToExport": "Keine bestandenen Ergebnisse zum Exportieren vorhanden.",
   "snackOtpResent": "Verifizierungscode erneut gesendet",
