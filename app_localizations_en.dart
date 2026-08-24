@@ -3378,4 +3378,29 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get emailInvitationFooter => 'Please click the button above to begin.';
+
+  @override
+  String get dialogDuplicateTitle => 'Duplicate Employees Found';
+
+  @override
+  String dialogDuplicateDesc(int count) {
+    return '$count employee(s) in the CSV already exist in the system and will be skipped.';
+  }
+
+  @override
+  String dialogDuplicateProceed(int count) {
+    return 'Proceed with adding the remaining $count employee(s)?';
+  }
+
+  @override
+  String get buttonOkSkip => 'OK, skip these';
+
+  @override
+  String get buttonDownloadDuplicates => 'Download Duplicates CSV';
+
+  @override
+  String get buttonCancel => 'Cancel';
+
+  @override
+  String get buttonOkay => 'Okay';
 }

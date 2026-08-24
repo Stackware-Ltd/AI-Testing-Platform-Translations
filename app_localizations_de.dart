@@ -3419,4 +3419,29 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get emailInvitationFooter =>
       'Bitte klicken Sie auf den obigen Button, um zu beginnen.';
+
+  @override
+  String get dialogDuplicateTitle => 'Doppelte Mitarbeitende gefunden';
+
+  @override
+  String dialogDuplicateDesc(int count) {
+    return '$count Mitarbeitende in der CSV existieren bereits im System und werden übersprungen.';
+  }
+
+  @override
+  String dialogDuplicateProceed(int count) {
+    return 'Möchten Sie mit dem Hinzufügen der restlichen $count Mitarbeitenden fortfahren?';
+  }
+
+  @override
+  String get buttonOkSkip => 'OK, diese überspringen';
+
+  @override
+  String get buttonDownloadDuplicates => 'Duplikate (CSV) herunterladen';
+
+  @override
+  String get buttonCancel => 'Abbrechen';
+
+  @override
+  String get buttonOkay => 'Okay';
 }

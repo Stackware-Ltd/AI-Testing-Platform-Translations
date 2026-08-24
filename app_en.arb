@@ -1342,5 +1342,26 @@
   "emailInvitationHeading": "Test Invitation",
   "emailInvitationHello": "Hello <b>{employee_name}</b>,<br>You have been invited to take an AI compliance assessment on the RuleFox platform. This is a secure invitation link unique to you.",
   "emailInvitationAction": "Start Assessment",
-  "emailInvitationFooter": "Please click the button above to begin."
+  "emailInvitationFooter": "Please click the button above to begin.",
+  "dialogDuplicateTitle": "Duplicate Employees Found",
+  "dialogDuplicateDesc": "{count} employee(s) in the CSV already exist in the system and will be skipped.",
+  "@dialogDuplicateDesc": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dialogDuplicateProceed": "Proceed with adding the remaining {count} employee(s)?",
+  "@dialogDuplicateProceed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "buttonOkSkip": "OK, skip these",
+  "buttonDownloadDuplicates": "Download Duplicates CSV",
+  "buttonCancel": "Cancel",
+  "buttonOkay": "Okay"
 }

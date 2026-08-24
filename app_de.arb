@@ -1328,5 +1328,26 @@
   "emailInvitationHeading": "Testeinladung",
   "emailInvitationHello": "Hallo <b>{employee_name}</b>,<br>Sie wurden eingeladen, an einer KI-Compliance-Bewertung auf der RuleFox-Plattform teilzunehmen. Dies ist ein sicherer, nur für Sie bestimmter Einladungslink.",
   "emailInvitationAction": "Bewertung starten",
-  "emailInvitationFooter": "Bitte klicken Sie auf den obigen Button, um zu beginnen."
+  "emailInvitationFooter": "Bitte klicken Sie auf den obigen Button, um zu beginnen.",
+  "dialogDuplicateTitle": "Doppelte Mitarbeitende gefunden",
+  "dialogDuplicateDesc": "{count} Mitarbeitende in der CSV existieren bereits im System und werden übersprungen.",
+  "@dialogDuplicateDesc": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dialogDuplicateProceed": "Möchten Sie mit dem Hinzufügen der restlichen {count} Mitarbeitenden fortfahren?",
+  "@dialogDuplicateProceed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "buttonOkSkip": "OK, diese überspringen",
+  "buttonDownloadDuplicates": "Duplikate (CSV) herunterladen",
+  "buttonCancel": "Abbrechen",
+  "buttonOkay": "Okay"
 }

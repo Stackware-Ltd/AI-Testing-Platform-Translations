@@ -6390,6 +6390,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Please click the button above to begin.'**
   String get emailInvitationFooter;
+
+  /// No description provided for @dialogDuplicateTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Duplicate Employees Found'**
+  String get dialogDuplicateTitle;
+
+  /// No description provided for @dialogDuplicateDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} employee(s) in the CSV already exist in the system and will be skipped.'**
+  String dialogDuplicateDesc(int count);
+
+  /// No description provided for @dialogDuplicateProceed.
+  ///
+  /// In en, this message translates to:
+  /// **'Proceed with adding the remaining {count} employee(s)?'**
+  String dialogDuplicateProceed(int count);
+
+  /// No description provided for @buttonOkSkip.
+  ///
+  /// In en, this message translates to:
+  /// **'OK, skip these'**
+  String get buttonOkSkip;
+
+  /// No description provided for @buttonDownloadDuplicates.
+  ///
+  /// In en, this message translates to:
+  /// **'Download Duplicates CSV'**
+  String get buttonDownloadDuplicates;
+
+  /// No description provided for @buttonCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get buttonCancel;
+
+  /// No description provided for @buttonOkay.
+  ///
+  /// In en, this message translates to:
+  /// **'Okay'**
+  String get buttonOkay;
 }
 
 class _AppLocalizationsDelegate
