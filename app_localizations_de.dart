@@ -1069,6 +1069,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelEdit => 'Bearbeiten';
 
   @override
+  String get labelOpening => 'Öffnet...';
+
+  @override
   String get labelEditTest => 'Test bearbeiten';
 
   @override
@@ -2172,6 +2175,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get snackLoginFailed => 'Anmeldung fehlgeschlagen';
 
   @override
+  String get snackLogoutSuccess => 'Erfolgreich abgemeldet';
+
+  @override
   String get snackNetworkError => 'Netzwerkfehler. Bitte Verbindung prüfen';
 
   @override
@@ -2421,6 +2427,10 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get subtitleCreateNewTest => 'Testprodukt als Entwurf vorbereiten.';
+
+  @override
+  String get subtitleUpdateTest =>
+      'Testprodukt Eigenschaften und Konfiguration aktualisieren.';
 
   @override
   String get subtitleEmployees =>
@@ -2761,6 +2771,18 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get titleDeleteEmployee => 'Mitarbeiter löschen';
+
+  @override
+  String get msgEmployeeDeleted => 'Mitarbeiter erfolgreich gelöscht.';
+
+  @override
+  String get titleNotFound => '404 - Seite nicht gefunden';
+
+  @override
+  String get msgNotFound => 'Die von Ihnen gesuchte Seite existiert nicht.';
+
+  @override
+  String get btnReturnHome => 'Zurück zur Startseite';
 
   @override
   String get titleEmployees => 'Mitarbeitende · RuleFox';
@@ -3268,6 +3290,26 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get emailNewEmployeeFooter =>
       'Sie können diesem Mitarbeiter nun von Ihrem Dashboard aus KI-Compliance-Tests zuweisen.';
+
+  @override
+  String get emailBulkNewEmployeeTitle => 'Neue Mitarbeiter hinzugefügt';
+
+  @override
+  String get emailBulkNewEmployeeHeading => 'Neue Mitarbeiter hinzugefügt';
+
+  @override
+  String emailBulkNewEmployeeHello(String employer_name) {
+    return 'Hallo <b>$employer_name</b>,<br>Neue Mitarbeiter wurden Ihrem RuleFox-Verzeichnis hinzugefügt.';
+  }
+
+  @override
+  String get emailBulkNewEmployeeFooter =>
+      'Sie können diesen Mitarbeitern nun von Ihrem Dashboard aus KI-Compliance-Tests zuweisen.';
+
+  @override
+  String emailBulkNewEmployeeIntro(int count) {
+    return '$count neue Mitarbeiter wurden erfolgreich importiert:';
+  }
 
   @override
   String get emailTestCompletedTitle => 'Mitarbeitertest abgeschlossen';

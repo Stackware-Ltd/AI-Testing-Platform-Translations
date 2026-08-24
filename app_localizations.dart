@@ -2114,6 +2114,12 @@ abstract class AppLocalizations {
   /// **'Edit'**
   String get labelEdit;
 
+  /// No description provided for @labelOpening.
+  ///
+  /// In en, this message translates to:
+  /// **'Opening...'**
+  String get labelOpening;
+
   /// No description provided for @labelEditTest.
   ///
   /// In en, this message translates to:
@@ -4153,6 +4159,12 @@ abstract class AppLocalizations {
   /// **'Login failed'**
   String get snackLoginFailed;
 
+  /// No description provided for @snackLogoutSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Logged out successfully'**
+  String get snackLogoutSuccess;
+
   /// No description provided for @snackNetworkError.
   ///
   /// In en, this message translates to:
@@ -4620,6 +4632,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Prepare a test product as a draft.'**
   String get subtitleCreateNewTest;
+
+  /// No description provided for @subtitleUpdateTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Update test product properties and configuration.'**
+  String get subtitleUpdateTest;
 
   /// No description provided for @subtitleEmployees.
   ///
@@ -5220,6 +5238,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Delete Employee'**
   String get titleDeleteEmployee;
+
+  /// No description provided for @msgEmployeeDeleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Employee deleted successfully.'**
+  String get msgEmployeeDeleted;
+
+  /// No description provided for @titleNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'404 - Page Not Found'**
+  String get titleNotFound;
+
+  /// No description provided for @msgNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'The page you are looking for does not exist.'**
+  String get msgNotFound;
+
+  /// No description provided for @btnReturnHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Return to Home'**
+  String get btnReturnHome;
 
   /// No description provided for @titleEmployees.
   ///
@@ -6132,6 +6174,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You can now assign AI compliance tests to this employee from your dashboard.'**
   String get emailNewEmployeeFooter;
+
+  /// No description provided for @emailBulkNewEmployeeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'New Employees Added'**
+  String get emailBulkNewEmployeeTitle;
+
+  /// No description provided for @emailBulkNewEmployeeHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'New Employees Added'**
+  String get emailBulkNewEmployeeHeading;
+
+  /// No description provided for @emailBulkNewEmployeeHello.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello <b>{employer_name}</b>,<br>New employees have been added to your RuleFox directory.'**
+  String emailBulkNewEmployeeHello(String employer_name);
+
+  /// No description provided for @emailBulkNewEmployeeFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'You can now assign AI compliance tests to these employees from your dashboard.'**
+  String get emailBulkNewEmployeeFooter;
+
+  /// No description provided for @emailBulkNewEmployeeIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} new employees have been successfully imported:'**
+  String emailBulkNewEmployeeIntro(int count);
 
   /// No description provided for @emailTestCompletedTitle.
   ///

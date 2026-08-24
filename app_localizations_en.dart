@@ -1059,6 +1059,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelEdit => 'Edit';
 
   @override
+  String get labelOpening => 'Opening...';
+
+  @override
   String get labelEditTest => 'Edit Test';
 
   @override
@@ -2148,6 +2151,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get snackLoginFailed => 'Login failed';
 
   @override
+  String get snackLogoutSuccess => 'Logged out successfully';
+
+  @override
   String get snackNetworkError => 'Network error. Please check your connection';
 
   @override
@@ -2390,6 +2396,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get subtitleCreateNewTest => 'Prepare a test product as a draft.';
+
+  @override
+  String get subtitleUpdateTest =>
+      'Update test product properties and configuration.';
 
   @override
   String get subtitleEmployees =>
@@ -2726,6 +2736,18 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get titleDeleteEmployee => 'Delete Employee';
+
+  @override
+  String get msgEmployeeDeleted => 'Employee deleted successfully.';
+
+  @override
+  String get titleNotFound => '404 - Page Not Found';
+
+  @override
+  String get msgNotFound => 'The page you are looking for does not exist.';
+
+  @override
+  String get btnReturnHome => 'Return to Home';
 
   @override
   String get titleEmployees => 'Employees · RuleFox';
@@ -3229,6 +3251,26 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get emailNewEmployeeFooter =>
       'You can now assign AI compliance tests to this employee from your dashboard.';
+
+  @override
+  String get emailBulkNewEmployeeTitle => 'New Employees Added';
+
+  @override
+  String get emailBulkNewEmployeeHeading => 'New Employees Added';
+
+  @override
+  String emailBulkNewEmployeeHello(String employer_name) {
+    return 'Hello <b>$employer_name</b>,<br>New employees have been added to your RuleFox directory.';
+  }
+
+  @override
+  String get emailBulkNewEmployeeFooter =>
+      'You can now assign AI compliance tests to these employees from your dashboard.';
+
+  @override
+  String emailBulkNewEmployeeIntro(int count) {
+    return '$count new employees have been successfully imported:';
+  }
 
   @override
   String get emailTestCompletedTitle => 'Employee Test Completed';
