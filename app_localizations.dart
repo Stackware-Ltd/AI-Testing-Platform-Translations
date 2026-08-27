@@ -1418,6 +1418,12 @@ abstract class AppLocalizations {
   /// **'Passing score must be a number between 0 and 100.'**
   String get errorInvalidScore;
 
+  /// No description provided for @errorInvalidVat.
+  ///
+  /// In en, this message translates to:
+  /// **'The VAT number you provided is invalid. Please update your billing profile.'**
+  String get errorInvalidVat;
+
   /// No description provided for @errorLastNameRequired.
   ///
   /// In en, this message translates to:
@@ -3406,7 +3412,7 @@ abstract class AppLocalizations {
   /// No description provided for @msgEmployeesImported.
   ///
   /// In en, this message translates to:
-  /// **'Import employeesed successfully!'**
+  /// **'Employees imported successfully!'**
   String get msgEmployeesImported;
 
   /// No description provided for @msgEnterCompleteCard.

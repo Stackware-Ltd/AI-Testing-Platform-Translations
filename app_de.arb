@@ -258,6 +258,7 @@
   "errorInvalidJsonFile": "Ungültige JSON-Datei. Bitte überprüfen Sie den Inhalt.",
   "errorInvalidJsonStructure": "Ungültige JSON-Dateistruktur",
   "errorInvalidScore": "Die Bestehensquote muss eine Zahl zwischen 0 und 100 sein.",
+  "errorInvalidVat": "Die angegebene USt-IdNr. ist ungültig. Bitte aktualisieren Sie Ihr Rechnungsprofil.",
   "errorLastNameRequired": "Nachname erforderlich",
   "errorNewPasswordRequired": "Neues Passwort erforderlich",
   "errorOptionEmptyDetailed": "Option {key} von Frage {qNum} in \"{sTitle}\" darf nicht leer sein.",

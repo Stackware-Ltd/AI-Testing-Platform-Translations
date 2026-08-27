@@ -698,6 +698,10 @@ class AppLocalizationsEn extends AppLocalizations {
       'Passing score must be a number between 0 and 100.';
 
   @override
+  String get errorInvalidVat =>
+      'The VAT number you provided is invalid. Please update your billing profile.';
+
+  @override
   String get errorLastNameRequired => 'Last name is required';
 
   @override
@@ -1753,7 +1757,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get msgEmployeeSaved => 'Employee saved successfully!';
 
   @override
-  String get msgEmployeesImported => 'Import employeesed successfully!';
+  String get msgEmployeesImported => 'Employees imported successfully!';
 
   @override
   String get msgEnterCompleteCard => 'Please enter complete card information';

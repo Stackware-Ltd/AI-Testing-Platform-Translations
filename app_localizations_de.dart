@@ -702,6 +702,10 @@ class AppLocalizationsDe extends AppLocalizations {
       'Die Bestehensquote muss eine Zahl zwischen 0 und 100 sein.';
 
   @override
+  String get errorInvalidVat =>
+      'Die angegebene USt-IdNr. ist ungültig. Bitte aktualisieren Sie Ihr Rechnungsprofil.';
+
+  @override
   String get errorLastNameRequired => 'Nachname erforderlich';
 
   @override
