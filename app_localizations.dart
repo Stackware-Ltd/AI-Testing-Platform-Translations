@@ -6432,6 +6432,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Okay'**
   String get buttonOkay;
+
+  /// No description provided for @testUnderReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Under Review'**
+  String get testUnderReview;
+
+  /// No description provided for @weblateTranslationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Translation Required'**
+  String get weblateTranslationRequired;
+
+  /// No description provided for @weblateTranslationWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'This test will be published and sent to Weblate for translation. It will remain \"Under Review\" until translations are 100% complete.'**
+  String get weblateTranslationWarning;
 }
 
 class _AppLocalizationsDelegate

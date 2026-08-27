@@ -1363,5 +1363,8 @@
   "buttonOkSkip": "OK, skip these",
   "buttonDownloadDuplicates": "Download Duplicates CSV",
   "buttonCancel": "Cancel",
-  "buttonOkay": "Okay"
+  "buttonOkay": "Okay",
+  "testUnderReview": "Under Review",
+  "weblateTranslationRequired": "Translation Required",
+  "weblateTranslationWarning": "This test will be published and sent to Weblate for translation. It will remain \"Under Review\" until translations are 100% complete."
 }

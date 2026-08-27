@@ -3403,4 +3403,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get buttonOkay => 'Okay';
+
+  @override
+  String get testUnderReview => 'Under Review';
+
+  @override
+  String get weblateTranslationRequired => 'Translation Required';
+
+  @override
+  String get weblateTranslationWarning =>
+      'This test will be published and sent to Weblate for translation. It will remain \"Under Review\" until translations are 100% complete.';
 }
