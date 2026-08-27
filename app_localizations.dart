@@ -6450,6 +6450,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'This test will be published and sent to Weblate for translation. It will remain \"Under Review\" until translations are 100% complete.'**
   String get weblateTranslationWarning;
+
+  /// No description provided for @labelArchive.
+  ///
+  /// In en, this message translates to:
+  /// **'Archive'**
+  String get labelArchive;
+
+  /// No description provided for @labelUnarchive.
+  ///
+  /// In en, this message translates to:
+  /// **'Unarchive'**
+  String get labelUnarchive;
+
+  /// No description provided for @labelArchived.
+  ///
+  /// In en, this message translates to:
+  /// **'Archived'**
+  String get labelArchived;
+
+  /// No description provided for @statusNotAssigned.
+  ///
+  /// In en, this message translates to:
+  /// **'Not assigned'**
+  String get statusNotAssigned;
+
+  /// No description provided for @labelUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown'**
+  String get labelUnknown;
 }
 
 class _AppLocalizationsDelegate

@@ -3454,4 +3454,19 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get weblateTranslationWarning =>
       'This test will be published and sent to Weblate for translation. It will remain \"Under Review\" until translations are 100% complete.';
+
+  @override
+  String get labelArchive => 'Archivieren';
+
+  @override
+  String get labelUnarchive => 'Wiederherstellen';
+
+  @override
+  String get labelArchived => 'Archiviert';
+
+  @override
+  String get statusNotAssigned => 'Nicht zugewiesen';
+
+  @override
+  String get labelUnknown => 'Unbekannt';
 }

@@ -1366,5 +1366,10 @@
   "buttonOkay": "Okay",
   "testUnderReview": "Under Review",
   "weblateTranslationRequired": "Translation Required",
-  "weblateTranslationWarning": "This test will be published and sent to Weblate for translation. It will remain \"Under Review\" until translations are 100% complete."
+  "weblateTranslationWarning": "This test will be published and sent to Weblate for translation. It will remain \"Under Review\" until translations are 100% complete.",
+  "labelArchive": "Archive",
+  "labelUnarchive": "Unarchive",
+  "labelArchived": "Archived",
+  "statusNotAssigned": "Not assigned",
+  "labelUnknown": "Unknown"
 }
