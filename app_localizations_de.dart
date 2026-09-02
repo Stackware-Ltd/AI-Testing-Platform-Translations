@@ -1156,10 +1156,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelLanguage => 'Sprache';
 
   @override
-  String get labelLanguageCode => 'Sprachcode (z.B. de)';
+  String get labelLanguageCode => 'Sprachcode';
 
   @override
-  String get labelLanguageName => 'Sprachname (z.B. Deutsch)';
+  String get labelLanguageName => 'Sprachname';
 
   @override
   String get labelLastName => 'Nachname';
@@ -3453,6 +3453,9 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get emailInvitationHeading => 'Testeinladung';
+
+  @override
+  String get emailInvitationReminderHeading => 'Erinnerung: Testeinladung';
 
   @override
   String emailInvitationHello(Object employee_name, Object test_name) {

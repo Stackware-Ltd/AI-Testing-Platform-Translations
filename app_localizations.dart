@@ -2285,13 +2285,13 @@ abstract class AppLocalizations {
   /// No description provided for @labelLanguageCode.
   ///
   /// In en, this message translates to:
-  /// **'Language Code (e.g. ur)'**
+  /// **'Language Code'**
   String get labelLanguageCode;
 
   /// No description provided for @labelLanguageName.
   ///
   /// In en, this message translates to:
-  /// **'Language Name (e.g. Urdu)'**
+  /// **'Language Name'**
   String get labelLanguageName;
 
   /// No description provided for @labelLastName.
@@ -6462,6 +6462,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Test Invitation'**
   String get emailInvitationHeading;
+
+  /// No description provided for @emailInvitationReminderHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder: Test Invitation'**
+  String get emailInvitationReminderHeading;
 
   /// No description provided for @emailInvitationHello.
   ///
