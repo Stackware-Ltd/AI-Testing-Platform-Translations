@@ -512,6 +512,12 @@ abstract class AppLocalizations {
   /// **'Select the employees who should take the test. Available tests: {count}.'**
   String bannerAssignDesc(int count);
 
+  /// No description provided for @bannerAssignDescUnlimited.
+  ///
+  /// In en, this message translates to:
+  /// **'Select the employees who should take the test. Available tests: Unlimited.'**
+  String get bannerAssignDescUnlimited;
+
   /// No description provided for @bannerAssignTitle.
   ///
   /// In en, this message translates to:
@@ -1826,11 +1832,29 @@ abstract class AppLocalizations {
   /// **'Add Question'**
   String get labelAddQuestion;
 
+  /// No description provided for @labelAddCustomLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Custom Language'**
+  String get labelAddCustomLanguage;
+
+  /// No description provided for @labelAddLanguageBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Language'**
+  String get labelAddLanguageBtn;
+
   /// No description provided for @labelAddSection.
   ///
   /// In en, this message translates to:
   /// **'Add Section'**
   String get labelAddSection;
+
+  /// No description provided for @labelApplyChanges.
+  ///
+  /// In en, this message translates to:
+  /// **'Apply Changes'**
+  String get labelApplyChanges;
 
   /// No description provided for @labelAiComplianceCredits.
   ///
@@ -2096,6 +2120,18 @@ abstract class AppLocalizations {
   /// **'Download'**
   String get labelDownload;
 
+  /// No description provided for @labelDownloadJson.
+  ///
+  /// In en, this message translates to:
+  /// **'Download JSON'**
+  String get labelDownloadJson;
+
+  /// No description provided for @labelDownloadJsonTemplate.
+  ///
+  /// In en, this message translates to:
+  /// **'Download JSON Template'**
+  String get labelDownloadJsonTemplate;
+
   /// No description provided for @labelDownloadTemplate.
   ///
   /// In en, this message translates to:
@@ -2245,6 +2281,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Language'**
   String get labelLanguage;
+
+  /// No description provided for @labelLanguageCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Language Code (e.g. ur)'**
+  String get labelLanguageCode;
+
+  /// No description provided for @labelLanguageName.
+  ///
+  /// In en, this message translates to:
+  /// **'Language Name (e.g. Urdu)'**
+  String get labelLanguageName;
 
   /// No description provided for @labelLastName.
   ///
@@ -2432,6 +2480,12 @@ abstract class AppLocalizations {
   /// **'Requires credits to purchase'**
   String get labelRequiresCredits;
 
+  /// No description provided for @labelSaveAndSync.
+  ///
+  /// In en, this message translates to:
+  /// **'Save & Sync'**
+  String get labelSaveAndSync;
+
   /// No description provided for @labelSaveAsDraft.
   ///
   /// In en, this message translates to:
@@ -2545,11 +2599,23 @@ abstract class AppLocalizations {
   /// **'Test:'**
   String get labelTest;
 
+  /// No description provided for @labelTenant.
+  ///
+  /// In en, this message translates to:
+  /// **'Tenant'**
+  String get labelTenant;
+
   /// No description provided for @labelTestBuiltSuccessfully.
   ///
   /// In en, this message translates to:
-  /// **'Test Built Successfully'**
+  /// **'Test built successfully!'**
   String get labelTestBuiltSuccessfully;
+
+  /// No description provided for @labelTestConfiguration.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Configuration'**
+  String get labelTestConfiguration;
 
   /// No description provided for @labelTestExpired.
   ///
@@ -3409,6 +3475,12 @@ abstract class AppLocalizations {
   /// **'Employee saved successfully!'**
   String get msgEmployeeSaved;
 
+  /// No description provided for @msgFailedToSaveChanges.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to save changes.'**
+  String get msgFailedToSaveChanges;
+
   /// No description provided for @msgEmployeesImported.
   ///
   /// In en, this message translates to:
@@ -3499,6 +3571,12 @@ abstract class AppLocalizations {
   /// **'Saving...'**
   String get msgSaving;
 
+  /// No description provided for @msgSavingChanges.
+  ///
+  /// In en, this message translates to:
+  /// **'Saving changes to database...'**
+  String get msgSavingChanges;
+
   /// No description provided for @msgSavingDraft.
   ///
   /// In en, this message translates to:
@@ -3516,6 +3594,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Test Saved as Draft!'**
   String get msgTestSavedDraft;
+
+  /// No description provided for @msgTranslationSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Translation saved successfully!'**
+  String get msgTranslationSaved;
 
   /// No description provided for @msgUpdatingPrimaryVersion.
   ///
@@ -6382,8 +6466,8 @@ abstract class AppLocalizations {
   /// No description provided for @emailInvitationHello.
   ///
   /// In en, this message translates to:
-  /// **'Hello <b>{employee_name}</b>,<br>You have been invited to take an AI compliance assessment on the RuleFox platform. This is a secure invitation link unique to you.'**
-  String emailInvitationHello(Object employee_name);
+  /// **'Hello <b>{employee_name}</b>,<br>You have been invited to take the <b>{test_name}</b> assessment on the RuleFox platform. This is a secure invitation link unique to you.'**
+  String emailInvitationHello(Object employee_name, Object test_name);
 
   /// No description provided for @emailInvitationAction.
   ///

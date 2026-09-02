@@ -232,6 +232,10 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
+  String get bannerAssignDescUnlimited =>
+      'Wählen Sie die Mitarbeitenden aus, die den Test durchführen sollen. Verfügbare Tests: Unbegrenzt.';
+
+  @override
   String get bannerAssignTitle => 'KI-Compliance Test zuweisen';
 
   @override
@@ -920,7 +924,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelAddQuestion => 'Frage hinzufügen';
 
   @override
+  String get labelAddCustomLanguage => 'Benutzerdefinierte Sprache hinzufügen';
+
+  @override
+  String get labelAddLanguageBtn => 'Sprache hinzufügen';
+
+  @override
   String get labelAddSection => 'Abschnitt hinzufügen';
+
+  @override
+  String get labelApplyChanges => 'Änderungen anwenden';
 
   @override
   String get labelAiComplianceCredits => 'KI-Compliance Guthaben';
@@ -1061,6 +1074,12 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelDownload => 'Download';
 
   @override
+  String get labelDownloadJson => 'JSON herunterladen';
+
+  @override
+  String get labelDownloadJsonTemplate => 'JSON-Vorlage herunterladen';
+
+  @override
   String get labelDownloadTemplate => 'CSV-Vorlage herunterladen';
 
   @override
@@ -1135,6 +1154,12 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get labelLanguage => 'Sprache';
+
+  @override
+  String get labelLanguageCode => 'Sprachcode (z.B. de)';
+
+  @override
+  String get labelLanguageName => 'Sprachname (z.B. Deutsch)';
 
   @override
   String get labelLastName => 'Nachname';
@@ -1235,6 +1260,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelRequiresCredits => 'Erfordert Credits zum Kauf';
 
   @override
+  String get labelSaveAndSync => 'Speichern & Synchronisieren';
+
+  @override
   String get labelSaveAsDraft => 'Als Entwurf speichern';
 
   @override
@@ -1298,7 +1326,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelTest => 'Test:';
 
   @override
+  String get labelTenant => 'Tenant';
+
+  @override
   String get labelTestBuiltSuccessfully => 'Test erfolgreich erstellt';
+
+  @override
+  String get labelTestConfiguration => 'Test-Konfiguration';
 
   @override
   String get labelTestExpired => 'Test abgelaufen';
@@ -1767,11 +1801,14 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String msgDeleteConfirm(Object name) {
-    return 'Sind Sie sicher, dass Sie $name löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.';
+    return 'Möchten Sie $name wirklich löschen?\nDiese Aktion kann nicht rückgängig gemacht werden.';
   }
 
   @override
   String get msgEmployeeSaved => 'Mitarbeiter erfolgreich gespeichert!';
+
+  @override
+  String get msgFailedToSaveChanges => 'Fehler beim Speichern der Änderungen.';
 
   @override
   String get msgEmployeesImported => 'Mitarbeitende erfolgreich importiert!';
@@ -1824,7 +1861,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get msgSaving => 'Speichern...';
 
   @override
-  String get msgSavingDraft => 'Entwurf wird gespeichert...';
+  String get msgSavingChanges => 'Änderungen in der Datenbank speichern...';
+
+  @override
+  String get msgSavingDraft => 'Entwurf speichern...';
 
   @override
   String get msgSessionExpired =>
@@ -1834,8 +1874,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get msgTestSavedDraft => 'Test als Entwurf gespeichert!';
 
   @override
-  String get msgUpdatingPrimaryVersion =>
-      'Primäre Version wird aktualisiert...';
+  String get msgTranslationSaved => 'Übersetzung erfolgreich gespeichert!';
+
+  @override
+  String get msgUpdatingPrimaryVersion => 'Hauptversion wird aktualisiert...';
 
   @override
   String get nameLabel => 'Name';
@@ -3413,8 +3455,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get emailInvitationHeading => 'Testeinladung';
 
   @override
-  String emailInvitationHello(Object employee_name) {
-    return 'Hallo <b>$employee_name</b>,<br>Sie wurden eingeladen, an einer KI-Compliance-Bewertung auf der RuleFox-Plattform teilzunehmen. Dies ist ein sicherer, nur für Sie bestimmter Einladungslink.';
+  String emailInvitationHello(Object employee_name, Object test_name) {
+    return 'Hallo <b>$employee_name</b>,<br>Sie wurden eingeladen, an der <b>$test_name</b> Bewertung auf der RuleFox-Plattform teilzunehmen. Dies ist ein sicherer, nur für Sie bestimmter Einladungslink.';
   }
 
   @override

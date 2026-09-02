@@ -230,6 +230,10 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String get bannerAssignDescUnlimited =>
+      'Select the employees who should take the test. Available tests: Unlimited.';
+
+  @override
   String get bannerAssignTitle => 'Assign AI Compliance Test';
 
   @override
@@ -912,7 +916,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelAddQuestion => 'Add Question';
 
   @override
+  String get labelAddCustomLanguage => 'Add Custom Language';
+
+  @override
+  String get labelAddLanguageBtn => 'Add Language';
+
+  @override
   String get labelAddSection => 'Add Section';
+
+  @override
+  String get labelApplyChanges => 'Apply Changes';
 
   @override
   String get labelAiComplianceCredits => 'AI Compliance Credits';
@@ -1051,6 +1064,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelDownload => 'Download';
 
   @override
+  String get labelDownloadJson => 'Download JSON';
+
+  @override
+  String get labelDownloadJsonTemplate => 'Download JSON Template';
+
+  @override
   String get labelDownloadTemplate => 'Download CSV Template';
 
   @override
@@ -1124,6 +1143,12 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get labelLanguage => 'Language';
+
+  @override
+  String get labelLanguageCode => 'Language Code (e.g. ur)';
+
+  @override
+  String get labelLanguageName => 'Language Name (e.g. Urdu)';
 
   @override
   String get labelLastName => 'Last Name';
@@ -1224,6 +1249,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelRequiresCredits => 'Requires credits to purchase';
 
   @override
+  String get labelSaveAndSync => 'Save & Sync';
+
+  @override
   String get labelSaveAsDraft => 'Save as Draft';
 
   @override
@@ -1287,7 +1315,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelTest => 'Test:';
 
   @override
-  String get labelTestBuiltSuccessfully => 'Test Built Successfully';
+  String get labelTenant => 'Tenant';
+
+  @override
+  String get labelTestBuiltSuccessfully => 'Test built successfully!';
+
+  @override
+  String get labelTestConfiguration => 'Test Configuration';
 
   @override
   String get labelTestExpired => 'Test expired';
@@ -1757,6 +1791,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get msgEmployeeSaved => 'Employee saved successfully!';
 
   @override
+  String get msgFailedToSaveChanges => 'Failed to save changes.';
+
+  @override
   String get msgEmployeesImported => 'Employees imported successfully!';
 
   @override
@@ -1804,6 +1841,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get msgSaving => 'Saving...';
 
   @override
+  String get msgSavingChanges => 'Saving changes to database...';
+
+  @override
   String get msgSavingDraft => 'Saving Draft...';
 
   @override
@@ -1811,6 +1851,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get msgTestSavedDraft => 'Test Saved as Draft!';
+
+  @override
+  String get msgTranslationSaved => 'Translation saved successfully!';
 
   @override
   String get msgUpdatingPrimaryVersion => 'Updating Primary Version...';
@@ -3373,8 +3416,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get emailInvitationHeading => 'Test Invitation';
 
   @override
-  String emailInvitationHello(Object employee_name) {
-    return 'Hello <b>$employee_name</b>,<br>You have been invited to take an AI compliance assessment on the RuleFox platform. This is a secure invitation link unique to you.';
+  String emailInvitationHello(Object employee_name, Object test_name) {
+    return 'Hello <b>$employee_name</b>,<br>You have been invited to take the <b>$test_name</b> assessment on the RuleFox platform. This is a secure invitation link unique to you.';
   }
 
   @override
