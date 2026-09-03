@@ -2378,6 +2378,96 @@ abstract class AppLocalizations {
   /// **'Passing Score (%)'**
   String get labelPassingScore;
 
+  /// No description provided for @labelPreviewLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview Language:'**
+  String get labelPreviewLanguage;
+
+  /// No description provided for @labelPreviewAs.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview As'**
+  String get labelPreviewAs;
+
+  /// No description provided for @labelTranslate.
+  ///
+  /// In en, this message translates to:
+  /// **'Translate:'**
+  String get labelTranslate;
+
+  /// No description provided for @labelAddTranslation.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Translation'**
+  String get labelAddTranslation;
+
+  /// No description provided for @labelJsonPreview.
+  ///
+  /// In en, this message translates to:
+  /// **'JSON Preview'**
+  String get labelJsonPreview;
+
+  /// No description provided for @labelJsonPreviewCurrentTest.
+  ///
+  /// In en, this message translates to:
+  /// **'JSON Preview (Current Test)'**
+  String get labelJsonPreviewCurrentTest;
+
+  /// No description provided for @labelCopied.
+  ///
+  /// In en, this message translates to:
+  /// **'Copied!'**
+  String get labelCopied;
+
+  /// No description provided for @labelCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy'**
+  String get labelCopy;
+
+  /// No description provided for @labelCloseTranslationMode.
+  ///
+  /// In en, this message translates to:
+  /// **'Close Translation Mode'**
+  String get labelCloseTranslationMode;
+
+  /// No description provided for @labelCloseJsonPreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Close JSON Preview'**
+  String get labelCloseJsonPreview;
+
+  /// No description provided for @labelSourceLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Source Language'**
+  String get labelSourceLanguage;
+
+  /// No description provided for @labelLocaleTranslation.
+  ///
+  /// In en, this message translates to:
+  /// **'{locale} Translation'**
+  String labelLocaleTranslation(String locale);
+
+  /// No description provided for @hintEnterTranslation.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter {locale} translation...'**
+  String hintEnterTranslation(String locale);
+
+  /// No description provided for @labelQuestionType.
+  ///
+  /// In en, this message translates to:
+  /// **'Type'**
+  String get labelQuestionType;
+
+  /// No description provided for @labelTapImagePreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap image to preview full size'**
+  String get labelTapImagePreview;
+
   /// No description provided for @labelPaymentDetails.
   ///
   /// In en, this message translates to:

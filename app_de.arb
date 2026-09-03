@@ -465,6 +465,35 @@
   "labelOthers": "Andere",
   "labelPaid": "Bezahlt",
   "labelPassingScore": "Bestehensquote (%)",
+  "labelPreviewLanguage": "Vorschausprache:",
+  "labelPreviewAs": "Vorschau als",
+  "labelTranslate": "Übersetzen:",
+  "labelAddTranslation": "Übersetzung hinzufügen",
+  "labelJsonPreview": "JSON-Vorschau",
+  "labelJsonPreviewCurrentTest": "JSON-Vorschau (aktueller Test)",
+  "labelCopied": "Kopiert!",
+  "labelCopy": "Kopieren",
+  "labelCloseTranslationMode": "Übersetzungsmodus schließen",
+  "labelCloseJsonPreview": "JSON-Vorschau schließen",
+  "labelSourceLanguage": "Ausgangssprache",
+  "labelLocaleTranslation": "{locale}-Übersetzung",
+  "@labelLocaleTranslation": {
+    "placeholders": {
+      "locale": {
+        "type": "String"
+      }
+    }
+  },
+  "hintEnterTranslation": "{locale}-Übersetzung eingeben...",
+  "@hintEnterTranslation": {
+    "placeholders": {
+      "locale": {
+        "type": "String"
+      }
+    }
+  },
+  "labelQuestionType": "Typ",
+  "labelTapImagePreview": "Tippen, um das Bild in voller Größe anzuzeigen",
   "labelPaymentDetails": "Zahlungsdetails",
   "labelPerPerson": "pro Person",
   "labelPopular": "Beliebt",
@@ -537,6 +566,7 @@
   "labelTestExpiry": "Testablauf:",
   "labelTestName": "Test Name",
   "labelTestQuota": "Testkontingent",
+  "labelTenant": "Mandant",
   "labelTimeLimitHint": "z.B. 20 (0 für kein Limit)",
   "labelTimeLimitMinutes": "Zeitlimit (Minuten)",
   "labelTotal": "Gesamt",

@@ -1207,6 +1207,56 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelPassingScore => 'Bestehensquote (%)';
 
   @override
+  String get labelPreviewLanguage => 'Vorschausprache:';
+
+  @override
+  String get labelPreviewAs => 'Vorschau als';
+
+  @override
+  String get labelTranslate => 'Übersetzen:';
+
+  @override
+  String get labelAddTranslation => 'Übersetzung hinzufügen';
+
+  @override
+  String get labelJsonPreview => 'JSON-Vorschau';
+
+  @override
+  String get labelJsonPreviewCurrentTest => 'JSON-Vorschau (aktueller Test)';
+
+  @override
+  String get labelCopied => 'Kopiert!';
+
+  @override
+  String get labelCopy => 'Kopieren';
+
+  @override
+  String get labelCloseTranslationMode => 'Übersetzungsmodus schließen';
+
+  @override
+  String get labelCloseJsonPreview => 'JSON-Vorschau schließen';
+
+  @override
+  String get labelSourceLanguage => 'Ausgangssprache';
+
+  @override
+  String labelLocaleTranslation(String locale) {
+    return '$locale-Übersetzung';
+  }
+
+  @override
+  String hintEnterTranslation(String locale) {
+    return '$locale-Übersetzung eingeben...';
+  }
+
+  @override
+  String get labelQuestionType => 'Typ';
+
+  @override
+  String get labelTapImagePreview =>
+      'Tippen, um das Bild in voller Größe anzuzeigen';
+
+  @override
   String get labelPaymentDetails => 'Zahlungsdetails';
 
   @override
@@ -1326,7 +1376,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelTest => 'Test:';
 
   @override
-  String get labelTenant => 'Tenant';
+  String get labelTenant => 'Mandant';
 
   @override
   String get labelTestBuiltSuccessfully => 'Test erfolgreich erstellt';

@@ -1196,6 +1196,55 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelPassingScore => 'Passing Score (%)';
 
   @override
+  String get labelPreviewLanguage => 'Preview Language:';
+
+  @override
+  String get labelPreviewAs => 'Preview As';
+
+  @override
+  String get labelTranslate => 'Translate:';
+
+  @override
+  String get labelAddTranslation => 'Add Translation';
+
+  @override
+  String get labelJsonPreview => 'JSON Preview';
+
+  @override
+  String get labelJsonPreviewCurrentTest => 'JSON Preview (Current Test)';
+
+  @override
+  String get labelCopied => 'Copied!';
+
+  @override
+  String get labelCopy => 'Copy';
+
+  @override
+  String get labelCloseTranslationMode => 'Close Translation Mode';
+
+  @override
+  String get labelCloseJsonPreview => 'Close JSON Preview';
+
+  @override
+  String get labelSourceLanguage => 'Source Language';
+
+  @override
+  String labelLocaleTranslation(String locale) {
+    return '$locale Translation';
+  }
+
+  @override
+  String hintEnterTranslation(String locale) {
+    return 'Enter $locale translation...';
+  }
+
+  @override
+  String get labelQuestionType => 'Type';
+
+  @override
+  String get labelTapImagePreview => 'Tap image to preview full size';
+
+  @override
   String get labelPaymentDetails => 'Payment details';
 
   @override

@@ -640,6 +640,35 @@
   "labelOthers": "Others",
   "labelPaid": "Paid",
   "labelPassingScore": "Passing Score (%)",
+  "labelPreviewLanguage": "Preview Language:",
+  "labelPreviewAs": "Preview As",
+  "labelTranslate": "Translate:",
+  "labelAddTranslation": "Add Translation",
+  "labelJsonPreview": "JSON Preview",
+  "labelJsonPreviewCurrentTest": "JSON Preview (Current Test)",
+  "labelCopied": "Copied!",
+  "labelCopy": "Copy",
+  "labelCloseTranslationMode": "Close Translation Mode",
+  "labelCloseJsonPreview": "Close JSON Preview",
+  "labelSourceLanguage": "Source Language",
+  "labelLocaleTranslation": "{locale} Translation",
+  "@labelLocaleTranslation": {
+    "placeholders": {
+      "locale": {
+        "type": "String"
+      }
+    }
+  },
+  "hintEnterTranslation": "Enter {locale} translation...",
+  "@hintEnterTranslation": {
+    "placeholders": {
+      "locale": {
+        "type": "String"
+      }
+    }
+  },
+  "labelQuestionType": "Type",
+  "labelTapImagePreview": "Tap image to preview full size",
   "labelPaymentDetails": "Payment details",
   "labelPerPerson": "per person",
   "labelPopular": "Popular",
