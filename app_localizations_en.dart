@@ -113,6 +113,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get assessmentVerifying => 'Verifying your invitation...';
 
   @override
+  String get assessmentErrorInitFailed =>
+      'Initialization failed. Please refresh the page and try again.';
+
+  @override
+  String get assessmentErrorNoTestContent =>
+      'Test content data is missing for this version.';
+
+  @override
+  String assessmentErrorLaunchFailed(Object error) {
+    return 'Failed to launch test: $error';
+  }
+
+  @override
   String get authAddress => 'Address';
 
   @override
@@ -202,6 +215,17 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get authStepCreateBusiness => 'Create a business';
+
+  @override
+  String get authAccountCreated => 'Account Created!';
+
+  @override
+  String authVerificationCodeSent(Object email) {
+    return 'A 6-character verification code has been sent to $email. Please check your inbox and enter the code to activate your account.';
+  }
+
+  @override
+  String get authContinueToVerify => 'Continue to Verify';
 
   @override
   String get authStepSelectQuota => 'Select quota';
@@ -1127,6 +1151,42 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelFrom => 'From';
 
   @override
+  String get cartCompletePurchase => 'Complete Purchase';
+
+  @override
+  String cartCreditsValue(Object count) {
+    return '$count Credits';
+  }
+
+  @override
+  String get cartCurrentBalance => 'Current Balance';
+
+  @override
+  String cartInsufficientBalance(int count) {
+    return 'Insufficient balance. Please add $count more credits.';
+  }
+
+  @override
+  String get cartOrderSummary => 'Order Summary';
+
+  @override
+  String get cartOrderTotal => 'Order Total';
+
+  @override
+  String cartPurchaseRemaining(int count) {
+    return 'Purchase Remaining ($count) Credits';
+  }
+
+  @override
+  String get cartSeat => 'Seat';
+
+  @override
+  String get cartSeats => 'Seats';
+
+  @override
+  String get cartYourCartIsEmpty => 'Your cart is empty';
+
+  @override
   String get labelGroupBy => 'Group By';
 
   @override
@@ -1794,7 +1854,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get loadingLogin => 'Logging in...';
 
   @override
+  String get loadingProfile => 'Loading profile...';
+
+  @override
+  String get loadingProcessingPurchase => 'Processing purchase...';
+
+  @override
   String get loadingResendOtp => 'Resending OTP...';
+
+  @override
+  String get loadingResendingInvitation => 'Resending invitation...';
 
   @override
   String get loadingResetLink => 'Sending reset link...';
@@ -1804,6 +1873,15 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get loadingVerifyOtp => 'Verifying OTP...';
+
+  @override
+  String get loadingSavingChanges => 'Saving changes...';
+
+  @override
+  String get loadingFetchingTests => 'Loading tests...';
+
+  @override
+  String get loadingFetchingClients => 'Loading clients...';
 
   @override
   String get loginButton => 'Log In';
@@ -2315,6 +2393,11 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String dashboardStepsComplete(int count, int total) {
+    return '$count of $total complete';
+  }
+
+  @override
   String get statAverage => 'Average';
 
   @override
@@ -2597,6 +2680,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get testEditorTapToAttachImage => 'Tap to attach an image';
 
   @override
+  String testEditorQCount(Object count) {
+    return '$count Q';
+  }
+
+  @override
   String get testEditorTypeImageUpload => 'Image Upload';
 
   @override
@@ -2620,6 +2708,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get testRunnerAnsweredQuestions => 'Questions Answered';
+
+  @override
+  String testRunnerAnsweredOfTotal(Object answered, Object total) {
+    return '$answered of $total';
+  }
 
   @override
   String testRunnerApproxMinutes(int minutes) {
@@ -2745,6 +2838,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String testRunnerSectionTitle(int num, String title) {
     return 'Section $num: $title';
   }
+
+  @override
+  String get testRunnerSelectAllApply => '(Select all that apply)';
 
   @override
   String get testRunnerStartWithTest => 'Start with test';
@@ -3527,4 +3623,33 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get labelUnknown => 'Unknown';
+
+  @override
+  String get alertSuccess => 'Success';
+
+  @override
+  String get alertError => 'Error';
+
+  @override
+  String get alertInfo => 'Information';
+
+  @override
+  String get msgInviteResent => 'Invitation link resent successfully!';
+
+  @override
+  String get msgInviteSent => '1 employee assigned & invite sent!';
+
+  @override
+  String msgInvitesSent(Object count) {
+    return '$count employee(s) assigned & invites sent!';
+  }
+
+  @override
+  String get btnContinue => 'Continue';
+
+  @override
+  String get btnGotIt => 'Got It';
+
+  @override
+  String get btnOk => 'OK';
 }

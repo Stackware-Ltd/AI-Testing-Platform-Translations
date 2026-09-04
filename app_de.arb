@@ -39,6 +39,9 @@
   "assessmentVerificationError": "Bei der Überprüfung ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
   "assessmentVerificationFailed": "Überprüfung fehlgeschlagen.",
   "assessmentVerifying": "Ihre Einladung wird überprüft...",
+  "assessmentErrorInitFailed": "Initialisierung fehlgeschlagen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.",
+  "assessmentErrorNoTestContent": "Testinhalt fehlt für diese Version.",
+  "assessmentErrorLaunchFailed": "Fehler beim Starten des Tests: {error}",
   "authAddress": "Adresse",
   "authAddressHint": "Adresse eingeben",
   "authCategory": "Kategorie",
@@ -68,6 +71,9 @@
   "authSettingUpBusiness": "Unternehmen einrichten",
   "authSettingUpBusinessDesc": "Erstellen Sie Ihr RuleFox-Konto und starten Sie mit dem AI Compliance Test.",
   "authStepCreateBusiness": "Unternehmen anlegen",
+  "authAccountCreated": "Konto erstellt!",
+  "authVerificationCodeSent": "Ein 6-stelliger Verifizierungscode wurde an {email} gesendet. Bitte überprüfen Sie Ihren Posteingang und geben Sie den Code ein, um Ihr Konto zu aktivieren.",
+  "authContinueToVerify": "Weiter zur Verifizierung",
   "authStepSelectQuota": "Kontingent wählen",
   "authStepStartCompliance": "AI Compliance Test starten",
   "authUpdatePassword": "Passwort aktualisieren",
@@ -436,6 +442,30 @@
   "labelFree": "Kostenlos",
   "labelFreeTest": "Kostenloser Test",
   "labelFrom": "Von",
+  "cartCompletePurchase": "Kauf abschließen",
+  "cartCreditsValue": "{count} Credits",
+  "cartCurrentBalance": "Aktueller Kontostand",
+  "cartInsufficientBalance": "Unzureichendes Guthaben. Bitte fügen Sie {count} weitere Credits hinzu.",
+  "@cartInsufficientBalance": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartOrderSummary": "Bestellübersicht",
+  "cartOrderTotal": "Gesamtbetrag",
+  "cartPurchaseRemaining": "Verbleibender Kauf ({count} Credits)",
+  "@cartPurchaseRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartSeat": "Platz",
+  "cartSeats": "Plätze",
+  "cartYourCartIsEmpty": "Ihr Warenkorb ist leer",
   "labelGroupBy": "Gruppieren nach",
   "labelId": "ID",
   "labelImportTestFile": "Importieren Sie eine vorgefertigte Testdatei",
@@ -706,10 +736,16 @@
   "lastNameHint": "Nachname eingeben",
   "lastNameLabel": "Nachname",
   "loadingLogin": "Wird angemeldet...",
+  "loadingProfile": "Profil wird geladen...",
+  "loadingProcessingPurchase": "Kauf wird verarbeitet...",
   "loadingResendOtp": "OTP wird erneut gesendet...",
+  "loadingResendingInvitation": "Einladung wird erneut gesendet...",
   "loadingResetLink": "Sende Reset-Link...",
   "loadingResettingPassword": "Passwort wird zurückgesetzt...",
   "loadingVerifyOtp": "OTP wird verifiziert...",
+  "loadingSavingChanges": "Änderungen werden gespeichert...",
+  "loadingFetchingTests": "Tests werden geladen...",
+  "loadingFetchingClients": "Kunden werden geladen...",
   "loginButton": "Einloggen",
   "loginSubtitle": "Füllen Sie das untenstehende Formular aus",
   "loginTitle": "Im Dashboard anmelden",
@@ -756,7 +792,7 @@
   "navBilling": "Abrechnung",
   "navBillingCredits": "Abrechnung & Guthaben",
   "navCredits": "{count} Credits",
-  "navDashboard": "Dashboard",
+  "navDashboard": "Übersicht",
   "navEmployees": "Mitarbeitende",
   "navEvidence": "Nachweise",
   "navFooterLogoText": "RULEFOX",
@@ -908,6 +944,18 @@
   "statActiveClients": "Aktive Mandanten",
   "statActiveClientsHint": "Unternehmen",
   "statAssignedOutOf": "{count} von {total} zugewiesen",
+  "dashboardStepsComplete": "{count} von {total} abgeschlossen",
+  "@dashboardStepsComplete": {
+    "description": "Abschlussanzahl der nächsten Administratorschritte",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "statAverage": "Durchschnitt",
   "statCertificates": "Ergebnisnachweise",
   "statCompleted": "Abgeschlossen",
@@ -997,6 +1045,7 @@
   "testEditorImageSupportedFormats": "PNG, JPG, WEBP werden unterstützt",
   "testEditorReplaceImage": "Bild ersetzen",
   "testEditorTapToAttachImage": "Tippen Sie, um ein Bild anzuhängen",
+  "testEditorQCount": "{count} F",
   "testEditorTypeImageUpload": "Bild hochladen",
   "testEditorTypeImageUploadDesc": "Fügen Sie ein Bild für visuellen Fragenkontext hinzu",
   "testEditorUploading": "Wird hochgeladen...",
@@ -1005,6 +1054,7 @@
   "testFilterPublished": "Veröffentlicht",
   "testResultsTitle": "Testergebnisse",
   "testRunnerAnsweredQuestions": "Beantwortete Fragen",
+  "testRunnerAnsweredOfTotal": "{answered} von {total}",
   "testRunnerApproxMinutes": "ungefähr {minutes} Minuten",
   "@testRunnerApproxMinutes": {
     "placeholders": {
@@ -1112,6 +1162,7 @@
       }
     }
   },
+  "testRunnerSelectAllApply": "(Wählen Sie alle zutreffenden aus)",
   "testRunnerStartWithTest": "Mit Test beginnen",
   "testRunnerStay": "Bleiben",
   "testRunnerSubmissionReceived": "Ihre Einreichung für {testName} wurde erhalten",
@@ -1402,5 +1453,14 @@
   "labelUnarchive": "Wiederherstellen",
   "labelArchived": "Archiviert",
   "statusNotAssigned": "Nicht zugewiesen",
-  "labelUnknown": "Unbekannt"
+  "labelUnknown": "Unbekannt",
+  "alertSuccess": "Erfolg",
+  "alertError": "Fehler",
+  "alertInfo": "Information",
+  "msgInviteResent": "Einladungslink erfolgreich erneut gesendet!",
+  "msgInviteSent": "1 Mitarbeiter zugewiesen & Einladung gesendet!",
+  "msgInvitesSent": "{count} Mitarbeiter zugewiesen & Einladungen gesendet!",
+  "btnContinue": "Weiter",
+  "btnGotIt": "Verstanden",
+  "btnOk": "OK"
 }

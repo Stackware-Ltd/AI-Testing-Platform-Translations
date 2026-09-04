@@ -115,6 +115,19 @@ class AppLocalizationsDe extends AppLocalizations {
   String get assessmentVerifying => 'Ihre Einladung wird überprüft...';
 
   @override
+  String get assessmentErrorInitFailed =>
+      'Initialisierung fehlgeschlagen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.';
+
+  @override
+  String get assessmentErrorNoTestContent =>
+      'Testinhalt fehlt für diese Version.';
+
+  @override
+  String assessmentErrorLaunchFailed(Object error) {
+    return 'Fehler beim Starten des Tests: $error';
+  }
+
+  @override
   String get authAddress => 'Adresse';
 
   @override
@@ -204,6 +217,17 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get authStepCreateBusiness => 'Unternehmen anlegen';
+
+  @override
+  String get authAccountCreated => 'Konto erstellt!';
+
+  @override
+  String authVerificationCodeSent(Object email) {
+    return 'Ein 6-stelliger Verifizierungscode wurde an $email gesendet. Bitte überprüfen Sie Ihren Posteingang und geben Sie den Code ein, um Ihr Konto zu aktivieren.';
+  }
+
+  @override
+  String get authContinueToVerify => 'Weiter zur Verifizierung';
 
   @override
   String get authStepSelectQuota => 'Kontingent wählen';
@@ -1137,6 +1161,42 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelFrom => 'Von';
 
   @override
+  String get cartCompletePurchase => 'Kauf abschließen';
+
+  @override
+  String cartCreditsValue(Object count) {
+    return '$count Credits';
+  }
+
+  @override
+  String get cartCurrentBalance => 'Aktueller Kontostand';
+
+  @override
+  String cartInsufficientBalance(int count) {
+    return 'Unzureichendes Guthaben. Bitte fügen Sie $count weitere Credits hinzu.';
+  }
+
+  @override
+  String get cartOrderSummary => 'Bestellübersicht';
+
+  @override
+  String get cartOrderTotal => 'Gesamtbetrag';
+
+  @override
+  String cartPurchaseRemaining(int count) {
+    return 'Verbleibender Kauf ($count Credits)';
+  }
+
+  @override
+  String get cartSeat => 'Platz';
+
+  @override
+  String get cartSeats => 'Plätze';
+
+  @override
+  String get cartYourCartIsEmpty => 'Ihr Warenkorb ist leer';
+
+  @override
   String get labelGroupBy => 'Gruppieren nach';
 
   @override
@@ -1811,7 +1871,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get loadingLogin => 'Wird angemeldet...';
 
   @override
+  String get loadingProfile => 'Profil wird geladen...';
+
+  @override
+  String get loadingProcessingPurchase => 'Kauf wird verarbeitet...';
+
+  @override
   String get loadingResendOtp => 'OTP wird erneut gesendet...';
+
+  @override
+  String get loadingResendingInvitation => 'Einladung wird erneut gesendet...';
 
   @override
   String get loadingResetLink => 'Sende Reset-Link...';
@@ -1821,6 +1890,15 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get loadingVerifyOtp => 'OTP wird verifiziert...';
+
+  @override
+  String get loadingSavingChanges => 'Änderungen werden gespeichert...';
+
+  @override
+  String get loadingFetchingTests => 'Tests werden geladen...';
+
+  @override
+  String get loadingFetchingClients => 'Kunden werden geladen...';
 
   @override
   String get loginButton => 'Einloggen';
@@ -1944,7 +2022,7 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get navDashboard => 'Dashboard';
+  String get navDashboard => 'Übersicht';
 
   @override
   String get navEmployees => 'Mitarbeitende';
@@ -2343,6 +2421,11 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
+  String dashboardStepsComplete(int count, int total) {
+    return '$count von $total abgeschlossen';
+  }
+
+  @override
   String get statAverage => 'Durchschnitt';
 
   @override
@@ -2630,6 +2713,11 @@ class AppLocalizationsDe extends AppLocalizations {
   String get testEditorTapToAttachImage => 'Tippen Sie, um ein Bild anzuhängen';
 
   @override
+  String testEditorQCount(Object count) {
+    return '$count F';
+  }
+
+  @override
   String get testEditorTypeImageUpload => 'Bild hochladen';
 
   @override
@@ -2653,6 +2741,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get testRunnerAnsweredQuestions => 'Beantwortete Fragen';
+
+  @override
+  String testRunnerAnsweredOfTotal(Object answered, Object total) {
+    return '$answered von $total';
+  }
 
   @override
   String testRunnerApproxMinutes(int minutes) {
@@ -2779,6 +2872,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String testRunnerSectionTitle(int num, String title) {
     return 'Abschnitt $num: $title';
   }
+
+  @override
+  String get testRunnerSelectAllApply => '(Wählen Sie alle zutreffenden aus)';
 
   @override
   String get testRunnerStartWithTest => 'Mit Test beginnen';
@@ -3568,4 +3664,33 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get labelUnknown => 'Unbekannt';
+
+  @override
+  String get alertSuccess => 'Erfolg';
+
+  @override
+  String get alertError => 'Fehler';
+
+  @override
+  String get alertInfo => 'Information';
+
+  @override
+  String get msgInviteResent => 'Einladungslink erfolgreich erneut gesendet!';
+
+  @override
+  String get msgInviteSent => '1 Mitarbeiter zugewiesen & Einladung gesendet!';
+
+  @override
+  String msgInvitesSent(Object count) {
+    return '$count Mitarbeiter zugewiesen & Einladungen gesendet!';
+  }
+
+  @override
+  String get btnContinue => 'Weiter';
+
+  @override
+  String get btnGotIt => 'Verstanden';
+
+  @override
+  String get btnOk => 'OK';
 }

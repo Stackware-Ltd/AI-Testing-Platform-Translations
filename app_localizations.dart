@@ -290,6 +290,24 @@ abstract class AppLocalizations {
   /// **'Verifying your invitation...'**
   String get assessmentVerifying;
 
+  /// No description provided for @assessmentErrorInitFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Initialization failed. Please refresh the page and try again.'**
+  String get assessmentErrorInitFailed;
+
+  /// No description provided for @assessmentErrorNoTestContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Test content data is missing for this version.'**
+  String get assessmentErrorNoTestContent;
+
+  /// No description provided for @assessmentErrorLaunchFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to launch test: {error}'**
+  String assessmentErrorLaunchFailed(Object error);
+
   /// No description provided for @authAddress.
   ///
   /// In en, this message translates to:
@@ -463,6 +481,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Create a business'**
   String get authStepCreateBusiness;
+
+  /// No description provided for @authAccountCreated.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Created!'**
+  String get authAccountCreated;
+
+  /// No description provided for @authVerificationCodeSent.
+  ///
+  /// In en, this message translates to:
+  /// **'A 6-character verification code has been sent to {email}. Please check your inbox and enter the code to activate your account.'**
+  String authVerificationCodeSent(Object email);
+
+  /// No description provided for @authContinueToVerify.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue to Verify'**
+  String get authContinueToVerify;
 
   /// No description provided for @authStepSelectQuota.
   ///
@@ -2246,6 +2282,66 @@ abstract class AppLocalizations {
   /// **'From'**
   String get labelFrom;
 
+  /// No description provided for @cartCompletePurchase.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete Purchase'**
+  String get cartCompletePurchase;
+
+  /// No description provided for @cartCreditsValue.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} Credits'**
+  String cartCreditsValue(Object count);
+
+  /// No description provided for @cartCurrentBalance.
+  ///
+  /// In en, this message translates to:
+  /// **'Current Balance'**
+  String get cartCurrentBalance;
+
+  /// No description provided for @cartInsufficientBalance.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient balance. Please add {count} more credits.'**
+  String cartInsufficientBalance(int count);
+
+  /// No description provided for @cartOrderSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Order Summary'**
+  String get cartOrderSummary;
+
+  /// No description provided for @cartOrderTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'Order Total'**
+  String get cartOrderTotal;
+
+  /// No description provided for @cartPurchaseRemaining.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase Remaining ({count}) Credits'**
+  String cartPurchaseRemaining(int count);
+
+  /// No description provided for @cartSeat.
+  ///
+  /// In en, this message translates to:
+  /// **'Seat'**
+  String get cartSeat;
+
+  /// No description provided for @cartSeats.
+  ///
+  /// In en, this message translates to:
+  /// **'Seats'**
+  String get cartSeats;
+
+  /// No description provided for @cartYourCartIsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Your cart is empty'**
+  String get cartYourCartIsEmpty;
+
   /// No description provided for @labelGroupBy.
   ///
   /// In en, this message translates to:
@@ -3481,11 +3577,29 @@ abstract class AppLocalizations {
   /// **'Logging in...'**
   String get loadingLogin;
 
+  /// No description provided for @loadingProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading profile...'**
+  String get loadingProfile;
+
+  /// No description provided for @loadingProcessingPurchase.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing purchase...'**
+  String get loadingProcessingPurchase;
+
   /// No description provided for @loadingResendOtp.
   ///
   /// In en, this message translates to:
   /// **'Resending OTP...'**
   String get loadingResendOtp;
+
+  /// No description provided for @loadingResendingInvitation.
+  ///
+  /// In en, this message translates to:
+  /// **'Resending invitation...'**
+  String get loadingResendingInvitation;
 
   /// No description provided for @loadingResetLink.
   ///
@@ -3504,6 +3618,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Verifying OTP...'**
   String get loadingVerifyOtp;
+
+  /// No description provided for @loadingSavingChanges.
+  ///
+  /// In en, this message translates to:
+  /// **'Saving changes...'**
+  String get loadingSavingChanges;
+
+  /// No description provided for @loadingFetchingTests.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading tests...'**
+  String get loadingFetchingTests;
+
+  /// No description provided for @loadingFetchingClients.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading clients...'**
+  String get loadingFetchingClients;
 
   /// No description provided for @loginButton.
   ///
@@ -4465,6 +4597,12 @@ abstract class AppLocalizations {
   /// **'{count} of {total} assigned'**
   String statAssignedOutOf(Object count, Object total);
 
+  /// Completion count for the next admin steps
+  ///
+  /// In en, this message translates to:
+  /// **'{count} of {total} complete'**
+  String dashboardStepsComplete(int count, int total);
+
   /// No description provided for @statAverage.
   ///
   /// In en, this message translates to:
@@ -4999,6 +5137,12 @@ abstract class AppLocalizations {
   /// **'Tap to attach an image'**
   String get testEditorTapToAttachImage;
 
+  /// No description provided for @testEditorQCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} Q'**
+  String testEditorQCount(Object count);
+
   /// No description provided for @testEditorTypeImageUpload.
   ///
   /// In en, this message translates to:
@@ -5046,6 +5190,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Questions Answered'**
   String get testRunnerAnsweredQuestions;
+
+  /// No description provided for @testRunnerAnsweredOfTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'{answered} of {total}'**
+  String testRunnerAnsweredOfTotal(Object answered, Object total);
 
   /// No description provided for @testRunnerApproxMinutes.
   ///
@@ -5256,6 +5406,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Section {num}: {title}'**
   String testRunnerSectionTitle(int num, String title);
+
+  /// No description provided for @testRunnerSelectAllApply.
+  ///
+  /// In en, this message translates to:
+  /// **'(Select all that apply)'**
+  String get testRunnerSelectAllApply;
 
   /// No description provided for @testRunnerStartWithTest.
   ///
@@ -6666,6 +6822,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Unknown'**
   String get labelUnknown;
+
+  /// No description provided for @alertSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Success'**
+  String get alertSuccess;
+
+  /// No description provided for @alertError.
+  ///
+  /// In en, this message translates to:
+  /// **'Error'**
+  String get alertError;
+
+  /// No description provided for @alertInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'Information'**
+  String get alertInfo;
+
+  /// No description provided for @msgInviteResent.
+  ///
+  /// In en, this message translates to:
+  /// **'Invitation link resent successfully!'**
+  String get msgInviteResent;
+
+  /// No description provided for @msgInviteSent.
+  ///
+  /// In en, this message translates to:
+  /// **'1 employee assigned & invite sent!'**
+  String get msgInviteSent;
+
+  /// No description provided for @msgInvitesSent.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} employee(s) assigned & invites sent!'**
+  String msgInvitesSent(Object count);
+
+  /// No description provided for @btnContinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get btnContinue;
+
+  /// No description provided for @btnGotIt.
+  ///
+  /// In en, this message translates to:
+  /// **'Got It'**
+  String get btnGotIt;
+
+  /// No description provided for @btnOk.
+  ///
+  /// In en, this message translates to:
+  /// **'OK'**
+  String get btnOk;
 }
 
 class _AppLocalizationsDelegate

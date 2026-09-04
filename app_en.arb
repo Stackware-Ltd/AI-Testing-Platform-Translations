@@ -292,6 +292,9 @@
   "assessmentVerificationError": "An error occurred during verification. Please try again later.",
   "assessmentVerificationFailed": "Verification failed.",
   "assessmentVerifying": "Verifying your invitation...",
+  "assessmentErrorInitFailed": "Initialization failed. Please refresh the page and try again.",
+  "assessmentErrorNoTestContent": "Test content data is missing for this version.",
+  "assessmentErrorLaunchFailed": "Failed to launch test: {error}",
   "authAddress": "Address",
   "authAddressHint": "Enter your address",
   "authCategory": "Category",
@@ -321,6 +324,9 @@
   "authSettingUpBusiness": "Setting up a business",
   "authSettingUpBusinessDesc": "Create your RuleFox account and start the AI Compliance Test.",
   "authStepCreateBusiness": "Create a business",
+  "authAccountCreated": "Account Created!",
+  "authVerificationCodeSent": "A 6-character verification code has been sent to {email}. Please check your inbox and enter the code to activate your account.",
+  "authContinueToVerify": "Continue to Verify",
   "authStepSelectQuota": "Select quota",
   "authStepStartCompliance": "Start AI Compliance Test",
   "authUpdatePassword": "Update password",
@@ -618,6 +624,30 @@
   "labelFree": "Free",
   "labelFreeTest": "Free Test",
   "labelFrom": "From",
+  "cartCompletePurchase": "Complete Purchase",
+  "cartCreditsValue": "{count} Credits",
+  "cartCurrentBalance": "Current Balance",
+  "cartInsufficientBalance": "Insufficient balance. Please add {count} more credits.",
+  "@cartInsufficientBalance": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartOrderSummary": "Order Summary",
+  "cartOrderTotal": "Order Total",
+  "cartPurchaseRemaining": "Purchase Remaining ({count}) Credits",
+  "@cartPurchaseRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartSeat": "Seat",
+  "cartSeats": "Seats",
+  "cartYourCartIsEmpty": "Your cart is empty",
   "labelGroupBy": "Group By",
   "labelId": "ID",
   "labelImportTestFile": "Import a pre-made test file",
@@ -837,10 +867,16 @@
   "lastNameHint": "Enter last name",
   "lastNameLabel": "Last Name",
   "loadingLogin": "Logging in...",
+  "loadingProfile": "Loading profile...",
+  "loadingProcessingPurchase": "Processing purchase...",
   "loadingResendOtp": "Resending OTP...",
+  "loadingResendingInvitation": "Resending invitation...",
   "loadingResetLink": "Sending reset link...",
   "loadingResettingPassword": "Resetting password...",
   "loadingVerifyOtp": "Verifying OTP...",
+  "loadingSavingChanges": "Saving changes...",
+  "loadingFetchingTests": "Loading tests...",
+  "loadingFetchingClients": "Loading clients...",
   "loginButton": "Log In",
   "loginSubtitle": "Fill the below form to login",
   "loginTitle": "Login to Dashboard",
@@ -1001,6 +1037,18 @@
   "statActiveClients": "Active clients",
   "statActiveClientsHint": "Pursue",
   "statAssignedOutOf": "{count} of {total} assigned",
+  "dashboardStepsComplete": "{count} of {total} complete",
+  "@dashboardStepsComplete": {
+    "description": "Completion count for the next admin steps",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "statAverage": "Average",
   "statCertificates": "Result Evidence",
   "statCompleted": "Completed",
@@ -1090,6 +1138,7 @@
   "testEditorImageSupportedFormats": "PNG, JPG, WEBP supported",
   "testEditorReplaceImage": "Replace Image",
   "testEditorTapToAttachImage": "Tap to attach an image",
+  "testEditorQCount": "{count} Q",
   "testEditorTypeImageUpload": "Image Upload",
   "testEditorTypeImageUploadDesc": "Attach an image for visual question context",
   "testEditorUploading": "Uploading...",
@@ -1098,6 +1147,7 @@
   "testFilterPublished": "Published",
   "testResultsTitle": "Test results",
   "testRunnerAnsweredQuestions": "Questions Answered",
+  "testRunnerAnsweredOfTotal": "{answered} of {total}",
   "testRunnerApproxMinutes": "approximately {minutes} minutes",
   "testRunnerAssessmentComplete": "Assessment Complete",
   "testRunnerBackToTests": "Back to Tests",
@@ -1133,6 +1183,7 @@
   "testRunnerSectionNum": "Section {num}",
   "testRunnerSectionPassed": "Passed",
   "testRunnerSectionTitle": "Section {num}: {title}",
+  "testRunnerSelectAllApply": "(Select all that apply)",
   "testRunnerStartWithTest": "Start with test",
   "testRunnerStay": "Stay",
   "testRunnerSubmissionReceived": "Your submission for {testName} has been received",
@@ -1416,5 +1467,14 @@
   "labelUnarchive": "Unarchive",
   "labelArchived": "Archived",
   "statusNotAssigned": "Not assigned",
-  "labelUnknown": "Unknown"
+  "labelUnknown": "Unknown",
+  "alertSuccess": "Success",
+  "alertError": "Error",
+  "alertInfo": "Information",
+  "msgInviteResent": "Invitation link resent successfully!",
+  "msgInviteSent": "1 employee assigned & invite sent!",
+  "msgInvitesSent": "{count} employee(s) assigned & invites sent!",
+  "btnContinue": "Continue",
+  "btnGotIt": "Got It",
+  "btnOk": "OK"
 }
