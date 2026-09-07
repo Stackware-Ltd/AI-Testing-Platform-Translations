@@ -2824,7 +2824,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String testRunnerQuestionAnsweredOfTotal(int answered, int total) {
-    return '$answered von $total Fragen beantwortet';
+    return '$answered von $total Fragen';
   }
 
   @override
@@ -3093,11 +3093,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ergebnisnachweis verifizieren · RuleFox';
 
   @override
-  String get titleCannotArchive => 'Test kann nicht archiviert werden';
+  String get titleArchiveTest => 'Test archivieren?';
 
   @override
-  String get msgCannotArchiveAssigned =>
-      'Dieser Test ist bereits Mitarbeitern zugewiesen. Tests mit aktiven Zuweisungen können nicht archiviert werden.';
+  String get msgArchiveTest =>
+      'Der Test wird aus dem Marktplatz entfernt. Neue Käufe und Zuweisungen sind dann nicht mehr möglich. Personen, denen der Test bereits zugewiesen ist, können ihn weiterhin abschließen.';
 
   @override
   String get buttonGotIt => 'Verstanden';

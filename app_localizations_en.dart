@@ -2790,7 +2790,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String testRunnerQuestionAnsweredOfTotal(int answered, int total) {
-    return '$answered of $total questions answered';
+    return '$answered of $total questions';
   }
 
   @override
@@ -3057,11 +3057,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get titleVerifyCertificate => 'Verify Result Evidence · RuleFox';
 
   @override
-  String get titleCannotArchive => 'Cannot Archive Test';
+  String get titleArchiveTest => 'Archive this test?';
 
   @override
-  String get msgCannotArchiveAssigned =>
-      'This test is already assigned to employees. Tests with active assignments cannot be archived.';
+  String get msgArchiveTest =>
+      'The test will be removed from the marketplace. New purchases and assignments will be blocked. People who already have it assigned can still complete it.';
 
   @override
   String get buttonGotIt => 'Got it';

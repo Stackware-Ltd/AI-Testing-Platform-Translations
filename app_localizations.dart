@@ -5332,7 +5332,7 @@ abstract class AppLocalizations {
   /// No description provided for @testRunnerQuestionAnsweredOfTotal.
   ///
   /// In en, this message translates to:
-  /// **'{answered} of {total} questions answered'**
+  /// **'{answered} of {total} questions'**
   String testRunnerQuestionAnsweredOfTotal(int answered, int total);
 
   /// No description provided for @testRunnerQuestionCount.
@@ -5821,17 +5821,17 @@ abstract class AppLocalizations {
   /// **'Verify Result Evidence · RuleFox'**
   String get titleVerifyCertificate;
 
-  /// No description provided for @titleCannotArchive.
+  /// No description provided for @titleArchiveTest.
   ///
   /// In en, this message translates to:
-  /// **'Cannot Archive Test'**
-  String get titleCannotArchive;
+  /// **'Archive this test?'**
+  String get titleArchiveTest;
 
-  /// No description provided for @msgCannotArchiveAssigned.
+  /// No description provided for @msgArchiveTest.
   ///
   /// In en, this message translates to:
-  /// **'This test is already assigned to employees. Tests with active assignments cannot be archived.'**
-  String get msgCannotArchiveAssigned;
+  /// **'The test will be removed from the marketplace. New purchases and assignments will be blocked. People who already have it assigned can still complete it.'**
+  String get msgArchiveTest;
 
   /// No description provided for @buttonGotIt.
   ///

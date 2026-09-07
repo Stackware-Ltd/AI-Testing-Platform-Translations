@@ -1098,7 +1098,7 @@
   "testRunnerPreviousFlag": "Vorheriges Lesezeichen",
   "testRunnerPublishFailed": "Veröffentlichung fehlgeschlagen. Bitte versuchen Sie es erneut.",
   "testRunnerPublishing": "Wird veröffentlicht...",
-  "testRunnerQuestionAnsweredOfTotal": "{answered} von {total} Fragen beantwortet",
+  "testRunnerQuestionAnsweredOfTotal": "{answered} von {total} Fragen",
   "@testRunnerQuestionAnsweredOfTotal": {
     "placeholders": {
       "answered": {
@@ -1252,8 +1252,8 @@
   "titleImprint": "Impressum · RuleFox",
   "titlePrivacy": "Datenschutz · RuleFox",
   "titleVerifyCertificate": "Ergebnisnachweis verifizieren · RuleFox",
-  "titleCannotArchive": "Test kann nicht archiviert werden",
-  "msgCannotArchiveAssigned": "Dieser Test ist bereits Mitarbeitern zugewiesen. Tests mit aktiven Zuweisungen können nicht archiviert werden.",
+  "titleArchiveTest": "Test archivieren?",
+  "msgArchiveTest": "Der Test wird aus dem Marktplatz entfernt. Neue Käufe und Zuweisungen sind dann nicht mehr möglich. Personen, denen der Test bereits zugewiesen ist, können ihn weiterhin abschließen.",
   "buttonGotIt": "Verstanden",
   "cookieConsentMessage": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Datenverkehr zu analysieren und Marketingbemühungen zu unterstützen. Wenn Sie auf „Akzeptieren“ klicken, stimmen Sie der Verwendung dieser Tracking-Cookies zu. Wenn Sie ablehnen, werden wir Ihre Sitzung nicht verfolgen.",
   "cookieConsentAccept": "Akzeptieren",
