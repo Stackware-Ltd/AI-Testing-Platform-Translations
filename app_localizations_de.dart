@@ -251,7 +251,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get backToLogin => 'Zurück zur Anmeldung';
 
   @override
-  String bannerAssignDesc(int count) {
+  String bannerAssignDesc(num count) {
     return 'Wählen Sie die Mitarbeitenden aus, die den Test durchführen sollen. Verfügbare Tests: $count.';
   }
 
@@ -714,7 +714,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get errorFirstNameRequired => 'Vorname erforderlich';
 
   @override
-  String errorInsufficientSeats(int count) {
+  String errorInsufficientSeats(num count) {
     return 'Unzureichende Plätze. Sie haben nur $count Plätze verfügbar.';
   }
 
@@ -1084,7 +1084,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelCreditsUnit => 'Credits';
 
   @override
-  String labelCreditsXPrice(int count, String price) {
+  String labelCreditsXPrice(num count, String price) {
     return '$count Guthaben x €$price';
   }
 
@@ -1172,7 +1172,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get cartCurrentBalance => 'Aktueller Kontostand';
 
   @override
-  String cartInsufficientBalance(int count) {
+  String cartInsufficientBalance(num count) {
     return 'Unzureichendes Guthaben. Bitte fügen Sie $count weitere Credits hinzu.';
   }
 
@@ -1183,7 +1183,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get cartOrderTotal => 'Gesamtbetrag';
 
   @override
-  String cartPurchaseRemaining(int count) {
+  String cartPurchaseRemaining(num count) {
     return 'Verbleibender Kauf ($count Credits)';
   }
 
@@ -1923,7 +1923,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Datei konnte nicht gelesen werden. Versuchen Sie es erneut.';
 
   @override
-  String msgCreditsAdded(int count, double total) {
+  String msgCreditsAdded(num count, double total) {
     return '$count Guthaben wurden Ihrem Konto hinzugefügt. Gesamt bezahlt: €$total';
   }
 
@@ -3693,4 +3693,14 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get btnOk => 'OK';
+
+  @override
+  String get legalTermsOfServiceText =>
+      'Allgemeine Geschäftsbedingungen (AGB)\n\n### 1. Allgemeine Bestimmungen\n\nDiese Allgemeinen Geschäftsbedingungen regeln die Nutzung der Dienste von:\n\nFehr GmbH\nBlumenthal 6\n59457 Werl\nDeutschland\n\nTelefon: +49 (0) 2922 8814046\nE-Mail: info@rulefox.eu\n\nDurch den Zugriff auf oder die Nutzung unserer Dienste erklären Sie sich mit diesen Bedingungen einverstanden. Diese Bedingungen unterliegen dem Recht der Bundesrepublik Deutschland.\n\n### 2. Vertragsgegenstand\nWir bieten eine Plattform für KI-gestützte Test- und Compliance-Dienste. Der genaue Leistungsumfang ergibt sich aus der jeweiligen Leistungsbeschreibung auf unserer Website.\n\n### 3. Pflichten des Nutzers\nDie Nutzer sind verpflichtet, bei der Registrierung genaue und vollständige Angaben zu machen. Sie sind für die Wahrung der Vertraulichkeit Ihrer Zugangsdaten und für alle Aktivitäten unter Ihrem Konto verantwortlich.\n\n### 4. Haftung\nDie Fehr GmbH haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit. Bei leichter Fahrlässigkeit haftet die Fehr GmbH nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten). Die Haftung ist auf den vorhersehbaren, vertragstypischen Schaden begrenzt.\n\n### 5. Anwendbares Recht und Gerichtsstand\nDiese AGB und alle Rechtsbeziehungen zwischen dem Nutzer und der Fehr GmbH unterliegen dem Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts (CISG). Gerichtsstand für alle Streitigkeiten aus diesem Vertrag ist Werl, Deutschland, sofern der Nutzer Kaufmann oder eine juristische Person des öffentlichen Rechts ist.\n\n### 6. Änderungen\nWir behalten uns das Recht vor, diese AGB jederzeit zu ändern. Wir werden Sie in geeigneter Weise über solche Änderungen informieren. Wenn Sie nicht innerhalb von 4 Wochen nach Benachrichtigung widersprechen, gelten die geänderten Bedingungen als akzeptiert.';
+
+  @override
+  String get titleTerms => 'AGB';
+
+  @override
+  String get footerTerms => 'AGB';
 }
