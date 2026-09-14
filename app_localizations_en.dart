@@ -3493,12 +3493,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String emailEmployeeTestDoneHello(Object employee_name, Object test_name) {
-    return 'Hello <b>$employee_name</b>,<br>Thank you for conducting the test <b>$test_name</b>.';
+    return 'Hello <b>$employee_name</b>,<br>You have successfully completed the test <b>$test_name</b>.';
   }
 
   @override
   String get emailEmployeeTestDoneFooter =>
-      'Your submission has been successfully recorded. You will be notified if any further action is required.';
+      'Your results have been securely recorded.';
+
+  @override
+  String get emailEmployeeTestDoneCertAttached =>
+      'Congratulations on passing! Your official certificate is attached to this email.';
 
   @override
   String get emailOnboardTitle => 'Welcome to RuleFox';
