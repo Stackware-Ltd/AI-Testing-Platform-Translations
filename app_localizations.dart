@@ -1082,6 +1082,24 @@ abstract class AppLocalizations {
   /// **'Status'**
   String get columnStatus;
 
+  /// No description provided for @columnPurchased.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased'**
+  String get columnPurchased;
+
+  /// No description provided for @columnAttempts.
+  ///
+  /// In en, this message translates to:
+  /// **'Attempts'**
+  String get columnAttempts;
+
+  /// No description provided for @columnSuccessRate.
+  ///
+  /// In en, this message translates to:
+  /// **'Success Rate'**
+  String get columnSuccessRate;
+
   /// No description provided for @columnTest.
   ///
   /// In en, this message translates to:

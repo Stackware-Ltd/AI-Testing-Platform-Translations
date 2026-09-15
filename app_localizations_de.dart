@@ -529,6 +529,15 @@ class AppLocalizationsDe extends AppLocalizations {
   String get columnStatus => 'Status';
 
   @override
+  String get columnPurchased => 'Gekauft';
+
+  @override
+  String get columnAttempts => 'Versuche';
+
+  @override
+  String get columnSuccessRate => 'Erfolgsquote';
+
+  @override
   String get columnTest => 'Test';
 
   @override
