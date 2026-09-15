@@ -2510,6 +2510,12 @@ abstract class AppLocalizations {
   /// **'JSON Preview (Current Test)'**
   String get labelJsonPreviewCurrentTest;
 
+  /// No description provided for @labelJsonPreviewEditable.
+  ///
+  /// In en, this message translates to:
+  /// **'This JSON preview is editable.'**
+  String get labelJsonPreviewEditable;
+
   /// No description provided for @labelCopied.
   ///
   /// In en, this message translates to:

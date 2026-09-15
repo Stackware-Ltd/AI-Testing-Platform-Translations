@@ -501,6 +501,7 @@
   "labelAddTranslation": "Übersetzung hinzufügen",
   "labelJsonPreview": "JSON-Vorschau",
   "labelJsonPreviewCurrentTest": "JSON-Vorschau (aktueller Test)",
+  "labelJsonPreviewEditable": "Diese JSON-Vorschau ist bearbeitbar.",
   "labelCopied": "Kopiert!",
   "labelCopy": "Kopieren",
   "labelCloseTranslationMode": "Übersetzungsmodus schließen",

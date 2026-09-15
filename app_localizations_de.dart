@@ -1285,6 +1285,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get labelJsonPreviewCurrentTest => 'JSON-Vorschau (aktueller Test)';
 
   @override
+  String get labelJsonPreviewEditable => 'Diese JSON-Vorschau ist bearbeitbar.';
+
+  @override
   String get labelCopied => 'Kopiert!';
 
   @override

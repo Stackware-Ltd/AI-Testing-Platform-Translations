@@ -676,6 +676,7 @@
   "labelAddTranslation": "Add Translation",
   "labelJsonPreview": "JSON Preview",
   "labelJsonPreviewCurrentTest": "JSON Preview (Current Test)",
+  "labelJsonPreviewEditable": "This JSON preview is editable.",
   "labelCopied": "Copied!",
   "labelCopy": "Copy",
   "labelCloseTranslationMode": "Close Translation Mode",
