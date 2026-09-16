@@ -7044,6 +7044,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No Time Limit'**
   String get labelNoTimeLimit;
+
+  /// No description provided for @labelExpandEditor.
+  ///
+  /// In en, this message translates to:
+  /// **'Expand Editor'**
+  String get labelExpandEditor;
+
+  /// No description provided for @titleEditDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Description'**
+  String get titleEditDescription;
+
+  /// No description provided for @hintMarkdownFormatting.
+  ///
+  /// In en, this message translates to:
+  /// **'Click a button to insert formatting!'**
+  String get hintMarkdownFormatting;
+
+  /// No description provided for @hintDetailedDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a detailed description here...'**
+  String get hintDetailedDescription;
+
+  /// No description provided for @btnSaveDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Description'**
+  String get btnSaveDescription;
+
+  /// No description provided for @tooltipBold.
+  ///
+  /// In en, this message translates to:
+  /// **'Bold'**
+  String get tooltipBold;
+
+  /// No description provided for @tooltipItalic.
+  ///
+  /// In en, this message translates to:
+  /// **'Italic'**
+  String get tooltipItalic;
+
+  /// No description provided for @tooltipBulletList.
+  ///
+  /// In en, this message translates to:
+  /// **'Bullet List'**
+  String get tooltipBulletList;
+
+  /// No description provided for @tooltipNumberedList.
+  ///
+  /// In en, this message translates to:
+  /// **'Numbered List'**
+  String get tooltipNumberedList;
 }
 
 class _AppLocalizationsDelegate

@@ -1520,4 +1520,14 @@
     }
   },
   "labelNoTimeLimit": "No Time Limit"
+  ,
+  "labelExpandEditor": "Expand Editor",
+  "titleEditDescription": "Edit Description",
+  "hintMarkdownFormatting": "Click a button to insert formatting!",
+  "hintDetailedDescription": "Enter a detailed description here...",
+  "btnSaveDescription": "Save Description",
+  "tooltipBold": "Bold",
+  "tooltipItalic": "Italic",
+  "tooltipBulletList": "Bullet List",
+  "tooltipNumberedList": "Numbered List"
 }

@@ -3743,4 +3743,31 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get labelNoTimeLimit => 'No Time Limit';
+
+  @override
+  String get labelExpandEditor => 'Expand Editor';
+
+  @override
+  String get titleEditDescription => 'Edit Description';
+
+  @override
+  String get hintMarkdownFormatting => 'Click a button to insert formatting!';
+
+  @override
+  String get hintDetailedDescription => 'Enter a detailed description here...';
+
+  @override
+  String get btnSaveDescription => 'Save Description';
+
+  @override
+  String get tooltipBold => 'Bold';
+
+  @override
+  String get tooltipItalic => 'Italic';
+
+  @override
+  String get tooltipBulletList => 'Bullet List';
+
+  @override
+  String get tooltipNumberedList => 'Numbered List';
 }

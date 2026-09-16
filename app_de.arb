@@ -1506,4 +1506,14 @@
     }
   },
   "labelNoTimeLimit": "Kein Zeitlimit"
+  ,
+  "labelExpandEditor": "Editor erweitern",
+  "titleEditDescription": "Beschreibung bearbeiten",
+  "hintMarkdownFormatting": "Klicken Sie auf eine Schaltfläche, um Formatierungen einzufügen!",
+  "hintDetailedDescription": "Geben Sie hier eine detaillierte Beschreibung ein...",
+  "btnSaveDescription": "Beschreibung speichern",
+  "tooltipBold": "Fett",
+  "tooltipItalic": "Kursiv",
+  "tooltipBulletList": "Aufzählungsliste",
+  "tooltipNumberedList": "Nummerierte Liste"
 }

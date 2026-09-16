@@ -3784,4 +3784,33 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get labelNoTimeLimit => 'Kein Zeitlimit';
+
+  @override
+  String get labelExpandEditor => 'Editor erweitern';
+
+  @override
+  String get titleEditDescription => 'Beschreibung bearbeiten';
+
+  @override
+  String get hintMarkdownFormatting =>
+      'Klicken Sie auf eine Schaltfläche, um Formatierungen einzufügen!';
+
+  @override
+  String get hintDetailedDescription =>
+      'Geben Sie hier eine detaillierte Beschreibung ein...';
+
+  @override
+  String get btnSaveDescription => 'Beschreibung speichern';
+
+  @override
+  String get tooltipBold => 'Fett';
+
+  @override
+  String get tooltipItalic => 'Kursiv';
+
+  @override
+  String get tooltipBulletList => 'Aufzählungsliste';
+
+  @override
+  String get tooltipNumberedList => 'Nummerierte Liste';
 }
