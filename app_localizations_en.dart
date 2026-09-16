@@ -3678,4 +3678,69 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get footerTerms => 'Terms of Service';
+
+  @override
+  String get categoryAccounting => 'Accounting';
+
+  @override
+  String get categoryAdministration => 'Administration';
+
+  @override
+  String get categoryCustomerService => 'Customer Service';
+
+  @override
+  String get categoryFinance => 'Finance';
+
+  @override
+  String get categoryHumanResources => 'Human Resources';
+
+  @override
+  String get categoryInformationTechnology => 'Information Technology';
+
+  @override
+  String get categoryOperations => 'Operations';
+
+  @override
+  String get categoryProcurement => 'Procurement';
+
+  @override
+  String get categorySales => 'Sales';
+
+  @override
+  String get categoryMarketing => 'Marketing';
+
+  @override
+  String get categoryCustomerSupport => 'Customer Support';
+
+  @override
+  String get categoryEngineering => 'Engineering';
+
+  @override
+  String get categoryLegal => 'Legal';
+
+  @override
+  String get categoryOthers => 'Others';
+
+  @override
+  String get titleTestInformation => 'Test Information';
+
+  @override
+  String get labelDescription => 'Description';
+
+  @override
+  String get hintTestDescription =>
+      'Enter a brief description for this test...';
+
+  @override
+  String labelQuestionsCount(int count) {
+    return '$count Questions';
+  }
+
+  @override
+  String labelMinutesCount(int count) {
+    return '$count Minutes';
+  }
+
+  @override
+  String get labelNoTimeLimit => 'No Time Limit';
 }

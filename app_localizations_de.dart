@@ -3719,4 +3719,69 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get footerTerms => 'AGB';
+
+  @override
+  String get categoryAccounting => 'Buchhaltung';
+
+  @override
+  String get categoryAdministration => 'Verwaltung';
+
+  @override
+  String get categoryCustomerService => 'Kundenservice';
+
+  @override
+  String get categoryFinance => 'Finanzen';
+
+  @override
+  String get categoryHumanResources => 'Personalwesen';
+
+  @override
+  String get categoryInformationTechnology => 'Informationstechnologie';
+
+  @override
+  String get categoryOperations => 'Betrieb';
+
+  @override
+  String get categoryProcurement => 'Beschaffung';
+
+  @override
+  String get categorySales => 'Vertrieb';
+
+  @override
+  String get categoryMarketing => 'Marketing';
+
+  @override
+  String get categoryCustomerSupport => 'Kundensupport';
+
+  @override
+  String get categoryEngineering => 'Ingenieurwesen';
+
+  @override
+  String get categoryLegal => 'Recht';
+
+  @override
+  String get categoryOthers => 'Sonstiges';
+
+  @override
+  String get titleTestInformation => 'Test-Informationen';
+
+  @override
+  String get labelDescription => 'Beschreibung';
+
+  @override
+  String get hintTestDescription =>
+      'Geben Sie eine kurze Beschreibung für diesen Test ein...';
+
+  @override
+  String labelQuestionsCount(int count) {
+    return '$count Fragen';
+  }
+
+  @override
+  String labelMinutesCount(int count) {
+    return '$count Minuten';
+  }
+
+  @override
+  String get labelNoTimeLimit => 'Kein Zeitlimit';
 }

@@ -1484,5 +1484,40 @@
   "btnOk": "OK",
   "legalTermsOfServiceText": "Terms of Service\n\n### 1. General Provisions\n\nThese Terms of Service govern the use of the services offered by:\n\nFehr GmbH\nBlumenthal 6\n59457 Werl\nGermany\n\nPhone: +49 (0) 2922 8814046\nEmail: info@rulefox.eu\n\nBy accessing or using our services, you agree to be bound by these terms. These terms are governed by the laws of the Federal Republic of Germany.\n\n### 2. Subject Matter of the Agreement\nWe offer a platform for AI-driven testing and compliance services. The specific scope of services is derived from the respective service description on our website.\n\n### 3. User Obligations\nUsers are required to provide accurate and complete information during registration. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.\n\n### 4. Liability\nFehr GmbH is liable without limitation for intent and gross negligence. In the case of slight negligence, Fehr GmbH is only liable for the breach of essential contractual obligations (cardinal obligations). The liability is limited to the foreseeable, contract-typical damage.\n\n### 5. Governing Law and Jurisdiction\nThese Terms of Service and all legal relations between the user and Fehr GmbH shall be governed by the laws of the Federal Republic of Germany, excluding the UN Convention on Contracts for the International Sale of Goods (CISG). The place of jurisdiction for all disputes arising from this agreement is Werl, Germany, provided the user is a merchant or legal entity under public law.\n\n### 6. Amendments\nWe reserve the right to amend these Terms of Service at any time. We will inform you of such changes in an appropriate manner. If you do not object within 4 weeks after notification, the amended terms shall be deemed accepted.",
   "titleTerms": "Terms of Service",
-  "footerTerms": "Terms of Service"
+  "footerTerms": "Terms of Service",
+  "categoryAccounting": "Accounting",
+  "categoryAdministration": "Administration",
+  "categoryCustomerService": "Customer Service",
+  "categoryFinance": "Finance",
+  "categoryHumanResources": "Human Resources",
+  "categoryInformationTechnology": "Information Technology",
+  "categoryOperations": "Operations",
+  "categoryProcurement": "Procurement",
+  "categorySales": "Sales",
+  "categoryMarketing": "Marketing",
+  "categoryCustomerSupport": "Customer Support",
+  "categoryEngineering": "Engineering",
+  "categoryLegal": "Legal",
+  "categoryOthers": "Others"
+  ,
+  "titleTestInformation": "Test Information",
+  "labelDescription": "Description",
+  "hintTestDescription": "Enter a brief description for this test...",
+  "labelQuestionsCount": "{count} Questions",
+  "@labelQuestionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "labelMinutesCount": "{count} Minutes",
+  "@labelMinutesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "labelNoTimeLimit": "No Time Limit"
 }

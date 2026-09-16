@@ -6924,6 +6924,126 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Terms of Service'**
   String get footerTerms;
+
+  /// No description provided for @categoryAccounting.
+  ///
+  /// In en, this message translates to:
+  /// **'Accounting'**
+  String get categoryAccounting;
+
+  /// No description provided for @categoryAdministration.
+  ///
+  /// In en, this message translates to:
+  /// **'Administration'**
+  String get categoryAdministration;
+
+  /// No description provided for @categoryCustomerService.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Service'**
+  String get categoryCustomerService;
+
+  /// No description provided for @categoryFinance.
+  ///
+  /// In en, this message translates to:
+  /// **'Finance'**
+  String get categoryFinance;
+
+  /// No description provided for @categoryHumanResources.
+  ///
+  /// In en, this message translates to:
+  /// **'Human Resources'**
+  String get categoryHumanResources;
+
+  /// No description provided for @categoryInformationTechnology.
+  ///
+  /// In en, this message translates to:
+  /// **'Information Technology'**
+  String get categoryInformationTechnology;
+
+  /// No description provided for @categoryOperations.
+  ///
+  /// In en, this message translates to:
+  /// **'Operations'**
+  String get categoryOperations;
+
+  /// No description provided for @categoryProcurement.
+  ///
+  /// In en, this message translates to:
+  /// **'Procurement'**
+  String get categoryProcurement;
+
+  /// No description provided for @categorySales.
+  ///
+  /// In en, this message translates to:
+  /// **'Sales'**
+  String get categorySales;
+
+  /// No description provided for @categoryMarketing.
+  ///
+  /// In en, this message translates to:
+  /// **'Marketing'**
+  String get categoryMarketing;
+
+  /// No description provided for @categoryCustomerSupport.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Support'**
+  String get categoryCustomerSupport;
+
+  /// No description provided for @categoryEngineering.
+  ///
+  /// In en, this message translates to:
+  /// **'Engineering'**
+  String get categoryEngineering;
+
+  /// No description provided for @categoryLegal.
+  ///
+  /// In en, this message translates to:
+  /// **'Legal'**
+  String get categoryLegal;
+
+  /// No description provided for @categoryOthers.
+  ///
+  /// In en, this message translates to:
+  /// **'Others'**
+  String get categoryOthers;
+
+  /// No description provided for @titleTestInformation.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Information'**
+  String get titleTestInformation;
+
+  /// No description provided for @labelDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get labelDescription;
+
+  /// No description provided for @hintTestDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a brief description for this test...'**
+  String get hintTestDescription;
+
+  /// No description provided for @labelQuestionsCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} Questions'**
+  String labelQuestionsCount(int count);
+
+  /// No description provided for @labelMinutesCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} Minutes'**
+  String labelMinutesCount(int count);
+
+  /// No description provided for @labelNoTimeLimit.
+  ///
+  /// In en, this message translates to:
+  /// **'No Time Limit'**
+  String get labelNoTimeLimit;
 }
 
 class _AppLocalizationsDelegate
