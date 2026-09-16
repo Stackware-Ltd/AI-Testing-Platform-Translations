@@ -1484,8 +1484,7 @@
   "categoryCustomerSupport": "Kundensupport",
   "categoryEngineering": "Ingenieurwesen",
   "categoryLegal": "Recht",
-  "categoryOthers": "Sonstiges"
-  ,
+  "categoryOthers": "Sonstiges",
   "titleTestInformation": "Test-Informationen",
   "labelDescription": "Beschreibung",
   "hintTestDescription": "Geben Sie eine kurze Beschreibung für diesen Test ein...",
@@ -1505,8 +1504,7 @@
       }
     }
   },
-  "labelNoTimeLimit": "Kein Zeitlimit"
-  ,
+  "labelNoTimeLimit": "Kein Zeitlimit",
   "labelExpandEditor": "Editor erweitern",
   "titleEditDescription": "Beschreibung bearbeiten",
   "hintMarkdownFormatting": "Klicken Sie auf eine Schaltfläche, um Formatierungen einzufügen!",
@@ -1515,5 +1513,10 @@
   "tooltipBold": "Fett",
   "tooltipItalic": "Kursiv",
   "tooltipBulletList": "Aufzählungsliste",
-  "tooltipNumberedList": "Nummerierte Liste"
+  "tooltipNumberedList": "Nummerierte Liste",
+  "labelQuestions": "Fragen",
+  "labelDuration": "Dauer",
+  "labelPassMark": "Mindestpunktzahl",
+  "labelLanguages": "Sprachen",
+  "defaultTestDescriptionTemplate": "**Für wen ist dieser Test?**\n_z. B. Finanzteams, Buchhalter, Abrechnungsmitarbeiter und Mitarbeiter, die Zahlungsinformationen verarbeiten_\n\n**Was deckt dieser Test ab?**\n_z. B. Kernkonzepte, Best Practices und Compliance-Richtlinien_"
 }

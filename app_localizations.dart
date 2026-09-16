@@ -5335,6 +5335,30 @@ abstract class AppLocalizations {
   /// **'Preview Test'**
   String get testRunnerPreviewTest;
 
+  /// No description provided for @labelQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Questions'**
+  String get labelQuestions;
+
+  /// No description provided for @labelDuration.
+  ///
+  /// In en, this message translates to:
+  /// **'Duration'**
+  String get labelDuration;
+
+  /// No description provided for @labelPassMark.
+  ///
+  /// In en, this message translates to:
+  /// **'Pass Mark'**
+  String get labelPassMark;
+
+  /// No description provided for @labelLanguages.
+  ///
+  /// In en, this message translates to:
+  /// **'Languages'**
+  String get labelLanguages;
+
   /// No description provided for @testRunnerPreviousFlag.
   ///
   /// In en, this message translates to:
@@ -7098,6 +7122,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Numbered List'**
   String get tooltipNumberedList;
+
+  /// No description provided for @defaultTestDescriptionTemplate.
+  ///
+  /// In en, this message translates to:
+  /// **'**Who is this test for?**\n_e.g. Finance teams, accountants, billing staff, and employees handling payment information_\n\n**What does this test cover?**\n_e.g. Core concepts, best practices, and compliance guidelines_'**
+  String get defaultTestDescriptionTemplate;
 }
 
 class _AppLocalizationsDelegate

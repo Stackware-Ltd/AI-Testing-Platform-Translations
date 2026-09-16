@@ -1171,6 +1171,10 @@
   "testRunnerNotStarted": "Not started",
   "testRunnerPreviewModeLabel": "Preview Mode",
   "testRunnerPreviewTest": "Preview Test",
+  "labelQuestions": "Questions",
+  "labelDuration": "Duration",
+  "labelPassMark": "Pass Mark",
+  "labelLanguages": "Languages",
   "testRunnerPreviousFlag": "Previous Flag",
   "testRunnerPublishFailed": "Publish failed. Please try again.",
   "testRunnerPublishing": "Publishing...",
@@ -1498,8 +1502,7 @@
   "categoryCustomerSupport": "Customer Support",
   "categoryEngineering": "Engineering",
   "categoryLegal": "Legal",
-  "categoryOthers": "Others"
-  ,
+  "categoryOthers": "Others",
   "titleTestInformation": "Test Information",
   "labelDescription": "Description",
   "hintTestDescription": "Enter a brief description for this test...",
@@ -1519,8 +1522,7 @@
       }
     }
   },
-  "labelNoTimeLimit": "No Time Limit"
-  ,
+  "labelNoTimeLimit": "No Time Limit",
   "labelExpandEditor": "Expand Editor",
   "titleEditDescription": "Edit Description",
   "hintMarkdownFormatting": "Click a button to insert formatting!",
@@ -1529,5 +1531,6 @@
   "tooltipBold": "Bold",
   "tooltipItalic": "Italic",
   "tooltipBulletList": "Bullet List",
-  "tooltipNumberedList": "Numbered List"
+  "tooltipNumberedList": "Numbered List",
+  "defaultTestDescriptionTemplate": "**Who is this test for?**\n_e.g. Finance teams, accountants, billing staff, and employees handling payment information_\n\n**What does this test cover?**\n_e.g. Core concepts, best practices, and compliance guidelines_"
 }

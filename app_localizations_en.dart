@@ -2792,6 +2792,18 @@ class AppLocalizationsEn extends AppLocalizations {
   String get testRunnerPreviewTest => 'Preview Test';
 
   @override
+  String get labelQuestions => 'Questions';
+
+  @override
+  String get labelDuration => 'Duration';
+
+  @override
+  String get labelPassMark => 'Pass Mark';
+
+  @override
+  String get labelLanguages => 'Languages';
+
+  @override
   String get testRunnerPreviousFlag => 'Previous Flag';
 
   @override
@@ -3770,4 +3782,8 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tooltipNumberedList => 'Numbered List';
+
+  @override
+  String get defaultTestDescriptionTemplate =>
+      '**Who is this test for?**\n_e.g. Finance teams, accountants, billing staff, and employees handling payment information_\n\n**What does this test cover?**\n_e.g. Core concepts, best practices, and compliance guidelines_';
 }

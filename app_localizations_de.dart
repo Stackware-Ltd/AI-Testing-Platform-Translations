@@ -2825,6 +2825,18 @@ class AppLocalizationsDe extends AppLocalizations {
   String get testRunnerPreviewTest => 'Test in der Vorschau anzeigen';
 
   @override
+  String get labelQuestions => 'Fragen';
+
+  @override
+  String get labelDuration => 'Dauer';
+
+  @override
+  String get labelPassMark => 'Mindestpunktzahl';
+
+  @override
+  String get labelLanguages => 'Sprachen';
+
+  @override
   String get testRunnerPreviousFlag => 'Vorheriges Lesezeichen';
 
   @override
@@ -3813,4 +3825,8 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tooltipNumberedList => 'Nummerierte Liste';
+
+  @override
+  String get defaultTestDescriptionTemplate =>
+      '**Für wen ist dieser Test?**\n_z. B. Finanzteams, Buchhalter, Abrechnungsmitarbeiter und Mitarbeiter, die Zahlungsinformationen verarbeiten_\n\n**Was deckt dieser Test ab?**\n_z. B. Kernkonzepte, Best Practices und Compliance-Richtlinien_';
 }
