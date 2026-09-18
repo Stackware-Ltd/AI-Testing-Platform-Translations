@@ -3829,4 +3829,76 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get defaultTestDescriptionTemplate =>
       '**Für wen ist dieser Test?**\n_z. B. Finanzteams, Buchhalter, Abrechnungsmitarbeiter und Mitarbeiter, die Zahlungsinformationen verarbeiten_\n\n**Was deckt dieser Test ab?**\n_z. B. Kernkonzepte, Best Practices und Compliance-Richtlinien_';
+
+  @override
+  String get tabTestSettings => 'Testeinstellungen';
+
+  @override
+  String get summaryTestSettings => 'Globale Testkategorien verwalten';
+
+  @override
+  String get settingsTestDescription => 'Globale Testkonfiguration verwalten.';
+
+  @override
+  String get settingsCategoriesTitle => 'Kategorien';
+
+  @override
+  String get settingsCategoriesDescription =>
+      'Globale Kategorien erstellen und verwalten.';
+
+  @override
+  String get buttonAddCategory => 'Kategorie hinzufügen';
+
+  @override
+  String get messageNoCategories => 'Es wurden noch keine Kategorien erstellt.';
+
+  @override
+  String get tooltipEditCategory => 'Kategorie bearbeiten';
+
+  @override
+  String get tooltipDeleteCategory => 'Kategorie löschen';
+
+  @override
+  String get titleDeleteCategory => 'Kategorie löschen';
+
+  @override
+  String get messageDeleteCategory =>
+      'Diese Aktion kann nicht rückgängig gemacht werden. Kategorien, die Tests oder Profilen zugewiesen sind, können nicht gelöscht werden.';
+
+  @override
+  String get messageCategoryDeleted => 'Kategorie erfolgreich gelöscht.';
+
+  @override
+  String get errorDeleteCategory => 'Kategorie konnte nicht gelöscht werden.';
+
+  @override
+  String get titleEditCategory => 'Kategorie bearbeiten';
+
+  @override
+  String get messageEditCategory =>
+      'Diese globale Testkategorie aktualisieren.';
+
+  @override
+  String get messageAddCategory => 'Eine globale Kategorie hinzufügen.';
+
+  @override
+  String get labelCategoryName => 'Kategoriename';
+
+  @override
+  String get hintCategoryName => 'Kategoriename eingeben';
+
+  @override
+  String get buttonSaveChanges => 'Änderungen speichern';
+
+  @override
+  String get messageCategoryUpdated => 'Kategorie aktualisiert.';
+
+  @override
+  String get messageCategoryCreated => 'Kategorie erstellt.';
+
+  @override
+  String get errorSaveCategory => 'Kategorie konnte nicht gespeichert werden.';
+
+  @override
+  String get labelUntitledTest => 'Unbenannter Test';
 }

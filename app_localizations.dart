@@ -455,7 +455,7 @@ abstract class AppLocalizations {
   /// No description provided for @authSelectCategory.
   ///
   /// In en, this message translates to:
-  /// **'Select category'**
+  /// **'Select Category'**
   String get authSelectCategory;
 
   /// No description provided for @authSelectCountry.
@@ -1535,7 +1535,7 @@ abstract class AppLocalizations {
   /// No description provided for @errorSelectCategory.
   ///
   /// In en, this message translates to:
-  /// **'Please select a category'**
+  /// **'Please select a Category'**
   String get errorSelectCategory;
 
   /// No description provided for @errorTestNameRequired.
@@ -2075,7 +2075,7 @@ abstract class AppLocalizations {
   /// No description provided for @labelCategory.
   ///
   /// In en, this message translates to:
-  /// **'category'**
+  /// **'Category'**
   String get labelCategory;
 
   /// No description provided for @labelCategoryColon.
@@ -7128,6 +7128,144 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'**Who is this test for?**\n_e.g. Finance teams, accountants, billing staff, and employees handling payment information_\n\n**What does this test cover?**\n_e.g. Core concepts, best practices, and compliance guidelines_'**
   String get defaultTestDescriptionTemplate;
+
+  /// No description provided for @tabTestSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Test Settings'**
+  String get tabTestSettings;
+
+  /// No description provided for @summaryTestSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage global test categories'**
+  String get summaryTestSettings;
+
+  /// No description provided for @settingsTestDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage global test configuration.'**
+  String get settingsTestDescription;
+
+  /// No description provided for @settingsCategoriesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Categories'**
+  String get settingsCategoriesTitle;
+
+  /// No description provided for @settingsCategoriesDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Create and manage global categories.'**
+  String get settingsCategoriesDescription;
+
+  /// No description provided for @buttonAddCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Category'**
+  String get buttonAddCategory;
+
+  /// No description provided for @messageNoCategories.
+  ///
+  /// In en, this message translates to:
+  /// **'No categories have been created yet.'**
+  String get messageNoCategories;
+
+  /// No description provided for @tooltipEditCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit category'**
+  String get tooltipEditCategory;
+
+  /// No description provided for @tooltipDeleteCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete category'**
+  String get tooltipDeleteCategory;
+
+  /// No description provided for @titleDeleteCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Category'**
+  String get titleDeleteCategory;
+
+  /// No description provided for @messageDeleteCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'This action cannot be undone. Categories assigned to tests or profiles cannot be deleted.'**
+  String get messageDeleteCategory;
+
+  /// No description provided for @messageCategoryDeleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Category deleted successfully.'**
+  String get messageCategoryDeleted;
+
+  /// No description provided for @errorDeleteCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to delete category.'**
+  String get errorDeleteCategory;
+
+  /// No description provided for @titleEditCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Category'**
+  String get titleEditCategory;
+
+  /// No description provided for @messageEditCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Update this global test category.'**
+  String get messageEditCategory;
+
+  /// No description provided for @messageAddCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a global category.'**
+  String get messageAddCategory;
+
+  /// No description provided for @labelCategoryName.
+  ///
+  /// In en, this message translates to:
+  /// **'Category name'**
+  String get labelCategoryName;
+
+  /// No description provided for @hintCategoryName.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter category name'**
+  String get hintCategoryName;
+
+  /// No description provided for @buttonSaveChanges.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Changes'**
+  String get buttonSaveChanges;
+
+  /// No description provided for @messageCategoryUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Category updated.'**
+  String get messageCategoryUpdated;
+
+  /// No description provided for @messageCategoryCreated.
+  ///
+  /// In en, this message translates to:
+  /// **'Category created.'**
+  String get messageCategoryCreated;
+
+  /// No description provided for @errorSaveCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to save category.'**
+  String get errorSaveCategory;
+
+  /// No description provided for @labelUntitledTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Untitled Test'**
+  String get labelUntitledTest;
 }
 
 class _AppLocalizationsDelegate

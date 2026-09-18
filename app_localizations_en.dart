@@ -201,7 +201,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'After registration, you can import employees, assign tests, and export evidence.';
 
   @override
-  String get authSelectCategory => 'Select category';
+  String get authSelectCategory => 'Select Category';
 
   @override
   String get authSelectCountry => 'Select country';
@@ -769,7 +769,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get errorSelectAtLeastOne => 'Please select at least one employee.';
 
   @override
-  String get errorSelectCategory => 'Please select a category';
+  String get errorSelectCategory => 'Please select a Category';
 
   @override
   String get errorTestNameRequired => 'Test name is required';
@@ -1044,7 +1044,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelCardholder => 'Cardholder';
 
   @override
-  String get labelCategory => 'category';
+  String get labelCategory => 'Category';
 
   @override
   String get labelCategoryColon => 'Category:';
@@ -3786,4 +3786,75 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get defaultTestDescriptionTemplate =>
       '**Who is this test for?**\n_e.g. Finance teams, accountants, billing staff, and employees handling payment information_\n\n**What does this test cover?**\n_e.g. Core concepts, best practices, and compliance guidelines_';
+
+  @override
+  String get tabTestSettings => 'Test Settings';
+
+  @override
+  String get summaryTestSettings => 'Manage global test categories';
+
+  @override
+  String get settingsTestDescription => 'Manage global test configuration.';
+
+  @override
+  String get settingsCategoriesTitle => 'Categories';
+
+  @override
+  String get settingsCategoriesDescription =>
+      'Create and manage global categories.';
+
+  @override
+  String get buttonAddCategory => 'Add Category';
+
+  @override
+  String get messageNoCategories => 'No categories have been created yet.';
+
+  @override
+  String get tooltipEditCategory => 'Edit category';
+
+  @override
+  String get tooltipDeleteCategory => 'Delete category';
+
+  @override
+  String get titleDeleteCategory => 'Delete Category';
+
+  @override
+  String get messageDeleteCategory =>
+      'This action cannot be undone. Categories assigned to tests or profiles cannot be deleted.';
+
+  @override
+  String get messageCategoryDeleted => 'Category deleted successfully.';
+
+  @override
+  String get errorDeleteCategory => 'Failed to delete category.';
+
+  @override
+  String get titleEditCategory => 'Edit Category';
+
+  @override
+  String get messageEditCategory => 'Update this global test category.';
+
+  @override
+  String get messageAddCategory => 'Add a global category.';
+
+  @override
+  String get labelCategoryName => 'Category name';
+
+  @override
+  String get hintCategoryName => 'Enter category name';
+
+  @override
+  String get buttonSaveChanges => 'Save Changes';
+
+  @override
+  String get messageCategoryUpdated => 'Category updated.';
+
+  @override
+  String get messageCategoryCreated => 'Category created.';
+
+  @override
+  String get errorSaveCategory => 'Failed to save category.';
+
+  @override
+  String get labelUntitledTest => 'Untitled Test';
 }
