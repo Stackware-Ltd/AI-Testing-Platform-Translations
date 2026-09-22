@@ -1585,15 +1585,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingHeroBtnEvidence => 'View example proof';
 
   @override
-  String get landingHeroBtnStart => 'Start EU AI Compliance Test';
+  String get landingHeroBtnStart => 'Start for free';
 
   @override
   String get landingHeroDesc =>
-      'RuleFox enables companies to test whether employees have understood important basics for the responsible use of AI and AI compliance issues – with exportable results for internal documentation, management and further review.';
+      'RuleFox helps companies test whether employees understand important basics for responsible AI use, with exportable result evidence for internal documentation and further review. Start free with the privacy test.';
 
   @override
   String get landingHeroNote =>
-      'Currently available: EU AI Compliance Test. Further compliance checks will follow.';
+      'Three tests available – the privacy test is free, and other tests cost €99 net each.';
 
   @override
   String get landingHeroNote1 => 'Currently\navailable:';
@@ -1606,7 +1606,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingHeroTitle =>
-      'Assess AI compliance knowledge.\nCentrally document results.';
+      'Test AI compliance knowledge.\nStart for free.';
 
   @override
   String get landingMockDate => 'August 4, 2026';
@@ -1669,7 +1669,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingPricesDesc =>
-      'Book individual tests or flexible packages and deploy them as needed for employees, teams or locations.';
+      'One test equals one credit = €99 net per person. Buy individual tests or flexible credit packages as needed. The privacy test is free.';
 
   @override
   String get landingPricesEyebrow => 'Prices';
@@ -1694,10 +1694,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingPricesNote =>
-      'All prices exclude VAT. Larger quantities and individual requirements available upon request.';
+      'All prices exclude VAT. One test = one credit = €99 net. Larger quantities and individual requirements available upon request.';
 
   @override
-  String get landingPricesTitle => 'Transparent.\n€99 per test.';
+  String get landingPricesTitle => 'Transparent.\n€99 net per test.';
 
   @override
   String get landingReportingDesc =>
@@ -1794,6 +1794,64 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingSequenceTitle => 'Three steps to a documented test result.';
 
   @override
+  String get landingCatalogCategory => 'Compliance';
+
+  @override
+  String get landingCatalogCompetenceDesc =>
+      'Test foundational knowledge of responsible AI use and AI literacy under Article 4 of the EU AI Act.';
+
+  @override
+  String get landingCatalogCompetenceEyebrow => 'AI competence';
+
+  @override
+  String get landingCatalogCompetenceTitle => 'AI Competence Test (Article 4)';
+
+  @override
+  String get landingCatalogCredit => '1 credit';
+
+  @override
+  String get landingCatalogFreeBadge => 'Free';
+
+  @override
+  String get landingCatalogPaidAction => 'Start test';
+
+  @override
+  String get landingCatalogPaidPrice => '€99 net';
+
+  @override
+  String get landingCatalogPrivacyAction => 'Start for free';
+
+  @override
+  String get landingCatalogPrivacyDesc =>
+      'Test essential privacy knowledge for the use of AI in everyday work.';
+
+  @override
+  String get landingCatalogPrivacyEyebrow => 'Start for free';
+
+  @override
+  String get landingCatalogPrivacyPrice => 'Free';
+
+  @override
+  String get landingCatalogPrivacyTitle => 'Privacy when using AI';
+
+  @override
+  String get landingCatalogPrivacyUnit => 'per person';
+
+  @override
+  String get landingCatalogTransparencyDesc =>
+      'Test foundational knowledge of transparency and labelling duties under Article 50 of the EU AI Act.';
+
+  @override
+  String get landingCatalogTransparencyEyebrow => 'AI transparency';
+
+  @override
+  String get landingCatalogTransparencyTitle =>
+      'AI Transparency Test (Article 50)';
+
+  @override
+  String get landingEvidenceSampleTest => 'AI Competence Test (Article 4)';
+
+  @override
   String get landingTest1Desc =>
       'Check whether employees have understood important basics for the safe and responsible use of AI systems – including risk awareness, basic principles of the EU AI Act and practical application in everyday work.';
 
@@ -1827,7 +1885,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingTestsDesc =>
-      'RuleFox is modular in design. The EU AI Compliance Test helps companies to systematically review, evaluate, and document fundamental knowledge about AI usage and AI compliance. Additional compliance checks can be added via the same platform in the future.';
+      'Start free with the privacy test or assess AI competence and transparency duties. Each paid test equals one credit = €99 net per person.';
 
   @override
   String get landingTestsEyebrow => 'Available tests';
@@ -1848,7 +1906,7 @@ class AppLocalizationsEn extends AppLocalizations {
       ' — we are happy to review individual topic requests.';
 
   @override
-  String get landingTestsTitle => 'Start with the first available test.';
+  String get landingTestsTitle => 'Three tests – one of them free.';
 
   @override
   String get languageLabel => 'Language';
@@ -2973,7 +3031,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get titleLanding =>
-      'RuleFox – Test AI compliance knowledge and document results';
+      'RuleFox – Test AI compliance knowledge and start for free';
 
   @override
   String get titleAdminLogin => 'Admin Login · RuleFox';

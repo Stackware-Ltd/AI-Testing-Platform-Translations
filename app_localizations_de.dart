@@ -1596,15 +1596,15 @@ class AppLocalizationsDe extends AppLocalizations {
   String get landingHeroBtnEvidence => 'Beispiel-Nachweis ansehen';
 
   @override
-  String get landingHeroBtnStart => 'EU AI Compliance Test starten';
+  String get landingHeroBtnStart => 'Kostenlos starten';
 
   @override
   String get landingHeroDesc =>
-      'Mit RuleFox testen Unternehmen, ob Mitarbeitende wichtige Grundlagen zum verantwortungsvollen Einsatz von KI und zu KI-Compliance-Themen verstanden haben – mit exportierbaren Ergebnisnachweisen für interne Dokumentation, Management und weitere Prüfung.';
+      'Mit RuleFox testen Unternehmen, ob Mitarbeitende wichtige Grundlagen zum verantwortungsvollen Einsatz von KI verstanden haben – mit exportierbaren Ergebnisnachweisen für interne Dokumentation und weitere Prüfung. Starten Sie kostenlos mit dem Datenschutz-Test.';
 
   @override
   String get landingHeroNote =>
-      'Aktuell verfügbar: EU AI Compliance Test. Weitere Compliance-Checks folgen.';
+      'Drei Tests verfügbar – der Datenschutz-Test ist kostenlos, weitere Tests je €99 netto.';
 
   @override
   String get landingHeroNote1 => 'Aktuell\nverfügbar:';
@@ -1617,7 +1617,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingHeroTitle =>
-      'KI-Compliance-Wissen prüfen.\nErgebnisse zentral dokumentieren.';
+      'KI-Compliance-Wissen testen.\nKostenlos starten.';
 
   @override
   String get landingMockDate => '04.08.2026';
@@ -1681,7 +1681,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingPricesDesc =>
-      'Buchen Sie einzelne Tests oder flexible Kontingente und setzen Sie diese nach Bedarf für Mitarbeitende, Teams oder Standorte ein.';
+      'Ein Test entspricht 1 Credit = €99 netto pro Person. Buchen Sie einzelne Tests oder flexible Kontingente und setzen Sie diese nach Bedarf ein. Der Datenschutz-Test ist kostenlos.';
 
   @override
   String get landingPricesEyebrow => 'Preise';
@@ -1706,10 +1706,10 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingPricesNote =>
-      'Alle Preise zzgl. USt. Größere Kontingente und individuelle Anforderungen auf Anfrage.';
+      'Alle Preise netto, zzgl. USt. Ein Test = 1 Credit = €99 netto. Größere Kontingente und individuelle Anforderungen auf Anfrage.';
 
   @override
-  String get landingPricesTitle => 'Transparent.\n€99 pro Test.';
+  String get landingPricesTitle => 'Transparent.\n€99 netto pro Test.';
 
   @override
   String get landingReportingDesc =>
@@ -1810,6 +1810,64 @@ class AppLocalizationsDe extends AppLocalizations {
       'In drei Schritten zum dokumentierten Testergebnis.';
 
   @override
+  String get landingCatalogCategory => 'Compliance';
+
+  @override
+  String get landingCatalogCompetenceDesc =>
+      'Prüfen Sie Grundlagen zum verantwortungsvollen Einsatz von KI und zur KI-Kompetenz nach Artikel 4 EU AI Act.';
+
+  @override
+  String get landingCatalogCompetenceEyebrow => 'KI-Kompetenz';
+
+  @override
+  String get landingCatalogCompetenceTitle => 'KI-Kompetenz-Test (Artikel 4)';
+
+  @override
+  String get landingCatalogCredit => '1 Credit';
+
+  @override
+  String get landingCatalogFreeBadge => 'Kostenlos';
+
+  @override
+  String get landingCatalogPaidAction => 'Test starten';
+
+  @override
+  String get landingCatalogPaidPrice => '€99 netto';
+
+  @override
+  String get landingCatalogPrivacyAction => 'Kostenlos starten';
+
+  @override
+  String get landingCatalogPrivacyDesc =>
+      'Prüfen Sie Grundlagen zum Datenschutz bei der Nutzung von KI im Arbeitsalltag.';
+
+  @override
+  String get landingCatalogPrivacyEyebrow => 'Kostenlos starten';
+
+  @override
+  String get landingCatalogPrivacyPrice => 'Kostenlos';
+
+  @override
+  String get landingCatalogPrivacyTitle => 'Datenschutz bei der KI-Nutzung';
+
+  @override
+  String get landingCatalogPrivacyUnit => 'pro Person';
+
+  @override
+  String get landingCatalogTransparencyDesc =>
+      'Prüfen Sie Grundlagen zu Transparenz- und Kennzeichnungspflichten nach Artikel 50 EU AI Act.';
+
+  @override
+  String get landingCatalogTransparencyEyebrow => 'KI-Transparenz';
+
+  @override
+  String get landingCatalogTransparencyTitle =>
+      'KI-Transparenz-Test (Artikel 50)';
+
+  @override
+  String get landingEvidenceSampleTest => 'KI-Kompetenz-Test (Artikel 4)';
+
+  @override
   String get landingTest1Desc =>
       'Prüfen Sie, ob Mitarbeitende wichtige Grundlagen für den sicheren und verantwortungsvollen Umgang mit KI-Systemen verstanden haben – einschließlich Risikobewusstsein, Grundprinzipien des EU AI Act und praktischer Anwendung im Arbeitsalltag.';
 
@@ -1843,7 +1901,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingTestsDesc =>
-      'RuleFox ist modular aufgebaut. Der EU AI Compliance Test unterstützt Unternehmen dabei, grundlegendes Wissen zu KI-Nutzung und KI-Compliance strukturiert zu prüfen, auszuwerten und zu dokumentieren. Weitere Compliance-Checks können künftig über dieselbe Plattform ergänzt werden.';
+      'Starten Sie kostenlos mit dem Datenschutz-Test oder prüfen Sie gezielt KI-Kompetenz und Transparenzpflichten. Jeder kostenpflichtige Test entspricht 1 Credit = €99 netto pro Person.';
 
   @override
   String get landingTestsEyebrow => 'Verfügbare Tests';
@@ -1864,8 +1922,7 @@ class AppLocalizationsDe extends AppLocalizations {
       ' — wir prüfen gerne individuelle Themenwünsche.';
 
   @override
-  String get landingTestsTitle =>
-      'Starten Sie mit dem ersten verfügbaren Test.';
+  String get landingTestsTitle => 'Drei Tests – einer davon kostenlos.';
 
   @override
   String get languageLabel => 'Sprache';
@@ -3008,7 +3065,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get titleLanding =>
-      'RuleFox – KI-Compliance-Wissen prüfen und Ergebnisse dokumentieren';
+      'RuleFox – KI-Compliance-Wissen testen und kostenlos starten';
 
   @override
   String get titleAdminLogin => 'Admin Login · RuleFox';

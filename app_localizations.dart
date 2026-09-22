@@ -3088,19 +3088,19 @@ abstract class AppLocalizations {
   /// No description provided for @landingHeroBtnStart.
   ///
   /// In en, this message translates to:
-  /// **'Start EU AI Compliance Test'**
+  /// **'Start for free'**
   String get landingHeroBtnStart;
 
   /// No description provided for @landingHeroDesc.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox enables companies to test whether employees have understood important basics for the responsible use of AI and AI compliance issues – with exportable results for internal documentation, management and further review.'**
+  /// **'RuleFox helps companies test whether employees understand important basics for responsible AI use, with exportable result evidence for internal documentation and further review. Start free with the privacy test.'**
   String get landingHeroDesc;
 
   /// No description provided for @landingHeroNote.
   ///
   /// In en, this message translates to:
-  /// **'Currently available: EU AI Compliance Test. Further compliance checks will follow.'**
+  /// **'Three tests available – the privacy test is free, and other tests cost €99 net each.'**
   String get landingHeroNote;
 
   /// No description provided for @landingHeroNote1.
@@ -3124,7 +3124,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingHeroTitle.
   ///
   /// In en, this message translates to:
-  /// **'Assess AI compliance knowledge.\nCentrally document results.'**
+  /// **'Test AI compliance knowledge.\nStart for free.'**
   String get landingHeroTitle;
 
   /// No description provided for @landingMockDate.
@@ -3238,7 +3238,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingPricesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Book individual tests or flexible packages and deploy them as needed for employees, teams or locations.'**
+  /// **'One test equals one credit = €99 net per person. Buy individual tests or flexible credit packages as needed. The privacy test is free.'**
   String get landingPricesDesc;
 
   /// No description provided for @landingPricesEyebrow.
@@ -3286,13 +3286,13 @@ abstract class AppLocalizations {
   /// No description provided for @landingPricesNote.
   ///
   /// In en, this message translates to:
-  /// **'All prices exclude VAT. Larger quantities and individual requirements available upon request.'**
+  /// **'All prices exclude VAT. One test = one credit = €99 net. Larger quantities and individual requirements available upon request.'**
   String get landingPricesNote;
 
   /// No description provided for @landingPricesTitle.
   ///
   /// In en, this message translates to:
-  /// **'Transparent.\n€99 per test.'**
+  /// **'Transparent.\n€99 net per test.'**
   String get landingPricesTitle;
 
   /// No description provided for @landingReportingDesc.
@@ -3469,6 +3469,114 @@ abstract class AppLocalizations {
   /// **'Three steps to a documented test result.'**
   String get landingSequenceTitle;
 
+  /// No description provided for @landingCatalogCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Compliance'**
+  String get landingCatalogCategory;
+
+  /// No description provided for @landingCatalogCompetenceDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Test foundational knowledge of responsible AI use and AI literacy under Article 4 of the EU AI Act.'**
+  String get landingCatalogCompetenceDesc;
+
+  /// No description provided for @landingCatalogCompetenceEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'AI competence'**
+  String get landingCatalogCompetenceEyebrow;
+
+  /// No description provided for @landingCatalogCompetenceTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Competence Test (Article 4)'**
+  String get landingCatalogCompetenceTitle;
+
+  /// No description provided for @landingCatalogCredit.
+  ///
+  /// In en, this message translates to:
+  /// **'1 credit'**
+  String get landingCatalogCredit;
+
+  /// No description provided for @landingCatalogFreeBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'Free'**
+  String get landingCatalogFreeBadge;
+
+  /// No description provided for @landingCatalogPaidAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Start test'**
+  String get landingCatalogPaidAction;
+
+  /// No description provided for @landingCatalogPaidPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'€99 net'**
+  String get landingCatalogPaidPrice;
+
+  /// No description provided for @landingCatalogPrivacyAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Start for free'**
+  String get landingCatalogPrivacyAction;
+
+  /// No description provided for @landingCatalogPrivacyDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Test essential privacy knowledge for the use of AI in everyday work.'**
+  String get landingCatalogPrivacyDesc;
+
+  /// No description provided for @landingCatalogPrivacyEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Start for free'**
+  String get landingCatalogPrivacyEyebrow;
+
+  /// No description provided for @landingCatalogPrivacyPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'Free'**
+  String get landingCatalogPrivacyPrice;
+
+  /// No description provided for @landingCatalogPrivacyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy when using AI'**
+  String get landingCatalogPrivacyTitle;
+
+  /// No description provided for @landingCatalogPrivacyUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'per person'**
+  String get landingCatalogPrivacyUnit;
+
+  /// No description provided for @landingCatalogTransparencyDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Test foundational knowledge of transparency and labelling duties under Article 50 of the EU AI Act.'**
+  String get landingCatalogTransparencyDesc;
+
+  /// No description provided for @landingCatalogTransparencyEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'AI transparency'**
+  String get landingCatalogTransparencyEyebrow;
+
+  /// No description provided for @landingCatalogTransparencyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Transparency Test (Article 50)'**
+  String get landingCatalogTransparencyTitle;
+
+  /// No description provided for @landingEvidenceSampleTest.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Competence Test (Article 4)'**
+  String get landingEvidenceSampleTest;
+
   /// No description provided for @landingTest1Desc.
   ///
   /// In en, this message translates to:
@@ -3532,7 +3640,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingTestsDesc.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox is modular in design. The EU AI Compliance Test helps companies to systematically review, evaluate, and document fundamental knowledge about AI usage and AI compliance. Additional compliance checks can be added via the same platform in the future.'**
+  /// **'Start free with the privacy test or assess AI competence and transparency duties. Each paid test equals one credit = €99 net per person.'**
   String get landingTestsDesc;
 
   /// No description provided for @landingTestsEyebrow.
@@ -3568,7 +3676,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingTestsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Start with the first available test.'**
+  /// **'Three tests – one of them free.'**
   String get landingTestsTitle;
 
   /// No description provided for @languageLabel.
@@ -5662,7 +5770,7 @@ abstract class AppLocalizations {
   /// No description provided for @titleLanding.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox – Test AI compliance knowledge and document results'**
+  /// **'RuleFox – Test AI compliance knowledge and start for free'**
   String get titleLanding;
 
   /// No description provided for @titleAdminLogin.
