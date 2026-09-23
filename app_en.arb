@@ -884,6 +884,35 @@
   "landingTestsFooterLink": "Contact us",
   "landingTestsFooterSuffix": " — we are happy to review individual topic requests.",
   "landingTestsTitle": "Three tests – one of them free.",
+  "landingTestsTitleCount": "{count, plural, =1{1 test available} other{{count} tests available}}",
+  "@landingTestsTitleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "landingCatalogCredits": "credits",
+  "landingCatalogPerPerson": "per person",
+  "landingCatalogQuestions": "{count} questions",
+  "@landingCatalogQuestions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "landingCatalogDuration": "approx. {minutes} min.",
+  "@landingCatalogDuration": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "landingCatalogNoTests": "No tests are currently available.",
+  "landingCarouselPrevious": "Previous test",
+  "landingCarouselNext": "Next test",
   "languageLabel": "Language",
   "lastName": "Last Name",
   "lastNameHint": "Enter last name",

@@ -3679,6 +3679,54 @@ abstract class AppLocalizations {
   /// **'Three tests – one of them free.'**
   String get landingTestsTitle;
 
+  /// No description provided for @landingTestsTitleCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 test available} other{{count} tests available}}'**
+  String landingTestsTitleCount(int count);
+
+  /// No description provided for @landingCatalogCredits.
+  ///
+  /// In en, this message translates to:
+  /// **'credits'**
+  String get landingCatalogCredits;
+
+  /// No description provided for @landingCatalogPerPerson.
+  ///
+  /// In en, this message translates to:
+  /// **'per person'**
+  String get landingCatalogPerPerson;
+
+  /// No description provided for @landingCatalogQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} questions'**
+  String landingCatalogQuestions(int count);
+
+  /// No description provided for @landingCatalogDuration.
+  ///
+  /// In en, this message translates to:
+  /// **'approx. {minutes} min.'**
+  String landingCatalogDuration(int minutes);
+
+  /// No description provided for @landingCatalogNoTests.
+  ///
+  /// In en, this message translates to:
+  /// **'No tests are currently available.'**
+  String get landingCatalogNoTests;
+
+  /// No description provided for @landingCarouselPrevious.
+  ///
+  /// In en, this message translates to:
+  /// **'Previous test'**
+  String get landingCarouselPrevious;
+
+  /// No description provided for @landingCarouselNext.
+  ///
+  /// In en, this message translates to:
+  /// **'Next test'**
+  String get landingCarouselNext;
+
   /// No description provided for @languageLabel.
   ///
   /// In en, this message translates to:

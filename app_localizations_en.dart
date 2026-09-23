@@ -1909,6 +1909,42 @@ class AppLocalizationsEn extends AppLocalizations {
   String get landingTestsTitle => 'Three tests – one of them free.';
 
   @override
+  String landingTestsTitleCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count tests available',
+      one: '1 test available',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get landingCatalogCredits => 'credits';
+
+  @override
+  String get landingCatalogPerPerson => 'per person';
+
+  @override
+  String landingCatalogQuestions(int count) {
+    return '$count questions';
+  }
+
+  @override
+  String landingCatalogDuration(int minutes) {
+    return 'approx. $minutes min.';
+  }
+
+  @override
+  String get landingCatalogNoTests => 'No tests are currently available.';
+
+  @override
+  String get landingCarouselPrevious => 'Previous test';
+
+  @override
+  String get landingCarouselNext => 'Next test';
+
+  @override
   String get languageLabel => 'Language';
 
   @override
