@@ -1600,11 +1600,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingHeroDesc =>
-      'Mit RuleFox testen Unternehmen, ob Mitarbeitende wichtige Grundlagen zum verantwortungsvollen Einsatz von KI verstanden haben – mit exportierbaren Ergebnisnachweisen für interne Dokumentation und weitere Prüfung. Starten Sie kostenlos mit dem Datenschutz-Test.';
+      'Mit RuleFox testen Unternehmen, ob Mitarbeitende wichtige Grundlagen zum verantwortungsvollen Einsatz von KI verstanden haben – mit exportierbaren Ergebnisnachweisen für interne Dokumentation und weitere Prüfung. Starten Sie sofort mit unseren kostenlosen Tests.';
 
   @override
   String get landingHeroNote =>
-      'Drei Tests verfügbar – der Datenschutz-Test ist kostenlos, weitere Tests je €99 netto.';
+      'Entdecken Sie unsere wachsende Testbibliothek – inklusive kostenloser Assessments, während Premium-Tests je €99 netto kosten.';
 
   @override
   String get landingHeroNote1 => 'Aktuell\nverfügbar:';
@@ -1681,7 +1681,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingPricesDesc =>
-      'Ein Test entspricht 1 Credit = €99 netto pro Person. Buchen Sie einzelne Tests oder flexible Kontingente und setzen Sie diese nach Bedarf ein. Der Datenschutz-Test ist kostenlos.';
+      'Ein Test entspricht 1 Credit = €99 netto pro Person. Buchen Sie einzelne Tests oder flexible Kontingente und setzen Sie diese nach Bedarf ein. Starten Sie noch heute mit unseren kostenlosen Assessments.';
 
   @override
   String get landingPricesEyebrow => 'Preise';
@@ -1901,7 +1901,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get landingTestsDesc =>
-      'Starten Sie kostenlos mit dem Datenschutz-Test oder prüfen Sie gezielt KI-Kompetenz und Transparenzpflichten. Jeder kostenpflichtige Test entspricht 1 Credit = €99 netto pro Person.';
+      'Entdecken Sie unseren Katalog an kostenlosen und Premium-Tests zur Prüfung von KI-Kompetenz und Compliance. Jeder kostenpflichtige Test entspricht 1 Credit = €99 netto pro Person.';
 
   @override
   String get landingTestsEyebrow => 'Verfügbare Tests';

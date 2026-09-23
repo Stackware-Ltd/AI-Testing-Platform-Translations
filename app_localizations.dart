@@ -3094,13 +3094,13 @@ abstract class AppLocalizations {
   /// No description provided for @landingHeroDesc.
   ///
   /// In en, this message translates to:
-  /// **'RuleFox helps companies test whether employees understand important basics for responsible AI use, with exportable result evidence for internal documentation and further review. Start free with the privacy test.'**
+  /// **'RuleFox helps companies test whether employees understand important basics for responsible AI use, with exportable result evidence for internal documentation and further review. Start immediately with our free tests.'**
   String get landingHeroDesc;
 
   /// No description provided for @landingHeroNote.
   ///
   /// In en, this message translates to:
-  /// **'Three tests available – the privacy test is free, and other tests cost €99 net each.'**
+  /// **'Explore our growing library of tests – including free assessments, while premium tests cost €99 net each.'**
   String get landingHeroNote;
 
   /// No description provided for @landingHeroNote1.
@@ -3238,7 +3238,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingPricesDesc.
   ///
   /// In en, this message translates to:
-  /// **'One test equals one credit = €99 net per person. Buy individual tests or flexible credit packages as needed. The privacy test is free.'**
+  /// **'One test equals one credit = €99 net per person. Buy individual tests or flexible credit packages as needed. Get started today with our free assessments.'**
   String get landingPricesDesc;
 
   /// No description provided for @landingPricesEyebrow.
@@ -3640,7 +3640,7 @@ abstract class AppLocalizations {
   /// No description provided for @landingTestsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Start free with the privacy test or assess AI competence and transparency duties. Each paid test equals one credit = €99 net per person.'**
+  /// **'Explore our catalog of free and premium assessments to test AI competence and compliance. Each paid test equals one credit = €99 net per person.'**
   String get landingTestsDesc;
 
   /// No description provided for @landingTestsEyebrow.

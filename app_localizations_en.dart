@@ -1589,11 +1589,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingHeroDesc =>
-      'RuleFox helps companies test whether employees understand important basics for responsible AI use, with exportable result evidence for internal documentation and further review. Start free with the privacy test.';
+      'RuleFox helps companies test whether employees understand important basics for responsible AI use, with exportable result evidence for internal documentation and further review. Start immediately with our free tests.';
 
   @override
   String get landingHeroNote =>
-      'Three tests available – the privacy test is free, and other tests cost €99 net each.';
+      'Explore our growing library of tests – including free assessments, while premium tests cost €99 net each.';
 
   @override
   String get landingHeroNote1 => 'Currently\navailable:';
@@ -1669,7 +1669,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingPricesDesc =>
-      'One test equals one credit = €99 net per person. Buy individual tests or flexible credit packages as needed. The privacy test is free.';
+      'One test equals one credit = €99 net per person. Buy individual tests or flexible credit packages as needed. Get started today with our free assessments.';
 
   @override
   String get landingPricesEyebrow => 'Prices';
@@ -1885,7 +1885,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get landingTestsDesc =>
-      'Start free with the privacy test or assess AI competence and transparency duties. Each paid test equals one credit = €99 net per person.';
+      'Explore our catalog of free and premium assessments to test AI competence and compliance. Each paid test equals one credit = €99 net per person.';
 
   @override
   String get landingTestsEyebrow => 'Available tests';
