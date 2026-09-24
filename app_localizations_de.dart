@@ -3994,4 +3994,13 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get labelUntitledTest => 'Unbenannter Test';
+
+  @override
+  String get labelPromoCode => 'Gutscheincode (Optional)';
+
+  @override
+  String get hintEnterDiscountCode => 'Gutscheincode eingeben';
+
+  @override
+  String get labelDiscount => 'Rabatt';
 }

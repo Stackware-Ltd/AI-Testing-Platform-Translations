@@ -384,6 +384,8 @@
   "labelBannerSubtitle": "Verwalten Sie Testkontingente, Rechnungen und Zahlungen für Ihr Unternehmen.",
   "labelBannerTitle": "Kontingent & Abrechnung",
   "labelBillingAddress": "Rechnungsadresse",
+  "labelPromoCode": "Gutscheincode (Optional)",
+  "hintEnterDiscountCode": "Gutscheincode eingeben",
   "labelBillingPageTitle": "Abrechnung & Guthaben",
   "labelBought": "Gekauft",
   "labelBriefDescription": "Kurzbeschreibung",
@@ -1588,5 +1590,6 @@
   "messageCategoryUpdated": "Kategorie aktualisiert.",
   "messageCategoryCreated": "Kategorie erstellt.",
   "errorSaveCategory": "Kategorie konnte nicht gespeichert werden.",
-  "labelUntitledTest": "Unbenannter Test"
+  "labelUntitledTest": "Unbenannter Test",
+  "labelDiscount": "Rabatt"
 }

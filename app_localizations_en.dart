@@ -3951,4 +3951,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get labelUntitledTest => 'Untitled Test';
+
+  @override
+  String get labelPromoCode => 'Promo Code (Optional)';
+
+  @override
+  String get hintEnterDiscountCode => 'Enter discount code';
+
+  @override
+  String get labelDiscount => 'Discount';
 }

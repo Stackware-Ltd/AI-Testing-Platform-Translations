@@ -1602,5 +1602,8 @@
   "messageCategoryUpdated": "Category updated.",
   "messageCategoryCreated": "Category created.",
   "errorSaveCategory": "Failed to save category.",
-  "labelUntitledTest": "Untitled Test"
+  "labelUntitledTest": "Untitled Test",
+  "labelPromoCode": "Promo Code (Optional)",
+  "hintEnterDiscountCode": "Enter discount code",
+  "labelDiscount": "Discount"
 }

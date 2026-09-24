@@ -7422,6 +7422,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Untitled Test'**
   String get labelUntitledTest;
+
+  /// No description provided for @labelPromoCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Promo Code (Optional)'**
+  String get labelPromoCode;
+
+  /// No description provided for @hintEnterDiscountCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter discount code'**
+  String get hintEnterDiscountCode;
+
+  /// No description provided for @labelDiscount.
+  ///
+  /// In en, this message translates to:
+  /// **'Discount'**
+  String get labelDiscount;
 }
 
 class _AppLocalizationsDelegate
