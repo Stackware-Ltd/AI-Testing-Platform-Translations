@@ -1605,5 +1605,7 @@
   "labelUntitledTest": "Untitled Test",
   "labelPromoCode": "Promo Code (Optional)",
   "hintEnterDiscountCode": "Enter discount code",
-  "labelDiscount": "Discount"
+  "labelDiscount": "Discount",
+  "msgPromoPriorTransactions": "This promotion code is only valid for first-time customers.",
+  "msgPromoInvalid": "Invalid or expired promo code."
 }

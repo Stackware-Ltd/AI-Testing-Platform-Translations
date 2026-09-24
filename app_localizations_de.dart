@@ -4003,4 +4003,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get labelDiscount => 'Rabatt';
+
+  @override
+  String get msgPromoPriorTransactions =>
+      'Dieser Gutscheincode ist nur für Neukunden gültig.';
+
+  @override
+  String get msgPromoInvalid => 'Ungültiger oder abgelaufener Gutscheincode.';
 }

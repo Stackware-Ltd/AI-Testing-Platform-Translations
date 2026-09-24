@@ -7440,6 +7440,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Discount'**
   String get labelDiscount;
+
+  /// No description provided for @msgPromoPriorTransactions.
+  ///
+  /// In en, this message translates to:
+  /// **'This promotion code is only valid for first-time customers.'**
+  String get msgPromoPriorTransactions;
+
+  /// No description provided for @msgPromoInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid or expired promo code.'**
+  String get msgPromoInvalid;
 }
 
 class _AppLocalizationsDelegate

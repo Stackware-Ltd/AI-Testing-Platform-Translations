@@ -3960,4 +3960,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get labelDiscount => 'Discount';
+
+  @override
+  String get msgPromoPriorTransactions =>
+      'This promotion code is only valid for first-time customers.';
+
+  @override
+  String get msgPromoInvalid => 'Invalid or expired promo code.';
 }

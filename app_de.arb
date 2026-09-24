@@ -1591,5 +1591,7 @@
   "messageCategoryCreated": "Kategorie erstellt.",
   "errorSaveCategory": "Kategorie konnte nicht gespeichert werden.",
   "labelUntitledTest": "Unbenannter Test",
-  "labelDiscount": "Rabatt"
+  "labelDiscount": "Rabatt",
+  "msgPromoPriorTransactions": "Dieser Gutscheincode ist nur für Neukunden gültig.",
+  "msgPromoInvalid": "Ungültiger oder abgelaufener Gutscheincode."
 }
