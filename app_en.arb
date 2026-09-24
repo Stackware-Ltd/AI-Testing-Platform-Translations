@@ -654,7 +654,7 @@
   "labelGroupBy": "Group By",
   "labelId": "ID",
   "labelImportTestFile": "Import a pre-made test file",
-  "labelInTotal": "In total",
+  "labelInTotal": "Total",
   "labelInvoices": "Invoices",
   "labelLanguage": "Language",
   "labelLanguageCode": "Language Code",
@@ -1607,5 +1607,6 @@
   "hintEnterDiscountCode": "Enter discount code",
   "labelDiscount": "Discount",
   "msgPromoPriorTransactions": "This promotion code is only valid for first-time customers.",
-  "msgPromoInvalid": "Invalid or expired promo code."
+  "msgPromoInvalid": "Invalid or expired promo code.",
+  "labelSubtotal": "Subtotal"
 }

@@ -2381,7 +2381,7 @@ abstract class AppLocalizations {
   /// No description provided for @labelInTotal.
   ///
   /// In en, this message translates to:
-  /// **'In total'**
+  /// **'Total'**
   String get labelInTotal;
 
   /// No description provided for @labelInvoices.
@@ -7452,6 +7452,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Invalid or expired promo code.'**
   String get msgPromoInvalid;
+
+  /// No description provided for @labelSubtotal.
+  ///
+  /// In en, this message translates to:
+  /// **'Subtotal'**
+  String get labelSubtotal;
 }
 
 class _AppLocalizationsDelegate

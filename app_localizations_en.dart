@@ -1205,7 +1205,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get labelImportTestFile => 'Import a pre-made test file';
 
   @override
-  String get labelInTotal => 'In total';
+  String get labelInTotal => 'Total';
 
   @override
   String get labelInvoices => 'Invoices';
@@ -3967,4 +3967,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get msgPromoInvalid => 'Invalid or expired promo code.';
+
+  @override
+  String get labelSubtotal => 'Subtotal';
 }

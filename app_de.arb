@@ -1593,5 +1593,6 @@
   "labelUntitledTest": "Unbenannter Test",
   "labelDiscount": "Rabatt",
   "msgPromoPriorTransactions": "Dieser Gutscheincode ist nur für Neukunden gültig.",
-  "msgPromoInvalid": "Ungültiger oder abgelaufener Gutscheincode."
+  "msgPromoInvalid": "Ungültiger oder abgelaufener Gutscheincode.",
+  "labelSubtotal": "Zwischensumme"
 }

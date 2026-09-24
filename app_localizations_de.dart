@@ -4010,4 +4010,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get msgPromoInvalid => 'Ungültiger oder abgelaufener Gutscheincode.';
+
+  @override
+  String get labelSubtotal => 'Zwischensumme';
 }
