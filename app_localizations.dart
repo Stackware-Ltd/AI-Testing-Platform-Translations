@@ -7069,6 +7069,18 @@ abstract class AppLocalizations {
   /// **'{count} employee(s) assigned & invites sent!'**
   String msgInvitesSent(Object count);
 
+  /// No description provided for @msgInvitationSendPartial.
+  ///
+  /// In en, this message translates to:
+  /// **'Sent {sent} of {total}; {failed} failed.'**
+  String msgInvitationSendPartial(int sent, int total, int failed);
+
+  /// No description provided for @msgInvitationSendFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'No invitations were sent.'**
+  String get msgInvitationSendFailed;
+
   /// No description provided for @btnContinue.
   ///
   /// In en, this message translates to:

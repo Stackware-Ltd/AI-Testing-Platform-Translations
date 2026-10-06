@@ -1530,6 +1530,15 @@
   "msgInviteResent": "Invitation link resent successfully!",
   "msgInviteSent": "1 employee assigned & invite sent!",
   "msgInvitesSent": "{count} employee(s) assigned & invites sent!",
+  "msgInvitationSendPartial": "Sent {sent} of {total}; {failed} failed.",
+  "@msgInvitationSendPartial": {
+    "placeholders": {
+      "sent": { "type": "int" },
+      "total": { "type": "int" },
+      "failed": { "type": "int" }
+    }
+  },
+  "msgInvitationSendFailed": "No invitations were sent.",
   "btnContinue": "Continue",
   "btnGotIt": "Got It",
   "btnOk": "OK",

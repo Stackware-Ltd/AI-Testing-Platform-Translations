@@ -1514,6 +1514,15 @@
   "msgInviteResent": "Einladungslink erfolgreich erneut gesendet!",
   "msgInviteSent": "1 Mitarbeiter zugewiesen & Einladung gesendet!",
   "msgInvitesSent": "{count} Mitarbeiter zugewiesen & Einladungen gesendet!",
+  "msgInvitationSendPartial": "{sent} von {total} Einladungen gesendet; {failed} fehlgeschlagen.",
+  "@msgInvitationSendPartial": {
+    "placeholders": {
+      "sent": { "type": "int" },
+      "total": { "type": "int" },
+      "failed": { "type": "int" }
+    }
+  },
+  "msgInvitationSendFailed": "Es wurden keine Einladungen gesendet.",
   "btnContinue": "Weiter",
   "btnGotIt": "Verstanden",
   "btnOk": "OK",

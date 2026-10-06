@@ -3807,6 +3807,14 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
+  String msgInvitationSendPartial(int sent, int total, int failed) {
+    return '$sent von $total Einladungen gesendet; $failed fehlgeschlagen.';
+  }
+
+  @override
+  String get msgInvitationSendFailed => 'Es wurden keine Einladungen gesendet.';
+
+  @override
   String get btnContinue => 'Weiter';
 
   @override
